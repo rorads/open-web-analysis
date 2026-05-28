@@ -18,6 +18,8 @@ map. The sung/written gap is the headline novelty.
   gap** (full minus as-sung).
 - Standout visual: a "God vs Guns" scatter/world map (belligerence × deity), plus a
   dumbbell chart ranking how far each nation's as-sung belligerence falls below its full text.
+- Exploratory: theme correlations, external correlates (esp. age of the anthem), and
+  clustering countries by thematic fingerprint — to see whether anything interesting falls out.
 
 **Source idea:** `rorads.github.io/todo.md` → "How belligerent is each national anthem?"
 

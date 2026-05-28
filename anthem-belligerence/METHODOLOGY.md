@@ -62,6 +62,14 @@ and a confidence level.
 | 8 | **Freedom / liberty** | Liberty, independence, breaking chains, self-rule | "liberty", "free at last", "broke our chains" | "peace" alone |
 | 9 | **Unity / brotherhood** | Togetherness, fraternity, one people | "brothers", "united we stand", "one people" | First-person singular pride |
 | 10 | **Glory & pride** | Honour, glory, greatness, national pride | "glory", "honour", "the proudest nation" | Neutral description of the land |
+| 11 | **Other / wildcard** | Any salient theme *not* covered by 1–10. The scorer must **name** what it is in a free-text label | e.g. the beauty of the nation's women, wine/food, a named river or city, labour & industry, a specific historical episode, humour | Anything already captured by themes 1–10 |
+
+**Wildcard handling.** Theme 11 is the escape hatch for rogue content the fixed rubric
+can't see coming. It is scored 0–3 like the rest but **also** records a short free-text label
+of *what* the theme is. The wildcard does **not** feed the belligerence/deity/crown indices
+(it would be uninterpretable), but it does feed the thematic fingerprint and the exploratory
+clustering (§8). If the same wildcard label recurs across many anthems, that's a signal the
+fixed rubric is missing a real theme — promote it to a numbered theme and re-score.
 
 **Scale (per theme):**
 
@@ -86,17 +94,34 @@ to be sanity-checked in calibration (§7).
 - **Retired-belligerence gap** = `Belligerence(as-written) − Belligerence(as-sung)`.
   Positive = the nation has warlike content it doesn't perform. **This is the headline metric.**
 
-A per-anthem **thematic fingerprint** (the 10-vector) is retained for clustering countries
-by profile, independent of the headline indices.
+A per-anthem **thematic fingerprint** (the theme vector — themes 1–10 plus the wildcard
+intensity) is retained for clustering countries by profile, independent of the headline indices.
 
 ## 6. Scoring process
 
 1. Fetch corpus → `data/raw/` (one file per anthem: original, translation, sung-verse note,
-   source URLs).
+   source URLs). Raw evidence is immutable once fetched.
 2. LLM-assisted scoring grounded in the supplied text → `data/processed/scores.csv`, one row
-   per (anthem × {as-written, as-sung}) with the 10 theme scores, evidence lines, and
-   per-theme confidence.
+   per (anthem × {as-written, as-sung} × theme) carrying: `score` (0–3), `evidence_quote`
+   (translation), `evidence_original` (source language), `rationale` (one line on *why* this
+   score, not just the quote), `confidence` (low/med/high), `wildcard_label` (theme 11 only),
+   and `flags` (e.g. `translation-sensitive`, `sung-assumed`).
 3. Compute composites + fingerprints → `data/processed/indices.csv`.
+
+**Reproducibility & LLM provenance (non-negotiable).**
+
+- **Mark the source of every datum.** LLM-generated scores are clearly labelled as such and
+  kept distinct from anything fetched or human-entered. Human spot-check edits (§7) are
+  recorded as overrides with a note, never silently overwriting the model's value.
+- **Record the run.** Each scoring run writes `data/processed/run.md` (or a sidecar JSON)
+  capturing: model id + version, date, the exact prompt, the **rubric version/hash** scored
+  against, and generation settings (temperature, seed). A re-run against a changed rubric is a
+  new run, not an edit of the old one.
+- **Deterministic where possible.** Prefer low/zero temperature and a fixed seed so a re-run
+  reproduces the scores; where it can't, say so.
+- **Code-driven, not hand-massaged.** Corpus fetch, scoring, and aggregation run from scripts
+  in `src/` via `uv run`, so the path from raw evidence → published figure is re-executable
+  end to end. `data/processed/` is generated, never hand-edited (overrides go through code).
 
 ## 7. Calibration & human spot-check
 
@@ -109,17 +134,39 @@ by profile, independent of the headline indices.
 - If LLM scores diverge systematically from human review, adjust rubric wording or weights
   **here**, note the change, and re-run. Lock the rubric once the sample agrees.
 
-## 8. Visuals
+## 8. Exploratory analysis (correlation & clustering)
+
+Secondary to the headline indices, but worth doing — these may surface the most interesting
+findings, or may turn up nothing, which is itself reportable. Treat as exploratory: report
+what's genuinely striking, don't over-claim significance on a sample of ~195.
+
+- **Theme–theme correlations.** Do the themes co-occur in revealing ways? Hypotheses to look
+  for: belligerence ↔ deity (do God and Guns travel together?), monarch ↔ freedom (inverse?),
+  land/nature ↔ low belligerence. A theme correlation matrix is a cheap, honest first look.
+- **External correlates (open data only).** Cross the indices against open variables — region,
+  **age of the anthem / lyrics**, official religion, system of government, and possibly
+  democracy/military-spending indices. The age cut is the most defensible: are older anthems
+  more belligerent? Flag any external index's own biases.
+- **Clustering on the fingerprint.** Cluster countries by their theme vector (§5) to see if
+  natural thematic families emerge (e.g. "revolutionary/martial", "devotional", "pastoral",
+  "fraternal") and whether they track geography or shared history rather than the obvious
+  colonial/linguistic lines. Note the method (e.g. hierarchical / k-means) and that cluster
+  counts are exploratory.
+- The **wildcard labels** (theme 11) are reviewed in aggregate here: recurring labels are
+  candidate new themes (§4) and may be the most surprising part of the piece.
+
+## 9. Visuals
 
 - **Primary — "God vs Guns":** scatter (and/or choropleth) of belligerence index (x) vs
   deity index (y), one point per country, coloured by region. As-sung version is the default;
   toggle/secondary shows as-written.
 - **Secondary — the gap:** a dumbbell/slope chart ranking countries by retired-belligerence
   gap (as-written → as-sung), surfacing who has quietly defanged their anthem.
-- **Optional — fingerprints:** small-multiple radar charts or a country × theme heatmap.
+- **Optional — fingerprints / clusters:** small-multiple radar charts, a country × theme
+  heatmap, or a dendrogram of the §8 clusters.
 - Export SVG to `outputs/`, themed for the blog.
 
-## 9. Threats to validity / caveats (to state openly in the post)
+## 10. Threats to validity / caveats (to state openly in the post)
 
 - **Translation bias.** Belligerence can be amplified or softened in translation; flagged
   per-item and confidence-capped. The honest version reports where the result is translation-sensitive.

@@ -19,10 +19,15 @@ most analyses is a blog post at `rorads.github.io`; this repo is the research bu
 2. **Build the corpus into `data/raw/`.** Evidence exactly as fetched, never hand-edited.
    Record provenance for each item in `sources.md`.
 3. **Score against the rubric into `data/processed/`.** Each non-zero score carries a
-   quoted evidence line and a confidence level (`low`/`med`/`high`). LLM-assisted scoring
-   must ground every score in the supplied source text, not model recall.
+   quoted evidence line, a one-line **rationale**, and a confidence level (`low`/`med`/`high`).
+   LLM-assisted scoring must ground every score in the supplied source text, not model recall.
+   **Mark LLM-generated data as such** and record run provenance — model id + version, date,
+   the exact prompt, the rubric version/hash, and generation settings (temperature/seed) — so
+   any run is reproducible. Prefer deterministic settings; a re-run against a changed rubric is
+   a new run, not an edit of the old.
 4. **Human spot-check.** Review a stratified sample, including known/extreme cases, against
    the LLM scores; recalibrate the rubric or weights if there's systematic divergence; re-run.
+   Human overrides are recorded as overrides with a note, never silently overwriting a value.
 5. **Aggregate + visualise.** Compute composites; export SVG figures to `outputs/`.
 
 ## Starting a new analysis
@@ -35,6 +40,9 @@ Add a row to the Analyses table in the top-level `README.md`.
 - One directory per analysis; analyses never import from each other. Extract a shared
   helper into a `shared/` package only on the *second* real use, not in anticipation.
 - `data/raw/` is immutable evidence; derived/scored data goes in `data/processed/`.
+- **Reproducible pipeline.** Fetch → score → aggregate → figure all run from scripts in
+  `src/` via `uv run`. `data/processed/` is generated, never hand-edited (overrides go through
+  code). The path from raw evidence to published figure is re-executable end to end.
 - Figures export as **SVG** into `outputs/`, sized and themed to drop into the blog's
   `assets/images/<slug>/`.
 - Every analysis names its open-web sources explicitly and records a confidence level per

@@ -10,9 +10,8 @@ lyrics, and so on. The value is the *synthesis*: scour that fuzzy evidence, scor
 a deliberately explicit rubric, and process it into composite numbers, indices, and graphs.
 The interesting design choice is the rubric/ontology, not the cleverness of any one step.
 
-This is the repeatable version of the [konbini convenience-benchmark](https://rorads.github.io)
-method: define a rubric, score each item against it with per-item sources + a confidence
-level, then aggregate into one clean composite and one memorable visual.
+The shared method: define a rubric, score each item against it with per-item sources + a
+confidence level, then aggregate into one clean composite and one memorable visual.
 
 ## Repository layout
 
@@ -50,7 +49,7 @@ Each analysis directory has the same shape:
   use, not in anticipation of it).
 - **Freeze the methodology first.** `METHODOLOGY.md` — the rubric, theme definitions,
   scoring scale, weights, source allowlist, confidence policy — is written and agreed
-  *before* any scoring. This is the konbini "co-write the methodology, then run it" pattern.
+  *before* any scoring — agree the methodology, then run it.
 - **Sources + confidence per item.** Every scored item records where the evidence came
   from and a confidence level (`low` / `med` / `high`).
 - **Raw vs processed.** `data/raw/` is evidence as fetched and is never hand-edited;
