@@ -22,9 +22,10 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
 HERE = Path(__file__).resolve().parent.parent
-THEMES10 = [
+THEMES = [
     "war_arms", "blood_death", "enemy_threat", "sacrifice", "deity", "monarch",
     "land_nature", "freedom_liberty", "unity_brotherhood", "glory_pride",
+    "labour_work", "flag", "ancestors_heritage",
 ]
 BG, PANEL, FG = "#0f172a", "#1e293b", "#e2e8f0"
 
@@ -48,22 +49,22 @@ def build_frame() -> pd.DataFrame:
             "gap": round(w["belligerence"] - s["belligerence"], 1),
             "deity": w["deity_index"], "crown": w["crown_index"],
         }
-        row.update({t: vec[t] for t in THEMES10})
+        row.update({t: vec[t] for t in THEMES})
         rows.append(row)
     return pd.DataFrame(rows)
 
 
 def theme_correlations(df: pd.DataFrame) -> dict:
-    corr = df[THEMES10].corr(method="pearson").round(3)
+    corr = df[THEMES].corr(method="pearson").round(3)
     # heatmap
     fig, ax = plt.subplots(figsize=(8, 7))
     fig.patch.set_facecolor(BG); ax.set_facecolor(PANEL)
     im = ax.imshow(corr.values, cmap="RdBu_r", vmin=-1, vmax=1)
-    ax.set_xticks(range(len(THEMES10))); ax.set_yticks(range(len(THEMES10)))
-    ax.set_xticklabels(THEMES10, rotation=45, ha="right", color=FG, fontsize=8)
-    ax.set_yticklabels(THEMES10, color=FG, fontsize=8)
-    for i in range(len(THEMES10)):
-        for j in range(len(THEMES10)):
+    ax.set_xticks(range(len(THEMES))); ax.set_yticks(range(len(THEMES)))
+    ax.set_xticklabels(THEMES, rotation=45, ha="right", color=FG, fontsize=8)
+    ax.set_yticklabels(THEMES, color=FG, fontsize=8)
+    for i in range(len(THEMES)):
+        for j in range(len(THEMES)):
             v = corr.values[i, j]
             ax.text(j, i, f"{v:.2f}", ha="center", va="center",
                     color="white" if abs(v) > 0.5 else FG, fontsize=6)
@@ -74,9 +75,9 @@ def theme_correlations(df: pd.DataFrame) -> dict:
     plt.close(fig)
     # strongest off-diagonal pairs
     pairs = []
-    for i in range(len(THEMES10)):
-        for j in range(i + 1, len(THEMES10)):
-            pairs.append((THEMES10[i], THEMES10[j], float(corr.values[i, j])))
+    for i in range(len(THEMES)):
+        for j in range(i + 1, len(THEMES)):
+            pairs.append((THEMES[i], THEMES[j], float(corr.values[i, j])))
     pairs.sort(key=lambda p: abs(p[2]), reverse=True)
     return {"matrix": corr.to_dict(), "top_pairs": pairs[:10]}
 
@@ -132,14 +133,14 @@ def kmeans(X: np.ndarray, k: int, seed: int = 7, iters: int = 100) -> np.ndarray
 
 
 def cluster(df: pd.DataFrame, k: int = 5) -> dict:
-    X = df[THEMES10].to_numpy(float)
+    X = df[THEMES].to_numpy(float)
     Xs = (X - X.mean(0)) / (X.std(0) + 1e-9)
     labels = kmeans(Xs, k)
     df = df.assign(cluster=labels)
     profiles = []
     for c in range(k):
         m = df[df.cluster == c]
-        means = m[THEMES10].mean().round(2)
+        means = m[THEMES].mean().round(2)
         top = means.sort_values(ascending=False).head(3)
         profiles.append({
             "cluster": int(c), "n": int(len(m)),

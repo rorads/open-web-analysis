@@ -16,7 +16,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 THEME_KEYS = {
     "war_arms", "blood_death", "enemy_threat", "sacrifice", "deity", "monarch",
-    "land_nature", "freedom_liberty", "unity_brotherhood", "glory_pride", "wildcard",
+    "land_nature", "freedom_liberty", "unity_brotherhood", "glory_pride",
+    "labour_work", "flag", "ancestors_heritage", "wildcard",
 }
 ANTHEM_REQ = {"country", "iso3", "title", "no_lyrics", "completeness", "source_urls"}
 

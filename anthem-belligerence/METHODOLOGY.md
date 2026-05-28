@@ -69,7 +69,17 @@ and a confidence level.
 | 8 | **Freedom / liberty** | Liberty, independence, breaking chains, self-rule | "liberty", "free at last", "broke our chains" | "peace" alone |
 | 9 | **Unity / brotherhood** | Togetherness, fraternity, one people | "brothers", "united we stand", "one people" | First-person singular pride |
 | 10 | **Glory & pride** | Honour, glory, greatness, national pride | "glory", "honour", "the proudest nation" | Neutral description of the land |
-| 11 | **Other / wildcard** | Any salient theme *not* covered by 1–10. The scorer must **name** what it is in a free-text label | e.g. the beauty of the nation's women, wine/food, a named river or city, labour & industry, a specific historical episode, humour | Anything already captured by themes 1–10 |
+| 11 | **Labour & work** | Labour, toil, industry, building the nation through effort | "let us work", "sons of toil", "build our land" | Generic "effort/strive" with no work imagery |
+| 12 | **The flag** | The national flag / banner / colours as a subject of address | "our flag on high", "the tricolour", "raise the banner" | A flag as an incidental battle prop |
+| 13 | **Ancestors & heritage** | Forefathers, ancestors, ancient lineage, inherited legacy | "our forefathers", "land of our ancestors", "heritage of old" | Generic "history/tradition"; "sons of the nation" (= unity) |
+| 14 | **Other / wildcard** | Any salient theme *not* covered by 1–13. The scorer must **name** what it is in a free-text label | e.g. the nation's women, wine/food, a named river or city, a national emblem (cedar, quetzal), the language itself, a specific historical episode | Anything already captured by themes 1–13 |
+
+> **v2 promotion (2026-05-28).** Themes 11–13 were *promoted from the wildcard* after the v1
+> full run: labour/work (21 anthems), the flag (15) and ancestors/heritage (~9) recurred often
+> enough as wildcard labels to be real themes — the §4 self-correction mechanism working as
+> designed. Like the wildcard, they do **not** feed the belligerence/deity/crown indices; they
+> enrich the thematic fingerprint and clustering only. The belligerence/deity/crown composites
+> are therefore identical between v1 and v2 (a built-in regression check).
 
 **Wildcard handling.** Theme 11 is the escape hatch for rogue content the fixed rubric
 can't see coming. It is scored 0–3 like the rest but **also** records a short free-text label

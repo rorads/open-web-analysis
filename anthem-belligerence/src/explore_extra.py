@@ -22,11 +22,12 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
 HERE = Path(__file__).resolve().parent.parent
-THEMES10 = [
+THEMES = [
     "war_arms", "blood_death", "enemy_threat", "sacrifice", "deity", "monarch",
     "land_nature", "freedom_liberty", "unity_brotherhood", "glory_pride",
+    "labour_work", "flag", "ancestors_heritage",
 ]
-NICE = {t: t.replace("_", " ") for t in THEMES10}
+NICE = {t: t.replace("_", " ") for t in THEMES}
 BG, PANEL, FG, GRID = "#0f172a", "#1e293b", "#e2e8f0", "#334155"
 
 # wildcard taxonomy: ordered keyword buckets (first match wins)
@@ -79,7 +80,7 @@ def load():
 def theme_prevalence(rows) -> dict:
     n = len(rows)
     out = {}
-    for t in THEMES10:
+    for t in THEMES:
         scores = [r["vec"][t] for r in rows]
         out[t] = {
             "share_ge1": round(sum(x >= 1 for x in scores) / n, 3),
@@ -87,7 +88,7 @@ def theme_prevalence(rows) -> dict:
             "share_eq3": round(sum(x == 3 for x in scores) / n, 3),
             "mean": round(float(np.mean(scores)), 2),
         }
-    order = sorted(THEMES10, key=lambda t: out[t]["share_ge1"], reverse=True)
+    order = sorted(THEMES, key=lambda t: out[t]["share_ge1"], reverse=True)
     # bar chart
     fig, ax = plt.subplots(figsize=(8, 5.5))
     fig.patch.set_facecolor(BG); ax.set_facecolor(PANEL)
@@ -110,35 +111,35 @@ def theme_prevalence(rows) -> dict:
 
 def region_fingerprint(rows) -> dict:
     regions = sorted({r["region"] for r in rows})
-    mat = np.zeros((len(regions), len(THEMES10)))
+    mat = np.zeros((len(regions), len(THEMES)))
     for i, reg in enumerate(regions):
         sub = [r for r in rows if r["region"] == reg]
-        for j, t in enumerate(THEMES10):
+        for j, t in enumerate(THEMES):
             mat[i, j] = np.mean([r["vec"][t] for r in sub])
     fig, ax = plt.subplots(figsize=(9, 4.5))
     fig.patch.set_facecolor(BG); ax.set_facecolor(PANEL)
     im = ax.imshow(mat, cmap="magma", vmin=0, vmax=mat.max())
-    ax.set_xticks(range(len(THEMES10))); ax.set_xticklabels([NICE[t] for t in THEMES10], rotation=45, ha="right", color=FG, fontsize=8)
+    ax.set_xticks(range(len(THEMES))); ax.set_xticklabels([NICE[t] for t in THEMES], rotation=45, ha="right", color=FG, fontsize=8)
     ax.set_yticks(range(len(regions))); ax.set_yticklabels(regions, color=FG, fontsize=9)
     for i in range(len(regions)):
-        for j in range(len(THEMES10)):
+        for j in range(len(THEMES)):
             ax.text(j, i, f"{mat[i, j]:.1f}", ha="center", va="center",
                     color="white" if mat[i, j] < mat.max() * 0.6 else "black", fontsize=7)
     ax.set_title("Region thematic fingerprints — mean theme score (as written)", color="white", pad=12)
     cb = fig.colorbar(im, ax=ax, fraction=0.025); cb.ax.tick_params(colors=FG)
     fig.tight_layout(); fig.savefig(HERE / "outputs/region-theme-heatmap.svg", facecolor=BG, bbox_inches="tight"); plt.close(fig)
     # each region's top-3 distinctive themes vs global mean
-    gmean = {t: np.mean([r["vec"][t] for r in rows]) for t in THEMES10}
+    gmean = {t: np.mean([r["vec"][t] for r in rows]) for t in THEMES}
     sig = {}
     for i, reg in enumerate(regions):
-        diffs = sorted(((t, round(mat[i, j] - gmean[t], 2)) for j, t in enumerate(THEMES10)), key=lambda x: x[1], reverse=True)
+        diffs = sorted(((t, round(mat[i, j] - gmean[t], 2)) for j, t in enumerate(THEMES)), key=lambda x: x[1], reverse=True)
         sig[reg] = diffs[:3]
-    return {"matrix": {reg: {t: round(mat[i, j], 2) for j, t in enumerate(THEMES10)} for i, reg in enumerate(regions)},
+    return {"matrix": {reg: {t: round(mat[i, j], 2) for j, t in enumerate(THEMES)} for i, reg in enumerate(regions)},
             "signature_themes": sig}
 
 
 def distinctiveness(rows) -> dict:
-    X = np.array([[r["vec"][t] for t in THEMES10] for r in rows], float)
+    X = np.array([[r["vec"][t] for t in THEMES] for r in rows], float)
     mu, sd = X.mean(0), X.std(0) + 1e-9
     Z = (X - mu) / sd
     dist = np.linalg.norm(Z, axis=1)
@@ -146,7 +147,7 @@ def distinctiveness(rows) -> dict:
     most = [(rows[i]["country"], round(float(dist[i]), 2)) for i in order[::-1][:8]]
     generic = [(rows[i]["country"], round(float(dist[i]), 2)) for i in order[:8]]
     return {"most_distinctive": most, "most_generic": generic,
-            "global_mean_vector": {t: round(float(mu[j]), 2) for j, t in enumerate(THEMES10)}}
+            "global_mean_vector": {t: round(float(mu[j]), 2) for j, t in enumerate(THEMES)}}
 
 
 def typology(rows) -> dict:

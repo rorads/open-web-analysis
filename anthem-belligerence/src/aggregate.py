@@ -17,7 +17,8 @@ from pathlib import Path
 
 THEME_KEYS = [
     "war_arms", "blood_death", "enemy_threat", "sacrifice", "deity", "monarch",
-    "land_nature", "freedom_liberty", "unity_brotherhood", "glory_pride", "wildcard",
+    "land_nature", "freedom_liberty", "unity_brotherhood", "glory_pride",
+    "labour_work", "flag", "ancestors_heritage", "wildcard",
 ]
 CONFIDENCES = {"low", "med", "high"}
 
