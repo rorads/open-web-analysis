@@ -1,0 +1,377 @@
+{
+  "auditor": "independent Opus session, blind",
+  "records": [
+    {
+      "country": "Mexico",
+      "version": "as-written",
+      "flags": ["translation-sensitive"],
+      "themes": {
+        "war_arms": {"score": 3, "quote": "War, war without truce upon him who means to sully the blazon of the Homeland", "rationale": "explicit, repeated calls to war across stanzas 1, 5, 6, 10; cannons thunder in mountain and valley", "confidence": "high"},
+        "blood_death": {"score": 3, "quote": "your countrysides will be watered with blood and in blood will be their footprints", "rationale": "literal blood imagery dominant in stanzas 5 and 6", "confidence": "high"},
+        "enemy_threat": {"score": 2, "quote": "upon him who means to sully the blazon of the Homeland", "rationale": "an othered would-be defiler/invader is named as the war's target", "confidence": "med"},
+        "sacrifice": {"score": 3, "quote": "Your sons swear to breathe out their breath on your altars", "rationale": "stanza 10 is a vow to die for the homeland when the war-clarion calls", "confidence": "high"},
+        "deity": {"score": 2, "quote": "in heaven your eternal destiny has been written by the hand of God", "rationale": "divine archangel of peace and the hand of God in the first stanza", "confidence": "high"},
+        "land_nature": {"score": 1, "quote": "In the mountains and the valley, the dreadful cannons thunder", "rationale": "mountains/valleys appear only as the battlefield backdrop", "confidence": "med"},
+        "glory_pride": {"score": 2, "quote": "Your forehead shall be girded, oh fatherland, with olive garlands", "rationale": "homeland crowned with honour/glory framing the call to arms", "confidence": "med"}
+      }
+    },
+    {
+      "country": "Mexico",
+      "version": "as-sung",
+      "flags": [],
+      "themes": {
+        "war_arms": {"score": 2, "quote": "Mexicans, at the cry of war, make ready the steel and the bridle", "rationale": "the sung chorus + stanza 1 is itself a call to arms", "confidence": "high"},
+        "deity": {"score": 2, "quote": "in heaven your eternal destiny has been written by the hand of God", "rationale": "the divine archangel and hand of God appear in the sung stanza 1", "confidence": "high"},
+        "glory_pride": {"score": 2, "quote": "Your forehead shall be girded, oh fatherland, with olive garlands", "rationale": "honour/olive-crown imagery central to sung portion", "confidence": "med"},
+        "land_nature": {"score": 1, "quote": "and may the earth tremble at its centre at the resounding roar of the cannon", "rationale": "earth invoked only as setting for the cannon", "confidence": "med"}
+      }
+    },
+    {
+      "country": "Vietnam",
+      "version": "as-written",
+      "flags": ["translation-sensitive"],
+      "themes": {
+        "war_arms": {"score": 3, "quote": "Soldiers of Vietnam, marching onward... The distant rumbling of guns mingles with our marching song", "rationale": "marching soldiers, guns, and the battlefield organise the whole text", "confidence": "high"},
+        "blood_death": {"score": 2, "quote": "Our flag, red with the blood of victory, bears the spirit of the country", "rationale": "blood of victory and bodies of foes are explicit", "confidence": "high"},
+        "enemy_threat": {"score": 2, "quote": "The path to glory is built by the bodies of our foes", "rationale": "foes named as the substance of the road to glory", "confidence": "high"},
+        "sacrifice": {"score": 2, "quote": "United in determination to save the nation", "rationale": "the resistance is framed as collective sacrifice for the nation", "confidence": "med"},
+        "unity_brotherhood": {"score": 2, "quote": "Onward! All together advancing! For one eternal Vietnam", "rationale": "explicit togetherness and 'all together' refrain", "confidence": "high"},
+        "glory_pride": {"score": 2, "quote": "The path to glory is built by the bodies of our foes", "rationale": "glory is a named goal of the march", "confidence": "high"}
+      }
+    },
+    {
+      "country": "Vietnam",
+      "version": "as-sung",
+      "flags": [],
+      "themes": {
+        "war_arms": {"score": 3, "quote": "Soldiers of Vietnam, marching onward... The distant rumbling of guns mingles with our marching song", "rationale": "verse 1 (the sung verse) is dominated by soldiers and guns", "confidence": "high"},
+        "blood_death": {"score": 2, "quote": "Our flag, red with the blood of victory, bears the spirit of the country", "rationale": "blood of victory and bodies of foes in sung verse", "confidence": "high"},
+        "enemy_threat": {"score": 2, "quote": "The path to glory is built by the bodies of our foes", "rationale": "foes explicitly named in sung verse", "confidence": "high"},
+        "sacrifice": {"score": 2, "quote": "United in determination to save the nation", "rationale": "collective sacrifice for the nation in sung verse", "confidence": "med"},
+        "unity_brotherhood": {"score": 2, "quote": "Onward! All together advancing! For one eternal Vietnam", "rationale": "'all together' refrain is sung", "confidence": "high"},
+        "glory_pride": {"score": 2, "quote": "The path to glory is built by the bodies of our foes", "rationale": "glory named as goal", "confidence": "high"}
+      }
+    },
+    {
+      "country": "Cuba",
+      "version": "as-written",
+      "flags": [],
+      "themes": {
+        "war_arms": {"score": 3, "quote": "Hasten to battle, men of Bayamo", "rationale": "the entire official verse is a call to run to battle", "confidence": "high"},
+        "blood_death": {"score": 2, "quote": "Do not fear a glorious death, for to die for the homeland is to live", "rationale": "death for the homeland is the verse's pivot", "confidence": "high"},
+        "sacrifice": {"score": 3, "quote": "for to die for the homeland is to live", "rationale": "martyrdom for the nation is the central organising idea", "confidence": "high"},
+        "freedom_liberty": {"score": 2, "quote": "To live in chains is to live mired in shame and disgrace", "rationale": "rejection of chains/bondage as the motive for battle", "confidence": "high"},
+        "glory_pride": {"score": 1, "quote": "For the homeland looks proudly to you", "rationale": "the homeland watching with pride", "confidence": "med"}
+      }
+    },
+    {
+      "country": "Cuba",
+      "version": "as-sung",
+      "flags": [],
+      "themes": {
+        "war_arms": {"score": 3, "quote": "Hasten to battle, men of Bayamo", "rationale": "only this first verse is sung and it is a call to battle", "confidence": "high"},
+        "blood_death": {"score": 2, "quote": "Do not fear a glorious death, for to die for the homeland is to live", "rationale": "death for the homeland in the sole sung verse", "confidence": "high"},
+        "sacrifice": {"score": 3, "quote": "for to die for the homeland is to live", "rationale": "martyrdom central to the sung verse", "confidence": "high"},
+        "freedom_liberty": {"score": 2, "quote": "To live in chains is to live mired in shame and disgrace", "rationale": "chains/bondage rejected in sung verse", "confidence": "high"},
+        "glory_pride": {"score": 1, "quote": "For the homeland looks proudly to you", "rationale": "homeland's pride", "confidence": "med"}
+      }
+    },
+    {
+      "country": "State of Palestine",
+      "version": "as-written",
+      "flags": ["translation-sensitive"],
+      "themes": {
+        "war_arms": {"score": 2, "quote": "With the resolve of the winds and the fire of the guns", "rationale": "guns and the fighting fida'i/warrior recur across verses", "confidence": "high"},
+        "blood_death": {"score": 2, "quote": "With the longing in my blood for my land and my home", "rationale": "blood imagery and 'volcano of my revenge' recur", "confidence": "med"},
+        "enemy_threat": {"score": 1, "quote": "Palestine is my revenge and the land of endurance", "rationale": "an unnamed foe is implied by revenge/return, never named", "confidence": "med"},
+        "sacrifice": {"score": 3, "quote": "Warrior, warrior, warrior, oh my people, oh people of eternity", "rationale": "the title 'Fida'i' (self-sacrificer) and the vow to remain a fighter until the country returns make sacrifice the central theme", "confidence": "high"},
+        "land_nature": {"score": 1, "quote": "I have climbed the mountains and fought the wars", "rationale": "mountains appear as terrain of struggle, not celebrated landscape", "confidence": "med"},
+        "freedom_liberty": {"score": 2, "quote": "I have conquered the impossible, and crossed the frontiers", "rationale": "liberation/return and smashing the shackles are explicit", "confidence": "med"},
+        "unity_brotherhood": {"score": 1, "quote": "My country, my land, land of my ancestors", "rationale": "'my people, people of eternity' invokes a single people", "confidence": "med"},
+        "glory_pride": {"score": 1, "quote": "By the oath under the shade of the flag", "rationale": "flag and oath carry national pride", "confidence": "med"}
+      }
+    },
+    {
+      "country": "State of Palestine",
+      "version": "as-sung",
+      "flags": ["sung-assumed"],
+      "themes": {
+        "blood_death": {"score": 2, "quote": "With the longing in my blood for my land and my home", "rationale": "blood and volcanic revenge in sung verse 1", "confidence": "med"},
+        "sacrifice": {"score": 3, "quote": "Warrior, warrior, warrior, oh my people, oh people of eternity", "rationale": "the fida'i/self-sacrificer is the chorus's dominant figure", "confidence": "high"},
+        "freedom_liberty": {"score": 2, "quote": "I have conquered the impossible, and crossed the frontiers", "rationale": "liberation/breaking shackles in sung verse", "confidence": "med"},
+        "land_nature": {"score": 1, "quote": "I have climbed the mountains and fought the wars", "rationale": "mountains as struggle terrain", "confidence": "med"},
+        "unity_brotherhood": {"score": 1, "quote": "My country, my land, land of my ancestors", "rationale": "one people invoked in chorus", "confidence": "med"}
+      }
+    },
+    {
+      "country": "Congo (Republic)",
+      "version": "as-written",
+      "flags": [],
+      "themes": {
+        "war_arms": {"score": 1, "quote": "Let us all fight, every one of us, for our black country", "rationale": "a single generalised call to fight, no weapons named", "confidence": "med"},
+        "blood_death": {"score": 1, "quote": "And if we have to die, what does it really matter?", "rationale": "a passing acceptance of dying in verse 3", "confidence": "med"},
+        "sacrifice": {"score": 2, "quote": "And if we have to die, what does it really matter? Our children everywhere will be able to say how triumph comes through battle", "rationale": "explicit willingness to die for the country's triumph", "confidence": "high"},
+        "land_nature": {"score": 1, "quote": "From the forest to the savannah, from the savannah to the sea", "rationale": "geography sweeps forest/savannah/sea in verse 2", "confidence": "high"},
+        "freedom_liberty": {"score": 2, "quote": "Let us all, with wild joyfulness, sing the song of freedom", "rationale": "freedom celebrated at independence in verse 1", "confidence": "high"},
+        "unity_brotherhood": {"score": 3, "quote": "Arise, Congolese, proud every man, proclaim the unity of our nation", "rationale": "unity ('one people, one soul, one heart') is the anthem's central theme and motto", "confidence": "high"},
+        "glory_pride": {"score": 2, "quote": "Arise, Congolese, proud every man", "rationale": "national pride recurs in chorus and verse 2", "confidence": "high"}
+      }
+    },
+    {
+      "country": "Congo (Republic)",
+      "version": "as-sung",
+      "flags": [],
+      "themes": {
+        "freedom_liberty": {"score": 2, "quote": "Let us all, with wild joyfulness, sing the song of freedom", "rationale": "freedom sung in verse 1", "confidence": "high"},
+        "unity_brotherhood": {"score": 3, "quote": "Arise, Congolese, proud every man, proclaim the unity of our nation", "rationale": "the sung verse 1 + chorus centre on unity and the Unity/Work/Progress motto", "confidence": "high"},
+        "glory_pride": {"score": 2, "quote": "Arise, Congolese, proud every man", "rationale": "national pride in sung chorus", "confidence": "high"}
+      }
+    },
+    {
+      "country": "Romania",
+      "version": "as-written",
+      "flags": ["translation-sensitive"],
+      "themes": {
+        "war_arms": {"score": 3, "quote": "The Romanian Nation, your great grandchildren, with weapons in their arms, with your fire in their veins", "rationale": "weapons, battle and the cry 'Life in freedom or death' run through the official stanzas", "confidence": "high"},
+        "blood_death": {"score": 2, "quote": "That in these veins still flows a Roman blood", "rationale": "Roman blood and 'better to die in battle' are explicit", "confidence": "high"},
+        "enemy_threat": {"score": 3, "quote": "from your deadly sleep into which you've been sunk by the barbaric tyrants", "rationale": "barbaric tyrants and enemies who must bow are a central foil", "confidence": "high"},
+        "sacrifice": {"score": 2, "quote": "Better to die in battle in with eternal glory, than to once again be slaves on our ancient lands", "rationale": "death-before-slavery vow", "confidence": "high"},
+        "deity": {"score": 2, "quote": "Priests, lead with your crucifixes, for our army is Christian", "rationale": "stanza 11 invokes a Christian army led by priests with crucifixes", "confidence": "high"},
+        "land_nature": {"score": 1, "quote": "than to once again be slaves on our ancient lands", "rationale": "'ancient lands' as patrimony, not described landscape", "confidence": "med"},
+        "freedom_liberty": {"score": 3, "quote": "Its motto is liberty and its goal all too holy", "rationale": "liberty / 'Life in freedom or death' is the anthem's driving demand", "confidence": "high"},
+        "unity_brotherhood": {"score": 1, "quote": "Now or never let's give proof to the world", "rationale": "a collective national 'we' but no explicit fraternity", "confidence": "med"},
+        "glory_pride": {"score": 2, "quote": "The victor in his battles, the name of Trajan!", "rationale": "pride in Roman/Trajan ancestry and 'eternal glory'", "confidence": "high"}
+      }
+    },
+    {
+      "country": "Romania",
+      "version": "as-sung",
+      "flags": ["sung-assumed"],
+      "themes": {
+        "enemy_threat": {"score": 3, "quote": "from your deadly sleep into which you've been sunk by the barbaric tyrants", "rationale": "the customarily sung first stanza is built around the barbaric tyrants/enemies", "confidence": "high"},
+        "freedom_liberty": {"score": 2, "quote": "Now, or never, your fate renew, to which your enemies will bow to", "rationale": "national awakening/self-determination in sung stanza 1", "confidence": "high"},
+        "glory_pride": {"score": 1, "quote": "Now, or never, your fate renew", "rationale": "renewal of national fate carries pride", "confidence": "med"}
+      }
+    },
+    {
+      "country": "New Zealand",
+      "version": "as-written",
+      "flags": [],
+      "themes": {
+        "war_arms": {"score": 2, "quote": "Peace, not war, shall be our boast, but, should foes assail our coast, make us then a mighty host", "rationale": "verse 3 raises war, foes and a 'Lord of battles' despite a peace preference", "confidence": "high"},
+        "enemy_threat": {"score": 2, "quote": "Lord of battles, in Thy might, put our enemies to flight", "rationale": "enemies/foes explicitly named in verse 3", "confidence": "high"},
+        "deity": {"score": 3, "quote": "God of Nations at Thy feet, in the bonds of love we meet", "rationale": "the anthem is a prayer to God; 'God defend New Zealand' is its refrain", "confidence": "high"},
+        "land_nature": {"score": 2, "quote": "Guard Pacific's triple star from the shafts of strife and war", "rationale": "the Pacific land/'triple star' is the thing prayed over", "confidence": "high"},
+        "freedom_liberty": {"score": 1, "quote": "God defend our free land", "rationale": "'free land' a passing mention, not the focus", "confidence": "med"},
+        "unity_brotherhood": {"score": 1, "quote": "In the bonds of love we meet", "rationale": "bonds of love among the people", "confidence": "med"},
+        "glory_pride": {"score": 1, "quote": "Make her praises heard afar", "rationale": "wish for the nation's praises to spread", "confidence": "med"}
+      }
+    },
+    {
+      "country": "New Zealand",
+      "version": "as-sung",
+      "flags": [],
+      "themes": {
+        "deity": {"score": 3, "quote": "God of Nations at Thy feet, in the bonds of love we meet... God defend our free land", "rationale": "the sung verse 1 is a sustained prayer to God", "confidence": "high"},
+        "war_arms": {"score": 1, "quote": "Guard Pacific's triple star from the shafts of strife and war", "rationale": "strife/war appear once, as something to be guarded against", "confidence": "high"},
+        "land_nature": {"score": 2, "quote": "Guard Pacific's triple star from the shafts of strife and war", "rationale": "the Pacific land is the subject of the prayer", "confidence": "high"},
+        "freedom_liberty": {"score": 1, "quote": "God defend our free land", "rationale": "'free land' passing mention", "confidence": "med"},
+        "unity_brotherhood": {"score": 1, "quote": "In the bonds of love we meet", "rationale": "bonds of love among people", "confidence": "med"},
+        "glory_pride": {"score": 1, "quote": "Make her praises heard afar", "rationale": "wish for nation's praise", "confidence": "med"}
+      }
+    },
+    {
+      "country": "Egypt",
+      "version": "as-written",
+      "flags": [],
+      "themes": {
+        "enemy_threat": {"score": 1, "quote": "O my homeland, be for ever free, safe from every foe!", "rationale": "verse 2 names an unspecified foe to be kept safe from", "confidence": "med"},
+        "sacrifice": {"score": 1, "quote": "Egypt, noble are thy children. Loyal, and guardians of the reins", "rationale": "verse 3's children as loyal guardians implies devotion/protection", "confidence": "med"},
+        "land_nature": {"score": 2, "quote": "How can one count the blessings of the Nile for mankind?", "rationale": "the Nile and Egypt-as-land are explicit subjects", "confidence": "high"},
+        "freedom_liberty": {"score": 1, "quote": "O my homeland, be for ever free, safe from every foe!", "rationale": "a single wish for the homeland to be free", "confidence": "med"},
+        "glory_pride": {"score": 2, "quote": "Egypt! Most precious jewel, shining on the brow of eternity!", "rationale": "exalting praise of Egypt recurs", "confidence": "high"}
+      }
+    },
+    {
+      "country": "Egypt",
+      "version": "as-sung",
+      "flags": [],
+      "themes": {
+        "land_nature": {"score": 2, "quote": "How can one count the blessings of the Nile for mankind?", "rationale": "the sung chorus + verse 1 centre on the homeland and the Nile", "confidence": "high"},
+        "glory_pride": {"score": 1, "quote": "Egypt! O mother of all lands, my hope and my ambition", "rationale": "reverent pride in Egypt as 'mother of all lands'", "confidence": "med"}
+      }
+    },
+    {
+      "country": "Oman",
+      "version": "as-written",
+      "flags": ["translation-sensitive"],
+      "themes": {
+        "sacrifice": {"score": 2, "quote": "a glorified leader for whom we shall lay down our lives", "rationale": "explicit willingness to lay down lives for the Sultan", "confidence": "med"},
+        "deity": {"score": 2, "quote": "O Almighty, save His Majesty the Sultan", "rationale": "opens by invoking the Almighty to protect", "confidence": "high"},
+        "monarch": {"score": 3, "quote": "O Almighty, save His Majesty the Sultan and His people", "rationale": "the anthem (the Sultanic Salutation) is wholly built around the Sultan", "confidence": "high"},
+        "land_nature": {"score": 1, "quote": "save His Majesty the Sultan and His people in their homelands", "rationale": "the homelands mentioned, not described", "confidence": "med"},
+        "glory_pride": {"score": 2, "quote": "So ascend to the apex of the heavens, illuminate the cosmos", "rationale": "exalting Oman to the heavens; 'most loyal and noble Arabs'", "confidence": "high"},
+        "unity_brotherhood": {"score": 1, "quote": "we have been from the time of the Prophet of the most loyal and noble Arabs", "rationale": "a shared Arab identity/lineage invoked", "confidence": "med"}
+      }
+    },
+    {
+      "country": "Oman",
+      "version": "as-sung",
+      "flags": ["translation-sensitive"],
+      "themes": {
+        "sacrifice": {"score": 2, "quote": "a glorified leader for whom we shall lay down our lives", "rationale": "short anthem sung in full; lay-down-lives vow present", "confidence": "med"},
+        "deity": {"score": 2, "quote": "O Almighty, save His Majesty the Sultan", "rationale": "Almighty invoked in the sung text", "confidence": "high"},
+        "monarch": {"score": 3, "quote": "O Almighty, save His Majesty the Sultan and His people", "rationale": "the Sultan is the anthem's whole subject", "confidence": "high"},
+        "land_nature": {"score": 1, "quote": "His people in their homelands", "rationale": "homelands mentioned", "confidence": "med"},
+        "glory_pride": {"score": 2, "quote": "So ascend to the apex of the heavens, illuminate the cosmos", "rationale": "exalting glory of Oman", "confidence": "high"},
+        "unity_brotherhood": {"score": 1, "quote": "the most loyal and noble Arabs", "rationale": "shared Arab identity", "confidence": "med"}
+      }
+    },
+    {
+      "country": "Tonga",
+      "version": "as-written",
+      "flags": [],
+      "themes": {
+        "sacrifice": {"score": 1, "quote": "Thou art our Lord and sure defense", "rationale": "defence framing, but no explicit willingness to die", "confidence": "low"},
+        "deity": {"score": 3, "quote": "Oh almighty God above, Thou art our Lord and sure defense", "rationale": "the anthem is a prayer to almighty God to protect king and land", "confidence": "high"},
+        "monarch": {"score": 3, "quote": "Grant our earnest supplication, God save Tupou, our king", "rationale": "the title and closing plea are wholly about saving the king", "confidence": "high"},
+        "land_nature": {"score": 1, "quote": "We know that thou hath blessed our land", "rationale": "the land is mentioned as blessed, not described", "confidence": "med"},
+        "unity_brotherhood": {"score": 1, "quote": "As your people, we trust thee", "rationale": "the people as one trusting body", "confidence": "low"}
+      }
+    },
+    {
+      "country": "Tonga",
+      "version": "as-sung",
+      "flags": [],
+      "themes": {
+        "sacrifice": {"score": 1, "quote": "Thou art our Lord and sure defense", "rationale": "defence framing only", "confidence": "low"},
+        "deity": {"score": 3, "quote": "Oh almighty God above, Thou art our Lord and sure defense", "rationale": "single sung verse is a prayer to God", "confidence": "high"},
+        "monarch": {"score": 3, "quote": "Grant our earnest supplication, God save Tupou, our king", "rationale": "saving the king is the sung climax", "confidence": "high"},
+        "land_nature": {"score": 1, "quote": "We know that thou hath blessed our land", "rationale": "blessed land mentioned", "confidence": "med"},
+        "unity_brotherhood": {"score": 1, "quote": "As your people, we trust thee", "rationale": "people as one trusting body", "confidence": "low"}
+      }
+    },
+    {
+      "country": "Holy See",
+      "version": "as-written",
+      "flags": ["translation-sensitive"],
+      "themes": {
+        "blood_death": {"score": 2, "quote": "You are the seat of Peter, who shed his blood in Rome", "rationale": "martyrs and Peter's shed blood are explicit", "confidence": "high"},
+        "deity": {"score": 3, "quote": "Pontiff, You are the vicar of Christ on earth... linking heaven and earth", "rationale": "wholly religious: Christ, the Pontiff as His vicar and shepherd", "confidence": "high"},
+        "land_nature": {"score": 1, "quote": "O happy Rome, O noble Rome", "rationale": "Rome as the holy city, not natural landscape", "confidence": "med"},
+        "wildcard": {"score": 3, "quote": "Pontiff, You are the vicar of Christ on earth, a rock amidst the waves, You are a beacon in the darkness", "rationale": "the Papacy/Pontiff as institution is the anthem's central subject", "confidence": "high", "label": "the Papacy / office of the Pope"},
+        "glory_pride": {"score": 2, "quote": "O immortal Rome, accept our praises", "rationale": "exalting praise of immortal Rome", "confidence": "high"}
+      }
+    },
+    {
+      "country": "Holy See",
+      "version": "as-sung",
+      "flags": ["translation-sensitive"],
+      "themes": {
+        "blood_death": {"score": 2, "quote": "You are the seat of Peter, who shed his blood in Rome", "rationale": "Peter's martyrdom in the sung Latin hymn", "confidence": "high"},
+        "deity": {"score": 3, "quote": "Pontiff, You are the vicar of Christ on earth", "rationale": "wholly religious sung text", "confidence": "high"},
+        "land_nature": {"score": 1, "quote": "O happy Rome, O noble Rome", "rationale": "Rome as holy city", "confidence": "med"},
+        "wildcard": {"score": 3, "quote": "the Servant of the servants of God, and fisher of men, are the shepherd of the flock", "rationale": "the office of the Pope is the central subject", "confidence": "high", "label": "the Papacy / office of the Pope"},
+        "glory_pride": {"score": 2, "quote": "O immortal Rome, accept our praises", "rationale": "praise of immortal Rome", "confidence": "high"}
+      }
+    },
+    {
+      "country": "Azerbaijan",
+      "version": "as-written",
+      "flags": ["translation-sensitive"],
+      "themes": {
+        "war_arms": {"score": 2, "quote": "Your bosom has become a battlefield. Every devoted soldier has become a hero", "rationale": "battlefield and soldiers explicit in verse 2", "confidence": "high"},
+        "blood_death": {"score": 3, "quote": "We are ready to shed blood for you. Thousands of lives have been sacrificed", "rationale": "shedding blood and thousands of deaths are foregrounded", "confidence": "high"},
+        "sacrifice": {"score": 3, "quote": "We are ready to be martyred for you. We are ready to shed blood for you", "rationale": "readiness for martyrdom is a central, repeated theme", "confidence": "high"},
+        "land_nature": {"score": 1, "quote": "Azerbaijan! Azerbaijan! O Great Land, your children are heroes", "rationale": "'Great Land' named, not described as landscape", "confidence": "med"},
+        "unity_brotherhood": {"score": 1, "quote": "To preserve everything and to honour her flag all the youth are willing", "rationale": "collective youth/people willing as one", "confidence": "med"},
+        "glory_pride": {"score": 3, "quote": "O Great Land, your children are heroes... Three-coloured flag, flourish honourably!", "rationale": "heroes, honour and the glorified flag pervade the anthem", "confidence": "high"},
+        "wildcard": {"score": 2, "quote": "Three-coloured flag, flourish honourably! Three-coloured flag, flourish honourably!", "rationale": "the tricolour flag is a recurring, emphasised motif", "confidence": "high", "label": "the national flag"}
+      }
+    },
+    {
+      "country": "Azerbaijan",
+      "version": "as-sung",
+      "flags": ["sung-assumed"],
+      "themes": {
+        "blood_death": {"score": 3, "quote": "We are ready to shed blood for you", "rationale": "the sung first stanza foregrounds shedding blood", "confidence": "high"},
+        "sacrifice": {"score": 3, "quote": "We are ready to be martyred for you. We are ready to shed blood for you", "rationale": "martyrdom is central to the sung stanza", "confidence": "high"},
+        "land_nature": {"score": 1, "quote": "O Great Land, your children are heroes", "rationale": "'Great Land' named", "confidence": "med"},
+        "glory_pride": {"score": 2, "quote": "O Great Land, your children are heroes. Three-coloured flag, flourish honourably!", "rationale": "heroes and the honoured flag in sung stanza", "confidence": "high"},
+        "wildcard": {"score": 2, "quote": "Three-coloured flag, flourish honourably!", "rationale": "the tricolour flag emphasised in the sung stanza", "confidence": "high", "label": "the national flag"}
+      }
+    },
+    {
+      "country": "Iceland",
+      "version": "as-written",
+      "flags": ["translation-sensitive"],
+      "themes": {
+        "deity": {"score": 3, "quote": "O God of our land, O our land's God, we worship thy holy, holy name", "rationale": "the anthem ('Hymn of Praise') is a sustained worship of God", "confidence": "high"},
+        "land_nature": {"score": 2, "quote": "O God of our land, O our land's God", "rationale": "the land is invoked, and later verses dwell on it; framed via God", "confidence": "med"},
+        "glory_pride": {"score": 1, "quote": "Iceland's thousand years", "rationale": "celebration of a thousand years of nationhood", "confidence": "med"}
+      }
+    },
+    {
+      "country": "Iceland",
+      "version": "as-sung",
+      "flags": [],
+      "themes": {
+        "deity": {"score": 3, "quote": "O God of our land, O our land's God, we worship thy holy, holy name", "rationale": "the sung verse 1 is pure worship of God", "confidence": "high"},
+        "land_nature": {"score": 1, "quote": "O God of our land, O our land's God", "rationale": "the land named only as God's possession in sung verse", "confidence": "med"},
+        "glory_pride": {"score": 1, "quote": "Iceland's thousand years", "rationale": "the millennium celebrated in sung verse", "confidence": "med"}
+      }
+    },
+    {
+      "country": "Senegal",
+      "version": "as-written",
+      "flags": ["translation-sensitive"],
+      "themes": {
+        "war_arms": {"score": 2, "quote": "If the enemy burns our borders we will be risen with weapons in our hands", "rationale": "weapons taken up in verse 5; 'the sword in peace-time we will store in the scabbard'", "confidence": "high"},
+        "blood_death": {"score": 1, "quote": "Death, yes! We say death, but not shame", "rationale": "death accepted over shame, single line", "confidence": "med"},
+        "enemy_threat": {"score": 2, "quote": "If the enemy burns our borders", "rationale": "an enemy at the borders is explicitly named", "confidence": "high"},
+        "sacrifice": {"score": 2, "quote": "Death, yes! We say death, but not shame", "rationale": "willingness to die rather than be shamed", "confidence": "high"},
+        "land_nature": {"score": 2, "quote": "Unite the sea and the springs, unite the steppe and the forest!", "rationale": "sea, springs, steppe, forest invoked across the chorus and verses", "confidence": "high"},
+        "freedom_liberty": {"score": 1, "quote": "Restore, oh, restore to us the honour of our ancestors", "rationale": "restoration/self-assertion implies freedom, not chains explicitly", "confidence": "med"},
+        "unity_brotherhood": {"score": 3, "quote": "Shoulder to shoulder, O people of Senegal, more than brothers to me, arise!", "rationale": "brotherhood and 'a people rising as one, in seamless unity' is the central theme", "confidence": "high"},
+        "glory_pride": {"score": 2, "quote": "Restore, oh, restore to us the honour of our ancestors, magnificent as ebony and strong as muscles!", "rationale": "ancestral honour and pride recur", "confidence": "high"},
+        "wildcard": {"score": 2, "quote": "Sound, all of you, your Koras, beat the drums, the red Lion has roared", "rationale": "koras/balafons/drums and the red lion are a vivid music-and-symbol motif", "confidence": "high", "label": "music (koras/balafons) and the red lion"}
+      }
+    },
+    {
+      "country": "Senegal",
+      "version": "as-sung",
+      "flags": ["sung-assumed"],
+      "themes": {
+        "land_nature": {"score": 2, "quote": "Unite the sea and the springs, unite the steppe and the forest!", "rationale": "the sung verse 1 + chorus sweep across Senegal/Africa's geography", "confidence": "high"},
+        "freedom_liberty": {"score": 1, "quote": "Light on our terrors, light on our hopes", "rationale": "liberatory dawn imagery", "confidence": "med"},
+        "unity_brotherhood": {"score": 3, "quote": "Shoulder to shoulder, O people of Senegal, more than brothers to me, arise!", "rationale": "the sung chorus is centred on brotherhood and a united Africa", "confidence": "high"},
+        "glory_pride": {"score": 1, "quote": "Arise, brothers, behold Africa united!", "rationale": "pride in a united Africa", "confidence": "med"},
+        "wildcard": {"score": 2, "quote": "Sound, all of you, your Koras, beat the drums, the red Lion has roared", "rationale": "koras/drums and the red lion in the sung verse 1", "confidence": "high", "label": "music (koras/balafons) and the red lion"}
+      }
+    },
+    {
+      "country": "Mongolia",
+      "version": "as-written",
+      "flags": ["translation-sensitive"],
+      "themes": {
+        "land_nature": {"score": 1, "quote": "Our sacred independent country is the ancestral hearth of all Mongols", "rationale": "'ancestral hearth' is land-as-homeland, not described landscape", "confidence": "med"},
+        "freedom_liberty": {"score": 2, "quote": "The brilliant people of the brave Mongolia have gained freedom and happiness", "rationale": "independence/freedom explicitly celebrated", "confidence": "high"},
+        "unity_brotherhood": {"score": 2, "quote": "Our country will strengthen relations with all righteous countries of the world. With all our will and might", "rationale": "collective national 'we' and bonds of the people", "confidence": "med"},
+        "glory_pride": {"score": 2, "quote": "The key to delight and the path to success, long live our glorious country", "rationale": "'glorious country' and exalting prosperity recur", "confidence": "high"},
+        "wildcard": {"score": 2, "quote": "Let us pass on our ancestry, culture and language from generation to generation", "rationale": "preservation of ancestry, culture and language is a salient distinct theme", "confidence": "high", "label": "ancestry / culture / language"}
+      }
+    },
+    {
+      "country": "Mongolia",
+      "version": "as-sung",
+      "flags": ["translation-sensitive"],
+      "themes": {
+        "land_nature": {"score": 1, "quote": "Our sacred independent country is the ancestral hearth of all Mongols", "rationale": "ancestral homeland in sung verses", "confidence": "med"},
+        "freedom_liberty": {"score": 2, "quote": "The brilliant people of the brave Mongolia have gained freedom and happiness", "rationale": "freedom celebrated in sung text", "confidence": "high"},
+        "unity_brotherhood": {"score": 2, "quote": "With all our will and might let us celebrate our beloved Mongolia", "rationale": "collective 'we' in sung refrain", "confidence": "med"},
+        "glory_pride": {"score": 2, "quote": "Long live our glorious country", "rationale": "'glorious country' in sung text", "confidence": "high"},
+        "wildcard": {"score": 2, "quote": "Let us pass on our ancestry, culture and language from generation to generation", "rationale": "ancestry/culture/language preserved across sung verses", "confidence": "high", "label": "ancestry / culture / language"}
+      }
+    }
+  ]
+}

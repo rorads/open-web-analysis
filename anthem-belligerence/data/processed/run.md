@@ -47,11 +47,24 @@ re-score, so it is one continuous run.
   Herzegovina. (Holy See *has* official Latin lyrics → scored.)
 - **Logical check:** as-sung belligerence ≤ as-written for every country (after one override).
 
-## Overrides (human spot-check, §6)
+## Validation: blind second-rater spot-check (§7)
+
+An independent Opus session re-scored a stratified 15 anthems **blind** to the v1 scores
+(`data/processed/audit_sample.json`). Cell-by-cell vs v1: **70.3% exact, 96.0% within ±1**
+(300 cells); only 4 of 150 as-written cells diverged by ≥2. Method judged reliable; the residual
+risk is **under-scoring multi-verse anthems**, not systematic bias. Two corrections applied below.
+
+## Overrides (spot-check, §6 — recorded, not silently overwritten)
 
 - **Mali** — as-sung `sacrifice` lowered 3 → 2 to match the as-written score from the *same*
-  line ("On the ramparts, we are ready to stand and die"): as-sung is a subset of as-written
-  and cannot exceed it. Recorded inline as an `override` on that theme.
+  line ("On the ramparts, we are ready to stand and die"): as-sung ⊆ as-written. Inline `override`.
+- **Senegal** — as-written gained war/enemy/sacrifice/blood: v1 scored only the koras/balafons
+  opening and missed the martial **chorus 5** ("the enemy violates our frontiers… weapons in our
+  hands"), verified in source. As-sung (verse 1 + refrain) left benign → Senegal becomes the
+  **#1 retired-gap (56→0)**. Inline `override`; flag `spotcheck-corrected`.
+- **Mongolia** — `blood_death`/`sacrifice` removed: "our sweat and blood to lend [to build the
+  homeland]" is the effort idiom (labour), not literal blood (rubric excludes metaphorical
+  lifeblood); kept a mild enemy allusion. Belligerence 23 → 7.7. Flag `spotcheck-corrected`.
 
 ## Known limitations carried into the write-up
 
