@@ -40,14 +40,17 @@ def god_vs_guns(rows) -> None:
     fig, ax = plt.subplots(figsize=(10, 7.5))
     fig.patch.set_facecolor(BG); ax.set_facecolor(PANEL)
     # jitter identical points slightly so clusters at 0,0 are visible
+    # NOTE: the deity index is a single 0-3 theme x100/3, so it takes only 4 values
+    # {0, 33, 67, 100} -> 4 horizontal bands. Jitter Y within each band (half-gap is ~16, so
+    # +/-7 never crosses bands) so overlapping points are visible; X is near-continuous.
     import random
     random.seed(3)
     for reg, col in REGION_COLORS.items():
         pts = [r for r in rows if r["region"] == reg]
-        xs = [r["belligerence_sung"] + random.uniform(-0.8, 0.8) for r in pts]
-        ys = [r["deity_sung"] + random.uniform(-0.8, 0.8) for r in pts]
-        ax.scatter(xs, ys, s=55, c=col, edgecolors="white", linewidths=0.4,
-                   alpha=0.85, label=f"{reg} ({len(pts)})", zorder=3)
+        xs = [r["belligerence_sung"] + random.uniform(-1.2, 1.2) for r in pts]
+        ys = [r["deity_sung"] + random.uniform(-7, 7) for r in pts]
+        ax.scatter(xs, ys, s=50, c=col, edgecolors="white", linewidths=0.3,
+                   alpha=0.8, label=f"{reg} ({len(pts)})", zorder=3)
     # label the belligerence leaders (spread along x); the low-belligerence/high-deity
     # devotional cluster is described in text rather than labelled (it overlaps badly).
     notable = sorted(rows, key=lambda r: r["belligerence_sung"], reverse=True)[:15]
@@ -55,11 +58,16 @@ def god_vs_guns(rows) -> None:
         ax.annotate(r["country"], (r["belligerence_sung"], r["deity_sung"]),
                     xytext=(r["belligerence_sung"] + 1.2, r["deity_sung"] + 1.8),
                     color=FG, fontsize=7.5, zorder=5)
-    ax.set_xlim(-5, 108); ax.set_ylim(-8, 112)
+    ax.set_xlim(-5, 108); ax.set_ylim(-12, 114)
+    ax.set_yticks([0, 33.3, 66.7, 100])
+    ax.set_yticklabels(["no God\n(0)", "passing\n(1)", "present\n(2)", "central\n(3)"], fontsize=8)
     ax.set_xlabel("Belligerence index  (as sung)  →", color=FG, fontsize=11)
-    ax.set_ylabel("Deity index  (as sung)  →", color=FG, fontsize=11)
+    ax.set_ylabel("Deity  (single 0–3 theme; Y-jittered)  →", color=FG, fontsize=11)
     ax.set_title(f"God vs Guns — national anthems as sung (n={len(rows)})",
                  color="white", fontsize=14, pad=14)
+    fig.text(0.5, 0.005, "Deity is one 0–3 score (4 bands); points jittered vertically within "
+             "their band so they don't overlap. Belligerence combines 4 themes (near-continuous).",
+             ha="center", color="#94a3b8", fontsize=7.5)
     ax.tick_params(colors=FG)
     for sp in ax.spines.values():
         sp.set_color(GRID)

@@ -1,0 +1,402 @@
+{
+  "n": 192,
+  "theme_prevalence": {
+    "per_theme": {
+      "war_arms": {
+        "share_ge1": 0.448,
+        "share_ge2": 0.281,
+        "share_eq3": 0.078,
+        "mean": 0.81
+      },
+      "blood_death": {
+        "share_ge1": 0.417,
+        "share_ge2": 0.234,
+        "share_eq3": 0.026,
+        "mean": 0.68
+      },
+      "enemy_threat": {
+        "share_ge1": 0.359,
+        "share_ge2": 0.224,
+        "share_eq3": 0.021,
+        "mean": 0.6
+      },
+      "sacrifice": {
+        "share_ge1": 0.453,
+        "share_ge2": 0.302,
+        "share_eq3": 0.068,
+        "mean": 0.82
+      },
+      "deity": {
+        "share_ge1": 0.542,
+        "share_ge2": 0.385,
+        "share_eq3": 0.094,
+        "mean": 1.02
+      },
+      "monarch": {
+        "share_ge1": 0.115,
+        "share_ge2": 0.104,
+        "share_eq3": 0.057,
+        "mean": 0.28
+      },
+      "land_nature": {
+        "share_ge1": 0.698,
+        "share_ge2": 0.422,
+        "share_eq3": 0.141,
+        "mean": 1.26
+      },
+      "freedom_liberty": {
+        "share_ge1": 0.635,
+        "share_ge2": 0.443,
+        "share_eq3": 0.125,
+        "mean": 1.2
+      },
+      "unity_brotherhood": {
+        "share_ge1": 0.578,
+        "share_ge2": 0.406,
+        "share_eq3": 0.042,
+        "mean": 1.03
+      },
+      "glory_pride": {
+        "share_ge1": 0.708,
+        "share_ge2": 0.458,
+        "share_eq3": 0.031,
+        "mean": 1.2
+      }
+    },
+    "ranked_by_mentions": [
+      "glory_pride",
+      "land_nature",
+      "freedom_liberty",
+      "unity_brotherhood",
+      "deity",
+      "sacrifice",
+      "war_arms",
+      "blood_death",
+      "enemy_threat",
+      "monarch"
+    ]
+  },
+  "region_fingerprint": {
+    "matrix": {
+      "Africa": {
+        "war_arms": 0.89,
+        "blood_death": 0.57,
+        "enemy_threat": 0.74,
+        "sacrifice": 0.87,
+        "deity": 1.09,
+        "monarch": 0.09,
+        "land_nature": 1.19,
+        "freedom_liberty": 1.43,
+        "unity_brotherhood": 1.46,
+        "glory_pride": 1.26
+      },
+      "Americas": {
+        "war_arms": 1.23,
+        "blood_death": 1.0,
+        "enemy_threat": 0.77,
+        "sacrifice": 1.11,
+        "deity": 0.91,
+        "monarch": 0.0,
+        "land_nature": 1.23,
+        "freedom_liberty": 1.43,
+        "unity_brotherhood": 0.71,
+        "glory_pride": 1.34
+      },
+      "Asia": {
+        "war_arms": 0.51,
+        "blood_death": 0.85,
+        "enemy_threat": 0.45,
+        "sacrifice": 0.98,
+        "deity": 0.74,
+        "monarch": 0.57,
+        "land_nature": 1.17,
+        "freedom_liberty": 1.04,
+        "unity_brotherhood": 0.98,
+        "glory_pride": 1.32
+      },
+      "Europe": {
+        "war_arms": 0.86,
+        "blood_death": 0.55,
+        "enemy_threat": 0.62,
+        "sacrifice": 0.55,
+        "deity": 1.1,
+        "monarch": 0.43,
+        "land_nature": 1.38,
+        "freedom_liberty": 1.05,
+        "unity_brotherhood": 0.67,
+        "glory_pride": 0.98
+      },
+      "Oceania": {
+        "war_arms": 0.29,
+        "blood_death": 0.07,
+        "enemy_threat": 0.14,
+        "sacrifice": 0.21,
+        "deity": 1.71,
+        "monarch": 0.21,
+        "land_nature": 1.57,
+        "freedom_liberty": 0.79,
+        "unity_brotherhood": 1.36,
+        "glory_pride": 0.86
+      }
+    },
+    "signature_themes": {
+      "Africa": [
+        [
+          "unity_brotherhood",
+          0.44
+        ],
+        [
+          "freedom_liberty",
+          0.22
+        ],
+        [
+          "enemy_threat",
+          0.14
+        ]
+      ],
+      "Americas": [
+        [
+          "war_arms",
+          0.42
+        ],
+        [
+          "blood_death",
+          0.32
+        ],
+        [
+          "sacrifice",
+          0.29
+        ]
+      ],
+      "Asia": [
+        [
+          "monarch",
+          0.3
+        ],
+        [
+          "blood_death",
+          0.17
+        ],
+        [
+          "sacrifice",
+          0.16
+        ]
+      ],
+      "Europe": [
+        [
+          "monarch",
+          0.15
+        ],
+        [
+          "land_nature",
+          0.12
+        ],
+        [
+          "deity",
+          0.07
+        ]
+      ],
+      "Oceania": [
+        [
+          "deity",
+          0.69
+        ],
+        [
+          "unity_brotherhood",
+          0.33
+        ],
+        [
+          "land_nature",
+          0.31
+        ]
+      ]
+    }
+  },
+  "distinctiveness": {
+    "most_distinctive": [
+      [
+        "United Kingdom",
+        5.39
+      ],
+      [
+        "Algeria",
+        5.1
+      ],
+      [
+        "France",
+        5.0
+      ],
+      [
+        "Romania",
+        4.94
+      ],
+      [
+        "Netherlands",
+        4.68
+      ],
+      [
+        "Tonga",
+        4.59
+      ],
+      [
+        "Brunei",
+        4.52
+      ],
+      [
+        "Oman",
+        4.49
+      ]
+    ],
+    "most_generic": [
+      [
+        "Mongolia",
+        1.13
+      ],
+      [
+        "Maldives",
+        1.81
+      ],
+      [
+        "Kenya",
+        1.96
+      ],
+      [
+        "Saint Kitts and Nevis",
+        1.97
+      ],
+      [
+        "Djibouti",
+        2.05
+      ],
+      [
+        "Myanmar",
+        2.1
+      ],
+      [
+        "Grenada",
+        2.11
+      ],
+      [
+        "Sri Lanka",
+        2.14
+      ]
+    ],
+    "global_mean_vector": {
+      "war_arms": 0.81,
+      "blood_death": 0.68,
+      "enemy_threat": 0.6,
+      "sacrifice": 0.82,
+      "deity": 1.02,
+      "monarch": 0.28,
+      "land_nature": 1.26,
+      "freedom_liberty": 1.2,
+      "unity_brotherhood": 1.03,
+      "glory_pride": 1.2
+    }
+  },
+  "typology": {
+    "counts": {
+      "god_not_king": 61,
+      "king_not_god": 7,
+      "god_and_king": 13,
+      "neither": 111
+    },
+    "god_and_king_examples": [
+      "United Kingdom",
+      "Liechtenstein",
+      "Netherlands",
+      "Holy See",
+      "Tonga",
+      "Eswatini",
+      "Bhutan",
+      "Brunei",
+      "Cambodia",
+      "Kuwait",
+      "Malaysia",
+      "Oman"
+    ],
+    "king_not_god_examples": [
+      "Japan",
+      "Monaco",
+      "Morocco",
+      "Bahrain",
+      "Jordan",
+      "Belgium",
+      "Denmark"
+    ]
+  },
+  "belligerence_distribution": {
+    "written": {
+      "mean": 24.1,
+      "median": 15.4,
+      "zero": 57,
+      "ge50": 31
+    },
+    "sung": {
+      "mean": 19.5,
+      "median": 10.3,
+      "zero": 72,
+      "ge50": 23
+    }
+  },
+  "wildcard_taxonomy": {
+    "bucket_counts": {
+      "other / unique": 39,
+      "labour / work": 21,
+      "flag": 15,
+      "peace": 13,
+      "religion / faith": 12,
+      "a named place / river / mountain": 11,
+      "revolution / a historical event": 5,
+      "sun / dawn / light": 4,
+      "hope / future / progress": 2,
+      "the people's virtue / morality": 2,
+      "monarch / dynasty / leader": 3,
+      "food / wine / drink": 1,
+      "the sea / islands": 1,
+      "women / family / motherhood": 1
+    },
+    "n_wildcard_records": 231,
+    "unique_examples": [
+      "Andorra: founding legend / Charlemagne & national history",
+      "Antigua and Barbuda: civic duty / safeguarding the nation",
+      "Bahrain: constitution / charter & Arab legal identity",
+      "Bangladesh: maternal personification of the land",
+      "Barbados: forefathers / heritage & self-determination",
+      "Belize: Baymen heritage / abolition",
+      "Cameroon: Pan-African loyalty",
+      "Cameroon: ancestors / forefathers at rest",
+      "Canada: defence / standing on guard",
+      "China: the Great Wall (national monument)",
+      "Denmark: Norse myth (Freya's hall)",
+      "Guatemala: the quetzal / national emblem",
+      "Guinea: pan-Africanism / African unity",
+      "Guyana: multi-ethnic society from slavery/indenture",
+      "Haiti: the ancestors / forefathers",
+      "Kazakhstan: courage / heroism of ancestors",
+      "Kuwait: Arab ancestry / heritage",
+      "Kyrgyzstan: ancestral heritage passed to descendants",
+      "Lebanon: the cedar tree (national emblem)",
+      "Madagascar: ancestors / forebears",
+      "Marshall Islands: attachment to home / homeland",
+      "Micronesia: devotion / pledge of loyalty",
+      "Moldova: the national language itself",
+      "Mongolia: the Soyombo national symbol",
+      "Montenegro: Mount Lovcen (national symbol)",
+      "Oman: Arab identity / lineage",
+      "Paraguay: republicanism / death-before-monarchy motto ('Republic or Death')",
+      "Qatar: ancestors / forefathers",
+      "Senegal: the lion / koras & balafons (musical instruments as national symbol)",
+      "Serbia: Serbian ethno-national identity ('Serbian lands and Serbian race')",
+      "Slovakia: national awakening / revival",
+      "State of Palestine: vengeance / revenge",
+      "Sweden: longing / belonging to the homeland",
+      "Tajikistan: ancestral / ancient heritage",
+      "Thailand: Thai race / blood-descent nationhood",
+      "Turkmenistan: tribal/ancestral bloodline",
+      "Ukraine: Cossack ancestry / national survival",
+      "Uzbekistan: knowledge & science",
+      "Yemen: Arab identity / common humanity"
+    ]
+  }
+}

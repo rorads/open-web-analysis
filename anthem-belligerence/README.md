@@ -1,7 +1,8 @@
 # Anthem belligerence
 
 **Status:** **Full run complete — all 195 states scored** (2026-05-28). Rubric `e668eec`.
-See `data/processed/run.md` for the run log and `data/processed/exploratory.json` for §8.
+**Provisional write-up: [`FINDINGS.md`](FINDINGS.md).** Run log: `data/processed/run.md`;
+§8 + bonus analysis: `data/processed/{exploratory,findings_extra}.json`.
 
 **Question.** What do nations actually sing about themselves — and how warlike is it, both
 in the full official text and in the verses people actually perform?
@@ -25,9 +26,10 @@ in the full official text and in the verses people actually perform?
 - **The wildcard surfaced two themes the rubric missed:** *labour/work* and *the flag* both
   recur heavily — candidates to promote to numbered themes in a v2 rubric.
 
-**Figures:** `outputs/god-vs-guns.svg` (belligerence × deity, by region) ·
-`outputs/retired-gap.svg` (written→sung dumbbell) · `outputs/theme-corr-heatmap.svg` ·
-`outputs/age-vs-belligerence.svg`.
+**Figures (`outputs/`):** `god-vs-guns.svg` (belligerence × deity, by region) ·
+`retired-gap.svg` (written→sung dumbbell) · `region-theme-heatmap.svg` (region fingerprints) ·
+`theme-prevalence.svg` (what anthems sing about) · `belligerence-dist.svg` ·
+`theme-corr-heatmap.svg` · `age-vs-belligerence.svg`.
 
 **Why it's interesting.** "Warlike anthems" is a well-trodden listicle topic, and an
 academic study has measured "fighting"-word frequency across ~186 anthems. What hasn't been
