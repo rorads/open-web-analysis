@@ -17,7 +17,11 @@ and in the **verses actually performed**? The interesting, under-explored quanti
   Start here; decide later whether to include de-facto / contested states as a flagged
   secondary set.
 - **Unit:** one anthem per state. Each anthem is scored **twice**:
-  - **as-written** — the complete official lyrics.
+  - **as-written** — the complete official lyrics. **All** official verses must be reviewed
+    (record a per-anthem `completeness` note); scoring from a partial excerpt risks
+    under-counting themes buried in later verses. **Non-official historical verses are
+    documented but excluded** — e.g. the UK's c.1745 "rebellious Scots to crush" verse, which
+    was never in the official text. "Official" is the bar, not "ever attested".
   - **as-sung** — the verse(s) officially designated or customarily performed at ceremonies.
 - **Exclusions:** anthems with no official lyrics (e.g. Spain's *Marcha Real*, San Marino,
   Kosovo's *Europe*) are recorded but scored 0 across themes and flagged `no-lyrics`; they

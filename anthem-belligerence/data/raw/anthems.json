@@ -1,5 +1,6 @@
 {
-  "_about": "Raw corpus for the anthem-belligerence calibration sample (~10 anthems chosen to stress every part of the rubric). 'key_lines' are short evidence phrases drawn verbatim from the cited sources; full verbatim lyrics are NOT stored here (public-domain texts live at the source URLs, and reproducing full lyrics is unnecessary for scoring). Scores in data/processed/scores.json are grounded in these lines + the cited sources. Retrieved 2026-05-28 via web search.",
+  "_about": "Raw corpus for the anthem-belligerence calibration sample (~10 anthems chosen to stress every part of the rubric). 'key_lines' are evidence phrases drawn verbatim from the cited sources; full verbatim lyrics are NOT stored here (public-domain texts live at the source URLs). Each anthem has a 'completeness' note recording whether ALL verses were reviewed for scoring. Scores in data/processed/scores.json are grounded in these lines + the cited sources. Retrieved 2026-05-28 via web search; verse-completeness re-audited the same day.",
+  "_completeness_policy": "as-written = the complete OFFICIAL lyrics. Non-official historical verses (e.g. the UK 'Marshal Wade / rebellious Scots' verse) are documented but EXCLUDED from as-written scoring. Where not every verse was individually captured, the 'completeness' field says so and notes whether the score is robust regardless.",
   "anthems": [
     {
       "country": "France",
@@ -10,6 +11,7 @@
       "sung_rule": "Customarily verse 1 + refrain (sometimes also verse 6). All verses official.",
       "sung_assumed": true,
       "no_lyrics": false,
+      "completeness": "PARTIAL: v1+refrain and v6 captured; verses 2-5 and 7 not individually transcribed but are all known to sustain martial/blood imagery. as-written belligerence is at/near the ceiling on v1 alone, so the missing verses cannot lower it.",
       "key_lines": {
         "as_sung_v1_refrain": [
           "Arise, children of the Fatherland, the day of glory has arrived!",
@@ -21,7 +23,7 @@
         "as_written_extra": [
           "v6: Sacred love of the Fatherland",
           "v6: Liberty, cherished Liberty",
-          "later verses sustain martial/blood imagery"
+          "verses 2-5,7 sustain martial/blood imagery (not individually transcribed)"
         ]
       },
       "source_urls": [
@@ -38,6 +40,7 @@
       "sung_rule": "Verse 1 only is performed in virtually all settings.",
       "sung_assumed": false,
       "no_lyrics": false,
+      "completeness": "COMPLETE: all 4 verses reviewed.",
       "key_lines": {
         "as_sung_v1": [
           "the rockets' red glare, the bombs bursting in air",
@@ -45,6 +48,7 @@
           "the land of the free and the home of the brave"
         ],
         "as_written_extra": [
+          "v2: Where the foe's haughty host in dread silence reposes ... 'Tis the star-spangled banner, in full glory reflected",
           "v3: No refuge could save the hireling and slave / From the terror of flight or the gloom of the grave",
           "v4: Then conquer we must, when our cause it is just",
           "v4: And this be our motto: 'In God is our trust'",
@@ -62,10 +66,11 @@
       "iso": "GB",
       "title": "God Save the King",
       "languages_scored": ["English"],
-      "structure": "Multiple verses (commonly cited as 3-6)",
+      "structure": "Standard official text is 3 verses (no single legally-fixed version).",
       "sung_rule": "Verse 1 alone is sung even on official occasions; occasionally + a later verse. The anti-enemy verse 2 is rarely performed.",
       "sung_assumed": false,
       "no_lyrics": false,
+      "completeness": "COMPLETE for the official text (v1-3). v2 carries the belligerent content; v3 is benign ('defend our laws'). The famous 'rebellious Scots to crush' verse is NON-OFFICIAL (see below) and excluded from as-written.",
       "key_lines": {
         "as_sung_v1": [
           "God save our gracious King",
@@ -75,8 +80,10 @@
         ],
         "as_written_extra": [
           "v2: O Lord our God arise, Scatter our enemies, And make them fall",
-          "v2: Confound their politics, Frustrate their knavish tricks"
-        ]
+          "v2: Confound their politics, Frustrate their knavish tricks",
+          "v3 (standard): Thy choicest gifts in store on him be pleased to pour ... May he defend our laws (benign)"
+        ],
+        "non_official_historical_verse": "c.1745 anti-Jacobite verse, NEVER in the official published version and out of regular use for 100+ years: 'May he sedition hush, And like a torrent rush, Rebellious Scots to crush'. Documented here but EXCLUDED from as-written scoring per the completeness policy."
       },
       "source_urls": [
         "https://en.wikipedia.org/wiki/God_Save_the_King",
@@ -92,6 +99,7 @@
       "sung_rule": "All five verses are officially part of the anthem (full performance mandated since 2008). The anti-France verse 3 was historically sometimes omitted.",
       "sung_assumed": false,
       "no_lyrics": false,
+      "completeness": "COMPLETE: all 5 verses captured.",
       "key_lines": {
         "full": [
           "We swear by the lightning that destroys, by the streams of generous blood being shed",
@@ -118,6 +126,7 @@
       "sung_rule": "Single verse; as-written = as-sung.",
       "sung_assumed": false,
       "no_lyrics": false,
+      "completeness": "COMPLETE: the entire (single, 5-line) anthem captured.",
       "key_lines": {
         "full": [
           "May your reign continue for a thousand, eight thousand generations",
@@ -139,6 +148,7 @@
       "sung_rule": "Verse 1 most commonly sung; all official. Deity + nature appear in all verses incl. v1, so little gap.",
       "sung_assumed": true,
       "no_lyrics": false,
+      "completeness": "COMPLETE: all 4 verses captured.",
       "key_lines": {
         "full": [
           "When the morning skies grow red ... Thou, O Lord, appeareth in their light",
@@ -162,6 +172,7 @@
       "sung_rule": "Wordless since 1978; one of only a few anthems with no official lyrics.",
       "sung_assumed": false,
       "no_lyrics": true,
+      "completeness": "N/A: wordless anthem, nothing to capture.",
       "key_lines": {},
       "notes": "Edge case: scored 0 on all themes, flagged no-lyrics, excluded from index distributions (reported separately).",
       "source_urls": [
@@ -177,6 +188,7 @@
       "sung_rule": "ONLY the 3rd stanza is the official anthem / sung. Stanzas 1 and 2 are not performed.",
       "sung_assumed": false,
       "no_lyrics": false,
+      "completeness": "COMPLETE: all 3 stanzas captured.",
       "key_lines": {
         "as_sung_st3": [
           "Unity and justice and freedom for the German fatherland",
@@ -200,16 +212,21 @@
       "iso": "NP",
       "title": "Sayaun Thunga Phulka",
       "languages_scored": ["Nepali"],
-      "structure": "Short (single stanza)",
-      "sung_rule": "Single stanza; as-written = as-sung.",
+      "structure": "2 stanzas of 4 lines; as-written = as-sung.",
+      "sung_rule": "Whole anthem sung; as-written = as-sung.",
       "sung_assumed": false,
       "no_lyrics": false,
+      "completeness": "COMPLETE: full two-stanza English translation captured (corrected from an earlier theme-summary that missed the 'blood of the braves' line).",
       "key_lines": {
         "full": [
           "Woven from hundreds of flowers, we are one garland that's Nepali",
           "Spread sovereign from Mechi to Mahakali",
-          "praises ... unity, courage, pride, scenic beauty, peace, cultural and biological diversity",
-          "homage to Nepal's mountains and rivers and the sacrifices made by brave soldiers and freedom fighters"
+          "A shawl of nature's wealth unending",
+          "From the blood of the braves, a nation free and non-moving",
+          "A land of knowledge, of peace, the plains, hills and mountains tall",
+          "Indivisible, this beloved land of ours, our motherland Nepal",
+          "Of many races, languages, religions, and cultures of incredible sprawl",
+          "This progressive nation of ours, all hail Nepal!"
         ]
       },
       "source_urls": [
@@ -226,6 +243,7 @@
       "sung_rule": "One combined song, sung in full; as-written = as-sung.",
       "sung_assumed": false,
       "no_lyrics": false,
+      "completeness": "COMPLETE: all five language sections captured (isiXhosa/isiZulu/Sesotho/Afrikaans/English).",
       "key_lines": {
         "full": [
           "Nkosi Sikelel' iAfrika - Lord/God bless Africa",

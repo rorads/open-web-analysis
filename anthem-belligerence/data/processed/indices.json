@@ -335,7 +335,7 @@
       "as-sung": {
         "vector": {
           "war_arms": 0,
-          "blood_death": 0,
+          "blood_death": 1,
           "enemy_threat": 0,
           "sacrifice": 1,
           "deity": 0,
@@ -344,16 +344,16 @@
           "freedom_liberty": 1,
           "unity_brotherhood": 3,
           "glory_pride": 1,
-          "wildcard": 1
+          "wildcard": 0
         },
-        "belligerence": 5.1,
+        "belligerence": 15.4,
         "deity_index": 0.0,
         "crown_index": 0.0
       },
       "as-written": {
         "vector": {
           "war_arms": 0,
-          "blood_death": 0,
+          "blood_death": 1,
           "enemy_threat": 0,
           "sacrifice": 1,
           "deity": 0,
@@ -362,9 +362,9 @@
           "freedom_liberty": 1,
           "unity_brotherhood": 3,
           "glory_pride": 1,
-          "wildcard": 1
+          "wildcard": 0
         },
-        "belligerence": 5.1,
+        "belligerence": 15.4,
         "deity_index": 0.0,
         "crown_index": 0.0
       }
@@ -504,8 +504,8 @@
     {
       "country": "Nepal",
       "no_lyrics": false,
-      "belligerence_written": 5.1,
-      "belligerence_sung": 5.1,
+      "belligerence_written": 15.4,
+      "belligerence_sung": 15.4,
       "retired_gap": 0.0,
       "deity_written": 0.0,
       "deity_sung": 0.0,

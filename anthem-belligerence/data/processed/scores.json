@@ -155,22 +155,22 @@
       "country": "Nepal", "version": "as-sung", "flags": ["translation-sensitive"],
       "themes": {
         "unity_brotherhood": {"score": 3, "quote": "Woven from hundreds of flowers, we are one garland that's Nepali", "rationale": "unity-in-diversity is the central metaphor", "confidence": "high"},
-        "land_nature": {"score": 2, "quote": "homage to Nepal's mountains and rivers", "rationale": "geography and natural beauty", "confidence": "high"},
-        "freedom_liberty": {"score": 1, "quote": "Spread sovereign from Mechi to Mahakali", "rationale": "sovereignty mention", "confidence": "med"},
-        "sacrifice": {"score": 1, "quote": "the sacrifices made by brave soldiers and freedom fighters", "rationale": "brief homage to fallen fighters", "confidence": "med"},
-        "glory_pride": {"score": 1, "quote": "pride in the country's diverse ethnic groups", "rationale": "pride in diversity", "confidence": "low"},
-        "wildcard": {"score": 1, "label": "cultural & biological diversity", "quote": "cultural and biological diversity", "rationale": "explicit biodiversity framing is unusual; borderline with land/unity", "confidence": "low"}
+        "land_nature": {"score": 2, "quote": "A shawl of nature's wealth unending ... the plains, hills and mountains tall", "rationale": "geography and natural beauty", "confidence": "high"},
+        "blood_death": {"score": 1, "quote": "From the blood of the braves, a nation free", "rationale": "literal blood of the fallen invoked as the foundation of the free nation; mild but explicit", "confidence": "high"},
+        "sacrifice": {"score": 1, "quote": "From the blood of the braves, a nation free", "rationale": "honours those who died for freedom", "confidence": "med"},
+        "freedom_liberty": {"score": 1, "quote": "Spread sovereign from Mechi to Mahakali ... a nation free", "rationale": "sovereignty / freedom mention", "confidence": "med"},
+        "glory_pride": {"score": 1, "quote": "This progressive nation of ours, all hail Nepal!", "rationale": "mild national pride", "confidence": "low"}
       }
     },
     {
       "country": "Nepal", "version": "as-written", "flags": ["translation-sensitive"],
       "themes": {
         "unity_brotherhood": {"score": 3, "quote": "Woven from hundreds of flowers, we are one garland that's Nepali", "rationale": "unity-in-diversity central", "confidence": "high"},
-        "land_nature": {"score": 2, "quote": "homage to Nepal's mountains and rivers", "rationale": "geography/beauty", "confidence": "high"},
-        "freedom_liberty": {"score": 1, "quote": "Spread sovereign from Mechi to Mahakali", "rationale": "sovereignty", "confidence": "med"},
-        "sacrifice": {"score": 1, "quote": "the sacrifices made by brave soldiers and freedom fighters", "rationale": "homage to fallen", "confidence": "med"},
-        "glory_pride": {"score": 1, "quote": "pride in the country's diverse ethnic groups", "rationale": "pride in diversity", "confidence": "low"},
-        "wildcard": {"score": 1, "label": "cultural & biological diversity", "quote": "cultural and biological diversity", "rationale": "biodiversity framing unusual", "confidence": "low"}
+        "land_nature": {"score": 2, "quote": "A shawl of nature's wealth unending ... the plains, hills and mountains tall", "rationale": "geography/beauty", "confidence": "high"},
+        "blood_death": {"score": 1, "quote": "From the blood of the braves, a nation free", "rationale": "literal blood of the fallen as foundation of the free nation; mild but explicit", "confidence": "high"},
+        "sacrifice": {"score": 1, "quote": "From the blood of the braves, a nation free", "rationale": "honours those who died for freedom", "confidence": "med"},
+        "freedom_liberty": {"score": 1, "quote": "Spread sovereign from Mechi to Mahakali ... a nation free", "rationale": "sovereignty / freedom", "confidence": "med"},
+        "glory_pride": {"score": 1, "quote": "This progressive nation of ours, all hail Nepal!", "rationale": "mild national pride", "confidence": "low"}
       }
     },
     {
