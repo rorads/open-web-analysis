@@ -21,10 +21,12 @@ most analyses is a blog post at `rorads.github.io`; this repo is the research bu
 3. **Score against the rubric into `data/processed/`.** Each non-zero score carries a
    quoted evidence line, a one-line **rationale**, and a confidence level (`low`/`med`/`high`).
    LLM-assisted scoring must ground every score in the supplied source text, not model recall.
-   **Mark LLM-generated data as such** and record run provenance — model id + version, date,
-   the exact prompt, the rubric version/hash, and generation settings (temperature/seed) — so
-   any run is reproducible. Prefer deterministic settings; a re-run against a changed rubric is
-   a new run, not an edit of the old.
+   **Mark LLM-generated data as such** and record run provenance — scorer (model + version, or
+   "agent session"), date, the rubric version/hash, and the source list (plus prompt/temperature
+   for API runs). Two scoring modes are fine depending on corpus size: an **API script** (prefer
+   deterministic settings) or **in-session agent scoring** for small corpora, where transparency
+   comes from the frozen rubric + per-score quote & rationale + preserved raw inputs rather than
+   a seed. Either way, a re-run against a changed rubric is a new run, not an edit of the old.
 4. **Human spot-check.** Review a stratified sample, including known/extreme cases, against
    the LLM scores; recalibrate the rubric or weights if there's systematic divergence; re-run.
    Human overrides are recorded as overrides with a note, never silently overwriting a value.

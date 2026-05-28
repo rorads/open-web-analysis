@@ -99,29 +99,39 @@ intensity) is retained for clustering countries by profile, independent of the h
 
 ## 6. Scoring process
 
-1. Fetch corpus → `data/raw/` (one file per anthem: original, translation, sung-verse note,
-   source URLs). Raw evidence is immutable once fetched.
-2. LLM-assisted scoring grounded in the supplied text → `data/processed/scores.csv`, one row
-   per (anthem × {as-written, as-sung} × theme) carrying: `score` (0–3), `evidence_quote`
-   (translation), `evidence_original` (source language), `rationale` (one line on *why* this
-   score, not just the quote), `confidence` (low/med/high), `wildcard_label` (theme 11 only),
-   and `flags` (e.g. `translation-sensitive`, `sung-assumed`).
-3. Compute composites + fingerprints → `data/processed/indices.csv`.
+The scorer is **Claude (Opus) working directly in an agent session** — not an API script with
+a temperature knob. The corpus is small (~195 short texts), so the agent fetches each anthem,
+stores the raw text, and scores it against this rubric inline. This trades away *literal*
+bit-for-bit reproducibility (no fixed seed/temperature) for the thing that actually matters
+here: **method transparency** — frozen rubric, preserved raw inputs, and a quoted line +
+rationale behind every score, so the result is reproducible *in spirit* and auditable line by line.
 
-**Reproducibility & LLM provenance (non-negotiable).**
+1. **Fetch** each anthem via web research → `data/raw/anthems.json`: original-language text,
+   English translation, the sung-verse note + its source, and source URLs + retrieval date.
+   Raw evidence is immutable once fetched.
+2. **Score** in-session, grounded in the stored raw text → `data/processed/scores.json`, one
+   record per (anthem × {as-written, as-sung}); each theme carries `score` (0–3), `quote`
+   (translation), `original` (source language), `rationale` (one line on *why*, not just the
+   quote), `confidence` (low/med/high), `label` (wildcard only). Record-level: `flags`
+   (e.g. `translation-sensitive`, `sung-assumed`, `no-lyrics`).
+3. **Aggregate** composites + fingerprints by **code** (`src/`, run via `uv run`) →
+   `data/processed/indices.{json,csv}`. The fetch→score→aggregate→figure path is re-executable;
+   `data/processed/` is generated and never hand-edited.
 
-- **Mark the source of every datum.** LLM-generated scores are clearly labelled as such and
-  kept distinct from anything fetched or human-entered. Human spot-check edits (§7) are
-  recorded as overrides with a note, never silently overwriting the model's value.
-- **Record the run.** Each scoring run writes `data/processed/run.md` (or a sidecar JSON)
-  capturing: model id + version, date, the exact prompt, the **rubric version/hash** scored
-  against, and generation settings (temperature, seed). A re-run against a changed rubric is a
-  new run, not an edit of the old one.
-- **Deterministic where possible.** Prefer low/zero temperature and a fixed seed so a re-run
-  reproduces the scores; where it can't, say so.
-- **Code-driven, not hand-massaged.** Corpus fetch, scoring, and aggregation run from scripts
-  in `src/` via `uv run`, so the path from raw evidence → published figure is re-executable
-  end to end. `data/processed/` is generated, never hand-edited (overrides go through code).
+**Provenance & transparency (non-negotiable).**
+
+- **Mark the source of every datum.** Scores are clearly labelled as agent-produced and kept
+  distinct from fetched text and human input. Spot-check corrections (§7) are recorded as
+  overrides with a note, never silently overwriting the original score.
+- **Log the run.** A `data/processed/run.md` records: scorer (`Claude Opus, agent session`),
+  date, the **rubric version** (git short-hash of this file at scoring time), and the source
+  list. Re-scoring against a changed rubric is a new run, not an edit of the old one.
+- **Grounding over recall.** Every score is justified from the stored raw text via a quoted
+  line; a theme with no quotable line scores 0, regardless of what the model "knows" about a
+  famous anthem. This is the main risk of one agent both fetching and scoring, so it is the
+  rule held hardest.
+- **Optional independent pass.** A fresh-context or API re-run against the same `data/raw/` +
+  rubric is a cheap second-rater robustness check if ever wanted.
 
 ## 7. Calibration & human spot-check
 

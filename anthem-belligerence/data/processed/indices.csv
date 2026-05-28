@@ -1,0 +1,11 @@
+country,no_lyrics,belligerence_written,belligerence_sung,retired_gap,deity_written,deity_sung,crown_written,crown_sung
+France,False,94.9,84.6,10.3,0.0,0.0,0.0,0.0
+United States,False,56.4,28.2,28.2,66.7,0.0,0.0,0.0
+United Kingdom,False,43.6,10.3,33.3,100.0,100.0,100.0,100.0
+Algeria,False,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+Japan,False,0.0,0.0,0.0,0.0,0.0,100.0,100.0
+Switzerland,False,0.0,0.0,0.0,100.0,100.0,0.0,0.0
+Spain,True,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Germany,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Nepal,False,5.1,5.1,0.0,0.0,0.0,0.0,0.0
+South Africa,False,0.0,0.0,0.0,100.0,100.0,0.0,0.0

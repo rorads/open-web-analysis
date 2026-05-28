@@ -1,0 +1,246 @@
+{
+  "_about": "Raw corpus for the anthem-belligerence calibration sample (~10 anthems chosen to stress every part of the rubric). 'key_lines' are short evidence phrases drawn verbatim from the cited sources; full verbatim lyrics are NOT stored here (public-domain texts live at the source URLs, and reproducing full lyrics is unnecessary for scoring). Scores in data/processed/scores.json are grounded in these lines + the cited sources. Retrieved 2026-05-28 via web search.",
+  "anthems": [
+    {
+      "country": "France",
+      "iso": "FR",
+      "title": "La Marseillaise",
+      "languages_scored": ["French"],
+      "structure": "7 verses + refrain",
+      "sung_rule": "Customarily verse 1 + refrain (sometimes also verse 6). All verses official.",
+      "sung_assumed": true,
+      "no_lyrics": false,
+      "key_lines": {
+        "as_sung_v1_refrain": [
+          "Arise, children of the Fatherland, the day of glory has arrived!",
+          "Against us tyranny's bloody banner is raised",
+          "ferocious soldiers ... come to cut the throats of your sons, your companions",
+          "To arms, citizens, form your battalions",
+          "Let an impure blood water our furrows"
+        ],
+        "as_written_extra": [
+          "v6: Sacred love of the Fatherland",
+          "v6: Liberty, cherished Liberty",
+          "later verses sustain martial/blood imagery"
+        ]
+      },
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/La_Marseillaise",
+        "https://www.classicfm.com/discover-music/periods-genres/national-anthems/marseillaise-french-lyrics-meaning/"
+      ]
+    },
+    {
+      "country": "United States",
+      "iso": "US",
+      "title": "The Star-Spangled Banner",
+      "languages_scored": ["English"],
+      "structure": "4 verses",
+      "sung_rule": "Verse 1 only is performed in virtually all settings.",
+      "sung_assumed": false,
+      "no_lyrics": false,
+      "key_lines": {
+        "as_sung_v1": [
+          "the rockets' red glare, the bombs bursting in air",
+          "gave proof through the night that our flag was still there",
+          "the land of the free and the home of the brave"
+        ],
+        "as_written_extra": [
+          "v3: No refuge could save the hireling and slave / From the terror of flight or the gloom of the grave",
+          "v4: Then conquer we must, when our cause it is just",
+          "v4: And this be our motto: 'In God is our trust'",
+          "v4: the land of the free and the home of the brave (freemen)"
+        ]
+      },
+      "source_urls": [
+        "https://amhistory.si.edu/starspangledbanner/the-lyrics.aspx",
+        "https://en.wikipedia.org/wiki/The_Star-Spangled_Banner",
+        "https://www.dictionary.com/e/star-spangled-banner/"
+      ]
+    },
+    {
+      "country": "United Kingdom",
+      "iso": "GB",
+      "title": "God Save the King",
+      "languages_scored": ["English"],
+      "structure": "Multiple verses (commonly cited as 3-6)",
+      "sung_rule": "Verse 1 alone is sung even on official occasions; occasionally + a later verse. The anti-enemy verse 2 is rarely performed.",
+      "sung_assumed": false,
+      "no_lyrics": false,
+      "key_lines": {
+        "as_sung_v1": [
+          "God save our gracious King",
+          "Long live our noble King",
+          "Send him victorious, happy and glorious",
+          "Long to reign over us"
+        ],
+        "as_written_extra": [
+          "v2: O Lord our God arise, Scatter our enemies, And make them fall",
+          "v2: Confound their politics, Frustrate their knavish tricks"
+        ]
+      },
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/God_Save_the_King",
+        "https://www.royal.uk/encyclopedia/national-anthem"
+      ]
+    },
+    {
+      "country": "Algeria",
+      "iso": "DZ",
+      "title": "Kassaman (We Pledge)",
+      "languages_scored": ["Arabic"],
+      "structure": "5 verses",
+      "sung_rule": "All five verses are officially part of the anthem (full performance mandated since 2008). The anti-France verse 3 was historically sometimes omitted.",
+      "sung_assumed": false,
+      "no_lyrics": false,
+      "key_lines": {
+        "full": [
+          "We swear by the lightning that destroys, by the streams of generous blood being shed",
+          "the bright flags that wave ... on the high djebels",
+          "that we are in revolt, whether to live or to die",
+          "We are soldiers in revolt for truth ... we have fought for our independence",
+          "the noise of gunpowder as our rhythm and the sound of machine guns as our melody",
+          "O France, this is the day of reckoning, so prepare to receive from us our answer",
+          "From our heroes we shall make an army ... from our dead we shall build up a glory",
+          "Let it be written with the blood of martyrs"
+        ]
+      },
+      "source_urls": [
+        "https://nationalanthems.info/dz.htm",
+        "https://lyricstranslate.com/en/kassaman-quassaman-we-pledge-algerian-n.html"
+      ]
+    },
+    {
+      "country": "Japan",
+      "iso": "JP",
+      "title": "Kimigayo",
+      "languages_scored": ["Japanese"],
+      "structure": "1 verse (5 lines) - world's shortest anthem",
+      "sung_rule": "Single verse; as-written = as-sung.",
+      "sung_assumed": false,
+      "no_lyrics": false,
+      "key_lines": {
+        "full": [
+          "May your reign continue for a thousand, eight thousand generations",
+          "until the tiny pebbles grow into massive boulders lush with moss"
+        ]
+      },
+      "notes": "Title ~ 'His Imperial Majesty's Reign'; about the longevity of the Emperor's reign.",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Kimigayo",
+        "https://nationalanthems.info/jp.htm"
+      ]
+    },
+    {
+      "country": "Switzerland",
+      "iso": "CH",
+      "title": "Swiss Psalm",
+      "languages_scored": ["German (original)"],
+      "structure": "4 verses",
+      "sung_rule": "Verse 1 most commonly sung; all official. Deity + nature appear in all verses incl. v1, so little gap.",
+      "sung_assumed": true,
+      "no_lyrics": false,
+      "key_lines": {
+        "full": [
+          "When the morning skies grow red ... Thou, O Lord, appeareth in their light",
+          "When the alps glow bright with splendour, pray to God, to Him surrender",
+          "that God, the Lord, dwelleth in this land",
+          "Thou, O loving Father, ever near",
+          "When dark clouds enshroud the hills and grey mist the valley fills"
+        ]
+      },
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Swiss_Psalm",
+        "https://www.classical-music.com/features/works/swiss-national-anthem-lyrics"
+      ]
+    },
+    {
+      "country": "Spain",
+      "iso": "ES",
+      "title": "Marcha Real",
+      "languages_scored": [],
+      "structure": "Instrumental - no official lyrics",
+      "sung_rule": "Wordless since 1978; one of only a few anthems with no official lyrics.",
+      "sung_assumed": false,
+      "no_lyrics": true,
+      "key_lines": {},
+      "notes": "Edge case: scored 0 on all themes, flagged no-lyrics, excluded from index distributions (reported separately).",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Marcha_Real"
+      ]
+    },
+    {
+      "country": "Germany",
+      "iso": "DE",
+      "title": "Deutschlandlied (Das Lied der Deutschen)",
+      "languages_scored": ["German"],
+      "structure": "3 stanzas",
+      "sung_rule": "ONLY the 3rd stanza is the official anthem / sung. Stanzas 1 and 2 are not performed.",
+      "sung_assumed": false,
+      "no_lyrics": false,
+      "key_lines": {
+        "as_sung_st3": [
+          "Unity and justice and freedom for the German fatherland",
+          "the foundation of happiness",
+          "Flourish in the radiance of this happiness, flourish, German fatherland"
+        ],
+        "as_written_extra": [
+          "st1: Germany, Germany above everything, above everything in the world",
+          "st1: From the Meuse to the Neman, from the Adige to the Belt (boundaries)",
+          "st2: German women, German loyalty, German wine and German songs"
+        ]
+      },
+      "notes": "st2 ('German women ... German wine and German songs') is the wildcard-theme test case.",
+      "source_urls": [
+        "https://en.wikisource.org/wiki/Translation:Das_Deutschlandlied",
+        "https://en.wikipedia.org/wiki/Deutschlandlied"
+      ]
+    },
+    {
+      "country": "Nepal",
+      "iso": "NP",
+      "title": "Sayaun Thunga Phulka",
+      "languages_scored": ["Nepali"],
+      "structure": "Short (single stanza)",
+      "sung_rule": "Single stanza; as-written = as-sung.",
+      "sung_assumed": false,
+      "no_lyrics": false,
+      "key_lines": {
+        "full": [
+          "Woven from hundreds of flowers, we are one garland that's Nepali",
+          "Spread sovereign from Mechi to Mahakali",
+          "praises ... unity, courage, pride, scenic beauty, peace, cultural and biological diversity",
+          "homage to Nepal's mountains and rivers and the sacrifices made by brave soldiers and freedom fighters"
+        ]
+      },
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Sayaun_Thunga_Phulka",
+        "https://nationalanthems.info/np.htm"
+      ]
+    },
+    {
+      "country": "South Africa",
+      "iso": "ZA",
+      "title": "National Anthem of South Africa",
+      "languages_scored": ["isiXhosa", "isiZulu", "Sesotho", "Afrikaans", "English"],
+      "structure": "Hybrid combining 'Nkosi Sikelel' iAfrika' + 'Die Stem'; 5 languages",
+      "sung_rule": "One combined song, sung in full; as-written = as-sung.",
+      "sung_assumed": false,
+      "no_lyrics": false,
+      "key_lines": {
+        "full": [
+          "Nkosi Sikelel' iAfrika - Lord/God bless Africa",
+          "Banish wars and strife",
+          "Lord, bless our nation of South Africa",
+          "Sounds the call to come together, and united we shall stand",
+          "Let us live and strive for freedom",
+          "over our everlasting mountains"
+        ]
+      },
+      "notes": "Calibration trap: 'Banish wars and strife' mentions war but as a plea to END it - must NOT score as belligerent.",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/National_anthem_of_South_Africa",
+        "https://www.dirco.gov.za/wp-content/uploads/2023/01/national_anthem0120.pdf"
+      ]
+    }
+  ]
+}

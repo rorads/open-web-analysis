@@ -1,0 +1,527 @@
+{
+  "by_country": {
+    "France": {
+      "country": "France",
+      "flags": [
+        "sung-assumed"
+      ],
+      "as-sung": {
+        "vector": {
+          "war_arms": 3,
+          "blood_death": 3,
+          "enemy_threat": 3,
+          "sacrifice": 0,
+          "deity": 0,
+          "monarch": 0,
+          "land_nature": 1,
+          "freedom_liberty": 0,
+          "unity_brotherhood": 1,
+          "glory_pride": 2,
+          "wildcard": 0
+        },
+        "belligerence": 84.6,
+        "deity_index": 0.0,
+        "crown_index": 0.0
+      },
+      "as-written": {
+        "vector": {
+          "war_arms": 3,
+          "blood_death": 3,
+          "enemy_threat": 3,
+          "sacrifice": 2,
+          "deity": 0,
+          "monarch": 0,
+          "land_nature": 1,
+          "freedom_liberty": 3,
+          "unity_brotherhood": 1,
+          "glory_pride": 2,
+          "wildcard": 0
+        },
+        "belligerence": 94.9,
+        "deity_index": 0.0,
+        "crown_index": 0.0
+      }
+    },
+    "United States": {
+      "country": "United States",
+      "flags": [],
+      "as-sung": {
+        "vector": {
+          "war_arms": 2,
+          "blood_death": 0,
+          "enemy_threat": 1,
+          "sacrifice": 0,
+          "deity": 0,
+          "monarch": 0,
+          "land_nature": 0,
+          "freedom_liberty": 1,
+          "unity_brotherhood": 0,
+          "glory_pride": 1,
+          "wildcard": 0
+        },
+        "belligerence": 28.2,
+        "deity_index": 0.0,
+        "crown_index": 0.0
+      },
+      "as-written": {
+        "vector": {
+          "war_arms": 2,
+          "blood_death": 2,
+          "enemy_threat": 2,
+          "sacrifice": 0,
+          "deity": 2,
+          "monarch": 0,
+          "land_nature": 0,
+          "freedom_liberty": 2,
+          "unity_brotherhood": 0,
+          "glory_pride": 2,
+          "wildcard": 0
+        },
+        "belligerence": 56.4,
+        "deity_index": 66.7,
+        "crown_index": 0.0
+      }
+    },
+    "United Kingdom": {
+      "country": "United Kingdom",
+      "flags": [],
+      "as-sung": {
+        "vector": {
+          "war_arms": 1,
+          "blood_death": 0,
+          "enemy_threat": 0,
+          "sacrifice": 0,
+          "deity": 3,
+          "monarch": 3,
+          "land_nature": 0,
+          "freedom_liberty": 0,
+          "unity_brotherhood": 0,
+          "glory_pride": 1,
+          "wildcard": 0
+        },
+        "belligerence": 10.3,
+        "deity_index": 100.0,
+        "crown_index": 100.0
+      },
+      "as-written": {
+        "vector": {
+          "war_arms": 2,
+          "blood_death": 0,
+          "enemy_threat": 3,
+          "sacrifice": 0,
+          "deity": 3,
+          "monarch": 3,
+          "land_nature": 0,
+          "freedom_liberty": 0,
+          "unity_brotherhood": 0,
+          "glory_pride": 1,
+          "wildcard": 0
+        },
+        "belligerence": 43.6,
+        "deity_index": 100.0,
+        "crown_index": 100.0
+      }
+    },
+    "Algeria": {
+      "country": "Algeria",
+      "flags": [
+        "translation-sensitive",
+        "v3-sometimes-omitted"
+      ],
+      "as-sung": {
+        "vector": {
+          "war_arms": 3,
+          "blood_death": 3,
+          "enemy_threat": 3,
+          "sacrifice": 3,
+          "deity": 0,
+          "monarch": 0,
+          "land_nature": 1,
+          "freedom_liberty": 2,
+          "unity_brotherhood": 1,
+          "glory_pride": 2,
+          "wildcard": 0
+        },
+        "belligerence": 100.0,
+        "deity_index": 0.0,
+        "crown_index": 0.0
+      },
+      "as-written": {
+        "vector": {
+          "war_arms": 3,
+          "blood_death": 3,
+          "enemy_threat": 3,
+          "sacrifice": 3,
+          "deity": 0,
+          "monarch": 0,
+          "land_nature": 1,
+          "freedom_liberty": 2,
+          "unity_brotherhood": 1,
+          "glory_pride": 2,
+          "wildcard": 0
+        },
+        "belligerence": 100.0,
+        "deity_index": 0.0,
+        "crown_index": 0.0
+      }
+    },
+    "Japan": {
+      "country": "Japan",
+      "flags": [],
+      "as-sung": {
+        "vector": {
+          "war_arms": 0,
+          "blood_death": 0,
+          "enemy_threat": 0,
+          "sacrifice": 0,
+          "deity": 0,
+          "monarch": 3,
+          "land_nature": 1,
+          "freedom_liberty": 0,
+          "unity_brotherhood": 0,
+          "glory_pride": 0,
+          "wildcard": 0
+        },
+        "belligerence": 0.0,
+        "deity_index": 0.0,
+        "crown_index": 100.0
+      },
+      "as-written": {
+        "vector": {
+          "war_arms": 0,
+          "blood_death": 0,
+          "enemy_threat": 0,
+          "sacrifice": 0,
+          "deity": 0,
+          "monarch": 3,
+          "land_nature": 1,
+          "freedom_liberty": 0,
+          "unity_brotherhood": 0,
+          "glory_pride": 0,
+          "wildcard": 0
+        },
+        "belligerence": 0.0,
+        "deity_index": 0.0,
+        "crown_index": 100.0
+      }
+    },
+    "Switzerland": {
+      "country": "Switzerland",
+      "flags": [],
+      "as-sung": {
+        "vector": {
+          "war_arms": 0,
+          "blood_death": 0,
+          "enemy_threat": 0,
+          "sacrifice": 0,
+          "deity": 3,
+          "monarch": 0,
+          "land_nature": 3,
+          "freedom_liberty": 0,
+          "unity_brotherhood": 0,
+          "glory_pride": 0,
+          "wildcard": 0
+        },
+        "belligerence": 0.0,
+        "deity_index": 100.0,
+        "crown_index": 0.0
+      },
+      "as-written": {
+        "vector": {
+          "war_arms": 0,
+          "blood_death": 0,
+          "enemy_threat": 0,
+          "sacrifice": 0,
+          "deity": 3,
+          "monarch": 0,
+          "land_nature": 3,
+          "freedom_liberty": 0,
+          "unity_brotherhood": 0,
+          "glory_pride": 0,
+          "wildcard": 0
+        },
+        "belligerence": 0.0,
+        "deity_index": 100.0,
+        "crown_index": 0.0
+      }
+    },
+    "Spain": {
+      "country": "Spain",
+      "flags": [
+        "no-lyrics"
+      ],
+      "as-sung": {
+        "vector": {
+          "war_arms": 0,
+          "blood_death": 0,
+          "enemy_threat": 0,
+          "sacrifice": 0,
+          "deity": 0,
+          "monarch": 0,
+          "land_nature": 0,
+          "freedom_liberty": 0,
+          "unity_brotherhood": 0,
+          "glory_pride": 0,
+          "wildcard": 0
+        },
+        "belligerence": 0.0,
+        "deity_index": 0.0,
+        "crown_index": 0.0
+      },
+      "as-written": {
+        "vector": {
+          "war_arms": 0,
+          "blood_death": 0,
+          "enemy_threat": 0,
+          "sacrifice": 0,
+          "deity": 0,
+          "monarch": 0,
+          "land_nature": 0,
+          "freedom_liberty": 0,
+          "unity_brotherhood": 0,
+          "glory_pride": 0,
+          "wildcard": 0
+        },
+        "belligerence": 0.0,
+        "deity_index": 0.0,
+        "crown_index": 0.0
+      }
+    },
+    "Germany": {
+      "country": "Germany",
+      "flags": [],
+      "as-sung": {
+        "vector": {
+          "war_arms": 0,
+          "blood_death": 0,
+          "enemy_threat": 0,
+          "sacrifice": 0,
+          "deity": 0,
+          "monarch": 0,
+          "land_nature": 1,
+          "freedom_liberty": 3,
+          "unity_brotherhood": 3,
+          "glory_pride": 1,
+          "wildcard": 0
+        },
+        "belligerence": 0.0,
+        "deity_index": 0.0,
+        "crown_index": 0.0
+      },
+      "as-written": {
+        "vector": {
+          "war_arms": 0,
+          "blood_death": 0,
+          "enemy_threat": 0,
+          "sacrifice": 0,
+          "deity": 0,
+          "monarch": 0,
+          "land_nature": 2,
+          "freedom_liberty": 3,
+          "unity_brotherhood": 3,
+          "glory_pride": 3,
+          "wildcard": 2
+        },
+        "belligerence": 0.0,
+        "deity_index": 0.0,
+        "crown_index": 0.0
+      }
+    },
+    "Nepal": {
+      "country": "Nepal",
+      "flags": [
+        "translation-sensitive"
+      ],
+      "as-sung": {
+        "vector": {
+          "war_arms": 0,
+          "blood_death": 0,
+          "enemy_threat": 0,
+          "sacrifice": 1,
+          "deity": 0,
+          "monarch": 0,
+          "land_nature": 2,
+          "freedom_liberty": 1,
+          "unity_brotherhood": 3,
+          "glory_pride": 1,
+          "wildcard": 1
+        },
+        "belligerence": 5.1,
+        "deity_index": 0.0,
+        "crown_index": 0.0
+      },
+      "as-written": {
+        "vector": {
+          "war_arms": 0,
+          "blood_death": 0,
+          "enemy_threat": 0,
+          "sacrifice": 1,
+          "deity": 0,
+          "monarch": 0,
+          "land_nature": 2,
+          "freedom_liberty": 1,
+          "unity_brotherhood": 3,
+          "glory_pride": 1,
+          "wildcard": 1
+        },
+        "belligerence": 5.1,
+        "deity_index": 0.0,
+        "crown_index": 0.0
+      }
+    },
+    "South Africa": {
+      "country": "South Africa",
+      "flags": [
+        "mentions-war-as-peace"
+      ],
+      "as-sung": {
+        "vector": {
+          "war_arms": 0,
+          "blood_death": 0,
+          "enemy_threat": 0,
+          "sacrifice": 0,
+          "deity": 3,
+          "monarch": 0,
+          "land_nature": 1,
+          "freedom_liberty": 2,
+          "unity_brotherhood": 2,
+          "glory_pride": 0,
+          "wildcard": 0
+        },
+        "belligerence": 0.0,
+        "deity_index": 100.0,
+        "crown_index": 0.0
+      },
+      "as-written": {
+        "vector": {
+          "war_arms": 0,
+          "blood_death": 0,
+          "enemy_threat": 0,
+          "sacrifice": 0,
+          "deity": 3,
+          "monarch": 0,
+          "land_nature": 1,
+          "freedom_liberty": 2,
+          "unity_brotherhood": 2,
+          "glory_pride": 0,
+          "wildcard": 0
+        },
+        "belligerence": 0.0,
+        "deity_index": 100.0,
+        "crown_index": 0.0
+      }
+    }
+  },
+  "table": [
+    {
+      "country": "France",
+      "no_lyrics": false,
+      "belligerence_written": 94.9,
+      "belligerence_sung": 84.6,
+      "retired_gap": 10.3,
+      "deity_written": 0.0,
+      "deity_sung": 0.0,
+      "crown_written": 0.0,
+      "crown_sung": 0.0
+    },
+    {
+      "country": "United States",
+      "no_lyrics": false,
+      "belligerence_written": 56.4,
+      "belligerence_sung": 28.2,
+      "retired_gap": 28.2,
+      "deity_written": 66.7,
+      "deity_sung": 0.0,
+      "crown_written": 0.0,
+      "crown_sung": 0.0
+    },
+    {
+      "country": "United Kingdom",
+      "no_lyrics": false,
+      "belligerence_written": 43.6,
+      "belligerence_sung": 10.3,
+      "retired_gap": 33.3,
+      "deity_written": 100.0,
+      "deity_sung": 100.0,
+      "crown_written": 100.0,
+      "crown_sung": 100.0
+    },
+    {
+      "country": "Algeria",
+      "no_lyrics": false,
+      "belligerence_written": 100.0,
+      "belligerence_sung": 100.0,
+      "retired_gap": 0.0,
+      "deity_written": 0.0,
+      "deity_sung": 0.0,
+      "crown_written": 0.0,
+      "crown_sung": 0.0
+    },
+    {
+      "country": "Japan",
+      "no_lyrics": false,
+      "belligerence_written": 0.0,
+      "belligerence_sung": 0.0,
+      "retired_gap": 0.0,
+      "deity_written": 0.0,
+      "deity_sung": 0.0,
+      "crown_written": 100.0,
+      "crown_sung": 100.0
+    },
+    {
+      "country": "Switzerland",
+      "no_lyrics": false,
+      "belligerence_written": 0.0,
+      "belligerence_sung": 0.0,
+      "retired_gap": 0.0,
+      "deity_written": 100.0,
+      "deity_sung": 100.0,
+      "crown_written": 0.0,
+      "crown_sung": 0.0
+    },
+    {
+      "country": "Spain",
+      "no_lyrics": true,
+      "belligerence_written": 0.0,
+      "belligerence_sung": 0.0,
+      "retired_gap": 0.0,
+      "deity_written": 0.0,
+      "deity_sung": 0.0,
+      "crown_written": 0.0,
+      "crown_sung": 0.0
+    },
+    {
+      "country": "Germany",
+      "no_lyrics": false,
+      "belligerence_written": 0.0,
+      "belligerence_sung": 0.0,
+      "retired_gap": 0.0,
+      "deity_written": 0.0,
+      "deity_sung": 0.0,
+      "crown_written": 0.0,
+      "crown_sung": 0.0
+    },
+    {
+      "country": "Nepal",
+      "no_lyrics": false,
+      "belligerence_written": 5.1,
+      "belligerence_sung": 5.1,
+      "retired_gap": 0.0,
+      "deity_written": 0.0,
+      "deity_sung": 0.0,
+      "crown_written": 0.0,
+      "crown_sung": 0.0
+    },
+    {
+      "country": "South Africa",
+      "no_lyrics": false,
+      "belligerence_written": 0.0,
+      "belligerence_sung": 0.0,
+      "retired_gap": 0.0,
+      "deity_written": 100.0,
+      "deity_sung": 100.0,
+      "crown_written": 0.0,
+      "crown_sung": 0.0
+    }
+  ]
+}
