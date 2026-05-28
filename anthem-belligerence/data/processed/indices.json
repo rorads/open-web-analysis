@@ -17,6 +17,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 1,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 84.6,
@@ -35,6 +38,9 @@
           "freedom_liberty": 3,
           "unity_brotherhood": 1,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 94.9,
@@ -57,6 +63,9 @@
           "freedom_liberty": 1,
           "unity_brotherhood": 0,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 28.2,
@@ -75,6 +84,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 0,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 56.4,
@@ -97,6 +109,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 10.3,
@@ -115,6 +130,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 43.6,
@@ -140,6 +158,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 1,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 100.0,
@@ -158,6 +179,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 1,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 100.0,
@@ -180,6 +204,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 0.0,
@@ -198,6 +225,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 0.0,
@@ -220,6 +250,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 0.0,
@@ -238,6 +271,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 0.0,
@@ -262,6 +298,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 0.0,
@@ -280,6 +319,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 0.0,
@@ -302,6 +344,9 @@
           "freedom_liberty": 3,
           "unity_brotherhood": 3,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 0.0,
@@ -320,6 +365,9 @@
           "freedom_liberty": 3,
           "unity_brotherhood": 3,
           "glory_pride": 3,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 0.0,
@@ -344,6 +392,9 @@
           "freedom_liberty": 1,
           "unity_brotherhood": 3,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 15.4,
@@ -362,6 +413,9 @@
           "freedom_liberty": 1,
           "unity_brotherhood": 3,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 15.4,
@@ -386,6 +440,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 2,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 0.0,
@@ -404,6 +461,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 2,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 0.0,
@@ -426,6 +486,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 2,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 38.5,
@@ -444,6 +507,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 2,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 38.5,
@@ -466,6 +532,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 2,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 38.5,
@@ -484,6 +553,9 @@
           "freedom_liberty": 3,
           "unity_brotherhood": 1,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 30.8,
@@ -506,6 +578,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 2,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 0.0,
@@ -524,6 +599,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 2,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 0.0,
@@ -546,6 +624,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 2,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 3
         },
         "belligerence": 66.7,
@@ -564,6 +645,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 2,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 41.0,
@@ -586,6 +670,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 1,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 20.5,
@@ -604,6 +691,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 1,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 20.5,
@@ -626,6 +716,9 @@
           "freedom_liberty": 3,
           "unity_brotherhood": 2,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 0.0,
@@ -644,6 +737,9 @@
           "freedom_liberty": 3,
           "unity_brotherhood": 2,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 0.0,
@@ -668,6 +764,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 2,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 10.3,
@@ -686,6 +785,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 10.3,
@@ -710,6 +812,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 2,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 15.4,
@@ -728,6 +833,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 2,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 15.4,
@@ -750,6 +858,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 0,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 10.3,
@@ -768,6 +879,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 0,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 10.3,
@@ -790,6 +904,9 @@
           "freedom_liberty": 1,
           "unity_brotherhood": 2,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 10.3,
@@ -808,6 +925,9 @@
           "freedom_liberty": 1,
           "unity_brotherhood": 2,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 10.3,
@@ -830,6 +950,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 2,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 51.3,
@@ -848,6 +971,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 3,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 0.0,
@@ -870,6 +996,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 2,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 0.0,
@@ -888,6 +1017,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 2,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 0.0,
@@ -912,6 +1044,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 5.1,
@@ -930,6 +1065,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 0.0,
@@ -952,6 +1090,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 0.0,
@@ -970,6 +1111,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 0.0,
@@ -992,6 +1136,9 @@
           "freedom_liberty": 3,
           "unity_brotherhood": 0,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 48.7,
@@ -1010,6 +1157,9 @@
           "freedom_liberty": 3,
           "unity_brotherhood": 0,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 48.7,
@@ -1032,6 +1182,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 51.3,
@@ -1050,6 +1203,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 20.5,
@@ -1072,6 +1228,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 0.0,
@@ -1090,6 +1249,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 0.0,
@@ -1112,6 +1274,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 0,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 48.7,
@@ -1130,6 +1295,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 0,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 48.7,
@@ -1152,6 +1320,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 2,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 66.7,
@@ -1170,6 +1341,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 2,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 41.0,
@@ -1192,6 +1366,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 0.0,
@@ -1210,6 +1387,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 0.0,
@@ -1232,6 +1412,9 @@
           "freedom_liberty": 1,
           "unity_brotherhood": 1,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 0.0,
@@ -1250,6 +1433,9 @@
           "freedom_liberty": 1,
           "unity_brotherhood": 1,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 0.0,
@@ -1272,6 +1458,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 2,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 0.0,
@@ -1290,6 +1479,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 2,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 0.0,
@@ -1312,6 +1504,9 @@
           "freedom_liberty": 1,
           "unity_brotherhood": 0,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 17.9,
@@ -1330,6 +1525,9 @@
           "freedom_liberty": 1,
           "unity_brotherhood": 0,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 17.9,
@@ -1352,6 +1550,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 1,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 0.0,
@@ -1370,6 +1571,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 1,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 0.0,
@@ -1392,6 +1596,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 3
         },
         "belligerence": 10.3,
@@ -1410,6 +1617,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 3
         },
         "belligerence": 10.3,
@@ -1432,6 +1642,9 @@
           "freedom_liberty": 1,
           "unity_brotherhood": 0,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 0.0,
@@ -1450,6 +1663,9 @@
           "freedom_liberty": 1,
           "unity_brotherhood": 0,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 0.0,
@@ -1472,6 +1688,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 1,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 7.7,
@@ -1490,6 +1709,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 1,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 7.7,
@@ -1512,6 +1734,9 @@
           "freedom_liberty": 1,
           "unity_brotherhood": 0,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 25.6,
@@ -1530,6 +1755,9 @@
           "freedom_liberty": 1,
           "unity_brotherhood": 0,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 25.6,
@@ -1552,6 +1780,9 @@
           "freedom_liberty": 3,
           "unity_brotherhood": 0,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 20.5,
@@ -1570,6 +1801,9 @@
           "freedom_liberty": 3,
           "unity_brotherhood": 0,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 20.5,
@@ -1592,6 +1826,9 @@
           "freedom_liberty": 1,
           "unity_brotherhood": 0,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 35.9,
@@ -1610,6 +1847,9 @@
           "freedom_liberty": 1,
           "unity_brotherhood": 0,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 35.9,
@@ -1632,6 +1872,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 1,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 51.3,
@@ -1650,6 +1893,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 1,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 51.3,
@@ -1672,6 +1918,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 35.9,
@@ -1690,6 +1939,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 35.9,
@@ -1715,6 +1967,9 @@
           "freedom_liberty": 3,
           "unity_brotherhood": 0,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 92.3,
@@ -1733,6 +1988,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 0,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 53.8,
@@ -1755,6 +2013,9 @@
           "freedom_liberty": 1,
           "unity_brotherhood": 2,
           "glory_pride": 3,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 0.0,
@@ -1773,6 +2034,9 @@
           "freedom_liberty": 1,
           "unity_brotherhood": 2,
           "glory_pride": 3,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 0.0,
@@ -1797,6 +2061,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 0.0,
@@ -1815,6 +2082,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 0.0,
@@ -1837,6 +2107,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 2,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 38.5,
@@ -1855,6 +2128,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 2,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 7.7,
@@ -1877,6 +2153,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 1,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 7.7,
@@ -1895,6 +2174,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 1,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 7.7,
@@ -1917,6 +2199,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 2,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 0.0,
@@ -1935,6 +2220,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 2,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 0.0,
@@ -1957,6 +2245,9 @@
           "freedom_liberty": 1,
           "unity_brotherhood": 0,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 0.0,
@@ -1975,6 +2266,9 @@
           "freedom_liberty": 1,
           "unity_brotherhood": 0,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 0.0,
@@ -1997,6 +2291,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 1,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 41.0,
@@ -2015,6 +2312,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 1,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 41.0,
@@ -2037,6 +2337,9 @@
           "freedom_liberty": 1,
           "unity_brotherhood": 1,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 10.3,
@@ -2055,6 +2358,9 @@
           "freedom_liberty": 1,
           "unity_brotherhood": 1,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 10.3,
@@ -2077,6 +2383,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 2,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 30.8,
@@ -2095,6 +2404,9 @@
           "freedom_liberty": 1,
           "unity_brotherhood": 2,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 0.0,
@@ -2117,6 +2429,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 1,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 0.0,
@@ -2135,6 +2450,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 1,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 0.0,
@@ -2157,6 +2475,9 @@
           "freedom_liberty": 1,
           "unity_brotherhood": 2,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 0.0,
@@ -2175,6 +2496,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 2,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 0.0,
@@ -2199,6 +2523,9 @@
           "freedom_liberty": 3,
           "unity_brotherhood": 0,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 76.9,
@@ -2217,6 +2544,9 @@
           "freedom_liberty": 3,
           "unity_brotherhood": 0,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 76.9,
@@ -2241,6 +2571,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 0,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 20.5,
@@ -2259,6 +2592,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 0,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 20.5,
@@ -2284,6 +2620,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 28.2,
@@ -2302,6 +2641,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 28.2,
@@ -2326,6 +2668,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 0,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 74.4,
@@ -2344,6 +2689,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 0,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 74.4,
@@ -2366,6 +2714,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 1,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 0.0,
@@ -2384,6 +2735,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 1,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 0.0,
@@ -2408,6 +2762,9 @@
           "freedom_liberty": 3,
           "unity_brotherhood": 0,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 59.0,
@@ -2426,6 +2783,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 0,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 48.7,
@@ -2448,6 +2808,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 0,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 46.2,
@@ -2466,6 +2829,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 10.3,
@@ -2488,6 +2854,9 @@
           "freedom_liberty": 1,
           "unity_brotherhood": 2,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 0.0,
@@ -2506,6 +2875,9 @@
           "freedom_liberty": 1,
           "unity_brotherhood": 2,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 0.0,
@@ -2528,6 +2900,9 @@
           "freedom_liberty": 1,
           "unity_brotherhood": 0,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 56.4,
@@ -2546,6 +2921,9 @@
           "freedom_liberty": 1,
           "unity_brotherhood": 0,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 56.4,
@@ -2570,6 +2948,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 2,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 48.7,
@@ -2588,6 +2969,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 2,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 7.7,
@@ -2610,6 +2994,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 46.2,
@@ -2628,6 +3015,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 46.2,
@@ -2650,6 +3040,9 @@
           "freedom_liberty": 1,
           "unity_brotherhood": 1,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 0.0,
@@ -2668,6 +3061,9 @@
           "freedom_liberty": 1,
           "unity_brotherhood": 1,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 0.0,
@@ -2690,6 +3086,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 87.2,
@@ -2708,6 +3107,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 87.2,
@@ -2732,6 +3134,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 1,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 20.5,
@@ -2750,6 +3155,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 1,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 20.5,
@@ -2772,6 +3180,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 2,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 10.3,
@@ -2790,6 +3201,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 2,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 10.3,
@@ -2812,6 +3226,9 @@
           "freedom_liberty": 1,
           "unity_brotherhood": 2,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 10.3,
@@ -2830,6 +3247,9 @@
           "freedom_liberty": 1,
           "unity_brotherhood": 2,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 10.3,
@@ -2852,6 +3272,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 1,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 10.3,
@@ -2870,6 +3293,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 1,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 10.3,
@@ -2892,6 +3318,9 @@
           "freedom_liberty": 1,
           "unity_brotherhood": 0,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 0.0,
@@ -2910,6 +3339,9 @@
           "freedom_liberty": 1,
           "unity_brotherhood": 0,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 0.0,
@@ -2932,6 +3364,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 2,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 5.1,
@@ -2950,6 +3385,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 2,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 5.1,
@@ -2972,6 +3410,9 @@
           "freedom_liberty": 3,
           "unity_brotherhood": 0,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 41.0,
@@ -2990,6 +3431,9 @@
           "freedom_liberty": 3,
           "unity_brotherhood": 0,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 41.0,
@@ -3014,6 +3458,9 @@
           "freedom_liberty": 3,
           "unity_brotherhood": 0,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 71.8,
@@ -3032,6 +3479,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 0,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 41.0,
@@ -3054,6 +3504,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 0,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 20.5,
@@ -3072,6 +3525,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 0,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 20.5,
@@ -3094,6 +3550,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 0,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 43.6,
@@ -3112,6 +3571,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 0,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 15.4,
@@ -3134,6 +3596,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 0,
           "glory_pride": 3,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 41.0,
@@ -3152,6 +3617,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 0,
           "glory_pride": 3,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 20.5,
@@ -3174,6 +3642,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 56.4,
@@ -3192,6 +3663,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 35.9,
@@ -3214,6 +3688,9 @@
           "freedom_liberty": 1,
           "unity_brotherhood": 2,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 30.8,
@@ -3232,6 +3709,9 @@
           "freedom_liberty": 1,
           "unity_brotherhood": 2,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 30.8,
@@ -3254,6 +3734,9 @@
           "freedom_liberty": 3,
           "unity_brotherhood": 1,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 46.2,
@@ -3272,6 +3755,9 @@
           "freedom_liberty": 3,
           "unity_brotherhood": 1,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 46.2,
@@ -3294,6 +3780,9 @@
           "freedom_liberty": 3,
           "unity_brotherhood": 0,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 30.8,
@@ -3312,6 +3801,9 @@
           "freedom_liberty": 3,
           "unity_brotherhood": 0,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 5.1,
@@ -3334,6 +3826,9 @@
           "freedom_liberty": 1,
           "unity_brotherhood": 1,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 30.8,
@@ -3352,6 +3847,9 @@
           "freedom_liberty": 1,
           "unity_brotherhood": 1,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 30.8,
@@ -3376,6 +3874,9 @@
           "freedom_liberty": 3,
           "unity_brotherhood": 0,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 71.8,
@@ -3394,6 +3895,9 @@
           "freedom_liberty": 3,
           "unity_brotherhood": 0,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 71.8,
@@ -3416,6 +3920,9 @@
           "freedom_liberty": 3,
           "unity_brotherhood": 2,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 35.9,
@@ -3434,6 +3941,9 @@
           "freedom_liberty": 3,
           "unity_brotherhood": 0,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 7.7,
@@ -3456,6 +3966,9 @@
           "freedom_liberty": 1,
           "unity_brotherhood": 2,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 0.0,
@@ -3474,6 +3987,9 @@
           "freedom_liberty": 1,
           "unity_brotherhood": 1,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 0.0,
@@ -3496,6 +4012,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 2,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 10.3,
@@ -3514,6 +4033,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 2,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 10.3,
@@ -3536,6 +4058,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 3,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 0.0,
@@ -3554,6 +4079,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 3,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 0.0,
@@ -3576,6 +4104,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 0.0,
@@ -3594,6 +4125,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 0.0,
@@ -3616,6 +4150,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 3,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 0.0,
@@ -3634,6 +4171,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 3,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 0.0,
@@ -3656,6 +4196,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 0.0,
@@ -3674,6 +4217,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 0.0,
@@ -3696,6 +4242,9 @@
           "freedom_liberty": 1,
           "unity_brotherhood": 1,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 35.9,
@@ -3714,6 +4263,9 @@
           "freedom_liberty": 1,
           "unity_brotherhood": 0,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 0.0,
@@ -3738,6 +4290,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 2,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 20.5,
@@ -3756,6 +4311,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 2,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 20.5,
@@ -3778,6 +4336,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 0,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 0.0,
@@ -3796,6 +4357,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 0,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 0.0,
@@ -3820,6 +4384,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 0,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 10.3,
@@ -3838,6 +4405,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 0,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 10.3,
@@ -3860,6 +4430,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 1,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 0.0,
@@ -3878,6 +4451,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 1,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 0.0,
@@ -3900,6 +4476,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 5.1,
@@ -3918,6 +4497,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 5.1,
@@ -3942,6 +4524,9 @@
           "freedom_liberty": 1,
           "unity_brotherhood": 2,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 0.0,
@@ -3960,6 +4545,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 2,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 0.0,
@@ -3982,6 +4570,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 3,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 0.0,
@@ -4000,6 +4591,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 3,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 0.0,
@@ -4024,6 +4618,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 2,
           "glory_pride": 3,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 10.3,
@@ -4042,6 +4639,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 2,
           "glory_pride": 3,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 10.3,
@@ -4064,6 +4664,9 @@
           "freedom_liberty": 1,
           "unity_brotherhood": 0,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 3
         },
         "belligerence": 10.3,
@@ -4082,6 +4685,9 @@
           "freedom_liberty": 1,
           "unity_brotherhood": 0,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 3
         },
         "belligerence": 10.3,
@@ -4104,6 +4710,9 @@
           "freedom_liberty": 1,
           "unity_brotherhood": 0,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 28.2,
@@ -4122,6 +4731,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 0.0,
@@ -4144,6 +4756,9 @@
           "freedom_liberty": 3,
           "unity_brotherhood": 2,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 15.4,
@@ -4162,6 +4777,9 @@
           "freedom_liberty": 3,
           "unity_brotherhood": 2,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 15.4,
@@ -4184,6 +4802,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 0,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 35.9,
@@ -4202,6 +4823,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 0,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 35.9,
@@ -4224,6 +4848,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 0.0,
@@ -4242,6 +4869,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 0.0,
@@ -4264,6 +4894,9 @@
           "freedom_liberty": 1,
           "unity_brotherhood": 2,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 5.1,
@@ -4282,6 +4915,9 @@
           "freedom_liberty": 1,
           "unity_brotherhood": 2,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 5.1,
@@ -4306,6 +4942,9 @@
           "freedom_liberty": 1,
           "unity_brotherhood": 3,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 7.7,
@@ -4324,6 +4963,9 @@
           "freedom_liberty": 1,
           "unity_brotherhood": 3,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 0.0,
@@ -4346,6 +4988,9 @@
           "freedom_liberty": 1,
           "unity_brotherhood": 2,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 0.0,
@@ -4364,6 +5009,9 @@
           "freedom_liberty": 1,
           "unity_brotherhood": 2,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 0.0,
@@ -4386,6 +5034,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 2,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 30.8,
@@ -4404,6 +5055,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 2,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 30.8,
@@ -4426,6 +5080,9 @@
           "freedom_liberty": 3,
           "unity_brotherhood": 2,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 30.8,
@@ -4444,6 +5101,9 @@
           "freedom_liberty": 3,
           "unity_brotherhood": 2,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 30.8,
@@ -4466,6 +5126,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 2,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 56.4,
@@ -4484,6 +5147,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 2,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 56.4,
@@ -4506,6 +5172,9 @@
           "freedom_liberty": 1,
           "unity_brotherhood": 2,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 5.1,
@@ -4524,6 +5193,9 @@
           "freedom_liberty": 1,
           "unity_brotherhood": 2,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 5.1,
@@ -4548,6 +5220,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 7.7,
@@ -4566,6 +5241,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 7.7,
@@ -4588,6 +5266,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 1,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 33.3,
@@ -4606,6 +5287,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 1,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 33.3,
@@ -4630,6 +5314,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 0,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 61.5,
@@ -4648,6 +5335,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 0,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 51.3,
@@ -4670,6 +5360,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 5.1,
@@ -4688,6 +5381,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 5.1,
@@ -4710,6 +5406,9 @@
           "freedom_liberty": 1,
           "unity_brotherhood": 2,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 30.8,
@@ -4728,6 +5427,9 @@
           "freedom_liberty": 1,
           "unity_brotherhood": 2,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 30.8,
@@ -4752,6 +5454,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 2,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 46.2,
@@ -4770,6 +5475,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 2,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 46.2,
@@ -4794,6 +5502,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 46.2,
@@ -4812,6 +5523,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 10.3,
@@ -4834,6 +5548,9 @@
           "freedom_liberty": 1,
           "unity_brotherhood": 2,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 0.0,
@@ -4852,6 +5569,9 @@
           "freedom_liberty": 1,
           "unity_brotherhood": 2,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 0.0,
@@ -4874,6 +5594,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 1,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 20.5,
@@ -4892,6 +5615,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 1,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 20.5,
@@ -4916,6 +5642,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 2,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 35.9,
@@ -4934,6 +5663,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 1,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 10.3,
@@ -4956,6 +5688,9 @@
           "freedom_liberty": 3,
           "unity_brotherhood": 2,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 35.9,
@@ -4974,6 +5709,9 @@
           "freedom_liberty": 3,
           "unity_brotherhood": 2,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 35.9,
@@ -4996,6 +5734,9 @@
           "freedom_liberty": 1,
           "unity_brotherhood": 2,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 51.3,
@@ -5014,6 +5755,9 @@
           "freedom_liberty": 1,
           "unity_brotherhood": 2,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 51.3,
@@ -5036,6 +5780,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 2,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 17.9,
@@ -5054,6 +5801,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 2,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 0.0,
@@ -5076,6 +5826,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 2,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 35.9,
@@ -5094,6 +5847,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 2,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 35.9,
@@ -5118,6 +5874,9 @@
           "freedom_liberty": 3,
           "unity_brotherhood": 2,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 33.3,
@@ -5136,6 +5895,9 @@
           "freedom_liberty": 3,
           "unity_brotherhood": 2,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 20.5,
@@ -5160,6 +5922,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 2,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 10.3,
@@ -5178,6 +5943,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 2,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 0.0,
@@ -5200,6 +5968,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 2,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 0.0,
@@ -5218,6 +5989,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 2,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 0.0,
@@ -5242,6 +6016,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 2,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 15.4,
@@ -5260,6 +6037,9 @@
           "freedom_liberty": 1,
           "unity_brotherhood": 2,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 0.0,
@@ -5282,6 +6062,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 3
         },
         "belligerence": 0.0,
@@ -5300,6 +6083,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 3
         },
         "belligerence": 0.0,
@@ -5322,6 +6108,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 2,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 30.8,
@@ -5340,6 +6129,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 2,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 30.8,
@@ -5364,6 +6156,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 66.7,
@@ -5382,6 +6177,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 66.7,
@@ -5406,6 +6204,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 2,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 0.0,
@@ -5424,6 +6225,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 2,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 0.0,
@@ -5448,6 +6252,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 2,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 56.4,
@@ -5466,6 +6273,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 0,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 56.4,
@@ -5488,6 +6298,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 0,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 76.9,
@@ -5506,6 +6319,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 0,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 76.9,
@@ -5528,6 +6344,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 2,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 0.0,
@@ -5546,6 +6365,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 2,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 0.0,
@@ -5568,6 +6390,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 2,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 10.3,
@@ -5586,6 +6411,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 2,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 10.3,
@@ -5610,6 +6438,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 0,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 33.3,
@@ -5628,6 +6459,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 0,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 33.3,
@@ -5652,6 +6486,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 41.0,
@@ -5670,6 +6507,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 41.0,
@@ -5692,6 +6532,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 0,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 51.3,
@@ -5710,6 +6553,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 0,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 51.3,
@@ -5734,6 +6580,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 66.7,
@@ -5752,6 +6601,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 66.7,
@@ -5774,6 +6626,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 1,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 0.0,
@@ -5792,6 +6647,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 1,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 0.0,
@@ -5814,6 +6672,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 0.0,
@@ -5832,6 +6693,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 0.0,
@@ -5854,6 +6718,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 0.0,
@@ -5872,6 +6739,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 0.0,
@@ -5894,6 +6764,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 0.0,
@@ -5912,6 +6785,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 0.0,
@@ -5936,6 +6812,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 0.0,
@@ -5954,6 +6833,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 0.0,
@@ -5976,6 +6858,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 2,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 66.7,
@@ -5994,6 +6879,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 2,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 66.7,
@@ -6016,6 +6904,9 @@
           "freedom_liberty": 3,
           "unity_brotherhood": 0,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 0.0,
@@ -6034,6 +6925,9 @@
           "freedom_liberty": 3,
           "unity_brotherhood": 0,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 0.0,
@@ -6056,6 +6950,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 2,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 0.0,
@@ -6074,6 +6971,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 2,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 0.0,
@@ -6096,6 +6996,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 2,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 10.3,
@@ -6114,6 +7017,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 2,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 10.3,
@@ -6136,6 +7042,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 0,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 30.8,
@@ -6154,6 +7063,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 0,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 30.8,
@@ -6176,6 +7088,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 0,
           "glory_pride": 3,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 66.7,
@@ -6194,6 +7109,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 0,
           "glory_pride": 3,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 66.7,
@@ -6216,6 +7134,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 0,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 3
         },
         "belligerence": 0.0,
@@ -6234,6 +7155,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 0,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 3
         },
         "belligerence": 0.0,
@@ -6256,6 +7180,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 20.5,
@@ -6274,6 +7201,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 0.0,
@@ -6296,6 +7226,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 1,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 0.0,
@@ -6314,6 +7247,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 1,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 0.0,
@@ -6336,6 +7272,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 1,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 10.3,
@@ -6354,6 +7293,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 1,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 10.3,
@@ -6376,6 +7318,9 @@
           "freedom_liberty": 3,
           "unity_brotherhood": 2,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 5.1,
@@ -6394,6 +7339,9 @@
           "freedom_liberty": 3,
           "unity_brotherhood": 2,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 5.1,
@@ -6416,6 +7364,9 @@
           "freedom_liberty": 3,
           "unity_brotherhood": 2,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 20.5,
@@ -6434,6 +7385,9 @@
           "freedom_liberty": 3,
           "unity_brotherhood": 2,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 20.5,
@@ -6456,6 +7410,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 2,
           "glory_pride": 3,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 15.4,
@@ -6474,6 +7431,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 2,
           "glory_pride": 3,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 15.4,
@@ -6498,6 +7458,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 1,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 15.4,
@@ -6516,6 +7479,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 1,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 15.4,
@@ -6538,6 +7504,9 @@
           "freedom_liberty": 1,
           "unity_brotherhood": 2,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 15.4,
@@ -6556,6 +7525,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 2,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 0.0,
@@ -6580,6 +7552,9 @@
           "freedom_liberty": 1,
           "unity_brotherhood": 1,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 23.1,
@@ -6598,6 +7573,9 @@
           "freedom_liberty": 1,
           "unity_brotherhood": 1,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 23.1,
@@ -6620,6 +7598,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 1,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 30.8,
@@ -6638,6 +7619,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 1,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 30.8,
@@ -6660,6 +7644,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 10.3,
@@ -6678,6 +7665,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 10.3,
@@ -6700,6 +7690,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 10.3,
@@ -6718,6 +7711,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 10.3,
@@ -6740,6 +7736,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 2,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 0.0,
@@ -6758,6 +7757,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 2,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 0.0,
@@ -6780,6 +7782,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 0,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 51.3,
@@ -6798,6 +7803,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 0,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 51.3,
@@ -6820,6 +7828,9 @@
           "freedom_liberty": 1,
           "unity_brotherhood": 0,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 41.0,
@@ -6838,6 +7849,9 @@
           "freedom_liberty": 1,
           "unity_brotherhood": 0,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 41.0,
@@ -6860,6 +7874,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 0.0,
@@ -6878,6 +7895,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 0.0,
@@ -6900,6 +7920,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 3,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 0.0,
@@ -6918,6 +7941,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 3,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 0.0,
@@ -6940,6 +7966,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 1,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 15.4,
@@ -6958,6 +7987,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 1,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 0.0,
@@ -6980,6 +8012,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 2,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 0.0,
@@ -6998,6 +8033,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 2,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 0.0,
@@ -7022,6 +8060,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 2,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 48.7,
@@ -7040,6 +8081,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 2,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 48.7,
@@ -7062,6 +8106,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 1,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 0.0,
@@ -7080,6 +8127,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 1,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 0.0,
@@ -7102,6 +8152,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 2,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 66.7,
@@ -7120,6 +8173,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 2,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 66.7,
@@ -7142,6 +8198,9 @@
           "freedom_liberty": 3,
           "unity_brotherhood": 1,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 38.5,
@@ -7160,6 +8219,9 @@
           "freedom_liberty": 3,
           "unity_brotherhood": 1,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 38.5,
@@ -7184,6 +8246,9 @@
           "freedom_liberty": 3,
           "unity_brotherhood": 0,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 48.7,
@@ -7202,6 +8267,9 @@
           "freedom_liberty": 3,
           "unity_brotherhood": 0,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 48.7,
@@ -7226,6 +8294,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 2,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 30.8,
@@ -7244,6 +8315,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 2,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 30.8,
@@ -7266,6 +8340,9 @@
           "freedom_liberty": 1,
           "unity_brotherhood": 2,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 20.5,
@@ -7284,6 +8361,9 @@
           "freedom_liberty": 1,
           "unity_brotherhood": 2,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 20.5,
@@ -7306,6 +8386,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 1,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 0.0,
@@ -7324,6 +8407,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 1,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 0.0,
@@ -7346,6 +8432,9 @@
           "freedom_liberty": 1,
           "unity_brotherhood": 2,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 71.8,
@@ -7364,6 +8453,9 @@
           "freedom_liberty": 1,
           "unity_brotherhood": 2,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 71.8,
@@ -7388,6 +8480,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 2,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 20.5,
@@ -7406,6 +8501,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 2,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 20.5,
@@ -7430,6 +8528,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 0,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 74.4,
@@ -7448,6 +8549,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 0,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 74.4,
@@ -7470,6 +8574,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 2,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 48.7,
@@ -7488,6 +8595,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 2,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 0.0,
@@ -7510,6 +8620,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 0,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 3
         },
         "belligerence": 7.7,
@@ -7528,6 +8641,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 0,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 3
         },
         "belligerence": 7.7,
@@ -7552,6 +8668,9 @@
           "freedom_liberty": 1,
           "unity_brotherhood": 1,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 10.3,
@@ -7570,6 +8689,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 0.0,
@@ -7592,6 +8714,9 @@
           "freedom_liberty": 1,
           "unity_brotherhood": 3,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 10.3,
@@ -7610,6 +8735,9 @@
           "freedom_liberty": 1,
           "unity_brotherhood": 3,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 10.3,
@@ -7632,6 +8760,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 1,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 41.0,
@@ -7650,6 +8781,9 @@
           "freedom_liberty": 2,
           "unity_brotherhood": 1,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 41.0,
@@ -7674,6 +8808,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 0.0,
@@ -7692,6 +8829,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 0.0,
@@ -7714,6 +8854,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 0.0,
@@ -7732,6 +8875,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 0.0,
@@ -7754,6 +8900,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 10.3,
@@ -7772,6 +8921,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 2,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 0.0,
@@ -7796,6 +8948,9 @@
           "freedom_liberty": 3,
           "unity_brotherhood": 0,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 41.0,
@@ -7814,6 +8969,9 @@
           "freedom_liberty": 3,
           "unity_brotherhood": 0,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 41.0,
@@ -7836,6 +8994,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 0.0,
@@ -7854,6 +9015,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 0
         },
         "belligerence": 0.0,
@@ -7876,6 +9040,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 1,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 2
         },
         "belligerence": 0.0,
@@ -7894,6 +9061,9 @@
           "freedom_liberty": 0,
           "unity_brotherhood": 0,
           "glory_pride": 0,
+          "labour_work": 0,
+          "flag": 0,
+          "ancestors_heritage": 0,
           "wildcard": 1
         },
         "belligerence": 0.0,
