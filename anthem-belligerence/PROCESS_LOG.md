@@ -86,4 +86,31 @@ risk is **under-scoring multi-verse anthems** (Senegal-type misses), more than s
 Spot-check corrections are in v1, so v2 inherits them. Launching the 16-agent v2 pass (3 new
 themes only); merge_v2 folds matching wildcards in. Composites should stay identical to corrected-v1.
 
+## 2026-05-28 — v2 result (17 agents: 16 batches + the calibration set)
+
+Ran cleanly. merge_v2 attached the promoted themes (labour_work 88 records, flag 116, ancestors
+138) and folded 92 matching wildcards in. **Composite regression check passed: 0 of 768 composite
+cells changed v1→v2** — belligerence/deity/crown are byte-identical, exactly as the design intended.
+
+What the promotion revealed:
+- **Ancestors/heritage (39%) and the flag (34%) are top-tier themes** — ancestors is *more common
+  than the enemy* (36%). Labour 25%.
+- **Region signatures sharpened.** Africa's #1 signature flips to **labour/work (+0.49)** — the
+  "build the nation" developmental ethos; **Europe's is ancestors/heritage** (the old-anthem
+  forefather lean). Americas stays martial, Oceania devotional.
+- **Clustering reorganised:** two *new* families split out — a **flag/patriotic** cluster (USA,
+  Albania, Turkey, Honduras, Namibia, Zimbabwe) and a **labour/developmental** cluster (Togo,
+  Niger, Haiti, Mali, Syria). Promoting the themes changed the map, which is the point.
+- Calibration check: USA flag=3 (the anthem *is* an address to the flag), Algeria flag=2, France
+  ancestors=1 (unsung verse 7 only). The agent correctly excluded France's "bloody banner" as the
+  enemy's battle-prop per the carve-out.
+- **Next candidate theme:** the remaining wildcard tail is topped by **peace** (13 anthems) — the
+  pacifist counter-theme would be the v3 promotion.
+
+Both tasks done: findings lifted provisional → **validated** (`FINDINGS.md`), v2 rubric live.
+The interesting process arc for a write-up: rubric-first → calibrate → two reviewer catches →
+full run → findings → blind spot-check (caught Senegal) → wildcard-driven v2 that reshaped the
+clusters. The wildcard escape-hatch *earning its keep* (promoting itself into real themes) is the
+methodological story.
+
 _(appended as work proceeds)_

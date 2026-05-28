@@ -1,8 +1,8 @@
 # Anthem belligerence
 
-**Status:** **Full run complete — all 195 states scored** (2026-05-28). Rubric `e668eec`.
-**Provisional write-up: [`FINDINGS.md`](FINDINGS.md).** Run log: `data/processed/run.md`;
-§8 + bonus analysis: `data/processed/{exploratory,findings_extra}.json`.
+**Status:** **Complete & validated — all 195 states, v2 rubric (14 themes)** (2026-05-28).
+Blind second-rater spot-check: 96% within ±1. **Write-up: [`FINDINGS.md`](FINDINGS.md)**;
+process narrative: [`PROCESS_LOG.md`](PROCESS_LOG.md); run log: `data/processed/run.md`.
 
 **Question.** What do nations actually sing about themselves — and how warlike is it, both
 in the full official text and in the verses people actually perform?
@@ -14,17 +14,18 @@ in the full official text and in the verses people actually perform?
   (Algeria, France, Vietnam, Palestine, Tunisia, Cuba, all at deity 0). The belligerence
   themes themselves cohere tightly (blood↔sacrifice r=0.58, war↔enemy r=0.52), which validates
   the composite. Sudan ("army of God") is the rare high-God, high-Guns outlier.
-- **The retired-belligerence gap is real and large for many.** Congo-Brazzaville (51→0),
-  Albania (49→0), New Zealand (36→0), Romania (92→54), Haiti, El Salvador, Mauritania, the UK
-  (44→10) and USA (56→28) all carry warlike content they no longer perform. See the dumbbell.
-- **Most belligerent regions:** Americas (mean 34.5) > Africa (25.2) > Asia (22.4) ≈ Europe
+- **The retired-belligerence gap is real and large for many.** Senegal (56→0, found in the
+  spot-check), Congo-Brazzaville (51→0), Albania (49→0), New Zealand (36→0), Romania (92→54),
+  the UK (44→10) and USA (56→28) all carry warlike content they no longer perform. See the dumbbell.
+- **Most belligerent regions:** Americas (mean 34.5) > Africa (26.0) > Asia (22.1) ≈ Europe
   (22.0) ≫ Oceania (5.9). **Crown** is an Asia/Europe phenomenon and **zero** in the Americas
-  (all republics). 57 of 192 anthems score zero belligerence.
+  (all republics). Region signatures: Africa = labour/unity, Europe = heritage, Oceania = God/land.
 - **Anthem age is a null result:** r=−0.10 between year-of-lyrics and belligerence. Old ≠ warlike.
-- **Five thematic families** fall out of k-means on the fingerprint: royal/devotional ·
-  pastoral · civic-devotional · **revolutionary/martial (54 countries)** · proud/patriotic.
-- **The wildcard surfaced two themes the rubric missed:** *labour/work* and *the flag* both
-  recur heavily — candidates to promote to numbered themes in a v2 rubric.
+- **Five thematic families** (k-means, 13 themes): royal/devotional · pastoral/civic ·
+  **labour/developmental** · **revolutionary/martial (52)** · **flag/patriotic** (incl. the USA).
+- **The wildcard earned its keep:** *labour/work*, *the flag* and *ancestors/heritage* recurred
+  so often they were **promoted to numbered themes in v2** (ancestors 39% is now more common than
+  the enemy). The next candidate the wildcard is flagging: *peace* (13 anthems).
 
 **Figures (`outputs/`):** `god-vs-guns.svg` (belligerence × deity, by region) ·
 `retired-gap.svg` (written→sung dumbbell) · `region-theme-heatmap.svg` (region fingerprints) ·

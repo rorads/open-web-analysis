@@ -4,160 +4,240 @@
     "matrix": {
       "war_arms": {
         "war_arms": 1.0,
-        "blood_death": 0.462,
-        "enemy_threat": 0.516,
-        "sacrifice": 0.439,
-        "deity": -0.199,
-        "monarch": -0.159,
-        "land_nature": -0.199,
-        "freedom_liberty": 0.243,
-        "unity_brotherhood": -0.158,
-        "glory_pride": 0.208
+        "blood_death": 0.468,
+        "enemy_threat": 0.522,
+        "sacrifice": 0.448,
+        "deity": -0.204,
+        "monarch": -0.161,
+        "land_nature": -0.195,
+        "freedom_liberty": 0.236,
+        "unity_brotherhood": -0.152,
+        "glory_pride": 0.212,
+        "labour_work": 0.051,
+        "flag": 0.156,
+        "ancestors_heritage": 0.111
       },
       "blood_death": {
-        "war_arms": 0.462,
+        "war_arms": 0.468,
         "blood_death": 1.0,
-        "enemy_threat": 0.37,
-        "sacrifice": 0.58,
-        "deity": -0.247,
+        "enemy_threat": 0.366,
+        "sacrifice": 0.579,
+        "deity": -0.252,
         "monarch": -0.182,
-        "land_nature": -0.197,
-        "freedom_liberty": 0.261,
-        "unity_brotherhood": -0.134,
-        "glory_pride": 0.217
+        "land_nature": -0.191,
+        "freedom_liberty": 0.255,
+        "unity_brotherhood": -0.128,
+        "glory_pride": 0.224,
+        "labour_work": -0.14,
+        "flag": 0.283,
+        "ancestors_heritage": 0.075
       },
       "enemy_threat": {
-        "war_arms": 0.516,
-        "blood_death": 0.37,
+        "war_arms": 0.522,
+        "blood_death": 0.366,
         "enemy_threat": 1.0,
-        "sacrifice": 0.397,
-        "deity": -0.148,
-        "monarch": -0.112,
-        "land_nature": -0.213,
-        "freedom_liberty": 0.347,
-        "unity_brotherhood": -0.091,
-        "glory_pride": 0.106
+        "sacrifice": 0.398,
+        "deity": -0.158,
+        "monarch": -0.115,
+        "land_nature": -0.203,
+        "freedom_liberty": 0.332,
+        "unity_brotherhood": -0.079,
+        "glory_pride": 0.116,
+        "labour_work": 0.035,
+        "flag": 0.128,
+        "ancestors_heritage": 0.061
       },
       "sacrifice": {
-        "war_arms": 0.439,
-        "blood_death": 0.58,
-        "enemy_threat": 0.397,
+        "war_arms": 0.448,
+        "blood_death": 0.579,
+        "enemy_threat": 0.398,
         "sacrifice": 1.0,
-        "deity": -0.201,
-        "monarch": -0.133,
-        "land_nature": -0.199,
-        "freedom_liberty": 0.226,
-        "unity_brotherhood": -0.196,
-        "glory_pride": 0.154
+        "deity": -0.21,
+        "monarch": -0.134,
+        "land_nature": -0.19,
+        "freedom_liberty": 0.215,
+        "unity_brotherhood": -0.185,
+        "glory_pride": 0.163,
+        "labour_work": -0.112,
+        "flag": 0.12,
+        "ancestors_heritage": 0.148
       },
       "deity": {
-        "war_arms": -0.199,
-        "blood_death": -0.247,
-        "enemy_threat": -0.148,
-        "sacrifice": -0.201,
+        "war_arms": -0.204,
+        "blood_death": -0.252,
+        "enemy_threat": -0.158,
+        "sacrifice": -0.21,
         "deity": 1.0,
         "monarch": 0.264,
         "land_nature": -0.052,
         "freedom_liberty": -0.197,
         "unity_brotherhood": -0.091,
-        "glory_pride": -0.289
+        "glory_pride": -0.289,
+        "labour_work": -0.119,
+        "flag": -0.204,
+        "ancestors_heritage": -0.056
       },
       "monarch": {
-        "war_arms": -0.159,
+        "war_arms": -0.161,
         "blood_death": -0.182,
-        "enemy_threat": -0.112,
-        "sacrifice": -0.133,
+        "enemy_threat": -0.115,
+        "sacrifice": -0.134,
         "deity": 0.264,
         "monarch": 1.0,
         "land_nature": -0.194,
         "freedom_liberty": -0.267,
         "unity_brotherhood": -0.243,
-        "glory_pride": -0.127
+        "glory_pride": -0.127,
+        "labour_work": -0.179,
+        "flag": -0.129,
+        "ancestors_heritage": -0.053
       },
       "land_nature": {
-        "war_arms": -0.199,
-        "blood_death": -0.197,
-        "enemy_threat": -0.213,
-        "sacrifice": -0.199,
+        "war_arms": -0.195,
+        "blood_death": -0.191,
+        "enemy_threat": -0.203,
+        "sacrifice": -0.19,
         "deity": -0.052,
         "monarch": -0.194,
         "land_nature": 1.0,
         "freedom_liberty": -0.184,
         "unity_brotherhood": -0.053,
-        "glory_pride": -0.111
+        "glory_pride": -0.111,
+        "labour_work": 0.036,
+        "flag": -0.104,
+        "ancestors_heritage": 0.18
       },
       "freedom_liberty": {
-        "war_arms": 0.243,
-        "blood_death": 0.261,
-        "enemy_threat": 0.347,
-        "sacrifice": 0.226,
+        "war_arms": 0.236,
+        "blood_death": 0.255,
+        "enemy_threat": 0.332,
+        "sacrifice": 0.215,
         "deity": -0.197,
         "monarch": -0.267,
         "land_nature": -0.184,
         "freedom_liberty": 1.0,
         "unity_brotherhood": 0.075,
-        "glory_pride": 0.132
+        "glory_pride": 0.132,
+        "labour_work": -0.07,
+        "flag": 0.07,
+        "ancestors_heritage": -0.03
       },
       "unity_brotherhood": {
-        "war_arms": -0.158,
-        "blood_death": -0.134,
-        "enemy_threat": -0.091,
-        "sacrifice": -0.196,
+        "war_arms": -0.152,
+        "blood_death": -0.128,
+        "enemy_threat": -0.079,
+        "sacrifice": -0.185,
         "deity": -0.091,
         "monarch": -0.243,
         "land_nature": -0.053,
         "freedom_liberty": 0.075,
         "unity_brotherhood": 1.0,
-        "glory_pride": -0.006
+        "glory_pride": -0.006,
+        "labour_work": 0.425,
+        "flag": 0.015,
+        "ancestors_heritage": -0.081
       },
       "glory_pride": {
-        "war_arms": 0.208,
-        "blood_death": 0.217,
-        "enemy_threat": 0.106,
-        "sacrifice": 0.154,
+        "war_arms": 0.212,
+        "blood_death": 0.224,
+        "enemy_threat": 0.116,
+        "sacrifice": 0.163,
         "deity": -0.289,
         "monarch": -0.127,
         "land_nature": -0.111,
         "freedom_liberty": 0.132,
         "unity_brotherhood": -0.006,
-        "glory_pride": 1.0
+        "glory_pride": 1.0,
+        "labour_work": 0.095,
+        "flag": 0.247,
+        "ancestors_heritage": 0.054
+      },
+      "labour_work": {
+        "war_arms": 0.051,
+        "blood_death": -0.14,
+        "enemy_threat": 0.035,
+        "sacrifice": -0.112,
+        "deity": -0.119,
+        "monarch": -0.179,
+        "land_nature": 0.036,
+        "freedom_liberty": -0.07,
+        "unity_brotherhood": 0.425,
+        "glory_pride": 0.095,
+        "labour_work": 1.0,
+        "flag": 0.09,
+        "ancestors_heritage": 0.081
+      },
+      "flag": {
+        "war_arms": 0.156,
+        "blood_death": 0.283,
+        "enemy_threat": 0.128,
+        "sacrifice": 0.12,
+        "deity": -0.204,
+        "monarch": -0.129,
+        "land_nature": -0.104,
+        "freedom_liberty": 0.07,
+        "unity_brotherhood": 0.015,
+        "glory_pride": 0.247,
+        "labour_work": 0.09,
+        "flag": 1.0,
+        "ancestors_heritage": -0.069
+      },
+      "ancestors_heritage": {
+        "war_arms": 0.111,
+        "blood_death": 0.075,
+        "enemy_threat": 0.061,
+        "sacrifice": 0.148,
+        "deity": -0.056,
+        "monarch": -0.053,
+        "land_nature": 0.18,
+        "freedom_liberty": -0.03,
+        "unity_brotherhood": -0.081,
+        "glory_pride": 0.054,
+        "labour_work": 0.081,
+        "flag": -0.069,
+        "ancestors_heritage": 1.0
       }
     },
     "top_pairs": [
       [
         "blood_death",
         "sacrifice",
-        0.58
+        0.579
       ],
       [
         "war_arms",
         "enemy_threat",
-        0.516
+        0.522
       ],
       [
         "war_arms",
         "blood_death",
-        0.462
+        0.468
       ],
       [
         "war_arms",
         "sacrifice",
-        0.439
+        0.448
+      ],
+      [
+        "unity_brotherhood",
+        "labour_work",
+        0.425
       ],
       [
         "enemy_threat",
         "sacrifice",
-        0.397
+        0.398
       ],
       [
         "blood_death",
         "enemy_threat",
-        0.37
+        0.366
       ],
       [
         "enemy_threat",
         "freedom_liberty",
-        0.347
+        0.332
       ],
       [
         "deity",
@@ -165,26 +245,21 @@
         -0.289
       ],
       [
-        "monarch",
-        "freedom_liberty",
-        -0.267
-      ],
-      [
-        "deity",
-        "monarch",
-        0.264
+        "blood_death",
+        "flag",
+        0.283
       ]
     ]
   },
   "age": {
     "n_with_year": 192,
-    "pearson_year_vs_bell_written": -0.1
+    "pearson_year_vs_bell_written": -0.099
   },
   "by_region": [
     {
       "region": "Africa",
       "n": 54,
-      "bell_written": 25.2,
+      "bell_written": 26.0,
       "bell_sung": 20.6,
       "deity": 1.1,
       "crown": 3.1
@@ -200,8 +275,8 @@
     {
       "region": "Asia",
       "n": 47,
-      "bell_written": 22.4,
-      "bell_sung": 21.3,
+      "bell_written": 22.1,
+      "bell_sung": 21.0,
       "deity": 0.7,
       "crown": 19.2
     },
@@ -245,49 +320,49 @@
       },
       {
         "cluster": 1,
-        "n": 27,
+        "n": 65,
         "top_themes": {
-          "land_nature": 2.63,
-          "deity": 1.3,
-          "unity_brotherhood": 0.48
+          "land_nature": 1.8,
+          "deity": 1.35,
+          "unity_brotherhood": 1.08
         },
-        "mean_bell_written": 9.5,
+        "mean_bell_written": 6.4,
         "example_countries": [
+          "Serbia",
+          "New Zealand",
           "Norway",
-          "Zimbabwe",
-          "Guyana",
           "Suriname",
-          "Malawi",
-          "Luxembourg"
+          "Guyana",
+          "Burundi"
         ]
       },
       {
         "cluster": 2,
-        "n": 37,
+        "n": 32,
         "top_themes": {
-          "deity": 1.95,
-          "unity_brotherhood": 1.78,
-          "freedom_liberty": 1.24
+          "unity_brotherhood": 2.03,
+          "labour_work": 1.84,
+          "glory_pride": 1.47
         },
-        "mean_bell_written": 7.8,
+        "mean_bell_written": 22.6,
         "example_countries": [
-          "Serbia",
-          "New Zealand",
-          "Antigua and Barbuda",
-          "Ghana",
-          "South Sudan",
-          "United Arab Emirates"
+          "Togo",
+          "Guinea-Bissau",
+          "Niger",
+          "Haiti",
+          "Syria",
+          "Mali"
         ]
       },
       {
         "cluster": 3,
-        "n": 54,
+        "n": 52,
         "top_themes": {
-          "sacrifice": 1.91,
-          "freedom_liberty": 1.8,
-          "war_arms": 1.76
+          "sacrifice": 1.88,
+          "war_arms": 1.77,
+          "freedom_liberty": 1.77
         },
-        "mean_bell_written": 55.8,
+        "mean_bell_written": 54.4,
         "example_countries": [
           "Algeria",
           "France",
@@ -299,20 +374,20 @@
       },
       {
         "cluster": 4,
-        "n": 55,
+        "n": 24,
         "top_themes": {
-          "glory_pride": 1.89,
-          "land_nature": 1.56,
-          "unity_brotherhood": 1.42
+          "flag": 2.33,
+          "freedom_liberty": 1.46,
+          "glory_pride": 1.42
         },
-        "mean_bell_written": 16.5,
+        "mean_bell_written": 21.9,
         "example_countries": [
-          "Guinea-Bissau",
-          "Syria",
-          "Chile",
-          "Benin",
-          "Angola",
-          "Portugal"
+          "United States",
+          "Albania",
+          "Turkey",
+          "Honduras",
+          "Namibia",
+          "Zimbabwe"
         ]
       }
     ],
@@ -325,7 +400,7 @@
       {
         "country": "United States",
         "region": "Americas",
-        "cluster": 3
+        "cluster": 4
       },
       {
         "country": "United Kingdom",
@@ -350,27 +425,27 @@
       {
         "country": "Germany",
         "region": "Europe",
-        "cluster": 4
+        "cluster": 1
       },
       {
         "country": "Nepal",
         "region": "Asia",
-        "cluster": 4
+        "cluster": 1
       },
       {
         "country": "South Africa",
         "region": "Africa",
-        "cluster": 2
+        "cluster": 1
       },
       {
         "country": "Angola",
         "region": "Africa",
-        "cluster": 4
+        "cluster": 2
       },
       {
         "country": "Benin",
         "region": "Africa",
-        "cluster": 4
+        "cluster": 2
       },
       {
         "country": "Botswana",
@@ -385,32 +460,32 @@
       {
         "country": "Burundi",
         "region": "Africa",
-        "cluster": 4
+        "cluster": 1
       },
       {
         "country": "Cabo Verde",
         "region": "Africa",
-        "cluster": 2
+        "cluster": 1
       },
       {
         "country": "Cameroon",
         "region": "Africa",
-        "cluster": 4
+        "cluster": 2
       },
       {
         "country": "Central African Republic",
         "region": "Africa",
-        "cluster": 4
+        "cluster": 2
       },
       {
         "country": "Chad",
         "region": "Africa",
-        "cluster": 2
+        "cluster": 1
       },
       {
         "country": "Comoros",
         "region": "Africa",
-        "cluster": 2
+        "cluster": 4
       },
       {
         "country": "Congo (Republic)",
@@ -420,7 +495,7 @@
       {
         "country": "Congo (DR)",
         "region": "Africa",
-        "cluster": 4
+        "cluster": 2
       },
       {
         "country": "Estonia",
@@ -445,7 +520,7 @@
       {
         "country": "Iceland",
         "region": "Europe",
-        "cluster": 2
+        "cluster": 1
       },
       {
         "country": "Ireland",
@@ -470,7 +545,7 @@
       {
         "country": "Lithuania",
         "region": "Europe",
-        "cluster": 4
+        "cluster": 1
       },
       {
         "country": "Luxembourg",
@@ -480,7 +555,7 @@
       {
         "country": "Malta",
         "region": "Europe",
-        "cluster": 2
+        "cluster": 1
       },
       {
         "country": "Moldova",
@@ -495,7 +570,7 @@
       {
         "country": "Montenegro",
         "region": "Europe",
-        "cluster": 4
+        "cluster": 1
       },
       {
         "country": "Netherlands",
@@ -520,7 +595,7 @@
       {
         "country": "Portugal",
         "region": "Europe",
-        "cluster": 4
+        "cluster": 3
       },
       {
         "country": "Romania",
@@ -530,12 +605,12 @@
       {
         "country": "Russia",
         "region": "Europe",
-        "cluster": 4
+        "cluster": 1
       },
       {
         "country": "Serbia",
         "region": "Europe",
-        "cluster": 2
+        "cluster": 1
       },
       {
         "country": "Slovakia",
@@ -545,12 +620,12 @@
       {
         "country": "Slovenia",
         "region": "Europe",
-        "cluster": 2
+        "cluster": 1
       },
       {
         "country": "Sweden",
         "region": "Europe",
-        "cluster": 4
+        "cluster": 1
       },
       {
         "country": "Ukraine",
@@ -565,7 +640,7 @@
       {
         "country": "Antigua and Barbuda",
         "region": "Americas",
-        "cluster": 2
+        "cluster": 4
       },
       {
         "country": "Bahamas",
@@ -575,7 +650,7 @@
       {
         "country": "Barbados",
         "region": "Americas",
-        "cluster": 2
+        "cluster": 1
       },
       {
         "country": "Belize",
@@ -585,12 +660,12 @@
       {
         "country": "Canada",
         "region": "Americas",
-        "cluster": 4
+        "cluster": 1
       },
       {
         "country": "Costa Rica",
         "region": "Americas",
-        "cluster": 4
+        "cluster": 2
       },
       {
         "country": "Cuba",
@@ -615,7 +690,7 @@
       {
         "country": "Grenada",
         "region": "Americas",
-        "cluster": 2
+        "cluster": 1
       },
       {
         "country": "Guatemala",
@@ -625,17 +700,17 @@
       {
         "country": "Haiti",
         "region": "Americas",
-        "cluster": 3
+        "cluster": 2
       },
       {
         "country": "Honduras",
         "region": "Americas",
-        "cluster": 3
+        "cluster": 4
       },
       {
         "country": "Jamaica",
         "region": "Americas",
-        "cluster": 2
+        "cluster": 1
       },
       {
         "country": "Mexico",
@@ -645,17 +720,17 @@
       {
         "country": "Nicaragua",
         "region": "Americas",
-        "cluster": 4
+        "cluster": 2
       },
       {
         "country": "Panama",
         "region": "Americas",
-        "cluster": 4
+        "cluster": 2
       },
       {
         "country": "Saint Kitts and Nevis",
         "region": "Americas",
-        "cluster": 2
+        "cluster": 1
       },
       {
         "country": "Saint Lucia",
@@ -670,7 +745,7 @@
       {
         "country": "Trinidad and Tobago",
         "region": "Americas",
-        "cluster": 2
+        "cluster": 1
       },
       {
         "country": "Argentina",
@@ -690,7 +765,7 @@
       {
         "country": "Chile",
         "region": "Americas",
-        "cluster": 4
+        "cluster": 3
       },
       {
         "country": "Colombia",
@@ -715,7 +790,7 @@
       {
         "country": "Peru",
         "region": "Americas",
-        "cluster": 3
+        "cluster": 4
       },
       {
         "country": "Suriname",
@@ -735,7 +810,7 @@
       {
         "country": "Australia",
         "region": "Oceania",
-        "cluster": 4
+        "cluster": 2
       },
       {
         "country": "Fiji",
@@ -745,7 +820,7 @@
       {
         "country": "Kiribati",
         "region": "Oceania",
-        "cluster": 2
+        "cluster": 1
       },
       {
         "country": "Marshall Islands",
@@ -765,27 +840,27 @@
       {
         "country": "New Zealand",
         "region": "Oceania",
-        "cluster": 2
+        "cluster": 1
       },
       {
         "country": "Palau",
         "region": "Oceania",
-        "cluster": 4
+        "cluster": 2
       },
       {
         "country": "Papua New Guinea",
         "region": "Oceania",
-        "cluster": 4
+        "cluster": 1
       },
       {
         "country": "Samoa",
         "region": "Oceania",
-        "cluster": 2
+        "cluster": 4
       },
       {
         "country": "Solomon Islands",
         "region": "Oceania",
-        "cluster": 2
+        "cluster": 1
       },
       {
         "country": "Tonga",
@@ -795,7 +870,7 @@
       {
         "country": "Tuvalu",
         "region": "Oceania",
-        "cluster": 2
+        "cluster": 1
       },
       {
         "country": "Vanuatu",
@@ -805,7 +880,7 @@
       {
         "country": "Cote d'Ivoire",
         "region": "Africa",
-        "cluster": 4
+        "cluster": 2
       },
       {
         "country": "Djibouti",
@@ -815,12 +890,12 @@
       {
         "country": "Egypt",
         "region": "Africa",
-        "cluster": 4
+        "cluster": 3
       },
       {
         "country": "Equatorial Guinea",
         "region": "Africa",
-        "cluster": 2
+        "cluster": 1
       },
       {
         "country": "Eritrea",
@@ -835,17 +910,17 @@
       {
         "country": "Ethiopia",
         "region": "Africa",
-        "cluster": 4
+        "cluster": 2
       },
       {
         "country": "Gabon",
         "region": "Africa",
-        "cluster": 4
+        "cluster": 2
       },
       {
         "country": "Gambia",
         "region": "Africa",
-        "cluster": 2
+        "cluster": 1
       },
       {
         "country": "Ghana",
@@ -860,7 +935,7 @@
       {
         "country": "Guinea-Bissau",
         "region": "Africa",
-        "cluster": 4
+        "cluster": 2
       },
       {
         "country": "Kenya",
@@ -890,12 +965,12 @@
       {
         "country": "Malawi",
         "region": "Africa",
-        "cluster": 1
+        "cluster": 2
       },
       {
         "country": "Mali",
         "region": "Africa",
-        "cluster": 3
+        "cluster": 2
       },
       {
         "country": "Mauritania",
@@ -905,7 +980,7 @@
       {
         "country": "Mauritius",
         "region": "Africa",
-        "cluster": 4
+        "cluster": 1
       },
       {
         "country": "Morocco",
@@ -915,7 +990,7 @@
       {
         "country": "Mozambique",
         "region": "Africa",
-        "cluster": 4
+        "cluster": 2
       },
       {
         "country": "Namibia",
@@ -925,7 +1000,7 @@
       {
         "country": "Niger",
         "region": "Africa",
-        "cluster": 3
+        "cluster": 2
       },
       {
         "country": "Nigeria",
@@ -935,17 +1010,17 @@
       {
         "country": "Rwanda",
         "region": "Africa",
-        "cluster": 4
+        "cluster": 3
       },
       {
         "country": "Sao Tome and Principe",
         "region": "Africa",
-        "cluster": 4
+        "cluster": 2
       },
       {
         "country": "Senegal",
         "region": "Africa",
-        "cluster": 4
+        "cluster": 3
       },
       {
         "country": "Seychelles",
@@ -955,7 +1030,7 @@
       {
         "country": "Sierra Leone",
         "region": "Africa",
-        "cluster": 4
+        "cluster": 2
       },
       {
         "country": "Somalia",
@@ -965,7 +1040,7 @@
       {
         "country": "South Sudan",
         "region": "Africa",
-        "cluster": 2
+        "cluster": 4
       },
       {
         "country": "Sudan",
@@ -975,12 +1050,12 @@
       {
         "country": "Tanzania",
         "region": "Africa",
-        "cluster": 2
+        "cluster": 1
       },
       {
         "country": "Togo",
         "region": "Africa",
-        "cluster": 3
+        "cluster": 2
       },
       {
         "country": "Tunisia",
@@ -990,7 +1065,7 @@
       {
         "country": "Uganda",
         "region": "Africa",
-        "cluster": 2
+        "cluster": 1
       },
       {
         "country": "Zambia",
@@ -1000,7 +1075,7 @@
       {
         "country": "Zimbabwe",
         "region": "Africa",
-        "cluster": 1
+        "cluster": 4
       },
       {
         "country": "Afghanistan",
@@ -1050,17 +1125,17 @@
       {
         "country": "Georgia",
         "region": "Asia",
-        "cluster": 4
+        "cluster": 1
       },
       {
         "country": "India",
         "region": "Asia",
-        "cluster": 2
+        "cluster": 1
       },
       {
         "country": "Indonesia",
         "region": "Asia",
-        "cluster": 4
+        "cluster": 1
       },
       {
         "country": "Iran",
@@ -1085,7 +1160,7 @@
       {
         "country": "Kazakhstan",
         "region": "Asia",
-        "cluster": 4
+        "cluster": 1
       },
       {
         "country": "Kuwait",
@@ -1100,7 +1175,7 @@
       {
         "country": "Laos",
         "region": "Asia",
-        "cluster": 4
+        "cluster": 3
       },
       {
         "country": "Lebanon",
@@ -1120,17 +1195,17 @@
       {
         "country": "Mongolia",
         "region": "Asia",
-        "cluster": 4
+        "cluster": 1
       },
       {
         "country": "Myanmar",
         "region": "Asia",
-        "cluster": 4
+        "cluster": 3
       },
       {
         "country": "North Korea",
         "region": "Asia",
-        "cluster": 4
+        "cluster": 1
       },
       {
         "country": "Oman",
@@ -1140,7 +1215,7 @@
       {
         "country": "Pakistan",
         "region": "Asia",
-        "cluster": 2
+        "cluster": 4
       },
       {
         "country": "Philippines",
@@ -1160,7 +1235,7 @@
       {
         "country": "Singapore",
         "region": "Asia",
-        "cluster": 2
+        "cluster": 1
       },
       {
         "country": "South Korea",
@@ -1170,12 +1245,12 @@
       {
         "country": "Sri Lanka",
         "region": "Asia",
-        "cluster": 2
+        "cluster": 1
       },
       {
         "country": "Syria",
         "region": "Asia",
-        "cluster": 4
+        "cluster": 2
       },
       {
         "country": "Tajikistan",
@@ -1195,7 +1270,7 @@
       {
         "country": "Turkey",
         "region": "Asia",
-        "cluster": 3
+        "cluster": 4
       },
       {
         "country": "Turkmenistan",
@@ -1230,22 +1305,22 @@
       {
         "country": "Albania",
         "region": "Europe",
-        "cluster": 3
+        "cluster": 4
       },
       {
         "country": "Andorra",
         "region": "Europe",
-        "cluster": 2
+        "cluster": 1
       },
       {
         "country": "Austria",
         "region": "Europe",
-        "cluster": 4
+        "cluster": 1
       },
       {
         "country": "Belarus",
         "region": "Europe",
-        "cluster": 4
+        "cluster": 2
       },
       {
         "country": "Belgium",
@@ -1280,22 +1355,10 @@
     ]
   },
   "wildcard": {
-    "distinct_labels": 126,
+    "distinct_labels": 77,
     "most_common": [
       [
-        "labour / call to work",
-        4
-      ],
-      [
         "peace",
-        4
-      ],
-      [
-        "the national flag",
-        4
-      ],
-      [
-        "the tricolour flag",
         4
       ],
       [
@@ -1307,19 +1370,7 @@
         2
       ],
       [
-        "labour / work as the path to renewal",
-        2
-      ],
-      [
         "religion / faith",
-        2
-      ],
-      [
-        "labour / progress (national motto)",
-        2
-      ],
-      [
-        "labour / nation-building in peace",
         2
       ],
       [
@@ -1335,19 +1386,11 @@
         2
       ],
       [
-        "the national flag (red and white colours)",
-        2
-      ],
-      [
         "mount lovcen (national symbol)",
         2
       ],
       [
         "named historical figures (dąbrowski, bonaparte, czarniecki)",
-        2
-      ],
-      [
-        "maritime / seafaring heritage",
         2
       ],
       [
@@ -1360,6 +1403,38 @@
       ],
       [
         "pacifism / anti-war internationalism",
+        2
+      ],
+      [
+        "longing / belonging to the homeland",
+        2
+      ],
+      [
+        "cossack ancestry / national survival",
+        2
+      ],
+      [
+        "onward perseverance / the rising sun",
+        2
+      ],
+      [
+        "defence / standing on guard",
+        2
+      ],
+      [
+        "peace as the nation's aim",
+        2
+      ],
+      [
+        "the quetzal / national emblem",
+        2
+      ],
+      [
+        "justice, wisdom & moral virtue",
+        2
+      ],
+      [
+        "peace/olive vs war contrast",
         2
       ]
     ]

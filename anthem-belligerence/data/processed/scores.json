@@ -12,11 +12,16 @@
       "freedom_liberty",
       "unity_brotherhood",
       "glory_pride",
+      "labour_work",
+      "flag",
+      "ancestors_heritage",
       "wildcard"
     ],
     "scale": "0 absent, 1 alluded, 2 present, 3 dominant",
     "scored_by": "Claude Opus, agent session",
-    "scored_on": "2026-05-28"
+    "scored_on": "2026-05-28",
+    "version": "v2",
+    "v2_note": "Themes 11-13 (labour_work, flag, ancestors_heritage) promoted from wildcard and scored in a 2026-05-28 augmentation pass; the other 10 themes carried over from v1 unchanged. Composites (belligerence/deity/crown) are identical to v1."
   },
   "records": [
     {
@@ -116,6 +121,12 @@
           "quote": "the day of glory has arrived",
           "rationale": "glory framing",
           "confidence": "med"
+        },
+        "ancestors_heritage": {
+          "score": 1,
+          "quote": "When our elders are no longer there, There we shall find their dust And the trace of their virtues",
+          "rationale": "Children's verse (v7) invokes forefathers' dust and inherited virtues; oblique single mention.",
+          "confidence": "med"
         }
       }
     },
@@ -147,6 +158,12 @@
           "quote": "the home of the brave",
           "rationale": "bravery/pride epithet",
           "confidence": "med"
+        },
+        "flag": {
+          "score": 3,
+          "quote": "gave proof through the night that our flag was still there",
+          "rationale": "Entire anthem is an address to the flag; verse 1 (the sung verse) centres on the flag surviving the battle and the star-spangled banner waving.",
+          "confidence": "high"
         }
       }
     },
@@ -190,6 +207,12 @@
           "quote": "the home of the brave",
           "rationale": "bravery/triumph",
           "confidence": "med"
+        },
+        "flag": {
+          "score": 3,
+          "quote": "gave proof through the night that our flag was still there",
+          "rationale": "Entire anthem is an address to the flag; verse 1 (the sung verse) centres on the flag surviving the battle and the star-spangled banner waving.",
+          "confidence": "high"
         }
       }
     },
@@ -316,6 +339,12 @@
           "quote": "we swear ... an oath",
           "rationale": "collective pledge",
           "confidence": "low"
+        },
+        "flag": {
+          "score": 2,
+          "quote": "By the bright flags that wave, Flying proudly on the high mountains",
+          "rationale": "The national flags are explicitly addressed as proud symbols raised on the mountains.",
+          "confidence": "high"
         }
       }
     },
@@ -373,6 +402,12 @@
           "quote": "we swear ... an oath",
           "rationale": "collective pledge",
           "confidence": "low"
+        },
+        "flag": {
+          "score": 2,
+          "quote": "By the bright flags that wave, Flying proudly on the high mountains",
+          "rationale": "The national flags are explicitly addressed as proud symbols raised on the mountains.",
+          "confidence": "high"
         }
       }
     },
@@ -742,6 +777,12 @@
           "quote": "Oh Fatherland, we shall never forget the heroes of the Fourth of February.",
           "rationale": "the 1961 revolt date and 'Revolution' are a central organising motif not covered by other themes",
           "confidence": "high"
+        },
+        "labour_work": {
+          "score": 2,
+          "quote": "We honour the past and our History, as by our work we build the New Man.",
+          "rationale": "explicit nation-building through work ('by our work we build')",
+          "confidence": "high"
         }
       }
     },
@@ -791,6 +832,12 @@
           "label": "revolution / a dated historical event (Fourth of February)",
           "quote": "Oh Fatherland, we shall never forget the heroes of the Fourth of February.",
           "rationale": "the 1961 revolt date and 'Revolution' are a central organising motif not covered by other themes",
+          "confidence": "high"
+        },
+        "labour_work": {
+          "score": 2,
+          "quote": "We honour the past and our History, as by our work we build the New Man.",
+          "rationale": "as-sung = full anthem (both verses + chorus); same work-building line present",
           "confidence": "high"
         }
       }
@@ -843,11 +890,22 @@
           "rationale": "single call to national pride",
           "confidence": "med"
         },
-        "wildcard": {
-          "score": 1,
-          "label": "the national flag and its colours",
-          "quote": "In the green you read hope of spring; The red signifies the courage of your ancestors; The yellow foretells the richest treasures.",
-          "rationale": "verse 2 reads the tricolour flag's symbolism, a distinct motif",
+        "labour_work": {
+          "score": 2,
+          "quote": "Builders of the present, you too, join forces Each day for the task stronger in unity.",
+          "rationale": "explicit 'builders' joining forces daily for the task / build for posterity (verse 1)",
+          "confidence": "high"
+        },
+        "flag": {
+          "score": 2,
+          "quote": "Trusting in the future, behold your flag!",
+          "rationale": "the flag directly addressed and its colours expounded (green/red/yellow) in verse 2",
+          "confidence": "high"
+        },
+        "ancestors_heritage": {
+          "score": 2,
+          "quote": "Formerly, at her call, our ancestors Knew how to engage in mighty battles",
+          "rationale": "ancestors invoked (verse 1) and 'the courage of your ancestors' restated in verse 2",
           "confidence": "high"
         }
       }
@@ -881,6 +939,18 @@
           "quote": "Builders of the present, you too, join forces Each day for the task stronger in unity.",
           "rationale": "verse 1 calls to join forces in unity",
           "confidence": "med"
+        },
+        "labour_work": {
+          "score": 2,
+          "quote": "Builders of the present, you too, join forces Each day for the task stronger in unity.",
+          "rationale": "this 'builders... for the task' line is in verse 1, which is sung",
+          "confidence": "high"
+        },
+        "ancestors_heritage": {
+          "score": 1,
+          "quote": "Formerly, at her call, our ancestors Knew how to engage in mighty battles",
+          "rationale": "single ancestor mention in sung verse 1; the flag/'courage of ancestors' lines are in unsung verse 2",
+          "confidence": "high"
         }
       }
     },
@@ -913,12 +983,17 @@
           "rationale": "single reference to the nation's renown",
           "confidence": "med"
         },
-        "wildcard": {
-          "score": 1,
-          "label": "labour / call to work",
+        "labour_work": {
+          "score": 2,
           "quote": "Be energized, Let us work together to serve, Our land.",
-          "rationale": "the chorus's rousing 'awake/arise and work' is a distinct labour motif",
-          "confidence": "med"
+          "rationale": "explicit call to work together to serve the land (chorus)",
+          "confidence": "high"
+        },
+        "ancestors_heritage": {
+          "score": 2,
+          "quote": "This land of ours, Is a gift from God, An inheritance from our forefathers;",
+          "rationale": "land explicitly framed as an inheritance from forefathers (verse 1)",
+          "confidence": "high"
         }
       }
     },
@@ -945,12 +1020,17 @@
           "rationale": "chorus is an explicit call to work together",
           "confidence": "high"
         },
-        "wildcard": {
-          "score": 1,
-          "label": "labour / call to work",
+        "labour_work": {
+          "score": 2,
           "quote": "Be energized, Let us work together to serve, Our land.",
-          "rationale": "the chorus's 'awake/arise and work' is a distinct labour motif",
-          "confidence": "med"
+          "rationale": "chorus is sung; 'let us work together to serve our land' present",
+          "confidence": "high"
+        },
+        "ancestors_heritage": {
+          "score": 2,
+          "quote": "This land of ours, Is a gift from God, An inheritance from our forefathers;",
+          "rationale": "forefathers-inheritance line is in verse 1, which is sung",
+          "confidence": "high"
         }
       }
     },
@@ -1007,6 +1087,12 @@
           "quote": "Nourished in the lively source of the Revolution, The volunteers for liberty and peace With their nocturnal and beneficial energies of the 4 of August",
           "rationale": "Sankara's 1983/84 Revolution is the central organising frame of the whole text",
           "confidence": "high"
+        },
+        "labour_work": {
+          "score": 1,
+          "quote": "from the hands of builders of a glorious world",
+          "rationale": "single 'builders' image in a later (unsung) verse; oblique nation-building labour",
+          "confidence": "med"
         }
       }
     },
@@ -1106,6 +1192,12 @@
           "quote": "Beloved Burundi, gentle country",
           "rationale": "single affectionate reference to the country, little concrete geography",
           "confidence": "med"
+        },
+        "ancestors_heritage": {
+          "score": 2,
+          "quote": "Beloved Burundi, sacred heritage from our forefathers,",
+          "rationale": "nation explicitly named a 'sacred heritage from our forefathers'",
+          "confidence": "high"
         }
       }
     },
@@ -1155,6 +1247,12 @@
           "quote": "Beloved Burundi, gentle country",
           "rationale": "single affectionate reference to the country, little concrete geography",
           "confidence": "med"
+        },
+        "ancestors_heritage": {
+          "score": 2,
+          "quote": "Beloved Burundi, sacred heritage from our forefathers,",
+          "rationale": "all 3 verses sung as one piece; forefathers-heritage line present",
+          "confidence": "high"
         }
       }
     },
@@ -1257,6 +1355,18 @@
           "quote": "Foster, for Mother Africa, a loyalty That true shall remain to the last.",
           "rationale": "loyalty to 'Mother Africa' is a distinct continental motif",
           "confidence": "med"
+        },
+        "labour_work": {
+          "score": 2,
+          "quote": "Thy welfare we will win in toil and love and peace,",
+          "rationale": "explicit toil for the nation's welfare; reinforced by 'tears and blood and sweat thy soil did water... their tillage rose'",
+          "confidence": "high"
+        },
+        "ancestors_heritage": {
+          "score": 3,
+          "quote": "O Cameroon, Thou Cradle of our Fathers, Holy Shrine where in our midst they now repose,",
+          "rationale": "forefathers dominate the opening: nation as the 'Cradle of our Fathers' / shrine where they repose",
+          "confidence": "high"
         }
       }
     },
@@ -1285,12 +1395,17 @@
           "rationale": "the chorus is built on honour, glory and devotion",
           "confidence": "high"
         },
-        "wildcard": {
-          "score": 1,
-          "label": "ancestors / forefathers at rest",
-          "quote": "O Cameroon, Thou Cradle of our Fathers, Holy Shrine where in our midst they now repose",
-          "rationale": "verse 1 frames the land as a shrine to the resting forefathers",
-          "confidence": "med"
+        "labour_work": {
+          "score": 2,
+          "quote": "Thy welfare we will win in toil and love and peace,",
+          "rationale": "toil line is in the chorus, which is sung",
+          "confidence": "high"
+        },
+        "ancestors_heritage": {
+          "score": 3,
+          "quote": "O Cameroon, Thou Cradle of our Fathers, Holy Shrine where in our midst they now repose,",
+          "rationale": "the forefathers opening is in verse 1, which is sung; dominant theme",
+          "confidence": "high"
         }
       }
     },
@@ -1325,18 +1440,29 @@
           "rationale": "single proud, flag-raising gesture",
           "confidence": "med"
         },
-        "wildcard": {
-          "score": 2,
-          "label": "labour / work as the path to renewal",
-          "quote": "To work! In order and dignity, In the respect for rights and in unity",
-          "rationale": "'Au travail' / work in dignity is the refrain's organising idea, distinct from war",
-          "confidence": "high"
-        },
         "land_nature": {
           "score": 1,
           "quote": "Oh! Central Africa, cradle of the Bantu!",
           "rationale": "single 'cradle of the Bantu' evocation, not concrete geography",
           "confidence": "med"
+        },
+        "labour_work": {
+          "score": 2,
+          "quote": "Through work, order and dignity You reconquer your rights, your unity,",
+          "rationale": "explicit 'through work' rebuilding the nation; restated 'To work! In order and dignity'",
+          "confidence": "high"
+        },
+        "flag": {
+          "score": 2,
+          "quote": "Holding high the flag of the Fatherland.",
+          "rationale": "the flag of the fatherland addressed and raised aloft",
+          "confidence": "high"
+        },
+        "ancestors_heritage": {
+          "score": 2,
+          "quote": "And to take this new step The voice of our ancestors calls us.",
+          "rationale": "ancestors explicitly invoked as calling the nation forward",
+          "confidence": "high"
         }
       }
     },
@@ -1371,18 +1497,29 @@
           "rationale": "single proud, flag-raising gesture",
           "confidence": "med"
         },
-        "wildcard": {
-          "score": 2,
-          "label": "labour / work as the path to renewal",
-          "quote": "To work! In order and dignity, In the respect for rights and in unity",
-          "rationale": "'Au travail' / work in dignity is the refrain's organising idea, distinct from war",
-          "confidence": "high"
-        },
         "land_nature": {
           "score": 1,
           "quote": "Oh! Central Africa, cradle of the Bantu!",
           "rationale": "single 'cradle of the Bantu' evocation, not concrete geography",
           "confidence": "med"
+        },
+        "labour_work": {
+          "score": 2,
+          "quote": "Through work, order and dignity You reconquer your rights, your unity,",
+          "rationale": "short anthem sung in full; work line present",
+          "confidence": "high"
+        },
+        "flag": {
+          "score": 2,
+          "quote": "Holding high the flag of the Fatherland.",
+          "rationale": "short anthem sung in full; flag line present",
+          "confidence": "high"
+        },
+        "ancestors_heritage": {
+          "score": 2,
+          "quote": "And to take this new step The voice of our ancestors calls us.",
+          "rationale": "short anthem sung in full; ancestors line present",
+          "confidence": "high"
         }
       }
     },
@@ -1415,11 +1552,16 @@
           "rationale": "freedom and won rights are an explicit theme of the official verse",
           "confidence": "high"
         },
-        "wildcard": {
-          "score": 2,
-          "label": "labour / call to work",
+        "labour_work": {
+          "score": 1,
           "quote": "People of Chad, arise and take up the task!",
-          "rationale": "the opening call to arise and work is the chorus's central exhortation",
+          "rationale": "oblique call to take up 'the task'; no fuller work imagery",
+          "confidence": "med"
+        },
+        "ancestors_heritage": {
+          "score": 1,
+          "quote": "Faithful to your fathers who are watching you.",
+          "rationale": "single oblique reference to the watching forefathers",
           "confidence": "high"
         }
       }
@@ -1453,11 +1595,16 @@
           "rationale": "freedom and won rights are an explicit theme of the official verse",
           "confidence": "high"
         },
-        "wildcard": {
-          "score": 2,
-          "label": "labour / call to work",
+        "labour_work": {
+          "score": 1,
           "quote": "People of Chad, arise and take up the task!",
-          "rationale": "the opening call to arise and work is the chorus's central exhortation",
+          "rationale": "official text (chorus + verse 1) is sung as-is; 'take up the task' present",
+          "confidence": "med"
+        },
+        "ancestors_heritage": {
+          "score": 1,
+          "quote": "Faithful to your fathers who are watching you.",
+          "rationale": "as-sung identical to official text; fathers reference present",
           "confidence": "high"
         }
       }
@@ -1503,6 +1650,12 @@
           "quote": "Love our religion and the world.",
           "rationale": "shared faith/religion is an explicit recurring theme beyond a single deity invocation",
           "confidence": "high"
+        },
+        "flag": {
+          "score": 2,
+          "quote": "The flag is flying, Announcing complete independence;",
+          "rationale": "anthem opens on the raised flag announcing independence",
+          "confidence": "high"
         }
       }
     },
@@ -1546,6 +1699,12 @@
           "label": "religion / faith",
           "quote": "Love our religion and the world.",
           "rationale": "shared faith/religion is an explicit recurring theme beyond a single deity invocation",
+          "confidence": "high"
+        },
+        "flag": {
+          "score": 2,
+          "quote": "The flag is flying, Announcing complete independence;",
+          "rationale": "performed in full; flag opening present",
           "confidence": "high"
         }
       }
@@ -1597,12 +1756,17 @@
           "rationale": "single geographic sweep across forest, bush and ocean",
           "confidence": "med"
         },
-        "wildcard": {
+        "labour_work": {
           "score": 1,
-          "label": "labour / progress (national motto)",
           "quote": "Let us live our motto: Unity, work, progress.",
-          "rationale": "the 'work, progress' motto is a distinct developmental motif",
-          "confidence": "med"
+          "rationale": "'work' invoked within the national motto; no fuller work imagery",
+          "confidence": "high"
+        },
+        "flag": {
+          "score": 1,
+          "quote": "And in the smallest village Sing beneath our three colours.",
+          "rationale": "the national 'three colours' (flag) referenced (verse 3, as-written)",
+          "confidence": "high"
         }
       }
     },
@@ -1629,12 +1793,11 @@
           "rationale": "single call to national pride in the chorus",
           "confidence": "med"
         },
-        "wildcard": {
+        "labour_work": {
           "score": 1,
-          "label": "labour / progress (national motto)",
           "quote": "Let us live our motto: Unity, work, progress.",
-          "rationale": "the 'work, progress' motto appears in the sung chorus",
-          "confidence": "med"
+          "rationale": "the motto 'Unity, work, progress' is in verse 1, which is sung",
+          "confidence": "high"
         }
       }
     },
@@ -1673,11 +1836,22 @@
           "rationale": "single reference to populating the soil",
           "confidence": "med"
         },
-        "wildcard": {
+        "labour_work": {
           "score": 2,
-          "label": "labour / nation-building in peace",
           "quote": "Oh ardent people, by hard work, We will build a country more beautiful than before, In peace.",
-          "rationale": "building the country through 'hard work' and explicitly 'In peace' is a distinct, repeated motif",
+          "rationale": "explicit 'by hard work we will build a country' nation-building",
+          "confidence": "high"
+        },
+        "flag": {
+          "score": 1,
+          "quote": "Proudly Greet the golden emblem of your sovereignty, Congo.",
+          "rationale": "the 'golden emblem of sovereignty' addressed and greeted (flag/standard)",
+          "confidence": "med"
+        },
+        "ancestors_heritage": {
+          "score": 2,
+          "quote": "Blessed gift, Congo of our ancestors,",
+          "rationale": "the nation named the 'Congo of our ancestors', a blessed inherited gift",
           "confidence": "high"
         }
       }
@@ -1717,11 +1891,22 @@
           "rationale": "single reference to populating the soil",
           "confidence": "med"
         },
-        "wildcard": {
+        "labour_work": {
           "score": 2,
-          "label": "labour / nation-building in peace",
           "quote": "Oh ardent people, by hard work, We will build a country more beautiful than before, In peace.",
-          "rationale": "building the country through 'hard work' and explicitly 'In peace' is a distinct, repeated motif",
+          "rationale": "sung as one continuous piece; hard-work building line present",
+          "confidence": "high"
+        },
+        "flag": {
+          "score": 1,
+          "quote": "Proudly Greet the golden emblem of your sovereignty, Congo.",
+          "rationale": "sung in full; 'golden emblem of sovereignty' present",
+          "confidence": "med"
+        },
+        "ancestors_heritage": {
+          "score": 2,
+          "quote": "Blessed gift, Congo of our ancestors,",
+          "rationale": "sung in full; 'Congo of our ancestors' present",
           "confidence": "high"
         }
       }
@@ -1794,6 +1979,12 @@
           "quote": "Our land, our land, our fatherland, Sound loud, O name of worth!",
           "rationale": "single call to proclaim the fatherland's worth",
           "confidence": "high"
+        },
+        "ancestors_heritage": {
+          "score": 2,
+          "quote": "There is, more loved, to be found, Than this - our fathers' ground",
+          "rationale": "Stanza 1 names the homeland 'our fathers' ground'; stanza 4 adds 'Here fought our fathers, without fear, With sword, and plough, and thought' - forefathers/ancestral land recurs across the written poem.",
+          "confidence": "high"
         }
       }
     },
@@ -1812,6 +2003,12 @@
           "score": 1,
           "quote": "Our land, our land, our fatherland, Sound loud, O name of worth!",
           "rationale": "single call to proclaim the fatherland's worth",
+          "confidence": "high"
+        },
+        "ancestors_heritage": {
+          "score": 1,
+          "quote": "There is, more loved, to be found, Than this - our fathers' ground",
+          "rationale": "As sung = stanzas 1 and 11 only; only stanza 1's single 'our fathers' ground' allusion is performed (the stanza-4 forefathers line is unsung).",
           "confidence": "high"
         }
       }
@@ -1856,6 +2053,12 @@
           "quote": "From the graves of our slain Shall thy valour prevail",
           "rationale": "valour explicitly invoked and central to the praise of Liberty",
           "confidence": "high"
+        },
+        "ancestors_heritage": {
+          "score": 2,
+          "quote": "From the sacred bones, of the Hellenes arisen, and valiant again as you once were",
+          "rationale": "Liberty is born of the sacred bones of the Greek ancestral dead and valiant 'as you once were' (from of old) - explicit ancestral lineage. Matches batch-9 scoring of the identical anthem (Cyprus).",
+          "confidence": "high"
         }
       }
     },
@@ -1898,6 +2101,12 @@
           "score": 2,
           "quote": "From the graves of our slain Shall thy valour prevail",
           "rationale": "valour explicitly invoked and central to the praise of Liberty",
+          "confidence": "high"
+        },
+        "ancestors_heritage": {
+          "score": 2,
+          "quote": "From the sacred bones, of the Hellenes arisen, and valiant again as you once were",
+          "rationale": "Official anthem = first two stanzas performed in full (sung == written); the ancestral 'sacred bones' line is present as sung.",
           "confidence": "high"
         }
       }
@@ -1948,6 +2157,18 @@
           "quote": "Our flag you often planted On the wild Turk's earthworks",
           "rationale": "single recollection of past martial glory (Mátyás' army, victory)",
           "confidence": "med"
+        },
+        "flag": {
+          "score": 1,
+          "quote": "Our flag you often planted On the wild Turk's earthworks",
+          "rationale": "Verse 3 names the national flag being planted in victory; a single mention, embedded in a historical battle recollection, so alluded rather than focal.",
+          "confidence": "med"
+        },
+        "ancestors_heritage": {
+          "score": 2,
+          "quote": "You brought our ancestors up Over the Carpathians' holy peaks ... Arpad our hero's descendants Will root and bloom",
+          "rationale": "Verse 1 explicitly invokes 'our ancestors', 'Bendeguz's sons' (v2) and the 'descendants' of the hero Arpad - direct ancestral lineage.",
+          "confidence": "high"
         }
       }
     },
@@ -1973,6 +2194,12 @@
           "quote": "O Lord, bless the nation of Hungary With your grace and bounty",
           "rationale": "verse 1 is a direct prayer to God; deity is its central frame",
           "confidence": "high"
+        },
+        "ancestors_heritage": {
+          "score": 2,
+          "quote": "You brought our ancestors up Over the Carpathians' holy peaks ... Arpad our hero's descendants Will root and bloom",
+          "rationale": "The ancestors/Arpad lines are in verse 1, the only customarily performed verse; present as sung. The verse-3 flag line is unsung, so flag = 0 as sung.",
+          "confidence": "high"
         }
       }
     },
@@ -1986,6 +2213,12 @@
           "quote": "Our country's God! Our country's God! We worship Thy name in its wonder sublime.",
           "rationale": "the anthem is a hymn of praise and prayer to God throughout all three stanzas",
           "confidence": "high"
+        },
+        "ancestors_heritage": {
+          "score": 1,
+          "quote": "Lord, God of our fathers from age unto age",
+          "rationale": "Stanza 2 addresses the 'God of our fathers from age unto age' - a single oblique nod to forefathers/inherited faith.",
+          "confidence": "med"
         }
       }
     },
@@ -2030,6 +2263,12 @@
           "quote": "Sworn to be free, no more our ancient sireland Shall shelter the despot or the slave;",
           "rationale": "freedom is an explicit sworn objective",
           "confidence": "high"
+        },
+        "ancestors_heritage": {
+          "score": 1,
+          "quote": "Sworn to be free, no more our ancient sireland Shall shelter the despot or the slave",
+          "rationale": "The official chorus calls Ireland 'our ancient sireland' - the ancient land of our sires/forefathers; a single oblique heritage reference.",
+          "confidence": "high"
         }
       }
     },
@@ -2060,6 +2299,12 @@
           "score": 2,
           "quote": "Sworn to be free, no more our ancient sireland Shall shelter the despot or the slave;",
           "rationale": "freedom is an explicit sworn objective",
+          "confidence": "high"
+        },
+        "ancestors_heritage": {
+          "score": 1,
+          "quote": "Sworn to be free, no more our ancient sireland Shall shelter the despot or the slave",
+          "rationale": "Only the chorus is the official anthem and it is what is sung (sung == written); 'ancient sireland' present.",
           "confidence": "high"
         }
       }
@@ -2110,6 +2355,18 @@
           "quote": "Where is Victory? Let her bow down",
           "rationale": "single invocation of Victory/national greatness",
           "confidence": "med"
+        },
+        "flag": {
+          "score": 1,
+          "quote": "Let one flag, one hope gather us all",
+          "rationale": "Strophe 2 calls for a single flag/banner to unite all Italians; a single mention of the flag as a rallying symbol.",
+          "confidence": "med"
+        },
+        "ancestors_heritage": {
+          "score": 2,
+          "quote": "Dall'Alpi a Sicilia, Dovunque e Legnano; Ogn'uom di Ferruccio Ha il core e la mano (From the Alps to Sicily, Legnano is everywhere; Every man has the heart and hand of Ferruccio)",
+          "rationale": "Strophe 1 binds modern Italy to ancient Rome ('Scipio's helmet'); strophe 4 invokes ancestral heroes (Legnano, Ferruccio, Balilla, the Vespers) as inherited legacy.",
+          "confidence": "med"
         }
       }
     },
@@ -2153,6 +2410,12 @@
           "quote": "Where is Victory? Let her bow down",
           "rationale": "single invocation of Victory in verse 1",
           "confidence": "med"
+        },
+        "ancestors_heritage": {
+          "score": 1,
+          "quote": "bound Scipio's helmet Upon her head",
+          "rationale": "As sung = strophe 1 + refrain; only the oblique ancient-Rome allusion (Scipio's helmet) is performed. The strophe-2 flag line and strophe-4 heroes are unsung, so flag = 0 as sung.",
+          "confidence": "med"
         }
       }
     },
@@ -2303,6 +2566,12 @@
           "quote": "And light, and truth, May guide our steps.",
           "rationale": "the call to paths of virtue and to light/truth is a recurring organising theme not covered by themes 1-10",
           "confidence": "high"
+        },
+        "ancestors_heritage": {
+          "score": 1,
+          "quote": "Lithuania, our dear homeland, Land of worthy heroes! May your sons draw strength From your past experiences",
+          "rationale": "Stanza 1 frames Lithuania as a 'land of heroes' whose people draw strength 'from your past' - a single oblique appeal to inherited heritage (borders on generic history, hence 1).",
+          "confidence": "med"
         }
       }
     },
@@ -2329,6 +2598,12 @@
           "quote": "And light, and truth, May guide our steps.",
           "rationale": "the call to paths of virtue and to light/truth is a recurring organising theme not covered by themes 1-10",
           "confidence": "high"
+        },
+        "ancestors_heritage": {
+          "score": 1,
+          "quote": "Lithuania, our dear homeland, Land of worthy heroes! May your sons draw strength From your past experiences",
+          "rationale": "All four stanzas are official and sung (sung == written); the 'land of heroes / strength from the past' allusion is in the opening sung stanza.",
+          "confidence": "med"
         }
       }
     },
@@ -2436,6 +2711,12 @@
           "quote": "Confirm us all, in unity and peace!",
           "rationale": "single closing plea for unity",
           "confidence": "high"
+        },
+        "labour_work": {
+          "score": 1,
+          "quote": "Grant wellness to those who work, largesse to those employing (Rodd il-hniena lis-sid, sahha 'l-haddiem)",
+          "rationale": "The official prayer asks blessing for the worker ('haddiem') and the employer ('sid') - a single explicit mention of labour/work as a social class; not nation-building toil, so alluded.",
+          "confidence": "med"
         }
       }
     },
@@ -2455,6 +2736,12 @@
           "quote": "Confirm us all, in unity and peace!",
           "rationale": "single closing plea for unity",
           "confidence": "high"
+        },
+        "labour_work": {
+          "score": 1,
+          "quote": "Grant wellness to those who work, largesse to those employing (Rodd il-hniena lis-sid, sahha 'l-haddiem)",
+          "rationale": "Single short official text sung in full (sung == written); the blessing on 'those who work' / the worker is present as sung.",
+          "confidence": "med"
         }
       }
     },
@@ -2487,6 +2774,12 @@
           "quote": "Our language is a treasure that surges from deep shadows of the past, Chain of precious stones that scattered all over our ancient land.",
           "rationale": "the Romanian/Moldovan language is the single dominant organising subject of every stanza",
           "confidence": "high"
+        },
+        "ancestors_heritage": {
+          "score": 1,
+          "quote": "Words of homilies of old / Wept and sung perpetually / In the homesteads of our folks.",
+          "rationale": "The language is framed as a treasure handed down 'from of old' through the forefathers' homesteads (also 'a treasure is our tongue that surges / From deep shadows of the past'); an oblique inherited-legacy allusion, not generic history.",
+          "confidence": "med"
         }
       }
     },
@@ -2519,6 +2812,12 @@
           "quote": "Our language is a treasure that surges from deep shadows of the past, Chain of precious stones that scattered all over our ancient land.",
           "rationale": "the Romanian/Moldovan language is the single dominant organising subject of every stanza",
           "confidence": "high"
+        },
+        "ancestors_heritage": {
+          "score": 1,
+          "quote": "Words of homilies of old / Wept and sung perpetually / In the homesteads of our folks.",
+          "rationale": "The whole short anthem (all 5 official stanzas) is performed, so as-written == as-sung; the inherited-legacy allusion sits in a sung stanza.",
+          "confidence": "med"
         }
       }
     },
@@ -2551,11 +2850,10 @@
           "rationale": "single note of honour/pride in dynastic continuity",
           "confidence": "med"
         },
-        "wildcard": {
+        "flag": {
           "score": 2,
-          "label": "the national flag (red and white colours)",
-          "quote": "Forever, in our land, One flag has flown in the wind ... the colours red and white",
-          "rationale": "the red-and-white flag is a central recurring image of the short verse",
+          "quote": "All the time, over our country, / The same flag has been flying in the wind / All the time, the colours red and white / Have been the symbol of our liberty",
+          "rationale": "The flag and the red-and-white national colours are the explicit, addressed opening image of the single official verse (not an incidental battle prop); present and focused.",
           "confidence": "high"
         }
       }
@@ -2589,11 +2887,10 @@
           "rationale": "single note of honour/pride in dynastic continuity",
           "confidence": "med"
         },
-        "wildcard": {
+        "flag": {
           "score": 2,
-          "label": "the national flag (red and white colours)",
-          "quote": "Forever, in our land, One flag has flown in the wind ... the colours red and white",
-          "rationale": "the red-and-white flag is a central recurring image of the short verse",
+          "quote": "All the time, over our country, / The same flag has been flying in the wind / All the time, the colours red and white / Have been the symbol of our liberty",
+          "rationale": "Only the single Notari Monegasque verse is official and ever sung, so as-written == as-sung; the flag/colours image is in the sung text.",
           "confidence": "high"
         }
       }
@@ -2726,6 +3023,12 @@
           "quote": "I dedicate undying Faith to this land of mine",
           "rationale": "devotion to 'this land' but no geographic description",
           "confidence": "med"
+        },
+        "ancestors_heritage": {
+          "score": 1,
+          "quote": "William of Nassau, scion / Of a Dutch and ancient line",
+          "rationale": "Verse 1 invokes ancient lineage ('of a Dutch and ancient line') and verse 5 adds noble descent ('I, nobly born, descended / From an imperial stock'); an oblique ancestral-lineage allusion, but the anthem's focus is William's faith and loyalty, so alluded rather than present.",
+          "confidence": "med"
         }
       }
     },
@@ -2769,6 +3072,12 @@
           "quote": "I dedicate undying Faith to this land of mine",
           "rationale": "devotion to 'this land' but no geographic description",
           "confidence": "med"
+        },
+        "ancestors_heritage": {
+          "score": 1,
+          "quote": "William of Nassau, scion / Of a Dutch and ancient line",
+          "rationale": "As-sung = verse 1 (and on official occasions verse 6); verse 1 carries the single ancient-lineage allusion, while verse 6 (the other sung verse) is a prayer with no heritage content.",
+          "confidence": "med"
         }
       }
     },
@@ -2807,6 +3116,12 @@
           "quote": "Now once again flies The flag of the Krusevo Republic, Goce Delcev, Pitu Guli, Dame Gruev, Sandanski.",
           "rationale": "stanza 2 is a roll-call of revolutionaries and the 1903 Krusevo Republic, a distinct historical motif",
           "confidence": "high"
+        },
+        "flag": {
+          "score": 2,
+          "quote": "Now once again flies / The flag of the Kruševo Republic",
+          "rationale": "The flag is directly addressed and raised ('Now once again the flag flutters') as a focused national symbol, not an incidental battle prop; explicit single mention.",
+          "confidence": "high"
         }
       }
     },
@@ -2838,6 +3153,12 @@
           "quote": "Don't cry Macedonia, my dear mother, Hold your head up high",
           "rationale": "single exhortation to national pride",
           "confidence": "med"
+        },
+        "flag": {
+          "score": 2,
+          "quote": "Now once again flies / The flag of the Kruševo Republic",
+          "rationale": "The flag line is in the Kruševo-Republic stanza, which is among the sung stanzas (1, 3, 4); only stanza 2 is omitted, so the flag image survives as sung.",
+          "confidence": "high"
         }
       }
     },
@@ -2880,6 +3201,12 @@
           "score": 1,
           "quote": "the Lord has quietly eased so we won our rights",
           "rationale": "single reference to having 'won our rights' (self-determination)",
+          "confidence": "med"
+        },
+        "ancestors_heritage": {
+          "score": 2,
+          "quote": "And as the fathers' struggle has raised / it from need to victory",
+          "rationale": "The forefathers' legacy is explicit and recurring across the sung closing verses ('All the fights fathers have fought' in v7; 'the fathers' struggle has raised it from need to victory' in v8), an inherited legacy handed down, not generic history.",
           "confidence": "med"
         }
       }
@@ -2924,6 +3251,12 @@
           "quote": "the Lord has quietly eased so we won our rights",
           "rationale": "verse 7 reference to having 'won our rights'",
           "confidence": "med"
+        },
+        "ancestors_heritage": {
+          "score": 2,
+          "quote": "And as the fathers' struggle has raised / it from need to victory",
+          "rationale": "The forefathers references are precisely in the customarily sung verses 7 and 8 (verse 1 also recalls 'father and mother' and the 'saga-night'); present in the sung text.",
+          "confidence": "med"
         }
       }
     },
@@ -3056,12 +3389,11 @@
           "rationale": "the splendour/glory of Portugal and its heroes is an explicit, central pride theme",
           "confidence": "high"
         },
-        "wildcard": {
+        "ancestors_heritage": {
           "score": 2,
-          "label": "maritime / seafaring heritage",
-          "quote": "Heroes of the sea, noble people ... That shall lead you on to victory!",
-          "rationale": "the opening 'Heroes of the sea' frames Portugal's maritime/discovery glory as a distinct motif",
-          "confidence": "high"
+          "quote": "Of your illustrious forefathers, / That shall lead you on to victory!",
+          "rationale": "Verse 1 of the official text explicitly invokes the nation's forefathers (Portuguese 'teus egregios avos') as an inspiring ancestral legacy; explicit single mention.",
+          "confidence": "med"
         }
       }
     },
@@ -3094,12 +3426,11 @@
           "rationale": "the splendour/glory of Portugal and its heroes is an explicit, central pride theme",
           "confidence": "high"
         },
-        "wildcard": {
+        "ancestors_heritage": {
           "score": 2,
-          "label": "maritime / seafaring heritage",
-          "quote": "Heroes of the sea, noble people ... That shall lead you on to victory!",
-          "rationale": "the opening 'Heroes of the sea' frames Portugal's maritime/discovery glory as a distinct motif",
-          "confidence": "high"
+          "quote": "Of your illustrious forefathers, / That shall lead you on to victory!",
+          "rationale": "The official anthem is verse 1 + chorus and that is exactly what is performed (as-written == as-sung); the forefathers line is in sung verse 1. (The 'unfurl the undefeated flag' line is in non-official verse 2 and is not scored, so flag = 0.)",
+          "confidence": "med"
         }
       }
     },
@@ -3164,6 +3495,12 @@
           "quote": "Behold, mighty shadows; Michael, Stephen, Corvinus ... the name of Trajan!",
           "rationale": "invocation of Roman descent and named medieval heroes is a distinct organising motif",
           "confidence": "high"
+        },
+        "ancestors_heritage": {
+          "score": 3,
+          "quote": "Behold, marvelous shadows: Michael, Stephen, Corvinus, / The Romanian nation, thy children are fearless.",
+          "rationale": "Ancestral lineage is a dominant motif across the official verses: verse 2 declares 'in these veins still flows a Roman blood' and 'the name of Trajan', and verse 4 directly addresses the ancestral 'shadows' Mihai/Stefan/Corvinus calling Romanians their descendants.",
+          "confidence": "med"
         }
       }
     },
@@ -3235,6 +3572,12 @@
           "quote": "A mighty will and great glory Are yours for all time ... Be glorious, our country! We're proud of you!",
           "rationale": "glory, might and pride are the anthem's dominant, repeated register",
           "confidence": "high"
+        },
+        "ancestors_heritage": {
+          "score": 2,
+          "quote": "The age-old union of fraternal peoples, / Ancestor-given wisdom of the people!",
+          "rationale": "The recurring refrain explicitly invokes an inherited legacy ('ancestor-given wisdom') and an 'age-old' union handed down; present and, being in the refrain, recurring.",
+          "confidence": "med"
         }
       }
     },
@@ -3272,6 +3615,12 @@
           "quote": "A mighty will and great glory Are yours for all time ... Be glorious, our country! We're proud of you!",
           "rationale": "glory, might and pride are the anthem's dominant, repeated register",
           "confidence": "high"
+        },
+        "ancestors_heritage": {
+          "score": 2,
+          "quote": "The age-old union of fraternal peoples, / Ancestor-given wisdom of the people!",
+          "rationale": "All 3 verses + refrain are the official text and performed (as-written == as-sung); the ancestor line is in the always-repeated refrain.",
+          "confidence": "med"
         }
       }
     },
@@ -3630,6 +3979,12 @@
           "quote": "And we'll show that we, brothers, are of the Cossack race!",
           "rationale": "claimed descent from the Cossacks and the survival of the nation are a salient motif beyond the standard themes",
           "confidence": "high"
+        },
+        "ancestors_heritage": {
+          "score": 1,
+          "quote": "And we will show, brothers, that we are of the Cossack nation!",
+          "rationale": "An oblique lineage/descent claim ('kozatskoho rodu' = of the Cossack kin/lineage), invoking an ancestral identity rather than mere present-day unity; single mention, hence alluded.",
+          "confidence": "med"
         }
       }
     },
@@ -3680,6 +4035,12 @@
           "quote": "And we'll show that we, brothers, are of the Cossack race!",
           "rationale": "claimed descent from the Cossacks and the survival of the nation are a salient motif beyond the standard themes",
           "confidence": "high"
+        },
+        "ancestors_heritage": {
+          "score": 1,
+          "quote": "And we will show, brothers, that we are of the Cossack nation!",
+          "rationale": "Official text is verse 1 + refrain and is performed in full (as-written == as-sung); the Cossack-lineage line sits in the sung refrain.",
+          "confidence": "med"
         }
       }
     },
@@ -3835,6 +4196,12 @@
           "quote": "Ever striving, ever seeking Dwell in love and unity.",
           "rationale": "'love and unity' is an explicit closing aspiration of verse 1",
           "confidence": "high"
+        },
+        "flag": {
+          "score": 2,
+          "quote": "Raise the standard! Raise it boldly!",
+          "rationale": "The national standard/banner is directly addressed and raised as the explicit opening of verse 2; this matches the rubric's 'raise the banner' example.",
+          "confidence": "high"
         }
       }
     },
@@ -3899,6 +4266,12 @@
           "quote": "Pressing onward, march together to a common loftier goal; Steady sunward, tho' the weather hide the wide and treacherous shoal.",
           "rationale": "the central motif is steady onward progress toward a goal despite hazards",
           "confidence": "high"
+        },
+        "flag": {
+          "score": 2,
+          "quote": "March on to glory, your bright banners waving high.",
+          "rationale": "The national banners are addressed and described waving high in a focused image (not an incidental battle prop); explicit single mention.",
+          "confidence": "high"
         }
       }
     },
@@ -3930,6 +4303,12 @@
           "label": "onward perseverance / the rising sun",
           "quote": "Pressing onward, march together to a common loftier goal; Steady sunward, tho' the weather hide the wide and treacherous shoal.",
           "rationale": "the central motif is steady onward progress toward a goal despite hazards",
+          "confidence": "high"
+        },
+        "flag": {
+          "score": 2,
+          "quote": "March on to glory, your bright banners waving high.",
+          "rationale": "Single-stanza anthem performed in full (as-written == as-sung); the 'bright banners waving high' image is present as sung.",
           "confidence": "high"
         }
       }
@@ -3969,11 +4348,10 @@
           "rationale": "the 'pride of nationhood' is an explicit, repeated theme",
           "confidence": "high"
         },
-        "wildcard": {
+        "ancestors_heritage": {
           "score": 2,
-          "label": "forefathers / heritage & self-determination",
-          "quote": "Strict guardians of our heritage, Firm craftsmen of our fate.",
-          "rationale": "ancestral heritage and being 'craftsmen of our fate' is a salient motif beyond the standard themes",
+          "quote": "Our brave forefathers sowed the seed From which our pride is sprung",
+          "rationale": "Explicit forefathers plus a recurring heritage motif ('Strict guardians of our heritage'); present and recurring across verse 1 and chorus.",
           "confidence": "high"
         }
       }
@@ -4001,11 +4379,10 @@
           "rationale": "the 'pride of nationhood' is the central note of verse 1",
           "confidence": "high"
         },
-        "wildcard": {
+        "ancestors_heritage": {
           "score": 2,
-          "label": "forefathers / heritage & self-determination",
-          "quote": "Our brave forefathers sowed the seed From which our pride is sprung,",
-          "rationale": "verse 1 + chorus foreground ancestral heritage and being 'craftsmen of our fate'",
+          "quote": "Our brave forefathers sowed the seed From which our pride is sprung",
+          "rationale": "As-sung = verse 1 + chorus, which both carry the theme ('forefathers' in verse 1, 'guardians of our heritage' in chorus); no sung gap for this theme.",
           "confidence": "high"
         }
       }
@@ -4057,11 +4434,10 @@
           "rationale": "liberty/freedom from slavery is the anthem's title and organising theme",
           "confidence": "high"
         },
-        "wildcard": {
+        "ancestors_heritage": {
           "score": 2,
-          "label": "named rivers / Baymen heritage",
-          "quote": "From proud Rio Hondo to old Sarstoon, Through coral isle, over blue lagoon;",
-          "rationale": "the Baymen ancestry and specifically named rivers (Rio Hondo, Sarstoon) are a salient motif",
+          "quote": "Our fathers, the Baymen, valiant and bold Drove back the invader, this heritage bold",
+          "rationale": "Explicit ancestors ('our fathers, the Baymen') and inherited 'heritage', reinforced by 'The blood of our sires' in verse 1; present and recurring.",
           "confidence": "high"
         }
       }
@@ -4109,12 +4485,11 @@
           "rationale": "liberty/freedom from slavery is the title and central theme of the sung text",
           "confidence": "high"
         },
-        "wildcard": {
-          "score": 1,
-          "label": "Baymen heritage / abolition",
-          "quote": "Brought freedom from slavery oppression's rod,",
-          "rationale": "the verse-1 reference to ending slavery is a salient note beyond generic liberty",
-          "confidence": "med"
+        "ancestors_heritage": {
+          "score": 2,
+          "quote": "The blood of our sires, which hallows the sod, Brought freedom from slavery",
+          "rationale": "As-sung = verse 1 + chorus; verse 1 explicitly invokes the forefathers ('our sires') whose blood won freedom. The fuller 'our fathers, the Baymen / heritage' line is in unsung verse 2, so the theme is present (not dominant) as sung.",
+          "confidence": "high"
         }
       }
     },
@@ -4160,6 +4535,12 @@
           "label": "defence / standing on guard",
           "quote": "From far and wide, O Canada, we stand on guard for thee.",
           "rationale": "the defensive vow to 'stand on guard' (EN) / 'protect our homes and rights' (FR) is the recurring refrain",
+          "confidence": "high"
+        },
+        "ancestors_heritage": {
+          "score": 2,
+          "quote": "Ô Canada! Terre de nos aïeux",
+          "rationale": "The official French version opens 'Terre de nos aieux' = 'Land of our ancestors/forefathers', an explicit ancestral-legacy invocation in the combined official lyrics.",
           "confidence": "high"
         }
       }
@@ -4207,6 +4588,12 @@
           "quote": "From far and wide, O Canada, we stand on guard for thee.",
           "rationale": "the defensive vow to 'stand on guard' (EN) / 'protect our homes and rights' (FR) is the recurring refrain",
           "confidence": "high"
+        },
+        "ancestors_heritage": {
+          "score": 2,
+          "quote": "Ô Canada! Terre de nos aïeux",
+          "rationale": "Both official-language versions are sung and as-written == as-sung; the French sung text opens with 'Land of our ancestors'.",
+          "confidence": "high"
         }
       }
     },
@@ -4241,12 +4628,17 @@
           "rationale": "honour and 'eternal prestige' won by the people are explicit",
           "confidence": "high"
         },
-        "wildcard": {
+        "labour_work": {
           "score": 2,
-          "label": "labour / dignity of work (and peace)",
-          "quote": "In the tenacious struggle of fruitful labor That reddens man's face,",
-          "rationale": "the dignity of agricultural labour and the wish that 'work and peace always live' is a defining, recurring theme",
-          "confidence": "high"
+          "quote": "In the tenacious struggle of fruitful labor That reddens man's face, Your children, simple farmhands",
+          "rationale": "Explicit work/toil imagery (fruitful labour, farmhands) plus the closing 'may work and peace always live'; present and recurring.",
+          "confidence": "med"
+        },
+        "flag": {
+          "score": 2,
+          "quote": "Noble homeland, your beautiful flag Gives us the expression of your life",
+          "rationale": "The flag is directly addressed in the opening lines (the anthem is titled 'Your beautiful flag'); explicit, focused, not an incidental battle prop.",
+          "confidence": "med"
         }
       }
     },
@@ -4282,12 +4674,11 @@
           "rationale": "the chorus invokes the nation's 'glory' to be defended",
           "confidence": "med"
         },
-        "wildcard": {
-          "score": 2,
-          "label": "labour & peace",
+        "labour_work": {
+          "score": 1,
           "quote": "Hail, oh homeland, your prodigious soil Gives us sweet shelter and sustenance; Under the clear blue of your sky, May work and peace always live!",
-          "rationale": "the sung final stanza closes on the wish that work and peace endure",
-          "confidence": "high"
+          "rationale": "As-sung = chorus + final stanza; the 'fruitful labour / farmhands' lines are in the unsung first stanza, so only the single 'may work and peace always live' allusion remains. The flag line (opening stanza) is not in the sung portion, so flag scores 0 as-sung.",
+          "confidence": "med"
         }
       }
     },
@@ -4409,6 +4800,12 @@
           "quote": "Strive for honour, sons and daughters, Do the right, be firm, be fair.",
           "rationale": "single call to strive for honour",
           "confidence": "high"
+        },
+        "labour_work": {
+          "score": 2,
+          "quote": "Toil with hearts and hands and voices. We must prosper!",
+          "rationale": "Verse 3 explicitly exhorts toil with hands to prosper the nation.",
+          "confidence": "high"
         }
       }
     },
@@ -4439,6 +4836,12 @@
           "score": 1,
           "quote": "Strive for honour, sons and daughters, Do the right, be firm, be fair.",
           "rationale": "single call to strive for honour",
+          "confidence": "high"
+        },
+        "labour_work": {
+          "score": 2,
+          "quote": "Toil with hearts and hands and voices. We must prosper!",
+          "rationale": "Verse 3 explicitly exhorts toil with hands to prosper the nation.",
           "confidence": "high"
         }
       }
@@ -4490,6 +4893,12 @@
           "quote": "On to Las Carreras! Beler! ...were places Where the traces of glory are found.",
           "rationale": "specific named battlefields invoked, beyond generic war theme",
           "confidence": "high"
+        },
+        "flag": {
+          "score": 2,
+          "quote": "And let us show to the world / Our invincible, glorious banner.",
+          "rationale": "Opening stanza addresses and displays the national banner.",
+          "confidence": "med"
         }
       }
     },
@@ -4529,6 +4938,12 @@
           "quote": "And let us show to the world Our invincible, glorious banner.",
           "rationale": "'invincible, glorious banner' in the opening stanza",
           "confidence": "high"
+        },
+        "flag": {
+          "score": 2,
+          "quote": "And let us show to the world / Our invincible, glorious banner.",
+          "rationale": "Opening stanza addresses and displays the national banner.",
+          "confidence": "med"
         }
       }
     },
@@ -4579,6 +4994,12 @@
           "quote": "to waging fierce war against war: Her fortune is found in peace.",
           "rationale": "peace framed as the explicit goal, distinct from themes 1-10",
           "confidence": "med"
+        },
+        "flag": {
+          "score": 2,
+          "quote": "Since the day that on her high flag / With her blood she wrote \"LIBERTY!\"",
+          "rationale": "Stanza 1 makes the high flag the focus, inscribed with liberty in blood.",
+          "confidence": "med"
         }
       }
     },
@@ -4605,6 +5026,12 @@
           "quote": "Of the peace in the supreme happiness Ever noble El Salvador dreamed",
           "rationale": "stanza 1 centres on peace as El Salvador's dream",
           "confidence": "med"
+        },
+        "flag": {
+          "score": 2,
+          "quote": "Since the day that on her high flag / With her blood she wrote \"LIBERTY!\"",
+          "rationale": "Stanza 1 makes the high flag the focus, inscribed with liberty in blood.",
+          "confidence": "med"
         }
       }
     },
@@ -4642,6 +5069,18 @@
           "quote": "Being proud of our heritage",
           "rationale": "single mention of pride in heritage",
           "confidence": "high"
+        },
+        "labour_work": {
+          "score": 1,
+          "quote": "Aspire, Build, Advance",
+          "rationale": "'Build' alludes to nation-building effort, single oblique mention.",
+          "confidence": "med"
+        },
+        "ancestors_heritage": {
+          "score": 1,
+          "quote": "Being proud of our Heritage",
+          "rationale": "Single explicit but bare mention of inherited heritage.",
+          "confidence": "med"
         }
       }
     },
@@ -4679,6 +5118,18 @@
           "quote": "Being proud of our heritage",
           "rationale": "single mention of pride in heritage",
           "confidence": "high"
+        },
+        "labour_work": {
+          "score": 1,
+          "quote": "Aspire, Build, Advance",
+          "rationale": "'Build' alludes to nation-building effort, single oblique mention.",
+          "confidence": "med"
+        },
+        "ancestors_heritage": {
+          "score": 1,
+          "quote": "Being proud of our Heritage",
+          "rationale": "Single explicit but bare mention of inherited heritage.",
+          "confidence": "med"
         }
       }
     },
@@ -4735,6 +5186,24 @@
           "quote": "the beautiful quetzal Native bird that lives in your seal ... hopefully he will fly high more than the condor and the royal eagle!",
           "rationale": "the quetzal as soaring national symbol is a developed v4 motif beyond land/glory",
           "confidence": "high"
+        },
+        "labour_work": {
+          "score": 1,
+          "quote": "The plow that fertilizes the soil",
+          "rationale": "Agrarian labour imagery (plow/soil), metaphorical and singular.",
+          "confidence": "med"
+        },
+        "flag": {
+          "score": 2,
+          "quote": "Your fair flag, flying freely in the wind, Will call to you: Conquer or die",
+          "rationale": "Flag addressed in verse 1/chorus; colours/emblem recur in verse 3.",
+          "confidence": "med"
+        },
+        "ancestors_heritage": {
+          "score": 2,
+          "quote": "Our fathers fought one day, Lit up in patriotic burning",
+          "rationale": "Explicit reference to forefathers ('Our fathers').",
+          "confidence": "med"
         }
       }
     },
@@ -4791,6 +5260,24 @@
           "quote": "the beautiful quetzal Native bird that lives in your seal ... hopefully he will fly high more than the condor and the royal eagle!",
           "rationale": "the quetzal as soaring national symbol is a developed v4 motif beyond land/glory",
           "confidence": "high"
+        },
+        "labour_work": {
+          "score": 1,
+          "quote": "The plow that fertilizes the soil",
+          "rationale": "Agrarian labour imagery (plow/soil), metaphorical and singular.",
+          "confidence": "med"
+        },
+        "flag": {
+          "score": 2,
+          "quote": "Your fair flag, flying freely in the wind, Will call to you: Conquer or die",
+          "rationale": "Flag addressed in verse 1/chorus; colours/emblem recur in verse 3.",
+          "confidence": "med"
+        },
+        "ancestors_heritage": {
+          "score": 2,
+          "quote": "Our fathers fought one day, Lit up in patriotic burning",
+          "rationale": "Explicit reference to forefathers ('Our fathers').",
+          "confidence": "med"
         }
       }
     },
@@ -4835,11 +5322,22 @@
           "rationale": "marching united is the repeated organising refrain",
           "confidence": "high"
         },
-        "wildcard": {
+        "labour_work": {
           "score": 2,
-          "label": "the ancestors / forefathers",
+          "quote": "Let us toil joyous, let us toil joyous / When the field fructifies",
+          "rationale": "Verse 2 explicitly exhorts joyful toil in the fields.",
+          "confidence": "high"
+        },
+        "flag": {
+          "score": 2,
+          "quote": "For the flag, for our country / To die is a fine thing",
+          "rationale": "Verse 5 dedicates death to the flag as object of devotion.",
+          "confidence": "med"
+        },
+        "ancestors_heritage": {
+          "score": 3,
           "quote": "For the Country, for the Ancestors, Let us march united",
-          "rationale": "the ancestors (Dessalines' generation) are an explicit recurring dedicatee beyond other themes",
+          "rationale": "Ancestors/Forefathers form the recurring opening refrain across verses 1-4.",
           "confidence": "high"
         }
       }
@@ -4869,11 +5367,10 @@
           "rationale": "marching united is the repeated refrain of verse 1",
           "confidence": "high"
         },
-        "wildcard": {
+        "ancestors_heritage": {
           "score": 2,
-          "label": "the ancestors / forefathers",
           "quote": "For the Country, for the Ancestors, Let us march united",
-          "rationale": "verse 1 dedicates the march to the ancestors",
+          "rationale": "Sung verse 1 explicitly invokes the ancestors.",
           "confidence": "high"
         }
       }
@@ -4913,11 +5410,10 @@
           "rationale": "honour and 'glorious folds' recur around the flag",
           "confidence": "high"
         },
-        "wildcard": {
-          "score": 2,
-          "label": "the flag / national emblem as central subject",
-          "quote": "Your flag is a splendour of sky crossed with a band of snow",
-          "rationale": "the flag and coat-of-arms are the anthem's organising subject, distinct from land",
+        "flag": {
+          "score": 3,
+          "quote": "Your flag, your flag is a splendour of sky",
+          "rationale": "Entire chorus describes/addresses the flag; verse 7 calls to defend 'your holy flag'.",
           "confidence": "high"
         }
       }
@@ -4957,11 +5453,10 @@
           "rationale": "honour and 'glorious folds' in the sung verse 7",
           "confidence": "high"
         },
-        "wildcard": {
-          "score": 2,
-          "label": "the flag / national emblem as central subject",
-          "quote": "Your flag is a splendour of sky crossed with a band of snow",
-          "rationale": "the sung chorus is entirely a description of the flag and coat-of-arms",
+        "flag": {
+          "score": 3,
+          "quote": "Your flag, your flag is a splendour of sky",
+          "rationale": "Entire chorus describes/addresses the flag; verse 7 calls to defend 'your holy flag'.",
           "confidence": "high"
         }
       }
@@ -5095,6 +5590,12 @@
           "quote": "Gird, oh Fatherland! Your brow with olive, by the divine archangel of peace",
           "rationale": "the olive-of-peace framing set against the war stanzas is a distinct motif",
           "confidence": "med"
+        },
+        "flag": {
+          "score": 1,
+          "quote": "War, war! Soak our homeland's flags / In the waves of blood.",
+          "rationale": "Flags appear only as a prop within the battle scene of stanza 5, not as the focus.",
+          "confidence": "med"
         }
       }
     },
@@ -5151,6 +5652,12 @@
           "quote": "Gird, oh Fatherland! Your brow with olive, by the divine archangel of peace",
           "rationale": "the olive-of-peace framing set against the war stanzas is a distinct motif",
           "confidence": "med"
+        },
+        "flag": {
+          "score": 1,
+          "quote": "War, war! Soak our homeland's flags / In the waves of blood.",
+          "rationale": "Flags appear only as a prop within the battle scene of stanza 5, not as the focus.",
+          "confidence": "med"
         }
       }
     },
@@ -5185,11 +5692,16 @@
           "rationale": "'immortal glory' and 'triumphal emblem' are explicit",
           "confidence": "high"
         },
-        "wildcard": {
+        "labour_work": {
           "score": 2,
-          "label": "peace & labour (post-civil-war pacifism)",
-          "quote": "for work is thy worthy laurel and honour is thy triumphal emblem!",
-          "rationale": "peace and dignified work are the deliberate central message, replacing war",
+          "quote": "For work is what earns your laurels",
+          "rationale": "Explicitly credits work/labour with the nation's laurels.",
+          "confidence": "high"
+        },
+        "flag": {
+          "score": 2,
+          "quote": "Nor does the blood of our brothers / Stain your glorious bicoloured flag",
+          "rationale": "Bicoloured flag addressed (twice) plus 'triumphal ensign'.",
           "confidence": "high"
         }
       }
@@ -5225,11 +5737,16 @@
           "rationale": "'immortal glory' and 'triumphal emblem' are explicit",
           "confidence": "high"
         },
-        "wildcard": {
+        "labour_work": {
           "score": 2,
-          "label": "peace & labour (post-civil-war pacifism)",
-          "quote": "for work is thy worthy laurel and honour is thy triumphal emblem!",
-          "rationale": "peace and dignified work are the deliberate central message, replacing war",
+          "quote": "For work is what earns your laurels",
+          "rationale": "Explicitly credits work/labour with the nation's laurels.",
+          "confidence": "high"
+        },
+        "flag": {
+          "score": 2,
+          "quote": "Nor does the blood of our brothers / Stain your glorious bicoloured flag",
+          "rationale": "Bicoloured flag addressed (twice) plus 'triumphal ensign'.",
           "confidence": "high"
         }
       }
@@ -5263,11 +5780,10 @@
           "rationale": "victory and 'fires of glory' open the chorus",
           "confidence": "high"
         },
-        "wildcard": {
+        "labour_work": {
           "score": 2,
-          "label": "labour / work (the shovel and pick)",
-          "quote": "Ahead the shovel and pick, At work without any more dilation",
-          "rationale": "the call to industrious labour is a distinctive central exhortation",
+          "quote": "Ahead, with spade and stone-mason's hammer! / To work, without more delay!",
+          "rationale": "Explicit tools and call to work in verse 2.",
           "confidence": "high"
         }
       }
@@ -5301,11 +5817,10 @@
           "rationale": "victory and 'fires of glory' open the chorus",
           "confidence": "high"
         },
-        "wildcard": {
+        "labour_work": {
           "score": 2,
-          "label": "labour / work (the shovel and pick)",
-          "quote": "Ahead the shovel and pick, At work without any more dilation",
-          "rationale": "the call to industrious labour is a distinctive central exhortation",
+          "quote": "Ahead, with spade and stone-mason's hammer! / To work, without more delay!",
+          "rationale": "Explicit tools and call to work in verse 2.",
           "confidence": "high"
         }
       }
@@ -5431,6 +5946,12 @@
           "quote": "Dawns at last a brighter day, Stretches out a glad new way.",
           "rationale": "v2 frames the present as a peaceful new era after past strife",
           "confidence": "med"
+        },
+        "labour_work": {
+          "score": 1,
+          "quote": "Gone the days when strife and discord / Dimmed her children's toil and rest.",
+          "rationale": "Single oblique mention of the people's 'toil'; no exhortation to work, so alluded only.",
+          "confidence": "med"
         }
       }
     },
@@ -5468,6 +5989,12 @@
           "label": "peace / reconciliation after conflict",
           "quote": "Dawns at last a brighter day, Stretches out a glad new way.",
           "rationale": "v2 frames the present as a peaceful new era after past strife",
+          "confidence": "med"
+        },
+        "labour_work": {
+          "score": 1,
+          "quote": "Gone the days when strife and discord / Dimmed her children's toil and rest.",
+          "rationale": "All three verses are sung (as-written = as-sung); single oblique mention of 'toil'.",
           "confidence": "med"
         }
       }
@@ -5753,6 +6280,12 @@
           "quote": "For children of the great Bolivar have sworn a thousand times",
           "rationale": "the liberator is named as ancestor, a distinct motif",
           "confidence": "high"
+        },
+        "flag": {
+          "score": 1,
+          "quote": "to die rather than see the country's / majestic banner humiliated",
+          "rationale": "Banner named only inside verse 4's defence-against-invader scene, not addressed for its own sake.",
+          "confidence": "med"
         }
       }
     },
@@ -5849,6 +6382,12 @@
           "quote": "The image of the (Southern) Cross blazes.",
           "rationale": "the constellation as national emblem is a distinct motif",
           "confidence": "high"
+        },
+        "flag": {
+          "score": 2,
+          "quote": "Brazil, may you have as eternal symbol / The starry banner you display",
+          "rationale": "Stanza 2 directly addresses the starry banner as an eternal national symbol.",
+          "confidence": "med"
         }
       }
     },
@@ -5893,6 +6432,12 @@
           "quote": "The image of the (Southern) Cross blazes.",
           "rationale": "the constellation as national emblem is a distinct motif",
           "confidence": "high"
+        },
+        "flag": {
+          "score": 2,
+          "quote": "Brazil, may you have as eternal symbol / The starry banner you display",
+          "rationale": "Law requires both stanzas sung (as-written = as-sung); banner addressed as eternal symbol.",
+          "confidence": "med"
         }
       }
     },
@@ -5943,11 +6488,16 @@
           "rationale": "glory/noble banner recurs (verses III, VI)",
           "confidence": "high"
         },
-        "wildcard": {
+        "flag": {
           "score": 1,
-          "label": "the national flag/banner (bicolour estandarte)",
-          "quote": "or your noble, glorious banner will see us fighting, fall",
-          "rationale": "the banner as object of devotion is a distinct motif",
+          "quote": "your noble, glorious standard",
+          "rationale": "Verse IV names the national standard (estandarte) but inside a defence-of-honour battle scene.",
+          "confidence": "med"
+        },
+        "ancestors_heritage": {
+          "score": 2,
+          "quote": "with his blood the proud Araucanian / inherited his courage to us",
+          "rationale": "Verse IV explicitly frames valour as a legacy bequeathed by ancestral Araucanians.",
           "confidence": "med"
         }
       }
@@ -6024,6 +6574,12 @@
           "quote": "Bolivar crosses the Andes watered by two oceans, swords like sparks flash in Junin.",
           "rationale": "named heroes and specific battles are a distinct historical motif",
           "confidence": "high"
+        },
+        "flag": {
+          "score": 1,
+          "quote": "from the American sky / forming a pavilion",
+          "rationale": "Verse VII's 'pavilion' (pabellon) is a single metaphorical banner image, not the flag raised/addressed.",
+          "confidence": "med"
         }
       }
     },
@@ -6111,6 +6667,12 @@
           "label": "named battle site (Pichincha)",
           "quote": "The worthy sons of the soil Who magnificently adorned Pichincha",
           "rationale": "the 1822 battle of Pichincha is invoked, a distinct historical referent",
+          "confidence": "med"
+        },
+        "ancestors_heritage": {
+          "score": 2,
+          "quote": "your free existence / Is the noble and magnificent inheritance / That heroism gave us ... From the paternal hands we received it",
+          "rationale": "Verse IV explicitly casts freedom as an inherited legacy received from forefathers' hands.",
           "confidence": "med"
         }
       }
@@ -6206,6 +6768,12 @@
           "quote": "Both bondsmen and free, laid their bones on your shore",
           "rationale": "the bondsmen/free origin of a six-peoples nation is a distinct motif",
           "confidence": "med"
+        },
+        "ancestors_heritage": {
+          "score": 3,
+          "quote": "Green Land of Guyana, our heroes of yore ... and from them are we ... We are born of their sacrifice, heirs of their pains",
+          "rationale": "Ancestors/heritage dominate verses 2-4 ('heroes of yore', 'heirs', 'our heritage').",
+          "confidence": "high"
         }
       }
     },
@@ -6256,6 +6824,12 @@
           "quote": "Both bondsmen and free, laid their bones on your shore",
           "rationale": "the bondsmen/free origin of a six-peoples nation is a distinct motif",
           "confidence": "med"
+        },
+        "ancestors_heritage": {
+          "score": 3,
+          "quote": "Green Land of Guyana, our heroes of yore ... and from them are we ... We are born of their sacrifice, heirs of their pains",
+          "rationale": "All four verses sung (as-written = as-sung); ancestors/heritage recur across verses 2-4.",
+          "confidence": "high"
         }
       }
     },
@@ -6306,6 +6880,18 @@
           "quote": "Paraguayans: Republic or Death!",
           "rationale": "the explicit republic-vs-crown motto is a distinctive central motif (the diadem is 'smashed')",
           "confidence": "high"
+        },
+        "flag": {
+          "score": 2,
+          "quote": "In your ensign one sees the colors / Of sapphire, diamond, and ruby.",
+          "rationale": "A later verse describes the national ensign and its colours as a thing displayed.",
+          "confidence": "med"
+        },
+        "ancestors_heritage": {
+          "score": 2,
+          "quote": "Our forefathers, fighting magnificently, / Displayed their martial glory",
+          "rationale": "Verse I explicitly invokes 'our forefathers' as the founding generation.",
+          "confidence": "med"
         }
       }
     },
@@ -6356,6 +6942,12 @@
           "quote": "Paraguayans: Republic or Death!",
           "rationale": "the explicit republic-vs-crown motto, with the diadem smashed, is a distinctive central motif",
           "confidence": "high"
+        },
+        "ancestors_heritage": {
+          "score": 2,
+          "quote": "Our forefathers, fighting magnificently, / Displayed their martial glory",
+          "rationale": "Sung verse I explicitly invokes 'our forefathers'; the flag-describing verse is not sung.",
+          "confidence": "med"
         }
       }
     },
@@ -6400,12 +6992,11 @@
           "rationale": "verse VII centres the Andes sustaining the flag",
           "confidence": "high"
         },
-        "wildcard": {
+        "flag": {
           "score": 2,
-          "label": "the national flag / bicolour standard",
-          "quote": "On its summits may the Andes sustain The two-color flag or standard, May it announce to the centuries the effort",
-          "rationale": "the bicolour flag on the Andes is the central image of the official verse VII",
-          "confidence": "high"
+          "quote": "On its summit may the Andes hold / the bicolor banner or flag",
+          "rationale": "Verse VII raises the bicolour flag on the Andes as an enduring national emblem.",
+          "confidence": "med"
         }
       }
     },
@@ -6438,12 +7029,11 @@
           "rationale": "the effort proclaimed to the centuries carries pride, single instance",
           "confidence": "med"
         },
-        "wildcard": {
+        "flag": {
           "score": 2,
-          "label": "the national flag / bicolour standard",
-          "quote": "On its summits may the Andes sustain The two-color flag or standard",
-          "rationale": "the bicolour flag on the Andes is the central image of the official sung verse VII",
-          "confidence": "high"
+          "quote": "On its summit may the Andes hold / the bicolor banner or flag",
+          "rationale": "Official sung verse VII raises the bicolour flag on the Andes as an enduring national emblem.",
+          "confidence": "med"
         }
       }
     },
@@ -6487,6 +7077,12 @@
           "quote": "How we came here together, We are dedicated to its soil.",
           "rationale": "togetherness alluded to (verse 2 added in 1959 specifically about national unity)",
           "confidence": "med"
+        },
+        "ancestors_heritage": {
+          "score": 2,
+          "quote": "Where ever our ancestors came from We should take care of our country",
+          "rationale": "The Sranan Tongo verse explicitly invokes the people's ancestors and the duty to tend the inherited land; explicit, not merely alluded.",
+          "confidence": "med"
         }
       }
     },
@@ -6529,6 +7125,12 @@
           "score": 1,
           "quote": "How we came here together, We are dedicated to its soil.",
           "rationale": "togetherness alluded to (verse 2 added in 1959 specifically about national unity)",
+          "confidence": "med"
+        },
+        "ancestors_heritage": {
+          "score": 2,
+          "quote": "Where ever our ancestors came from We should take care of our country",
+          "rationale": "Both verses are official and performed in full (sung == written); the ancestors reference is part of the sung Sranan Tongo verse.",
           "confidence": "med"
         }
       }
@@ -6726,11 +7328,10 @@
           "rationale": "verse 2 aspires to national renown 'of all the lands'",
           "confidence": "high"
         },
-        "wildcard": {
+        "labour_work": {
           "score": 2,
-          "label": "labour & toil",
-          "quote": "Beneath our radiant Southern Cross We'll toil with hearts and hands;",
-          "rationale": "'wealth for toil' / 'toil with hearts and hands' makes industrious labour a recurring distinct motif",
+          "quote": "We've golden soil and wealth for toil... Beneath our radiant Southern Cross We'll toil with hearts and hands",
+          "rationale": "Toil/effort imagery recurs across both official verses: 'wealth for toil' (v1) and 'toil with hearts and hands' to build the Commonwealth (v2); explicit and repeated.",
           "confidence": "high"
         }
       }
@@ -6758,11 +7359,10 @@
           "rationale": "'we are one' alludes to unity in verse 1",
           "confidence": "med"
         },
-        "wildcard": {
+        "labour_work": {
           "score": 1,
-          "label": "labour & toil",
-          "quote": "We've golden soil and wealth for toil,",
-          "rationale": "single 'wealth for toil' reference to labour in verse 1",
+          "quote": "We've golden soil and wealth for toil",
+          "rationale": "As-sung is verse 1 only; a single oblique reference to 'wealth for toil' (the recurring v2 'toil with hearts and hands' line is not sung), so alluded rather than present.",
           "confidence": "high"
         }
       }
@@ -6807,6 +7407,12 @@
           "quote": "For Fiji, ever Fiji, let our voices ring with pride,",
           "rationale": "chorus voices 'ring with pride'; 'fame and glory' in v2",
           "confidence": "high"
+        },
+        "flag": {
+          "score": 2,
+          "quote": "As we stand united under noble banner blue",
+          "rationale": "The national banner (the blue flag) is explicitly named as the symbol the nation stands united beneath; present, addressed as a thing.",
+          "confidence": "high"
         }
       }
     },
@@ -6849,6 +7455,12 @@
           "score": 2,
           "quote": "For Fiji, ever Fiji, let our voices ring with pride,",
           "rationale": "chorus voices 'ring with pride'; 'fame and glory' in v2",
+          "confidence": "high"
+        },
+        "flag": {
+          "score": 2,
+          "quote": "As we stand united under noble banner blue",
+          "rationale": "Short hymn performed in full (sung == written); the 'noble banner blue' line is part of the sung verse 1.",
           "confidence": "high"
         }
       }
@@ -6928,6 +7540,12 @@
           "quote": "I'll never leave my dear home sweet home;",
           "rationale": "personal vow never to leave the homeland, a distinct sentiment",
           "confidence": "med"
+        },
+        "ancestors_heritage": {
+          "score": 2,
+          "quote": "God of our forefathers protect and bless forever Marshall Islands",
+          "rationale": "Explicit 'forefathers', reinforced by the motherland being 'Bequeathed to us' (inherited legacy); explicit reference to ancestral lineage.",
+          "confidence": "high"
         }
       }
     },
@@ -6954,6 +7572,12 @@
           "quote": "I'll never leave my dear home sweet home;",
           "rationale": "personal vow never to leave the homeland, a distinct sentiment",
           "confidence": "med"
+        },
+        "ancestors_heritage": {
+          "score": 2,
+          "quote": "God of our forefathers protect and bless forever Marshall Islands",
+          "rationale": "Single-verse anthem performed in full (sung == written); the forefathers/bequeathed-land reference is sung.",
+          "confidence": "high"
         }
       }
     },
@@ -6980,6 +7604,12 @@
           "quote": "'Tis here we are pledging, with heart and with hand, Full measure of devotion to thee, our native land,",
           "rationale": "a solemn collective pledge of devotion to the land is the anthem's framing act",
           "confidence": "high"
+        },
+        "labour_work": {
+          "score": 2,
+          "quote": "We all work together, with hearts, voice and hand, Till we have made these islands another promised land",
+          "rationale": "Explicit collective work to build the nation ('work together... till we have made these islands another promised land'); present, not generic struggle.",
+          "confidence": "med"
         }
       }
     },
@@ -7006,6 +7636,12 @@
           "quote": "'Tis here we are pledging, with heart and with hand, Full measure of devotion to thee, our native land,",
           "rationale": "a solemn collective pledge of devotion to the land is the anthem's framing act",
           "confidence": "high"
+        },
+        "labour_work": {
+          "score": 2,
+          "quote": "We all work together, with hearts, voice and hand, Till we have made these islands another promised land",
+          "rationale": "Short hymn performed in full (sung == written); the work-to-build line is part of the performed text.",
+          "confidence": "med"
         }
       }
     },
@@ -7026,11 +7662,16 @@
           "rationale": "the homeland/land is the central, opening and recurring subject",
           "confidence": "high"
         },
-        "wildcard": {
+        "flag": {
           "score": 1,
-          "label": "the national flag",
-          "quote": "We all join in together to honour your flag,",
-          "rationale": "honouring the flag is a distinct concrete motif",
+          "quote": "We all join in together to honour your flag",
+          "rationale": "The flag is named and honoured, but in a single passing line rather than a sustained image; alluded.",
+          "confidence": "high"
+        },
+        "ancestors_heritage": {
+          "score": 2,
+          "quote": "Since long ago you have been the home of our great forefathers",
+          "rationale": "Explicit 'great forefathers' and the homeland inherited 'since long ago'; explicit ancestral lineage.",
           "confidence": "high"
         }
       }
@@ -7052,11 +7693,16 @@
           "rationale": "the homeland/land is the central, opening and recurring subject",
           "confidence": "high"
         },
-        "wildcard": {
+        "flag": {
           "score": 1,
-          "label": "the national flag",
-          "quote": "We all join in together to honour your flag,",
-          "rationale": "honouring the flag is a distinct concrete motif",
+          "quote": "We all join in together to honour your flag",
+          "rationale": "Single-verse anthem sung in full; single passing mention of honouring the flag, so alluded.",
+          "confidence": "high"
+        },
+        "ancestors_heritage": {
+          "score": 2,
+          "quote": "Since long ago you have been the home of our great forefathers",
+          "rationale": "Single-verse anthem performed in full (sung == written); forefathers reference is sung.",
           "confidence": "high"
         }
       }
@@ -7166,11 +7812,16 @@
           "rationale": "single proud assertion of national strength and power",
           "confidence": "med"
         },
-        "wildcard": {
+        "labour_work": {
           "score": 1,
-          "label": "economy / building the nation",
-          "quote": "Lets build our economy protecting fence. With courage, faithfulness and diligence.",
-          "rationale": "verse 2's call to build the economy is a distinct civic-development motif",
+          "quote": "Lets build our economy's protecting fence. With courage, faithfulness and diligence",
+          "rationale": "Single line invoking building the economy through diligence; nation-building effort but a single oblique mention, so alluded.",
+          "confidence": "med"
+        },
+        "ancestors_heritage": {
+          "score": 2,
+          "quote": "Care for our homeland from forefathers on",
+          "rationale": "Explicit 'forefathers', reinforced by 'By her old ways abides still every hour' (inherited tradition); explicit ancestral lineage.",
           "confidence": "med"
         }
       }
@@ -7212,11 +7863,16 @@
           "rationale": "single proud assertion of national strength and power",
           "confidence": "med"
         },
-        "wildcard": {
+        "labour_work": {
           "score": 1,
-          "label": "economy / building the nation",
-          "quote": "Lets build our economy protecting fence. With courage, faithfulness and diligence.",
-          "rationale": "verse 2's call to build the economy is a distinct civic-development motif",
+          "quote": "Lets build our economy's protecting fence. With courage, faithfulness and diligence",
+          "rationale": "Short anthem performed in full (sung == written); building-the-economy line is sung but a single oblique mention.",
+          "confidence": "med"
+        },
+        "ancestors_heritage": {
+          "score": 2,
+          "quote": "Care for our homeland from forefathers on",
+          "rationale": "Short anthem sung in full; the forefathers/old-ways references are part of the performed text.",
           "confidence": "med"
         }
       }
@@ -7249,6 +7905,12 @@
           "quote": "Shout again for the whole world to hear Papua New Guinea;",
           "rationale": "proudly proclaiming the nation's name to the world is a central recurring act",
           "confidence": "high"
+        },
+        "ancestors_heritage": {
+          "score": 1,
+          "quote": "For this land of our fathers so free, Papua New Guinea",
+          "rationale": "'Land of our fathers' is a single oblique forefathers/ancestral-land reference (distinct from the title's 'sons', which is unity); alluded.",
+          "confidence": "med"
         }
       }
     },
@@ -7280,6 +7942,12 @@
           "quote": "Shout again for the whole world to hear Papua New Guinea;",
           "rationale": "proudly proclaiming the nation's name to the world is a central recurring act",
           "confidence": "high"
+        },
+        "ancestors_heritage": {
+          "score": 1,
+          "quote": "For this land of our fathers so free, Papua New Guinea",
+          "rationale": "Short anthem performed in full (sung == written); the 'land of our fathers' line is sung, single oblique mention.",
+          "confidence": "med"
         }
       }
     },
@@ -7320,6 +7988,12 @@
           "quote": "Look at those stars that are waving on it: This is the symbol of Jesus, who died on it for Samoa.",
           "rationale": "the flag-as-Cross and Christ's death for the nation is a distinct salient religious image beyond a generic deity invocation",
           "confidence": "high"
+        },
+        "flag": {
+          "score": 3,
+          "quote": "Samoa, arise and raise your flag, your crown! Look at those stars that are waving on it",
+          "rationale": "The flag (the anthem is titled 'The Banner of Freedom') is directly addressed, raised, and its waving stars described across both verses; it is the central image.",
+          "confidence": "high"
         }
       }
     },
@@ -7359,6 +8033,12 @@
           "label": "Christian Cross / sacrifice of Christ",
           "quote": "Look at those stars that are waving on it: This is the symbol of Jesus, who died on it for Samoa.",
           "rationale": "the flag-as-Cross and Christ's death for the nation is a distinct salient religious image beyond a generic deity invocation",
+          "confidence": "high"
+        },
+        "flag": {
+          "score": 3,
+          "quote": "Samoa, arise and raise your flag, your crown! Look at those stars that are waving on it",
+          "rationale": "Anthem is short and performed in full (sung == written); the flag/banner is the dominant, recurring image.",
           "confidence": "high"
         }
       }
@@ -7599,6 +8279,12 @@
           "quote": "We are, we are, we are happy to proclaim We are, we are, we are the people of Vanuatu",
           "rationale": "proud joyful self-proclamation, short of a dominant glory motif",
           "confidence": "med"
+        },
+        "labour_work": {
+          "score": 2,
+          "quote": "We know there is plenty of work to be done, On all our many islands, God helps us in our work",
+          "rationale": "Explicit work/effort imagery: the nation's people acknowledge the work to be done across the islands; an entire verse (III) is devoted to it.",
+          "confidence": "high"
         }
       }
     },
@@ -7636,6 +8322,12 @@
           "quote": "We are, we are, we are happy to proclaim We are, we are, we are the people of Vanuatu",
           "rationale": "proud joyful self-proclamation, short of a dominant glory motif",
           "confidence": "med"
+        },
+        "labour_work": {
+          "score": 2,
+          "quote": "We know there is plenty of work to be done, On all our many islands, God helps us in our work",
+          "rationale": "Verse III is part of the official sung anthem (verses sung with chorus repeated); explicit work imagery present as performed.",
+          "confidence": "high"
         }
       }
     },
@@ -7676,11 +8368,10 @@
           "rationale": "pride/glory/greatness ('Fiers', 'gloire', 'grandeur', 'victoire') are the central organising note",
           "confidence": "high"
         },
-        "wildcard": {
-          "score": 1,
-          "label": "labour / national motto (work)",
-          "quote": "Submitting to the dear motto: Union, discipline, work.",
-          "rationale": "the national motto ending on 'travail' (work) is a distinct civic-labour motif",
+        "labour_work": {
+          "score": 2,
+          "quote": "Beloved Ivory Coast, thy sons, Proud builders of thy greatness, All gathered together for thy glory, In joy will we construct thee.",
+          "rationale": "Explicit nation-building/construction imagery ('proud builders', 'construct thee'); present in the sung refrain (verse 2) and full text.",
           "confidence": "high"
         }
       }
@@ -7716,6 +8407,12 @@
           "quote": "Beloved Ivory Coast, thy sons, Proud builders of thy greatness, All gathered together for thy glory",
           "rationale": "pride/glory/greatness dominate verse 1 + refrain",
           "confidence": "high"
+        },
+        "labour_work": {
+          "score": 2,
+          "quote": "Beloved Ivory Coast, thy sons, Proud builders of thy greatness, All gathered together for thy glory, In joy will we construct thee.",
+          "rationale": "Explicit nation-building/construction imagery ('proud builders', 'construct thee'); present in the sung refrain (verse 2) and full text.",
+          "confidence": "high"
         }
       }
     },
@@ -7748,11 +8445,10 @@
           "rationale": "single proud cheer raising the flag",
           "confidence": "med"
         },
-        "wildcard": {
+        "flag": {
           "score": 3,
-          "label": "the national flag",
           "quote": "Arise! O Flag, 'tis for thee we cheer! Thee we raise with vigour!",
-          "rationale": "the flag is the explicit subject of every line; the anthem is an address to the flag",
+          "rationale": "The entire single-stanza anthem is an apostrophe to the national flag (raised, its colours, its star), so flag is the dominant theme.",
           "confidence": "high"
         }
       }
@@ -7786,11 +8482,10 @@
           "rationale": "single proud cheer raising the flag",
           "confidence": "med"
         },
-        "wildcard": {
+        "flag": {
           "score": 3,
-          "label": "the national flag",
           "quote": "Arise! O Flag, 'tis for thee we cheer! Thee we raise with vigour!",
-          "rationale": "the flag is the explicit subject of every line",
+          "rationale": "The entire single-stanza anthem is an apostrophe to the national flag (raised, its colours, its star), so flag is the dominant theme.",
           "confidence": "high"
         }
       }
@@ -7961,6 +8656,12 @@
           "quote": "Eritrea, the pride of her oppressed people, proved that the truth prevails.",
           "rationale": "explicit 'pride' and holding 'her rightful place in the world'",
           "confidence": "high"
+        },
+        "labour_work": {
+          "score": 1,
+          "quote": "Dedication that led to liberation, Will build up and make her green, We shall honor her with progress.",
+          "rationale": "Single oblique nation-building reference ('build up and make her green... with progress'); no overt work/toil imagery, so alluded.",
+          "confidence": "med"
         }
       }
     },
@@ -8004,6 +8705,12 @@
           "quote": "Eritrea, the pride of her oppressed people, proved that the truth prevails.",
           "rationale": "explicit 'pride' and 'rightful place in the world'",
           "confidence": "high"
+        },
+        "labour_work": {
+          "score": 1,
+          "quote": "Dedication that led to liberation, Will build up and make her green, We shall honor her with progress.",
+          "rationale": "Single oblique nation-building reference ('build up and make her green... with progress'); no overt work/toil imagery, so alluded.",
+          "confidence": "med"
         }
       }
     },
@@ -8092,12 +8799,17 @@
           "rationale": "'National pride' and 'proud heritage' are explicit and recurring",
           "confidence": "high"
         },
-        "wildcard": {
-          "score": 1,
-          "label": "labour / work as civic virtue",
-          "quote": "We are people who live through work.",
-          "rationale": "self-definition through 'work' is a distinct labour motif",
+        "labour_work": {
+          "score": 2,
+          "quote": "Firm of foundation, we do not dismiss humanness; We are people who live through work.",
+          "rationale": "Explicit statement that the people 'live through work' — direct labour/work theme.",
           "confidence": "high"
+        },
+        "ancestors_heritage": {
+          "score": 1,
+          "quote": "Wonderful is the stage of tradition, mistress of proud heritage, Mother of natural virtue, mother of a valorous people.",
+          "rationale": "Single mention of 'proud heritage' (inherited legacy); borderline against the generic-tradition exclusion, so scored as an allusion.",
+          "confidence": "med"
         }
       }
     },
@@ -8136,12 +8848,17 @@
           "rationale": "'National pride' and 'proud heritage' are explicit and recurring",
           "confidence": "high"
         },
-        "wildcard": {
-          "score": 1,
-          "label": "labour / work as civic virtue",
-          "quote": "We are people who live through work.",
-          "rationale": "self-definition through 'work' is a distinct labour motif",
+        "labour_work": {
+          "score": 2,
+          "quote": "Firm of foundation, we do not dismiss humanness; We are people who live through work.",
+          "rationale": "Explicit statement that the people 'live through work' — direct labour/work theme.",
           "confidence": "high"
+        },
+        "ancestors_heritage": {
+          "score": 1,
+          "quote": "Wonderful is the stage of tradition, mistress of proud heritage, Mother of natural virtue, mother of a valorous people.",
+          "rationale": "Single mention of 'proud heritage' (inherited legacy); borderline against the generic-tradition exclusion, so scored as an allusion.",
+          "confidence": "med"
         }
       }
     },
@@ -8185,6 +8902,24 @@
           "label": "peace / renunciation of war and hatred",
           "quote": "May it promote virtue and banish warfare.",
           "rationale": "an explicit anti-war, anti-hatred stance ('banish warfare', 'without hatred') is a distinct pacific motif",
+          "confidence": "high"
+        },
+        "labour_work": {
+          "score": 1,
+          "quote": "Let us forget our quarrels, let us build together The new structure of which we all have dreamed.",
+          "rationale": "A single 'let us build together' line (verse 3); building is somewhat metaphorical, so alluded.",
+          "confidence": "med"
+        },
+        "flag": {
+          "score": 2,
+          "quote": "Around this flag, which leads us to honour, Let us salute the Fatherland and ever sing!",
+          "rationale": "The national flag is addressed and saluted as a rallying emblem (final verse of full text).",
+          "confidence": "high"
+        },
+        "ancestors_heritage": {
+          "score": 2,
+          "quote": "Yes, may the happy days of which our ancestors dreamed Come for us at last, rejoicing our hearts",
+          "rationale": "Explicit reference to dreams of 'our ancestors' (verse 2 of full text).",
           "confidence": "high"
         }
       }
@@ -8252,6 +8987,12 @@
           "quote": "We pledge our firm allegiance, Our promise we renew;",
           "rationale": "an explicit pledge of allegiance and call for justice, a distinct civic-oath motif",
           "confidence": "high"
+        },
+        "labour_work": {
+          "score": 1,
+          "quote": "For The Gambia, our homeland We strive and work and pray, That all may live in unity, Freedom and peace each day.",
+          "rationale": "Single mention of 'work' bundled with strive/pray; word-level labour reference but oblique, so alluded.",
+          "confidence": "med"
         }
       }
     },
@@ -8284,6 +9025,12 @@
           "quote": "We pledge our firm allegiance, Our promise we renew;",
           "rationale": "an explicit pledge of allegiance and call for justice",
           "confidence": "high"
+        },
+        "labour_work": {
+          "score": 1,
+          "quote": "For The Gambia, our homeland We strive and work and pray, That all may live in unity, Freedom and peace each day.",
+          "rationale": "Single mention of 'work' bundled with strive/pray; word-level labour reference but oblique, so alluded.",
+          "confidence": "med"
         }
       }
     },
@@ -8340,6 +9087,18 @@
           "quote": "Raise high the flag of Ghana, And one with Africa advance; Black Star of hope and honour",
           "rationale": "the Black Star and unity with Africa is a distinct pan-African motif",
           "confidence": "high"
+        },
+        "labour_work": {
+          "score": 2,
+          "quote": "Steadfast to build together A nation strong in Unity; With our gifts of mind and strength of arm,",
+          "rationale": "Building the nation through effort, 'strength of arm' — explicit labour/effort imagery.",
+          "confidence": "high"
+        },
+        "flag": {
+          "score": 2,
+          "quote": "Raise high the flag of Ghana, And one with Africa advance; ... Where the banner of Ghana freely flies, May the way to freedom truly lie;",
+          "rationale": "The flag/banner is explicitly raised and addressed across verse 3 ('Raise high the flag', 'the banner of Ghana freely flies').",
+          "confidence": "high"
         }
       }
     },
@@ -8395,6 +9154,18 @@
           "label": "pan-Africanism / the Black Star",
           "quote": "Raise high the flag of Ghana, And one with Africa advance; Black Star of hope and honour",
           "rationale": "the Black Star and unity with Africa is a distinct pan-African motif",
+          "confidence": "high"
+        },
+        "labour_work": {
+          "score": 2,
+          "quote": "Steadfast to build together A nation strong in Unity; With our gifts of mind and strength of arm,",
+          "rationale": "Building the nation through effort, 'strength of arm' — explicit labour/effort imagery.",
+          "confidence": "high"
+        },
+        "flag": {
+          "score": 2,
+          "quote": "Raise high the flag of Ghana, And one with Africa advance; ... Where the banner of Ghana freely flies, May the way to freedom truly lie;",
+          "rationale": "The flag/banner is explicitly raised and addressed across verse 3 ('Raise high the flag', 'the banner of Ghana freely flies').",
           "confidence": "high"
         }
       }
@@ -8533,12 +9304,22 @@
           "rationale": "the chorus opens proclaiming the 'glorious homeland'",
           "confidence": "high"
         },
-        "wildcard": {
+        "labour_work": {
           "score": 2,
-          "label": "labour / fruit of our hands",
-          "quote": "Fruto das nossas maos, (Fruit of our hands)",
-          "original": "Fruto das nossas maos,",
-          "rationale": "'sweat' and 'fruit of our hands' frame the nation as built by labour, a distinct motif",
+          "quote": "Fruto das nossas maos, Da flor do nosso sangue ... Nos vamos construir Na patria imortal A paz e o progresso! (Fruit of our hands ... We will build peace and progress in the immortal homeland!)",
+          "rationale": "'Fruit of our hands' plus 'we will build... peace and progress' — explicit labour/building imagery.",
+          "confidence": "high"
+        },
+        "flag": {
+          "score": 2,
+          "quote": "Viva a patria gloriosa! Floriu nos ceus a bandeira da luta. (Long live our glorious homeland! The banner of struggle has flourished in the skies.)",
+          "rationale": "The banner (bandeira) is raised/flourishing in the sky as a focal emblem in the chorus.",
+          "confidence": "high"
+        },
+        "ancestors_heritage": {
+          "score": 2,
+          "quote": "Sol, suor, o verde e o mar, Seculos de dor e esperanca; Esta e a terra dos nossos avos! (This is the land of our ancestors!)",
+          "rationale": "Explicit 'land of our ancestors' (terra dos nossos avos).",
           "confidence": "high"
         }
       }
@@ -8589,12 +9370,22 @@
           "rationale": "the chorus proclaims the 'glorious homeland'",
           "confidence": "high"
         },
-        "wildcard": {
+        "labour_work": {
           "score": 2,
-          "label": "labour / fruit of our hands",
-          "quote": "Fruto das nossas maos, (Fruit of our hands)",
-          "original": "Fruto das nossas maos,",
-          "rationale": "'sweat' and 'fruit of our hands' frame the nation as built by labour",
+          "quote": "Fruto das nossas maos, Da flor do nosso sangue ... Nos vamos construir Na patria imortal A paz e o progresso! (Fruit of our hands ... We will build peace and progress in the immortal homeland!)",
+          "rationale": "'Fruit of our hands' plus 'we will build... peace and progress' — explicit labour/building imagery.",
+          "confidence": "high"
+        },
+        "flag": {
+          "score": 2,
+          "quote": "Viva a patria gloriosa! Floriu nos ceus a bandeira da luta. (Long live our glorious homeland! The banner of struggle has flourished in the skies.)",
+          "rationale": "The banner (bandeira) is raised/flourishing in the sky as a focal emblem in the chorus.",
+          "confidence": "high"
+        },
+        "ancestors_heritage": {
+          "score": 2,
+          "quote": "Sol, suor, o verde e o mar, Seculos de dor e esperanca; Esta e a terra dos nossos avos! (This is the land of our ancestors!)",
+          "rationale": "Explicit 'land of our ancestors' (terra dos nossos avos).",
           "confidence": "high"
         }
       }
@@ -8640,12 +9431,17 @@
           "rationale": "pledge to serve and defend the homeland, devotion bordering on sacrifice",
           "confidence": "med"
         },
-        "wildcard": {
-          "score": 1,
-          "label": "labour / work for the nation",
-          "quote": "The fruit of our labour",
-          "rationale": "verse 3 frames nation-building through labour, a distinct motif",
+        "labour_work": {
+          "score": 2,
+          "quote": "Let all with one accord In common bond united, Build this our nation together, And the glory of Kenya, The fruit of our labour Fill every heart with thanksgiving.",
+          "rationale": "Explicit nation-building plus the literal word 'labour' ('Build this our nation together... The fruit of our labour') in verse 3.",
           "confidence": "high"
+        },
+        "ancestors_heritage": {
+          "score": 1,
+          "quote": "And our Homeland of Kenya, Heritage of splendour, Firm may we stand to defend.",
+          "rationale": "Single oblique mention of the land as a 'Heritage of splendour'; inherited-legacy sense but no explicit forefathers/ancestors, so alluded.",
+          "confidence": "med"
         }
       }
     },
@@ -8690,12 +9486,17 @@
           "rationale": "pledge to serve and defend the homeland, devotion bordering on sacrifice",
           "confidence": "med"
         },
-        "wildcard": {
-          "score": 1,
-          "label": "labour / work for the nation",
-          "quote": "The fruit of our labour",
-          "rationale": "verse 3 frames nation-building through labour, a distinct motif",
+        "labour_work": {
+          "score": 2,
+          "quote": "Let all with one accord In common bond united, Build this our nation together, And the glory of Kenya, The fruit of our labour Fill every heart with thanksgiving.",
+          "rationale": "Explicit nation-building plus the literal word 'labour' ('Build this our nation together... The fruit of our labour'); all three verses are sung (as-written = as-sung).",
           "confidence": "high"
+        },
+        "ancestors_heritage": {
+          "score": 1,
+          "quote": "And our Homeland of Kenya, Heritage of splendour, Firm may we stand to defend.",
+          "rationale": "Single oblique mention of the land as a 'Heritage of splendour'; inherited-legacy sense but no explicit forefathers/ancestors, so alluded. All verses sung.",
+          "confidence": "med"
         }
       }
     },
@@ -8723,6 +9524,12 @@
           "quote": "Keep us free from conflict and tribulations.",
           "rationale": "'felise lintoa' (end wars/conflicts) is an oblique reference to conflict, no named foe; translation-dependent",
           "confidence": "med"
+        },
+        "ancestors_heritage": {
+          "score": 2,
+          "quote": "Lesotho, land of our Fathers, You are the most beautiful country of all. ... Oh, this land, Land of our Fathers, May it have peace.",
+          "rationale": "Explicit and recurring 'land of our Fathers' (forefathers) opening and closing the anthem; it is also the title.",
+          "confidence": "high"
         }
       }
     },
@@ -8750,6 +9557,12 @@
           "quote": "Keep us free from conflict and tribulations.",
           "rationale": "'felise lintoa' (end wars/conflicts) is an oblique reference to conflict, no named foe; translation-dependent",
           "confidence": "med"
+        },
+        "ancestors_heritage": {
+          "score": 2,
+          "quote": "Lesotho, land of our Fathers, You are the most beautiful country of all. ... Oh, this land, Land of our Fathers, May it have peace.",
+          "rationale": "Explicit and recurring 'land of our Fathers' (forefathers); both official verses are sung (as-written = as-sung).",
+          "confidence": "high"
         }
       }
     },
@@ -8898,6 +9711,12 @@
           "quote": "Carrying the holy Quran in a hand, and the swords in the other They fought till they spread religion",
           "rationale": "religious conquest motif distinct from generic deity invocation (verse 2, written only)",
           "confidence": "high"
+        },
+        "ancestors_heritage": {
+          "score": 2,
+          "quote": "Oh my country! You are the heritage of grandfathers ... Our grandfathers carried their swords when struggle called on them ... They have built the integrity of our country",
+          "rationale": "Explicit and recurring forefathers theme: the country called 'the heritage of grandfathers' (v1) and 'Our grandfathers carried their swords' who 'built the integrity of our country' (v2).",
+          "confidence": "high"
         }
       }
     },
@@ -8937,6 +9756,12 @@
           "quote": "We will never go back to fetters, we have been liberated, and we have freed our home country",
           "rationale": "liberation/breaking fetters in sung verse 1",
           "confidence": "high"
+        },
+        "ancestors_heritage": {
+          "score": 2,
+          "quote": "Oh my country! You are the heritage of grandfathers, May God cast off any hand that would harm you",
+          "rationale": "The 'heritage of grandfathers' line is in verse 1, which is part of the customary sung rendition (chorus + verse 1); explicit forefathers/inherited-legacy reference.",
+          "confidence": "med"
         }
       }
     },
@@ -8963,11 +9788,10 @@
           "rationale": "devotion offering body/heart/spirit, oblique self-giving rather than martyrdom",
           "confidence": "med"
         },
-        "wildcard": {
-          "score": 1,
-          "label": "ancestors / forebears",
-          "quote": "This island of our ancestors",
-          "rationale": "ancestral inheritance is a recurring motif distinct from land alone",
+        "ancestors_heritage": {
+          "score": 2,
+          "quote": "Bless you, oh Creator / This island of our ancestors / To live in peace and joy",
+          "rationale": "Explicit 'island of our ancestors' in the chorus, reinforced by the title/opening 'beloved land of our ancestors' (Tanindrazana = land of the ancestors).",
           "confidence": "med"
         }
       }
@@ -8995,11 +9819,10 @@
           "rationale": "devotion offering body/heart/spirit, oblique self-giving rather than martyrdom",
           "confidence": "med"
         },
-        "wildcard": {
-          "score": 1,
-          "label": "ancestors / forebears",
-          "quote": "This island of our ancestors",
-          "rationale": "ancestral inheritance is a recurring motif distinct from land alone",
+        "ancestors_heritage": {
+          "score": 2,
+          "quote": "Bless you, oh Creator / This island of our ancestors / To live in peace and joy",
+          "rationale": "Explicit 'island of our ancestors' in the chorus; the full anthem (verses + chorus) is sung (as-written = as-sung).",
           "confidence": "med"
         }
       }
@@ -9050,6 +9873,12 @@
           "quote": "In time of war, or in time of peace, One purpose and one goal.",
           "rationale": "war named once, as a contingency rather than a call to arms",
           "confidence": "high"
+        },
+        "labour_work": {
+          "score": 2,
+          "quote": "Freedom ever, let us all unite To build up Malawi. With our love, our zeal and loyalty, Bringing our best to her. ... Men and women serving selflessly In building Malawi.",
+          "rationale": "Recurring nation-building imagery in verse 3 ('build up Malawi', 'In building Malawi') framed as collective effort.",
+          "confidence": "high"
         }
       }
     },
@@ -9098,6 +9927,12 @@
           "score": 1,
           "quote": "In time of war, or in time of peace, One purpose and one goal.",
           "rationale": "war named once, as a contingency rather than a call to arms",
+          "confidence": "high"
+        },
+        "labour_work": {
+          "score": 2,
+          "quote": "Freedom ever, let us all unite To build up Malawi. With our love, our zeal and loyalty, Bringing our best to her. ... Men and women serving selflessly In building Malawi.",
+          "rationale": "Recurring nation-building imagery ('build up Malawi', 'In building Malawi'); all three verses are sung (as-written = as-sung).",
           "confidence": "high"
         }
       }
@@ -9143,11 +9978,16 @@
           "rationale": "single pastoral image of fields, mostly metaphorical",
           "confidence": "med"
         },
-        "wildcard": {
-          "score": 1,
-          "label": "labour / building the future through work",
-          "quote": "Happiness through effort Will build the Mali of tomorrow.",
-          "rationale": "verses 2-3 dwell on toil/effort building the future, a distinct motif",
+        "labour_work": {
+          "score": 2,
+          "quote": "Together, shoulder to shoulder, Let us work for happiness. ... Happiness through effort Will build the Mali of tomorrow.",
+          "rationale": "Explicit work/effort and nation-building ('Let us work for happiness', 'through effort Will build the Mali of tomorrow') in verses 2-3 of the full text.",
+          "confidence": "high"
+        },
+        "flag": {
+          "score": 2,
+          "quote": "For Africa and for you, Mali, Our banner shall be liberty.",
+          "rationale": "The national banner is named and addressed as the country's standard in the chorus ('Our banner shall be liberty').",
           "confidence": "high"
         }
       }
@@ -9195,6 +10035,12 @@
           "quote": "The fields are flowering with hope",
           "rationale": "single pastoral image in the chorus",
           "confidence": "med"
+        },
+        "flag": {
+          "score": 2,
+          "quote": "For Africa and for you, Mali, Our banner shall be liberty.",
+          "rationale": "The banner is addressed in the chorus, which is part of the customary sung rendition (verse 1 + chorus).",
+          "confidence": "high"
         }
       }
     },
@@ -9247,6 +10093,12 @@
           "quote": "The fortress of the Book that can't be bound",
           "rationale": "the Book (Quran), the prophet and Arab/Islamic heritage are a central organising theme distinct from generic deity",
           "confidence": "high"
+        },
+        "ancestors_heritage": {
+          "score": 1,
+          "quote": "Because the noble Arabs enriched you / and the purest source is Africa's.",
+          "rationale": "Single oblique appeal to ancestral Arab lineage that 'enriched'/'raised up' the nation (verse 2); translation-dependent and not a direct 'forefathers' phrase, so alluded.",
+          "confidence": "med"
         }
       }
     },
@@ -9287,6 +10139,12 @@
           "quote": "The fortress of the Book that can't be bound",
           "rationale": "the Book (Quran) and Arab/Islamic heritage central even in the sung portion",
           "confidence": "high"
+        },
+        "ancestors_heritage": {
+          "score": 1,
+          "quote": "Because the noble Arabs enriched you / and the purest source is Africa's.",
+          "rationale": "The verse-2 reference to ancestral Arab lineage is within the short sung version (v1 + chorus + v2 + v6); oblique and translation-dependent, so alluded.",
+          "confidence": "med"
         }
       }
     },
@@ -9505,11 +10363,16 @@
           "rationale": "the chorus hails the 'Glorious Land'",
           "confidence": "high"
         },
-        "wildcard": {
+        "labour_work": {
+          "score": 2,
+          "quote": "Mozambique, our Glorious Land Rock by rock constructing the new day Millions of arms in one only force ... Flowers sprouting of the soil of your sweat",
+          "rationale": "Explicit nation-building and toil imagery ('Rock by rock constructing', 'Millions of arms in one only force', 'soil of your sweat') across the chorus and verse 3.",
+          "confidence": "high"
+        },
+        "flag": {
           "score": 1,
-          "label": "labour / nation-building by hand",
-          "quote": "Rock by rock constructing the new day",
-          "rationale": "construction-by-toil motif distinct from other themes",
+          "quote": "Joined people from Rovuma to Maputo It harvests the fruits of the combat for the Peace ... The dream grows waving in the flag",
+          "rationale": "Single incidental mention of the dream 'waving in the flag' in verse 2; the flag is not itself the focus, so alluded.",
           "confidence": "med"
         }
       }
@@ -9545,12 +10408,11 @@
           "rationale": "the sung chorus hails the 'Glorious Land'",
           "confidence": "high"
         },
-        "wildcard": {
-          "score": 1,
-          "label": "labour / nation-building by hand",
-          "quote": "Rock by rock constructing the new day",
-          "rationale": "construction-by-toil motif in the sung chorus",
-          "confidence": "med"
+        "labour_work": {
+          "score": 2,
+          "quote": "Mozambique, our Glorious Land Rock by rock constructing the new day Millions of arms in one only force",
+          "rationale": "Explicit nation-building/effort imagery ('Rock by rock constructing', 'Millions of arms in one only force') in the chorus, which is sung (verse 1 + chorus).",
+          "confidence": "high"
         }
       }
     },
@@ -9600,6 +10462,12 @@
           "quote": "Whose blood waters our freedom",
           "rationale": "the fallen who gave their blood for freedom, oblique sacrifice",
           "confidence": "med"
+        },
+        "flag": {
+          "score": 2,
+          "quote": "Beloved land of savannahs, Hold high the banner of liberty",
+          "rationale": "The national banner is explicitly raised and addressed ('Hold high the banner of liberty') in the single sung passage.",
+          "confidence": "high"
         }
       }
     },
@@ -9649,6 +10517,12 @@
           "quote": "Whose blood waters our freedom",
           "rationale": "the fallen who gave their blood for freedom, oblique sacrifice",
           "confidence": "med"
+        },
+        "flag": {
+          "score": 2,
+          "quote": "Beloved land of savannahs, Hold high the banner of liberty",
+          "rationale": "The banner is explicitly raised and addressed; the short anthem is sung in full (as-written = as-sung).",
+          "confidence": "high"
         }
       }
     },
@@ -9699,6 +10573,24 @@
           "quote": "For the honor of the fatherland... And to make Niger the pride of Africa",
           "rationale": "honour and pride are the titular, recurring organising idea",
           "confidence": "high"
+        },
+        "labour_work": {
+          "score": 2,
+          "quote": "Forward for work and forward for the fight",
+          "rationale": "Explicit call to work alongside building 'a world of justice, peace and progress'.",
+          "confidence": "high"
+        },
+        "flag": {
+          "score": 2,
+          "quote": "Holding high the flag of our dear country",
+          "rationale": "Flag explicitly raised/held high as an object of national pride.",
+          "confidence": "high"
+        },
+        "ancestors_heritage": {
+          "score": 2,
+          "quote": "all the virtues of our worthy forefathers",
+          "rationale": "Explicit invocation of forefathers whose valiance is to be embodied.",
+          "confidence": "high"
         }
       }
     },
@@ -9748,6 +10640,24 @@
           "score": 2,
           "quote": "For the honor of the fatherland... And to make Niger the pride of Africa",
           "rationale": "honour and pride are the titular, recurring organising idea",
+          "confidence": "high"
+        },
+        "labour_work": {
+          "score": 2,
+          "quote": "Forward for work and forward for the fight",
+          "rationale": "Explicit call to work alongside building 'a world of justice, peace and progress'.",
+          "confidence": "high"
+        },
+        "flag": {
+          "score": 2,
+          "quote": "Holding high the flag of our dear country",
+          "rationale": "Flag explicitly raised/held high as an object of national pride.",
+          "confidence": "high"
+        },
+        "ancestors_heritage": {
+          "score": 2,
+          "quote": "all the virtues of our worthy forefathers",
+          "rationale": "Explicit invocation of forefathers whose valiance is to be embodied.",
           "confidence": "high"
         }
       }
@@ -9791,6 +10701,18 @@
           "score": 1,
           "quote": "Nigerians all, are proud to serve Our sovereign Motherland.",
           "rationale": "single statement of pride in serving",
+          "confidence": "high"
+        },
+        "labour_work": {
+          "score": 1,
+          "quote": "Help us to build a nation Where no man is oppressed",
+          "rationale": "Single oblique nation-building mention in stanza 3; no work/toil imagery.",
+          "confidence": "med"
+        },
+        "flag": {
+          "score": 2,
+          "quote": "Our flag shall be a symbol... To hand on to our children A banner without stain",
+          "rationale": "Stanza 2 is built around the flag/banner as symbol of truth and justice.",
           "confidence": "high"
         }
       }
@@ -9872,6 +10794,12 @@
           "quote": "Let us sing your glare and proclaim your high facts... that finally your pride is worth your esteem",
           "rationale": "glory and pride invoked across verses 2 and 4",
           "confidence": "high"
+        },
+        "ancestors_heritage": {
+          "score": 2,
+          "quote": "Our valorous ancestors Gave themselves bodies and souls",
+          "rationale": "Verse 3 names ancestors; verse 2 calls Rwanda an 'Invaluable heritage' - explicit and recurring.",
+          "confidence": "med"
         }
       }
     },
@@ -9927,6 +10855,12 @@
           "quote": "Let us sing your glare and proclaim your high facts... that finally your pride is worth your esteem",
           "rationale": "glory and pride invoked across verses 2 and 4",
           "confidence": "high"
+        },
+        "ancestors_heritage": {
+          "score": 2,
+          "quote": "Our valorous ancestors Gave themselves bodies and souls",
+          "rationale": "Verse 3 names ancestors; verse 2 calls Rwanda an 'Invaluable heritage' - explicit and recurring.",
+          "confidence": "med"
         }
       }
     },
@@ -9971,12 +10905,17 @@
           "rationale": "glory of the people, recurring",
           "confidence": "high"
         },
-        "wildcard": {
+        "labour_work": {
           "score": 2,
-          "label": "labour & national struggle/construction",
-          "quote": "Working, struggling, struggling and conquering, We go ahead with giant steps In the crusade of the African peoples",
-          "rationale": "work and collective struggle/construction are a distinct organising motif",
-          "confidence": "high"
+          "quote": "Building, in progress and peace, With the heroic hands of the people",
+          "rationale": "Verse 1 building with hands plus verse 2 'Working, struggling... and conquering' - recurring labour imagery.",
+          "confidence": "med"
+        },
+        "flag": {
+          "score": 2,
+          "quote": "Raising the national flag",
+          "rationale": "Verse 2 explicitly raises the national flag during the march forward.",
+          "confidence": "med"
         }
       }
     },
@@ -10010,6 +10949,12 @@
           "quote": "Total independence, Glorious song of the people",
           "rationale": "glory of the people in the sung chorus",
           "confidence": "high"
+        },
+        "labour_work": {
+          "score": 2,
+          "quote": "Building, in progress and peace, With the heroic hands of the people",
+          "rationale": "Verse 1 (sung) builds the nation with the people's hands; flag line is in unsung verse 2.",
+          "confidence": "med"
         }
       }
     },
@@ -10072,6 +11017,18 @@
           "rationale": "death invoked (mild)",
           "confidence": "med",
           "override": "spot-check"
+        },
+        "labour_work": {
+          "score": 1,
+          "quote": "For work and words will be our weapon",
+          "rationale": "Single oblique work reference in verse 4.",
+          "confidence": "med"
+        },
+        "ancestors_heritage": {
+          "score": 2,
+          "quote": "Restore, oh, restore to us the honour of our ancestors",
+          "rationale": "Verse 2 explicitly invokes the honour of the ancestors.",
+          "confidence": "med"
         }
       }
     },
@@ -10138,6 +11095,18 @@
           "quote": "Seychelles, our only motherland Where we live in harmony",
           "rationale": "living in harmony is a distinct civic-ideal note beyond mere unity",
           "confidence": "med"
+        },
+        "flag": {
+          "score": 2,
+          "quote": "Raise our flag Together for all eternity",
+          "rationale": "Flag explicitly raised as a unifying act in the single performed verse.",
+          "confidence": "med"
+        },
+        "ancestors_heritage": {
+          "score": 1,
+          "quote": "A precious heritage For the happiness of our children",
+          "rationale": "Single oblique 'heritage' reference (the land/ocean as inherited legacy passed to children).",
+          "confidence": "med"
         }
       }
     },
@@ -10169,6 +11138,18 @@
           "label": "harmony & peace as civic ideal",
           "quote": "Seychelles, our only motherland Where we live in harmony",
           "rationale": "living in harmony is a distinct civic-ideal note beyond mere unity",
+          "confidence": "med"
+        },
+        "flag": {
+          "score": 2,
+          "quote": "Raise our flag Together for all eternity",
+          "rationale": "Flag explicitly raised as a unifying act in the single performed verse.",
+          "confidence": "med"
+        },
+        "ancestors_heritage": {
+          "score": 1,
+          "quote": "A precious heritage For the happiness of our children",
+          "rationale": "Single oblique 'heritage' reference (the land/ocean as inherited legacy passed to children).",
           "confidence": "med"
         }
       }
@@ -10212,6 +11193,18 @@
           "score": 2,
           "quote": "High we exalt thee, realm of the free; Great is the love we have for thee",
           "rationale": "exaltation/praise of the homeland is the dominant tone",
+          "confidence": "high"
+        },
+        "labour_work": {
+          "score": 2,
+          "quote": "Ours is the labour, thine the fame",
+          "rationale": "Verse 2 explicitly frames labour as the people's offering to the nation.",
+          "confidence": "high"
+        },
+        "ancestors_heritage": {
+          "score": 2,
+          "quote": "Knowledge and truth our forefathers spread, Mighty the nations whom they led",
+          "rationale": "Verse 3 explicitly honours forefathers and the legacy they built.",
           "confidence": "high"
         }
       }
@@ -10266,12 +11259,11 @@
           "rationale": "pride in the flag/star's superiority and fame, recurring",
           "confidence": "high"
         },
-        "wildcard": {
+        "flag": {
           "score": 3,
-          "label": "the national flag / White Star",
-          "quote": "The flag of any nation beareth its color, but the sky, doth our flag resemble, and without defects",
-          "rationale": "the flag and its White Star are the anthem's entire, dominant subject",
-          "confidence": "high"
+          "quote": "but the sky, doth our flag resemble, and without defects; love it with candour!",
+          "rationale": "Entire anthem ('Every Nation Has Its Own Flag') addresses the flag/banner and white star as its dominant subject.",
+          "confidence": "med"
         }
       }
     },
@@ -10292,12 +11284,11 @@
           "rationale": "pride in the flag/star's superiority and fame, recurring",
           "confidence": "high"
         },
-        "wildcard": {
+        "flag": {
           "score": 3,
-          "label": "the national flag / White Star",
-          "quote": "The flag of any nation beareth its color, but the sky, doth our flag resemble, and without defects",
-          "rationale": "the flag and its White Star are the anthem's entire, dominant subject",
-          "confidence": "high"
+          "quote": "but the sky, doth our flag resemble, and without defects; love it with candour!",
+          "rationale": "Entire anthem ('Every Nation Has Its Own Flag') addresses the flag/banner and white star as its dominant subject.",
+          "confidence": "med"
         }
       }
     },
@@ -10342,11 +11333,10 @@
           "rationale": "explicit plea to be 'united'",
           "confidence": "high"
         },
-        "wildcard": {
+        "flag": {
           "score": 2,
-          "label": "the flag with the guiding star",
           "quote": "We rise raising flag with the guiding star",
-          "rationale": "the flag and its guiding star are a distinct salient image",
+          "rationale": "Stanza 2 explicitly raises the flag with its guiding star.",
           "confidence": "high"
         }
       }
@@ -10392,11 +11382,10 @@
           "rationale": "explicit plea to be 'united'",
           "confidence": "high"
         },
-        "wildcard": {
+        "flag": {
           "score": 2,
-          "label": "the flag with the guiding star",
           "quote": "We rise raising flag with the guiding star",
-          "rationale": "the flag and its guiding star are a distinct salient image",
+          "rationale": "Stanza 2 explicitly raises the flag with its guiding star.",
           "confidence": "high"
         }
       }
@@ -10603,6 +11592,18 @@
           "quote": "make thee yet, beloved Togo, a golden example for humanity.",
           "rationale": "single aspiration to be a 'golden example'",
           "confidence": "med"
+        },
+        "labour_work": {
+          "score": 2,
+          "quote": "People of Togo arise! Let us build the nation... We the only builders of thy happiness and of thy future",
+          "rationale": "Verses 2-3 repeatedly cast Togolese as builders of the nation on an 'immense building site'.",
+          "confidence": "med"
+        },
+        "ancestors_heritage": {
+          "score": 2,
+          "quote": "Hail to thee, land of our forefathers",
+          "rationale": "Opening line (and title) addresses the land of the forefathers who were made strong.",
+          "confidence": "high"
         }
       }
     },
@@ -10648,6 +11649,12 @@
           "quote": "Cultivating virtue and bravery For posterity.",
           "rationale": "virtue/bravery cultivated, a pride note in verse 1",
           "confidence": "med"
+        },
+        "ancestors_heritage": {
+          "score": 2,
+          "quote": "Hail to thee, land of our forefathers",
+          "rationale": "Verse 1 (sung) opens on the land of the forefathers; the building/labour lines are in unsung verses 2-3.",
+          "confidence": "high"
         }
       }
     },
@@ -10697,6 +11704,18 @@
           "quote": "O defenders of the Homeland! Rally around to the glory of our time!",
           "rationale": "glory and boastful pride recur ('of it we boast')",
           "confidence": "high"
+        },
+        "flag": {
+          "score": 2,
+          "quote": "Holding aloft our proud flag flying, Of it we boast, of us it boasteth",
+          "rationale": "The flag is raised and addressed as an object of pride in its own right, not merely an incidental battle prop.",
+          "confidence": "high"
+        },
+        "ancestors_heritage": {
+          "score": 1,
+          "quote": "As a nation we inherited Arms like granite towers.",
+          "rationale": "Oblique mention of an inherited national legacy (arms handed down); no explicit forefathers/ancestors.",
+          "confidence": "med"
         }
       }
     },
@@ -10746,6 +11765,18 @@
           "quote": "O defenders of the Homeland! Rally around to the glory of our time!",
           "rationale": "glory and boastful pride recur ('of it we boast')",
           "confidence": "high"
+        },
+        "flag": {
+          "score": 2,
+          "quote": "Holding aloft our proud flag flying, Of it we boast, of us it boasteth",
+          "rationale": "The flag is raised and addressed as an object of pride in its own right; as-written equals as-sung (all verses performed).",
+          "confidence": "high"
+        },
+        "ancestors_heritage": {
+          "score": 1,
+          "quote": "As a nation we inherited Arms like granite towers.",
+          "rationale": "Oblique mention of an inherited national legacy; all verses are sung so the split is identical.",
+          "confidence": "med"
         }
       }
     },
@@ -10778,11 +11809,10 @@
           "rationale": "explicit unity/standing together",
           "confidence": "high"
         },
-        "wildcard": {
+        "labour_work": {
           "score": 1,
-          "label": "labour & service",
-          "quote": "Our love and labor we give,",
-          "rationale": "single mention of giving labour to the country",
+          "quote": "Oh Uganda! The land of Freedom, Our love and labor we give,",
+          "rationale": "Single oblique reference to giving 'labor' to the nation; no sustained work/building imagery.",
           "confidence": "high"
         }
       }
@@ -10816,11 +11846,10 @@
           "rationale": "explicit unity/standing together",
           "confidence": "high"
         },
-        "wildcard": {
+        "labour_work": {
           "score": 1,
-          "label": "labour & service",
-          "quote": "Our love and labor we give,",
-          "rationale": "single mention of giving labour to the country",
+          "quote": "Oh Uganda! The land of Freedom, Our love and labor we give,",
+          "rationale": "Single oblique reference to 'labor'; all three short verses are sung, so as-written equals as-sung.",
           "confidence": "high"
         }
       }
@@ -10866,11 +11895,16 @@
           "rationale": "single 'proud' descriptor",
           "confidence": "med"
         },
-        "wildcard": {
+        "labour_work": {
+          "score": 2,
+          "quote": "Stand and sing of Zambia, proud and free, Land of work and joy in unity,",
+          "rationale": "The nation is defined as a 'Land of work' in the opening line; explicit work imagery as a national value.",
+          "confidence": "high"
+        },
+        "flag": {
           "score": 1,
-          "label": "labour & work",
-          "quote": "Land of work and joy in unity,",
-          "rationale": "one reference to the land of work",
+          "quote": "Free men we stand, Under the flag of our land",
+          "rationale": "Single explicit mention of standing under the national flag in the chorus.",
           "confidence": "high"
         }
       }
@@ -10916,11 +11950,16 @@
           "rationale": "single 'proud' descriptor",
           "confidence": "med"
         },
-        "wildcard": {
+        "labour_work": {
+          "score": 2,
+          "quote": "Stand and sing of Zambia, proud and free, Land of work and joy in unity,",
+          "rationale": "'Land of work' opens the anthem; verses and chorus are all official and performed, so as-written equals as-sung.",
+          "confidence": "high"
+        },
+        "flag": {
           "score": 1,
-          "label": "labour & work",
-          "quote": "Land of work and joy in unity,",
-          "rationale": "one reference to the land of work",
+          "quote": "Free men we stand, Under the flag of our land",
+          "rationale": "Single explicit chorus mention of the national flag; chorus is sung.",
           "confidence": "high"
         }
       }
@@ -10986,6 +12025,24 @@
           "quote": "From Zambezi to Limpopo May leaders be exemplary;",
           "rationale": "specific named rivers bounding the territory",
           "confidence": "high"
+        },
+        "labour_work": {
+          "score": 1,
+          "quote": "May rain abound, and fertile fields; May we be fed, our labour blessed;",
+          "rationale": "Single oblique invocation that 'our labour' be blessed; agrarian rather than nation-building.",
+          "confidence": "high"
+        },
+        "flag": {
+          "score": 2,
+          "quote": "Oh lift high the banner, the flag of Zimbabwe, The symbol of freedom proclaiming victory;",
+          "rationale": "The anthem opens by directly addressing and raising the flag/banner as its own focus.",
+          "confidence": "high"
+        },
+        "ancestors_heritage": {
+          "score": 2,
+          "quote": "The land of our fathers bestowed upon us all;",
+          "rationale": "Explicit inherited legacy: the land of the forefathers bestowed on the present nation.",
+          "confidence": "high"
         }
       }
     },
@@ -11049,6 +12106,24 @@
           "label": "a named river (Zambezi / Limpopo)",
           "quote": "From Zambezi to Limpopo May leaders be exemplary;",
           "rationale": "specific named rivers bounding the territory",
+          "confidence": "high"
+        },
+        "labour_work": {
+          "score": 1,
+          "quote": "May rain abound, and fertile fields; May we be fed, our labour blessed;",
+          "rationale": "Single oblique 'our labour' invocation; stanza is performed.",
+          "confidence": "high"
+        },
+        "flag": {
+          "score": 2,
+          "quote": "Oh lift high the banner, the flag of Zimbabwe, The symbol of freedom proclaiming victory;",
+          "rationale": "Opening direct address raising the flag; all three content-parallel stanzas are performed, so as-written equals as-sung.",
+          "confidence": "high"
+        },
+        "ancestors_heritage": {
+          "score": 2,
+          "quote": "The land of our fathers bestowed upon us all;",
+          "rationale": "Explicit forefathers' inherited land; stanza is performed.",
           "confidence": "high"
         }
       }
@@ -11168,11 +12243,16 @@
           "rationale": "explicit wish for enduring glory",
           "confidence": "high"
         },
-        "wildcard": {
+        "flag": {
+          "score": 3,
+          "quote": "Here brother, for you a flag, That I made with my hands ... Look at it, 3 colours It's our gifted symbol. Let it shine against the enemy.",
+          "rationale": "An entire stanza is a sustained direct address to the tricolour flag as the nation's gifted symbol; dominant treatment.",
+          "confidence": "high"
+        },
+        "ancestors_heritage": {
           "score": 2,
-          "label": "the tricolour flag",
-          "quote": "Here brother, for you a flag, That I made with my hands... Look at it, 3 colours It's our gifted symbol.",
-          "rationale": "the hand-made tricolour flag is a central image (a whole stanza)",
+          "quote": "Our fatherland, free and independent, That lived from century to century",
+          "rationale": "Explicit 'land of our fathers' enduring through the ages; inherited ancestral lineage.",
           "confidence": "high"
         }
       }
@@ -11212,11 +12292,16 @@
           "rationale": "explicit wish for enduring glory",
           "confidence": "high"
         },
-        "wildcard": {
+        "flag": {
+          "score": 3,
+          "quote": "Here brother, for you a flag, That I made with my hands ... Look at it, 3 colours It's our gifted symbol. Let it shine against the enemy.",
+          "rationale": "Full dedicated stanza addressing the tricolour; all four official stanzas are performed, so as-written equals as-sung.",
+          "confidence": "high"
+        },
+        "ancestors_heritage": {
           "score": 2,
-          "label": "the tricolour flag",
-          "quote": "Here brother, for you a flag, That I made with my hands... Look at it, 3 colours It's our gifted symbol.",
-          "rationale": "the hand-made tricolour flag is a central image (a whole stanza)",
+          "quote": "Our fatherland, free and independent, That lived from century to century",
+          "rationale": "Explicit ancestral fatherland enduring through ages; stanza is performed.",
           "confidence": "high"
         }
       }
@@ -11252,11 +12337,10 @@
           "rationale": "heroism and 'Great Land' pride recur",
           "confidence": "high"
         },
-        "wildcard": {
+        "flag": {
           "score": 2,
-          "label": "the tricolour flag",
           "quote": "Three-coloured flag, flourish honourably!",
-          "rationale": "the tricolour flag is invoked and honoured repeatedly",
+          "rationale": "The tricolour is directly addressed and recurs ('To preserve everything And to honour her flag'); explicit, recurring flag focus.",
           "confidence": "high"
         }
       }
@@ -11292,11 +12376,10 @@
           "rationale": "heroism and 'Great Land' pride recur",
           "confidence": "high"
         },
-        "wildcard": {
+        "flag": {
           "score": 2,
-          "label": "the tricolour flag",
           "quote": "Three-coloured flag, flourish honourably!",
-          "rationale": "the tricolour flag is invoked and honoured repeatedly",
+          "rationale": "Tricolour directly addressed and recurring; the full march is the official sung text, so as-written equals as-sung.",
           "confidence": "high"
         }
       }
@@ -11556,6 +12639,12 @@
           "quote": "Like a rock the Khmer race is eternal.",
           "rationale": "ancestral Angkor splendour and the eternal Khmer race are a central organising motif",
           "confidence": "high"
+        },
+        "ancestors_heritage": {
+          "score": 2,
+          "quote": "Let us be faithful to our ancestors' belief.",
+          "rationale": "Verse 3 (written) explicitly invokes faithfulness to ancestors, reinforced by 'heir of the builder Sovereigns' in verse 1.",
+          "confidence": "med"
         }
       }
     },
@@ -11583,6 +12672,12 @@
           "quote": "And gives him happiness and glory... Guiding the proud old Kingdom.",
           "rationale": "the King's glory and the 'proud old Kingdom' noted in verse 1",
           "confidence": "med"
+        },
+        "ancestors_heritage": {
+          "score": 1,
+          "quote": "The one being, heir of the builder Sovereigns, Guiding the proud old Kingdom.",
+          "rationale": "Only verse 1 is sung; it alludes obliquely to inherited royal lineage. The explicit 'ancestors' belief' line is in unsung verse 3.",
+          "confidence": "med"
         }
       }
     },
@@ -11996,6 +13091,12 @@
           "quote": "Our glory, our glory, Is an honourable cause, and a waving flag.",
           "rationale": "glory, honour and splendour are a central, repeated organising theme",
           "confidence": "high"
+        },
+        "flag": {
+          "score": 1,
+          "quote": "Is an honourable cause, and a waving flag",
+          "rationale": "The waving flag is named as a national emblem alongside the cause, a single explicit mention rather than an incidental battle prop.",
+          "confidence": "high"
         }
       }
     },
@@ -12044,6 +13145,12 @@
           "score": 3,
           "quote": "Our glory, our glory, Is an honourable cause, and a waving flag.",
           "rationale": "glory, honour and splendour are a central, repeated organising theme",
+          "confidence": "high"
+        },
+        "flag": {
+          "score": 1,
+          "quote": "Is an honourable cause, and a waving flag",
+          "rationale": "Mawtini is performed in full, so the as-sung text is identical; the waving flag appears as a named emblem.",
           "confidence": "high"
         }
       }
@@ -12129,11 +13236,16 @@
           "rationale": "glory and honour of the dynasty invoked explicitly",
           "confidence": "high"
         },
-        "wildcard": {
+        "flag": {
+          "score": 2,
+          "quote": "Under your flying flag rests the glory of all Arabs",
+          "rationale": "The full version foregrounds the flag twice ('His banners waving in glory supreme' and the flying flag carrying the glory of all Arabs), explicit and recurring.",
+          "confidence": "med"
+        },
+        "ancestors_heritage": {
           "score": 1,
-          "label": "the Hashemite dynasty / lineage",
-          "quote": "The honour of dynasty, Talked about in the depths of books!",
-          "rationale": "the prestige of the ruling dynasty's lineage, distinct from generic monarch loyalty",
+          "quote": "The honour of dynasty, Talked about in the depths of books",
+          "rationale": "An oblique invocation of the inherited Hashemite dynastic legacy; translation-dependent so med confidence.",
           "confidence": "med"
         }
       }
@@ -12154,6 +13266,12 @@
           "quote": "His banners waving in glory supreme.",
           "rationale": "'glory supreme' of the King's banners is explicit in the short version",
           "confidence": "high"
+        },
+        "flag": {
+          "score": 1,
+          "quote": "His banners are waving high in sublimity",
+          "rationale": "The abridged royal salute (normally performed) names the King's waving banners once; the dynasty/flying-flag lines are in the unsung full version only.",
+          "confidence": "med"
         }
       }
     },
@@ -12186,11 +13304,10 @@
           "rationale": "heroic glory, pride and strength of the people invoked explicitly",
           "confidence": "high"
         },
-        "wildcard": {
-          "score": 1,
-          "label": "courage / heroism of ancestors",
-          "quote": "Legend of courage – Take a look at my country!",
-          "rationale": "ancestral courage as a named legend, beyond generic glory",
+        "ancestors_heritage": {
+          "score": 2,
+          "quote": "From antiquity Our heroic glory emerged",
+          "rationale": "Explicit appeal to ancient inherited glory ('from of old'), reinforced by 'The way was opened to the posterity'; translation-dependent.",
           "confidence": "med"
         }
       }
@@ -12224,11 +13341,10 @@
           "rationale": "heroic glory, pride and strength of the people invoked explicitly",
           "confidence": "high"
         },
-        "wildcard": {
-          "score": 1,
-          "label": "courage / heroism of ancestors",
-          "quote": "Legend of courage – Take a look at my country!",
-          "rationale": "ancestral courage as a named legend, beyond generic glory",
+        "ancestors_heritage": {
+          "score": 2,
+          "quote": "From antiquity Our heroic glory emerged",
+          "rationale": "Both verses are sung, so the record is identical; ancient inherited glory is explicit.",
           "confidence": "med"
         }
       }
@@ -12268,12 +13384,11 @@
           "rationale": "majesty, dignity and glory of the country invoked explicitly",
           "confidence": "high"
         },
-        "wildcard": {
+        "ancestors_heritage": {
           "score": 2,
-          "label": "Arab ancestry / heritage",
-          "quote": "Oh cradle of ancestry... Those Arabs were Heavenly,",
-          "rationale": "ancestral Arab heritage is a distinct organising theme",
-          "confidence": "high"
+          "quote": "Oh cradle of ancestry, Who put down its memory",
+          "rationale": "Verse 1 explicitly addresses Kuwait as a cradle of ancestry whose memory ('Those Arabs were Heavenly') is inherited legacy.",
+          "confidence": "med"
         }
       }
     },
@@ -12312,12 +13427,11 @@
           "rationale": "majesty, dignity and glory of the country invoked explicitly",
           "confidence": "high"
         },
-        "wildcard": {
+        "ancestors_heritage": {
           "score": 2,
-          "label": "Arab ancestry / heritage",
-          "quote": "Oh cradle of ancestry... Those Arabs were Heavenly,",
-          "rationale": "ancestral Arab heritage is a distinct organising theme",
-          "confidence": "high"
+          "quote": "Oh cradle of ancestry, Who put down its memory",
+          "rationale": "Performed in full, so identical; the cradle-of-ancestry line invokes inherited lineage.",
+          "confidence": "med"
         }
       }
     },
@@ -12350,11 +13464,10 @@
           "rationale": "explicit friendship and unity of the people",
           "confidence": "high"
         },
-        "wildcard": {
-          "score": 1,
-          "label": "ancestral heritage passed to descendants",
-          "quote": "The heritage of our fathers we will pass to our sons for the benefit of people.",
-          "rationale": "intergenerational inheritance as a distinct motif",
+        "ancestors_heritage": {
+          "score": 3,
+          "quote": "For countless centuries, our fathers Have lived in and kept the Ala-Too",
+          "rationale": "Forefathers are a dominant motif: this line plus 'The tradition of our fathers came to us, Let generations keep our holy heritage' frame the whole anthem around inherited legacy.",
           "confidence": "med"
         }
       }
@@ -12388,11 +13501,10 @@
           "rationale": "explicit friendship and unity of the people",
           "confidence": "high"
         },
-        "wildcard": {
-          "score": 1,
-          "label": "ancestral heritage passed to descendants",
-          "quote": "The heritage of our fathers we will pass to our sons for the benefit of people.",
-          "rationale": "intergenerational inheritance as a distinct motif",
+        "ancestors_heritage": {
+          "score": 3,
+          "quote": "For countless centuries, our fathers Have lived in and kept the Ala-Too",
+          "rationale": "The current official text (sung) carries both the 'our fathers' verse and the 'tradition of our fathers / holy heritage' verse, making forefathers dominant.",
           "confidence": "med"
         }
       }
@@ -12512,6 +13624,12 @@
           "quote": "Its glory is its cedars, its symbol is for the end of epochs",
           "rationale": "the cedar as enduring national symbol, a salient specific image",
           "confidence": "high"
+        },
+        "flag": {
+          "score": 2,
+          "quote": "All of us! For our Country, for our Flag and Glory!",
+          "rationale": "The flag is named alongside Country and Glory in the refrain that closes every verse; explicit and recurring, addressed as a national symbol.",
+          "confidence": "high"
         }
       }
     },
@@ -12555,6 +13673,12 @@
           "label": "the cedar tree (national emblem)",
           "quote": "Its glory is its cedars, its symbol is for the end of epochs",
           "rationale": "the cedar as enduring national symbol, a salient specific image",
+          "confidence": "high"
+        },
+        "flag": {
+          "score": 2,
+          "quote": "All of us! For our Country, for our Flag and Glory!",
+          "rationale": "Flag named in the recurring refrain; all three verses are official and performed together, so as-written equals as-sung.",
           "confidence": "high"
         }
       }
@@ -12696,11 +13820,10 @@
           "rationale": "honour/pride/'become great' recur as a motivating theme",
           "confidence": "high"
         },
-        "wildcard": {
-          "score": 1,
-          "label": "the flag and its colours/emblem",
-          "quote": "We salute the colours of our Flag; Green, Red and White, Which symbolise Victory, Blessing and Success.",
-          "rationale": "the salute to flag/emblem and its symbolism is a distinct organising device",
+        "flag": {
+          "score": 3,
+          "quote": "We bow in respect to the Emblem of our Nation, And salute the Flag so exalted. We salute the colours of our Flag; Green, Red and White, Which symbolise Victory, Blessing and Success.",
+          "rationale": "Successive lines are dedicated to saluting the flag, its emblem and its colours as the central object of homage; dominant flag treatment.",
           "confidence": "high"
         }
       }
@@ -12728,11 +13851,10 @@
           "rationale": "victory/exalted-flag honour theme present in the sung verses",
           "confidence": "high"
         },
-        "wildcard": {
-          "score": 2,
-          "label": "the flag and its colours/emblem",
-          "quote": "We bow in respect to the Emblem of our Nation, And salute the Flag so exalted.",
-          "rationale": "the sung portion is built around saluting the emblem and flag colours",
+        "flag": {
+          "score": 3,
+          "quote": "We bow in respect to the Emblem of our Nation, And salute the Flag so exalted. We salute the colours of our Flag; Green, Red and White, Which symbolise Victory, Blessing and Success.",
+          "rationale": "The flag/emblem/colours appear in the customarily performed chorus and opening verses, so the dominant flag focus carries into the sung version.",
           "confidence": "high"
         }
       }
@@ -12788,6 +13910,18 @@
           "quote": "As great Soyombo leads firm and true, / So shall the people follow it through.",
           "rationale": "the Soyombo emblem as guiding national symbol, a salient specific image",
           "confidence": "high"
+        },
+        "labour_work": {
+          "score": 1,
+          "quote": "Let's build this our Mongol homeland, / Our sweat and blood to lend.",
+          "rationale": "Single oblique work image of building the homeland with sweat; some translations render this as generic 'develop with all our will', so med confidence.",
+          "confidence": "med"
+        },
+        "ancestors_heritage": {
+          "score": 2,
+          "quote": "Our sacred revolutionary country / Is the ancestral hearth of all Mongols",
+          "rationale": "Explicit ancestral lineage ('ancestral hearth of all Mongols'), reinforced by the legacy passed 'from father to daughter, and mother to son'.",
+          "confidence": "high"
         }
       }
     },
@@ -12842,6 +13976,18 @@
           "quote": "As great Soyombo leads firm and true, / So shall the people follow it through.",
           "rationale": "the Soyombo emblem as guiding national symbol, a salient specific image",
           "confidence": "high"
+        },
+        "labour_work": {
+          "score": 1,
+          "quote": "Let's build this our Mongol homeland, / Our sweat and blood to lend.",
+          "rationale": "Single oblique work image of building with sweat; translation-dependent; both verses are performed so the split is identical.",
+          "confidence": "med"
+        },
+        "ancestors_heritage": {
+          "score": 2,
+          "quote": "Our sacred revolutionary country / Is the ancestral hearth of all Mongols",
+          "rationale": "Explicit ancestral lineage; both 2006 verses and choruses are official and performed, so as-written equals as-sung.",
+          "confidence": "high"
         }
       }
     },
@@ -12885,6 +14031,12 @@
           "quote": "Until the world ends up shattering, long live Burma!",
           "rationale": "proud everlasting acclamation of the nation",
           "confidence": "med"
+        },
+        "ancestors_heritage": {
+          "score": 2,
+          "quote": "Since she is the true inheritance from our forefathers, we love and value her.",
+          "rationale": "Explicit inherited legacy handed down from the forefathers.",
+          "confidence": "high"
         }
       }
     },
@@ -12928,6 +14080,12 @@
           "quote": "Until the world ends up shattering, long live Burma!",
           "rationale": "proud everlasting acclamation of the nation",
           "confidence": "med"
+        },
+        "ancestors_heritage": {
+          "score": 2,
+          "quote": "Since she is the true inheritance from our forefathers, we love and value her.",
+          "rationale": "Explicit forefathers' inheritance; the short anthem is performed in full, so as-written equals as-sung.",
+          "confidence": "high"
         }
       }
     },
@@ -12954,11 +14112,10 @@
           "rationale": "national glory/pride in people and long history is prominent",
           "confidence": "high"
         },
-        "wildcard": {
-          "score": 2,
-          "label": "labour / toil",
+        "labour_work": {
+          "score": 1,
           "quote": "Embracing the atmosphere of Baekdu Mountain, / Nest for the spirit of labour,",
-          "rationale": "the 'spirit of labour' is a distinctive organising theme not in themes 1-10",
+          "rationale": "Single oblique mention of the land as a 'nest for the spirit of labour'; no active 'let us work/toil' call.",
           "confidence": "high"
         }
       }
@@ -12986,11 +14143,10 @@
           "rationale": "national glory/pride in people and long history is prominent in verse 1",
           "confidence": "high"
         },
-        "wildcard": {
-          "score": 2,
-          "label": "labour / toil",
+        "labour_work": {
+          "score": 1,
           "quote": "Embracing the atmosphere of Baekdu Mountain, / Nest for the spirit of labour,",
-          "rationale": "the 'spirit of labour' is a distinctive organising theme (verse 2)",
+          "rationale": "Oblique 'spirit of labour' in verse 2; both verses are official and customarily included, so as-written equals as-sung.",
           "confidence": "high"
         }
       }
@@ -13024,11 +14180,10 @@
           "rationale": "glory of the ruler and ascending 'to the apex of the heavens' recur",
           "confidence": "high"
         },
-        "wildcard": {
+        "ancestors_heritage": {
           "score": 1,
-          "label": "Arab identity / lineage",
-          "quote": "We are a dedicated people amongst the noblest Arabs.",
-          "rationale": "explicit pride in noble Arab identity, distinct from generic glory",
+          "quote": "O Oman, since the time of the Prophet / We are a dedicated people amongst the noblest Arabs.",
+          "rationale": "Oblique appeal to ancient/inherited noble lineage ('since the time of the Prophet'); not an explicit forefathers reference, hence med.",
           "confidence": "med"
         }
       }
@@ -13062,11 +14217,10 @@
           "rationale": "glory of the ruler and ascending 'to the apex of the heavens' recur",
           "confidence": "high"
         },
-        "wildcard": {
+        "ancestors_heritage": {
           "score": 1,
-          "label": "Arab identity / lineage",
-          "quote": "We are a dedicated people amongst the noblest Arabs.",
-          "rationale": "explicit pride in noble Arab identity, distinct from generic glory",
+          "quote": "O Oman, since the time of the Prophet / We are a dedicated people amongst the noblest Arabs.",
+          "rationale": "Oblique ancient-lineage allusion; short anthem performed in full, so as-written equals as-sung.",
           "confidence": "med"
         }
       }
@@ -13099,6 +14253,12 @@
           "quote": "May the nation, the country, and the state, Shine in glory everlasting!",
           "rationale": "everlasting glory and 'high resolve' are a closing emphasis",
           "confidence": "high"
+        },
+        "flag": {
+          "score": 2,
+          "quote": "Flag of the Crescent and Star, / Leader of progress and ascent",
+          "rationale": "The national flag (the Crescent and Star) is directly addressed as a guiding symbol; explicit flag focus. Translation-dependent rendering of 'Parchamay sitaarah o hilaal', hence med.",
+          "confidence": "med"
         }
       }
     },
@@ -13130,6 +14290,12 @@
           "quote": "May the nation, the country, and the state, Shine in glory everlasting!",
           "rationale": "everlasting glory and 'high resolve' are a closing emphasis",
           "confidence": "high"
+        },
+        "flag": {
+          "score": 2,
+          "quote": "Flag of the Crescent and Star, / Leader of progress and ascent",
+          "rationale": "Flag directly addressed; all three stanzas are official and sung, so as-written equals as-sung.",
+          "confidence": "med"
         }
       }
     },
@@ -13173,6 +14339,12 @@
           "quote": "The sparkle of your flag is victory shining;",
           "rationale": "victory, glory and the brave 'Pearl of the Orient' pride recur",
           "confidence": "high"
+        },
+        "flag": {
+          "score": 2,
+          "quote": "The sparkle of your flag is victory shining; / its star and sun, will forever not dim to darkness.",
+          "rationale": "The flag and its star-and-sun device are addressed as an enduring national symbol, the focus of the line rather than an incidental battle prop.",
+          "confidence": "high"
         }
       }
     },
@@ -13215,6 +14387,12 @@
           "score": 2,
           "quote": "The sparkle of your flag is victory shining;",
           "rationale": "victory, glory and the brave 'Pearl of the Orient' pride recur",
+          "confidence": "high"
+        },
+        "flag": {
+          "score": 2,
+          "quote": "The sparkle of your flag is victory shining; / its star and sun, will forever not dim to darkness.",
+          "rationale": "Flag addressed as an enduring symbol; the single official Filipino lyric is sung in full, so as-written equals as-sung.",
           "confidence": "high"
         }
       }
@@ -13260,11 +14438,10 @@
           "rationale": "dignity/glory framed as the anthem's emotional core",
           "confidence": "high"
         },
-        "wildcard": {
-          "score": 1,
-          "label": "ancestors / forefathers",
-          "quote": "Follow the path of the ancestors",
-          "rationale": "veneration of the forefathers' path is a distinct recurring motif",
+        "ancestors_heritage": {
+          "score": 2,
+          "quote": "Follow the path of the ancestors ... Qatar is the land of the forefathers / Who protect us on call-up to sacrifice",
+          "rationale": "Two explicit invocations of ancestors and forefathers as the inherited national lineage to be followed.",
           "confidence": "high"
         }
       }
@@ -13310,11 +14487,10 @@
           "rationale": "dignity/glory framed as the anthem's emotional core",
           "confidence": "high"
         },
-        "wildcard": {
-          "score": 1,
-          "label": "ancestors / forefathers",
-          "quote": "Follow the path of the ancestors",
-          "rationale": "veneration of the forefathers' path is a distinct recurring motif",
+        "ancestors_heritage": {
+          "score": 2,
+          "quote": "Follow the path of the ancestors ... Qatar is the land of the forefathers / Who protect us on call-up to sacrifice",
+          "rationale": "Explicit, recurring forefathers/ancestors imagery; short anthem performed in full, so as-written equals as-sung.",
           "confidence": "high"
         }
       }
@@ -13348,12 +14524,11 @@
           "rationale": "glory/supremacy and 'pride of Muslims' are explicit",
           "confidence": "high"
         },
-        "wildcard": {
-          "score": 1,
-          "label": "the green flag / shahada banner",
-          "quote": "And raise the green flag Carrying the written light reflecting guidance,",
-          "rationale": "the inscribed green banner is a distinct salient image (the shahada flag)",
-          "confidence": "med"
+        "flag": {
+          "score": 2,
+          "quote": "And raise the green flag / Carrying the written light reflecting guidance ... Long live the King For the flag And the homeland!",
+          "rationale": "The green flag is explicitly raised and described, and the flag is invoked again at the close; explicit, recurring flag focus.",
+          "confidence": "high"
         }
       }
     },
@@ -13386,12 +14561,11 @@
           "rationale": "glory/supremacy and 'pride of Muslims' are explicit",
           "confidence": "high"
         },
-        "wildcard": {
-          "score": 1,
-          "label": "the green flag / shahada banner",
-          "quote": "And raise the green flag Carrying the written light reflecting guidance,",
-          "rationale": "the inscribed green banner is a distinct salient image (the shahada flag)",
-          "confidence": "med"
+        "flag": {
+          "score": 2,
+          "quote": "And raise the green flag / Carrying the written light reflecting guidance ... Long live the King For the flag And the homeland!",
+          "rationale": "Green flag raised and addressed, recurring at the close; single stanza performed in full, so as-written equals as-sung.",
+          "confidence": "high"
         }
       }
     },
@@ -13630,6 +14804,24 @@
           "quote": "From us is 'Al-Walid' and from us is 'ar-Rashid', so why wouldn't we prosper and why wouldn't we build?",
           "rationale": "fourth stanza invokes specific historical figures as a source of national pride",
           "confidence": "med"
+        },
+        "labour_work": {
+          "score": 1,
+          "quote": "From us is \"Al-Walid\" and from us is \"ar-Rashid\", so why wouldn't we prosper and why wouldn't we build?",
+          "rationale": "Single oblique mention of building/prosperity (effort) in stanza 4; not developed.",
+          "confidence": "med"
+        },
+        "flag": {
+          "score": 2,
+          "quote": "The flutter of hopes and the beat of the heart, are on a flag that united the entire country.",
+          "rationale": "Stanza 3 makes the national flag the explicit focus, the symbol that unites the country.",
+          "confidence": "med"
+        },
+        "ancestors_heritage": {
+          "score": 1,
+          "quote": "From us is \"Al-Walid\" and from us is \"ar-Rashid\"",
+          "rationale": "Claims named historical forebears (caliphs al-Walid, ar-Rashid) as 'from us' — ancestral lineage pride; borderline vs generic history.",
+          "confidence": "med"
         }
       }
     },
@@ -13682,6 +14874,24 @@
           "quote": "From us is 'Al-Walid' and from us is 'ar-Rashid', so why wouldn't we prosper and why wouldn't we build?",
           "rationale": "fourth stanza invokes specific historical figures as a source of national pride",
           "confidence": "med"
+        },
+        "labour_work": {
+          "score": 1,
+          "quote": "From us is \"Al-Walid\" and from us is \"ar-Rashid\", so why wouldn't we prosper and why wouldn't we build?",
+          "rationale": "Single oblique mention of building/prosperity (effort) in stanza 4; as-sung = full official text.",
+          "confidence": "med"
+        },
+        "flag": {
+          "score": 2,
+          "quote": "The flutter of hopes and the beat of the heart, are on a flag that united the entire country.",
+          "rationale": "Stanza 3 makes the national flag the explicit focus, the symbol that unites the country; as-sung = full official text.",
+          "confidence": "med"
+        },
+        "ancestors_heritage": {
+          "score": 1,
+          "quote": "From us is \"Al-Walid\" and from us is \"ar-Rashid\"",
+          "rationale": "Claims named historical forebears (caliphs al-Walid, ar-Rashid) as 'from us' — ancestral lineage pride; borderline vs generic history.",
+          "confidence": "med"
         }
       }
     },
@@ -13714,11 +14924,16 @@
           "rationale": "national pride and honour/dignity recur",
           "confidence": "high"
         },
-        "wildcard": {
-          "score": 1,
-          "label": "ancestral / ancient heritage",
-          "quote": "You are a symbol of our ancestors' hope, Our honour and dignity.",
-          "rationale": "ancestors and ancient lineage are a motif beyond the listed themes",
+        "flag": {
+          "score": 2,
+          "quote": "We have reached this day since ancient times, We stand under your flag.",
+          "rationale": "Verse 1 explicitly addresses standing under the national flag.",
+          "confidence": "med"
+        },
+        "ancestors_heritage": {
+          "score": 2,
+          "quote": "You are a symbol of our ancestors' hope",
+          "rationale": "Explicit ancestors in verse 2, reinforced by 'since ancient times' (from of old) in verse 1.",
           "confidence": "med"
         }
       }
@@ -13752,11 +14967,16 @@
           "rationale": "national pride and honour/dignity recur",
           "confidence": "high"
         },
-        "wildcard": {
-          "score": 1,
-          "label": "ancestral / ancient heritage",
-          "quote": "You are a symbol of our ancestors' hope, Our honour and dignity.",
-          "rationale": "ancestors and ancient lineage are a motif beyond the listed themes",
+        "flag": {
+          "score": 2,
+          "quote": "We have reached this day since ancient times, We stand under your flag.",
+          "rationale": "Verse 1 explicitly addresses standing under the national flag; as-sung = full text.",
+          "confidence": "med"
+        },
+        "ancestors_heritage": {
+          "score": 2,
+          "quote": "You are a symbol of our ancestors' hope",
+          "rationale": "Explicit ancestors in verse 2, reinforced by 'since ancient times' in verse 1; as-sung = full text.",
           "confidence": "med"
         }
       }
@@ -14028,12 +15248,17 @@
           "rationale": "the 'heroic nation' and its proud banner are repeatedly exalted",
           "confidence": "high"
         },
-        "wildcard": {
-          "score": 2,
-          "label": "the crescent-and-star flag",
-          "quote": "Frown not, I beseech you, oh you coy crescent!",
-          "rationale": "the personified crescent banner is a distinct central image",
+        "flag": {
+          "score": 3,
+          "quote": "Fear not! The red banner that ripples in this dawn shall not fade, Before the last hearth that is ablaze within my homeland is extinguished.",
+          "rationale": "The crimson banner, its star, and the crescent are the dominant addressed subject of the opening stanzas and recur near the close.",
           "confidence": "high"
+        },
+        "ancestors_heritage": {
+          "score": 1,
+          "quote": "You're the glorious son of a martyr - take shame, grieve not your ancestors!",
+          "rationale": "Single explicit appeal to ancestors in a later stanza (outside the sung portion).",
+          "confidence": "med"
         }
       }
     },
@@ -14092,11 +15317,10 @@
           "rationale": "the 'heroic nation' and its proud banner are exalted in the sung stanzas",
           "confidence": "high"
         },
-        "wildcard": {
-          "score": 2,
-          "label": "the crescent-and-star flag",
-          "quote": "Frown not, I beseech you, oh you coy crescent!",
-          "rationale": "the personified crescent banner is a distinct central image in sung stanza 2",
+        "flag": {
+          "score": 3,
+          "quote": "Fear not! The red banner that ripples in this dawn shall not fade, Before the last hearth that is ablaze within my homeland is extinguished.",
+          "rationale": "Sung stanzas 1-2 are dominated by direct address to the crimson banner, its star, and the coy crescent.",
           "confidence": "high"
         }
       }
@@ -14144,11 +15368,16 @@
           "rationale": "glory and the great sovereign land are exalted",
           "confidence": "high"
         },
-        "wildcard": {
-          "score": 1,
-          "label": "tribal/ancestral bloodline",
-          "quote": "My nation unified in the veins of tribes, Our forebears' blood flows undyingly.",
-          "rationale": "tribal lineage as the basis of nationhood is distinct from generic unity",
+        "flag": {
+          "score": 2,
+          "quote": "'Tis the light of the neutral, independent land, The flag soars high o'er the world.",
+          "rationale": "The flag raised high is an explicit, recurring image (chorus and verse).",
+          "confidence": "med"
+        },
+        "ancestors_heritage": {
+          "score": 2,
+          "quote": "Our forebears' blood flows undyingly.",
+          "rationale": "Recurring ancestral imagery: 'spirit of brave fathers', 'vigour of ancestors', 'forebears' blood'.",
           "confidence": "med"
         }
       }
@@ -14196,11 +15425,16 @@
           "rationale": "glory and the great sovereign land are exalted",
           "confidence": "high"
         },
-        "wildcard": {
-          "score": 1,
-          "label": "tribal/ancestral bloodline",
-          "quote": "My nation unified in the veins of tribes, Our forebears' blood flows undyingly.",
-          "rationale": "tribal lineage as the basis of nationhood is distinct from generic unity",
+        "flag": {
+          "score": 2,
+          "quote": "'Tis the light of the neutral, independent land, The flag soars high o'er the world.",
+          "rationale": "The flag raised high is an explicit, recurring image; as-sung = full 2008 text.",
+          "confidence": "med"
+        },
+        "ancestors_heritage": {
+          "score": 2,
+          "quote": "Our forebears' blood flows undyingly.",
+          "rationale": "Recurring ancestral imagery: 'spirit of brave fathers', 'vigour of ancestors', 'forebears' blood'; as-sung = full text.",
           "confidence": "med"
         }
       }
@@ -14252,6 +15486,18 @@
           "quote": "You've lived for the nation's faith of Islam and guide of the Quran.",
           "rationale": "Islam and the Quran as the nation's organising faith, beyond a generic deity invocation",
           "confidence": "high"
+        },
+        "labour_work": {
+          "score": 2,
+          "quote": "We have sworn to build and work, Work sincerely, work sincerely",
+          "rationale": "Explicit, repeated pledge to build and work for the nation.",
+          "confidence": "med"
+        },
+        "flag": {
+          "score": 2,
+          "quote": "The safety has lasted and the flag has lived oh our Emirates",
+          "rationale": "Explicit invocation of the enduring national flag.",
+          "confidence": "med"
         }
       }
     },
@@ -14302,6 +15548,18 @@
           "quote": "You've lived for the nation's faith of Islam and guide of the Quran.",
           "rationale": "Islam and the Quran as the nation's organising faith, beyond a generic deity invocation",
           "confidence": "high"
+        },
+        "labour_work": {
+          "score": 2,
+          "quote": "We have sworn to build and work, Work sincerely, work sincerely",
+          "rationale": "Explicit, repeated pledge to build and work for the nation; as-sung = full text.",
+          "confidence": "med"
+        },
+        "flag": {
+          "score": 2,
+          "quote": "The safety has lasted and the flag has lived oh our Emirates",
+          "rationale": "Explicit invocation of the enduring national flag; as-sung = full text.",
+          "confidence": "med"
         }
       }
     },
@@ -14340,6 +15598,18 @@
           "quote": "Flourish, Oh! Creator of eternal knowledge and science",
           "rationale": "praise of knowledge and science is a distinct motif not in the listed themes",
           "confidence": "med"
+        },
+        "flag": {
+          "score": 2,
+          "quote": "Oh, white soaring flag, may you forever fly in the sky, You're the symbol of the Motherland",
+          "rationale": "The flag is directly addressed as the symbol of the motherland.",
+          "confidence": "med"
+        },
+        "ancestors_heritage": {
+          "score": 2,
+          "quote": "Manly spirit of ancestors is companion to you!",
+          "rationale": "Ancestors in the chorus, reinforced by 'the land of my forefathers'.",
+          "confidence": "med"
         }
       }
     },
@@ -14377,6 +15647,18 @@
           "label": "knowledge & science",
           "quote": "Flourish, Oh! Creator of eternal knowledge and science",
           "rationale": "praise of knowledge and science is a distinct motif not in the listed themes",
+          "confidence": "med"
+        },
+        "flag": {
+          "score": 2,
+          "quote": "Oh, white soaring flag, may you forever fly in the sky, You're the symbol of the Motherland",
+          "rationale": "The flag is directly addressed as the symbol of the motherland; as-sung = full text.",
+          "confidence": "med"
+        },
+        "ancestors_heritage": {
+          "score": 2,
+          "quote": "Manly spirit of ancestors is companion to you!",
+          "rationale": "Ancestors in the chorus, reinforced by 'the land of my forefathers'; as-sung = full text.",
           "confidence": "med"
         }
       }
@@ -14434,6 +15716,12 @@
           "quote": "Overcoming all hardships, together we build our resistance bases.",
           "rationale": "the revolutionary army and resistance bases are a distinct organising frame",
           "confidence": "high"
+        },
+        "flag": {
+          "score": 2,
+          "quote": "Our flag, red with the blood of victory, bears the spirit of our country.",
+          "rationale": "The flag is given symbolic focus ('bears the spirit of our country'); recurs in verse 2 ('The gold star of our flag in the wind, Leading our people').",
+          "confidence": "med"
         }
       }
     },
@@ -14490,6 +15778,12 @@
           "quote": "Overcoming all hardships, together we build our resistance bases.",
           "rationale": "the revolutionary army and resistance bases are a distinct organising frame",
           "confidence": "high"
+        },
+        "flag": {
+          "score": 2,
+          "quote": "Our flag, red with the blood of victory, bears the spirit of our country.",
+          "rationale": "Verse 1 (sung portion) gives the flag symbolic focus as bearer of the national spirit, beyond an incidental battle prop.",
+          "confidence": "med"
         }
       }
     },
@@ -14530,6 +15824,12 @@
           "quote": "In faith and love I am part of mankind. An Arab I am in all my life.",
           "rationale": "explicit Arab identity tied to a universalist 'part of mankind' framing, distinct from listed themes",
           "confidence": "high"
+        },
+        "flag": {
+          "score": 2,
+          "quote": "My banner, Oh cloth nailed from every sun, Raise forever on every peak",
+          "rationale": "A dedicated stanza directly addresses and exalts the banner.",
+          "confidence": "med"
         }
       }
     },
@@ -14617,6 +15917,18 @@
           "quote": "By my strong will and my inflaming rage, my volcanic revenge",
           "rationale": "explicit 'volcanic revenge' / avenging blood, not covered by other themes",
           "confidence": "high"
+        },
+        "flag": {
+          "score": 1,
+          "quote": "By the oath under the shade of the flag",
+          "rationale": "The flag is invoked as the thing under which the national oath is sworn; a single oblique mention, not the focus.",
+          "confidence": "med"
+        },
+        "ancestors_heritage": {
+          "score": 2,
+          "quote": "My country, oh my land, oh land of my forefathers",
+          "rationale": "The chorus (repeated each cycle) explicitly invokes the land of the forefathers/ancestors.",
+          "confidence": "med"
         }
       }
     },
@@ -14670,6 +15982,18 @@
           "quote": "By my strong will and my inflaming rage, my volcanic revenge",
           "rationale": "explicit 'volcanic revenge' / avenging blood, not covered by other themes",
           "confidence": "high"
+        },
+        "flag": {
+          "score": 1,
+          "quote": "By the oath under the shade of the flag",
+          "rationale": "Verse is part of the full sung anthem; single oblique flag mention as the setting of the oath.",
+          "confidence": "med"
+        },
+        "ancestors_heritage": {
+          "score": 2,
+          "quote": "My country, oh my land, oh land of my forefathers",
+          "rationale": "Whole anthem (chorus + 3 verses) is performed in full, so sung == written; the forefathers reference recurs in the chorus.",
+          "confidence": "med"
         }
       }
     },
@@ -14708,11 +16032,10 @@
           "rationale": "standing united with one wish/goal opens the anthem",
           "confidence": "high"
         },
-        "wildcard": {
-          "score": 2,
-          "label": "the flag / sacred oath of loyalty",
-          "quote": "A sacred oath we bestow upon it Proclaiming loyalty for our salvation.",
-          "rationale": "the flag and oath of loyalty are the anthem's organising image (title: Hymn to the Flag)",
+        "flag": {
+          "score": 3,
+          "quote": "Around our flag we stand united, With one wish and one intention. A sacred oath upon it we accord",
+          "rationale": "The anthem is literally the 'Hymn to the Flag'; the flag is directly addressed and is the dominant, organising image of both official stanzas.",
           "confidence": "high"
         }
       }
@@ -14728,11 +16051,10 @@
           "rationale": "the sung first stanza is built on standing united with one wish/goal",
           "confidence": "high"
         },
-        "wildcard": {
-          "score": 2,
-          "label": "the flag / sacred oath of loyalty",
-          "quote": "A sacred oath we bestow upon it Proclaiming loyalty for our salvation.",
-          "rationale": "the flag and oath of loyalty dominate the sung stanza (title: Hymn to the Flag)",
+        "flag": {
+          "score": 3,
+          "quote": "Around our flag we stand united, With one wish and one intention. A sacred oath upon it we accord",
+          "rationale": "Stanza 1 (the customarily performed verse) opens on and centres the flag; dominant theme as sung.",
           "confidence": "high"
         }
       }
@@ -14772,6 +16094,12 @@
           "quote": "I am the only remaining daughter, of the Carolingian empire.",
           "rationale": "the Charlemagne founding legend is the single organising subject of the anthem",
           "confidence": "high"
+        },
+        "ancestors_heritage": {
+          "score": 3,
+          "quote": "The great Charlemagne, my father, from the Saracens liberated me ... I am the only remaining daughter, of the Carolingian empire. Faithful and free for eleven centuries",
+          "rationale": "Inherited lineage dominates: Charlemagne addressed as father, Andorra as heir of the Carolingian empire across eleven centuries of inherited legacy.",
+          "confidence": "high"
         }
       }
     },
@@ -14809,6 +16137,12 @@
           "label": "founding legend / Charlemagne & national history",
           "quote": "I am the only remaining daughter, of the Carolingian empire.",
           "rationale": "the Charlemagne founding legend is the single organising subject of the anthem",
+          "confidence": "high"
+        },
+        "ancestors_heritage": {
+          "score": 3,
+          "quote": "The great Charlemagne, my father, from the Saracens liberated me ... I am the only remaining daughter, of the Carolingian empire. Faithful and free for eleven centuries",
+          "rationale": "Single stanza sung in full (sung == written); ancestral/Carolingian heritage is the dominant theme.",
           "confidence": "high"
         }
       }
@@ -14847,6 +16181,18 @@
           "quote": "Vielgerühmtes Österreich (Much-praised Austria)",
           "rationale": "'much-praised / much-beloved Austria' refrain recurs across stanzas",
           "confidence": "high"
+        },
+        "labour_work": {
+          "score": 1,
+          "quote": "Land of hammers, with a promising future!",
+          "rationale": "Single oblique industry/work image ('land of hammers'); stanza 3's 'assiduous' reinforces but no explicit work-the-land call.",
+          "confidence": "med"
+        },
+        "ancestors_heritage": {
+          "score": 2,
+          "quote": "Since the early days of the ancestors thou hast Borne the burden of a high mission",
+          "rationale": "Stanza 2 explicitly invokes the ancestors and an inherited mission borne from early days.",
+          "confidence": "high"
         }
       }
     },
@@ -14868,6 +16214,12 @@
           "quote": "Vielgerühmtes Österreich (Much-praised Austria)",
           "rationale": "the 'much-praised Austria' refrain closes the first stanza",
           "confidence": "high"
+        },
+        "labour_work": {
+          "score": 1,
+          "quote": "Land of hammers, with a promising future!",
+          "rationale": "The 'land of hammers' line is in stanza 1 (the customarily sung verse); a single oblique work/industry image.",
+          "confidence": "med"
         }
       }
     },
@@ -14912,6 +16264,18 @@
           "quote": "We, the Belarusians, peaceful people",
           "rationale": "self-identification as 'peaceful' and 'friendship of peoples' is a salient organising motif",
           "confidence": "high"
+        },
+        "labour_work": {
+          "score": 1,
+          "quote": "We maintain generous friendship and gain our powers Within the industrious, free family.",
+          "rationale": "Single oblique work allusion via 'industrious'; no explicit call to build/toil.",
+          "confidence": "low"
+        },
+        "flag": {
+          "score": 2,
+          "quote": "The banner of victory, the sunshine's flag!",
+          "rationale": "The banner/flag is addressed and raised, recurring across verses ('we have won our banners of victories'; 'banner of victory, the sunshine's flag').",
+          "confidence": "med"
         }
       }
     },
@@ -14956,6 +16320,18 @@
           "quote": "We, the Belarusians, peaceful people",
           "rationale": "self-identification as 'peaceful' and 'friendship of peoples' is a salient organising motif",
           "confidence": "high"
+        },
+        "labour_work": {
+          "score": 1,
+          "quote": "We maintain generous friendship and gain our powers Within the industrious, free family.",
+          "rationale": "Full anthem performed (sung == written); single oblique work allusion via 'industrious'.",
+          "confidence": "low"
+        },
+        "flag": {
+          "score": 2,
+          "quote": "The banner of victory, the sunshine's flag!",
+          "rationale": "Full anthem performed; banner/flag addressed and recurring as performed.",
+          "confidence": "med"
         }
       }
     },
@@ -15005,6 +16381,12 @@
           "quote": "O beloved Belgium, sacred land of our fathers",
           "rationale": "one reference to the 'sacred land of our fathers' (political/ancestral, not geographic)",
           "confidence": "med"
+        },
+        "ancestors_heritage": {
+          "score": 2,
+          "quote": "O beloved Belgium, sacred land of our fathers",
+          "rationale": "The official 4th verse explicitly names Belgium the 'land of our fathers' (ancestral land).",
+          "confidence": "high"
         }
       }
     },
@@ -15054,6 +16436,12 @@
           "quote": "O beloved Belgium, sacred land of our fathers",
           "rationale": "one reference to the 'sacred land of our fathers' (political/ancestral, not geographic)",
           "confidence": "med"
+        },
+        "ancestors_heritage": {
+          "score": 2,
+          "quote": "O beloved Belgium, sacred land of our fathers",
+          "rationale": "The official 4th verse is the sung verse (sung == written); 'land of our fathers' present.",
+          "confidence": "high"
         }
       }
     },
@@ -15139,6 +16527,12 @@
           "quote": "Stare slave djedovino (Our fathers' ancient glory)",
           "rationale": "'ancient glory' and being 'our only glory' recur",
           "confidence": "high"
+        },
+        "ancestors_heritage": {
+          "score": 2,
+          "quote": "Our beautiful homeland, O so fearless and gracious, Our fathers' ancient glory",
+          "rationale": "Stanza 1 explicitly invokes 'our fathers' ancient glory' (forefathers / ancient inherited renown).",
+          "confidence": "high"
         }
       }
     },
@@ -15163,6 +16557,12 @@
           "score": 2,
           "quote": "Stare slave djedovino (Our fathers' ancient glory)",
           "rationale": "'our fathers' ancient glory' anchors the sung first stanza",
+          "confidence": "high"
+        },
+        "ancestors_heritage": {
+          "score": 2,
+          "quote": "Our beautiful homeland, O so fearless and gracious, Our fathers' ancient glory",
+          "rationale": "The forefathers line is in stanza 1, the customarily performed verse; present as sung.",
           "confidence": "high"
         }
       }
@@ -15197,6 +16597,12 @@
           "quote": "From the graves of our slain Shall thy valour prevail",
           "rationale": "single invocation of reborn 'valour'",
           "confidence": "med"
+        },
+        "ancestors_heritage": {
+          "score": 2,
+          "quote": "From the sacred bones, of the Hellenes arisen, and valiant again as you once were",
+          "rationale": "Liberty is born of the sacred bones of the Greek ancestors and valiant 'as you once were' (from of old) - explicit ancestral lineage.",
+          "confidence": "high"
         }
       }
     },
@@ -15230,6 +16636,12 @@
           "quote": "From the graves of our slain Shall thy valour prevail",
           "rationale": "single invocation of reborn 'valour'",
           "confidence": "med"
+        },
+        "ancestors_heritage": {
+          "score": 2,
+          "quote": "From the sacred bones, of the Hellenes arisen, and valiant again as you once were",
+          "rationale": "Official anthem = first two stanzas performed as such (sung == written); ancestral 'sacred bones' line present.",
+          "confidence": "high"
         }
       }
     },
@@ -15294,9 +16706,8 @@
           "rationale": "single reference to upholding the country's honour",
           "confidence": "high"
         },
-        "wildcard": {
+        "ancestors_heritage": {
           "score": 2,
-          "label": "Norse myth / Viking heritage",
           "quote": "Its ancient name is Denmark, And it is Freya's hall",
           "rationale": "Freya's hall and 'the Viking land for Danes' invoke Norse mythic identity, not covered elsewhere",
           "confidence": "high"
