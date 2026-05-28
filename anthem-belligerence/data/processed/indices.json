@@ -410,6 +410,490 @@
         "deity_index": 100.0,
         "crown_index": 0.0
       }
+    },
+    "Angola": {
+      "country": "Angola",
+      "flags": [],
+      "as-written": {
+        "vector": {
+          "war_arms": 2,
+          "blood_death": 1,
+          "enemy_threat": 1,
+          "sacrifice": 0,
+          "deity": 0,
+          "monarch": 0,
+          "land_nature": 0,
+          "freedom_liberty": 2,
+          "unity_brotherhood": 2,
+          "glory_pride": 2,
+          "wildcard": 2
+        },
+        "belligerence": 38.5,
+        "deity_index": 0.0,
+        "crown_index": 0.0
+      },
+      "as-sung": {
+        "vector": {
+          "war_arms": 2,
+          "blood_death": 1,
+          "enemy_threat": 1,
+          "sacrifice": 0,
+          "deity": 0,
+          "monarch": 0,
+          "land_nature": 0,
+          "freedom_liberty": 2,
+          "unity_brotherhood": 2,
+          "glory_pride": 2,
+          "wildcard": 2
+        },
+        "belligerence": 38.5,
+        "deity_index": 0.0,
+        "crown_index": 0.0
+      }
+    },
+    "Benin": {
+      "country": "Benin",
+      "flags": [],
+      "as-written": {
+        "vector": {
+          "war_arms": 2,
+          "blood_death": 1,
+          "enemy_threat": 1,
+          "sacrifice": 0,
+          "deity": 0,
+          "monarch": 0,
+          "land_nature": 2,
+          "freedom_liberty": 2,
+          "unity_brotherhood": 2,
+          "glory_pride": 1,
+          "wildcard": 1
+        },
+        "belligerence": 38.5,
+        "deity_index": 0.0,
+        "crown_index": 0.0
+      },
+      "as-sung": {
+        "vector": {
+          "war_arms": 2,
+          "blood_death": 1,
+          "enemy_threat": 0,
+          "sacrifice": 0,
+          "deity": 0,
+          "monarch": 0,
+          "land_nature": 0,
+          "freedom_liberty": 3,
+          "unity_brotherhood": 1,
+          "glory_pride": 0,
+          "wildcard": 0
+        },
+        "belligerence": 30.8,
+        "deity_index": 0.0,
+        "crown_index": 0.0
+      }
+    },
+    "Botswana": {
+      "country": "Botswana",
+      "flags": [],
+      "as-written": {
+        "vector": {
+          "war_arms": 0,
+          "blood_death": 0,
+          "enemy_threat": 0,
+          "sacrifice": 0,
+          "deity": 2,
+          "monarch": 0,
+          "land_nature": 2,
+          "freedom_liberty": 0,
+          "unity_brotherhood": 2,
+          "glory_pride": 1,
+          "wildcard": 1
+        },
+        "belligerence": 0.0,
+        "deity_index": 66.7,
+        "crown_index": 0.0
+      },
+      "as-sung": {
+        "vector": {
+          "war_arms": 0,
+          "blood_death": 0,
+          "enemy_threat": 0,
+          "sacrifice": 0,
+          "deity": 2,
+          "monarch": 0,
+          "land_nature": 3,
+          "freedom_liberty": 0,
+          "unity_brotherhood": 2,
+          "glory_pride": 0,
+          "wildcard": 1
+        },
+        "belligerence": 0.0,
+        "deity_index": 66.7,
+        "crown_index": 0.0
+      }
+    },
+    "Burkina Faso": {
+      "country": "Burkina Faso",
+      "flags": [],
+      "as-written": {
+        "vector": {
+          "war_arms": 2,
+          "blood_death": 2,
+          "enemy_threat": 2,
+          "sacrifice": 2,
+          "deity": 0,
+          "monarch": 0,
+          "land_nature": 0,
+          "freedom_liberty": 2,
+          "unity_brotherhood": 2,
+          "glory_pride": 1,
+          "wildcard": 3
+        },
+        "belligerence": 66.7,
+        "deity_index": 0.0,
+        "crown_index": 0.0
+      },
+      "as-sung": {
+        "vector": {
+          "war_arms": 1,
+          "blood_death": 2,
+          "enemy_threat": 0,
+          "sacrifice": 2,
+          "deity": 0,
+          "monarch": 0,
+          "land_nature": 0,
+          "freedom_liberty": 2,
+          "unity_brotherhood": 2,
+          "glory_pride": 1,
+          "wildcard": 2
+        },
+        "belligerence": 41.0,
+        "deity_index": 0.0,
+        "crown_index": 0.0
+      }
+    },
+    "Burundi": {
+      "country": "Burundi",
+      "flags": [],
+      "as-written": {
+        "vector": {
+          "war_arms": 0,
+          "blood_death": 1,
+          "enemy_threat": 0,
+          "sacrifice": 2,
+          "deity": 2,
+          "monarch": 0,
+          "land_nature": 1,
+          "freedom_liberty": 2,
+          "unity_brotherhood": 1,
+          "glory_pride": 2,
+          "wildcard": 0
+        },
+        "belligerence": 20.5,
+        "deity_index": 66.7,
+        "crown_index": 0.0
+      },
+      "as-sung": {
+        "vector": {
+          "war_arms": 0,
+          "blood_death": 1,
+          "enemy_threat": 0,
+          "sacrifice": 2,
+          "deity": 2,
+          "monarch": 0,
+          "land_nature": 1,
+          "freedom_liberty": 2,
+          "unity_brotherhood": 1,
+          "glory_pride": 2,
+          "wildcard": 0
+        },
+        "belligerence": 20.5,
+        "deity_index": 66.7,
+        "crown_index": 0.0
+      }
+    },
+    "Cabo Verde": {
+      "country": "Cabo Verde",
+      "flags": [],
+      "as-written": {
+        "vector": {
+          "war_arms": 0,
+          "blood_death": 0,
+          "enemy_threat": 0,
+          "sacrifice": 0,
+          "deity": 0,
+          "monarch": 0,
+          "land_nature": 2,
+          "freedom_liberty": 3,
+          "unity_brotherhood": 2,
+          "glory_pride": 0,
+          "wildcard": 1
+        },
+        "belligerence": 0.0,
+        "deity_index": 0.0,
+        "crown_index": 0.0
+      },
+      "as-sung": {
+        "vector": {
+          "war_arms": 0,
+          "blood_death": 0,
+          "enemy_threat": 0,
+          "sacrifice": 0,
+          "deity": 0,
+          "monarch": 0,
+          "land_nature": 2,
+          "freedom_liberty": 3,
+          "unity_brotherhood": 2,
+          "glory_pride": 0,
+          "wildcard": 1
+        },
+        "belligerence": 0.0,
+        "deity_index": 0.0,
+        "crown_index": 0.0
+      }
+    },
+    "Cameroon": {
+      "country": "Cameroon",
+      "flags": [
+        "sung-assumed"
+      ],
+      "as-written": {
+        "vector": {
+          "war_arms": 0,
+          "blood_death": 1,
+          "enemy_threat": 0,
+          "sacrifice": 0,
+          "deity": 0,
+          "monarch": 0,
+          "land_nature": 2,
+          "freedom_liberty": 0,
+          "unity_brotherhood": 2,
+          "glory_pride": 2,
+          "wildcard": 1
+        },
+        "belligerence": 10.3,
+        "deity_index": 0.0,
+        "crown_index": 0.0
+      },
+      "as-sung": {
+        "vector": {
+          "war_arms": 0,
+          "blood_death": 1,
+          "enemy_threat": 0,
+          "sacrifice": 0,
+          "deity": 0,
+          "monarch": 0,
+          "land_nature": 2,
+          "freedom_liberty": 0,
+          "unity_brotherhood": 0,
+          "glory_pride": 2,
+          "wildcard": 1
+        },
+        "belligerence": 10.3,
+        "deity_index": 0.0,
+        "crown_index": 0.0
+      }
+    },
+    "Central African Republic": {
+      "country": "Central African Republic",
+      "flags": [
+        "translation-sensitive"
+      ],
+      "as-written": {
+        "vector": {
+          "war_arms": 0,
+          "blood_death": 0,
+          "enemy_threat": 2,
+          "sacrifice": 0,
+          "deity": 0,
+          "monarch": 0,
+          "land_nature": 1,
+          "freedom_liberty": 2,
+          "unity_brotherhood": 2,
+          "glory_pride": 1,
+          "wildcard": 2
+        },
+        "belligerence": 15.4,
+        "deity_index": 0.0,
+        "crown_index": 0.0
+      },
+      "as-sung": {
+        "vector": {
+          "war_arms": 0,
+          "blood_death": 0,
+          "enemy_threat": 2,
+          "sacrifice": 0,
+          "deity": 0,
+          "monarch": 0,
+          "land_nature": 1,
+          "freedom_liberty": 2,
+          "unity_brotherhood": 2,
+          "glory_pride": 1,
+          "wildcard": 2
+        },
+        "belligerence": 15.4,
+        "deity_index": 0.0,
+        "crown_index": 0.0
+      }
+    },
+    "Chad": {
+      "country": "Chad",
+      "flags": [],
+      "as-written": {
+        "vector": {
+          "war_arms": 1,
+          "blood_death": 0,
+          "enemy_threat": 0,
+          "sacrifice": 0,
+          "deity": 2,
+          "monarch": 0,
+          "land_nature": 1,
+          "freedom_liberty": 2,
+          "unity_brotherhood": 0,
+          "glory_pride": 0,
+          "wildcard": 2
+        },
+        "belligerence": 10.3,
+        "deity_index": 66.7,
+        "crown_index": 0.0
+      },
+      "as-sung": {
+        "vector": {
+          "war_arms": 1,
+          "blood_death": 0,
+          "enemy_threat": 0,
+          "sacrifice": 0,
+          "deity": 2,
+          "monarch": 0,
+          "land_nature": 1,
+          "freedom_liberty": 2,
+          "unity_brotherhood": 0,
+          "glory_pride": 0,
+          "wildcard": 2
+        },
+        "belligerence": 10.3,
+        "deity_index": 66.7,
+        "crown_index": 0.0
+      }
+    },
+    "Comoros": {
+      "country": "Comoros",
+      "flags": [],
+      "as-written": {
+        "vector": {
+          "war_arms": 0,
+          "blood_death": 1,
+          "enemy_threat": 0,
+          "sacrifice": 0,
+          "deity": 2,
+          "monarch": 0,
+          "land_nature": 2,
+          "freedom_liberty": 1,
+          "unity_brotherhood": 2,
+          "glory_pride": 0,
+          "wildcard": 2
+        },
+        "belligerence": 10.3,
+        "deity_index": 66.7,
+        "crown_index": 0.0
+      },
+      "as-sung": {
+        "vector": {
+          "war_arms": 0,
+          "blood_death": 1,
+          "enemy_threat": 0,
+          "sacrifice": 0,
+          "deity": 2,
+          "monarch": 0,
+          "land_nature": 2,
+          "freedom_liberty": 1,
+          "unity_brotherhood": 2,
+          "glory_pride": 0,
+          "wildcard": 2
+        },
+        "belligerence": 10.3,
+        "deity_index": 66.7,
+        "crown_index": 0.0
+      }
+    },
+    "Congo (Republic)": {
+      "country": "Congo (Republic)",
+      "flags": [],
+      "as-written": {
+        "vector": {
+          "war_arms": 2,
+          "blood_death": 2,
+          "enemy_threat": 0,
+          "sacrifice": 2,
+          "deity": 0,
+          "monarch": 0,
+          "land_nature": 1,
+          "freedom_liberty": 2,
+          "unity_brotherhood": 2,
+          "glory_pride": 2,
+          "wildcard": 1
+        },
+        "belligerence": 51.3,
+        "deity_index": 0.0,
+        "crown_index": 0.0
+      },
+      "as-sung": {
+        "vector": {
+          "war_arms": 0,
+          "blood_death": 0,
+          "enemy_threat": 0,
+          "sacrifice": 0,
+          "deity": 0,
+          "monarch": 0,
+          "land_nature": 0,
+          "freedom_liberty": 2,
+          "unity_brotherhood": 3,
+          "glory_pride": 1,
+          "wildcard": 1
+        },
+        "belligerence": 0.0,
+        "deity_index": 0.0,
+        "crown_index": 0.0
+      }
+    },
+    "Congo (DR)": {
+      "country": "Congo (DR)",
+      "flags": [],
+      "as-written": {
+        "vector": {
+          "war_arms": 0,
+          "blood_death": 0,
+          "enemy_threat": 0,
+          "sacrifice": 0,
+          "deity": 1,
+          "monarch": 0,
+          "land_nature": 1,
+          "freedom_liberty": 2,
+          "unity_brotherhood": 2,
+          "glory_pride": 2,
+          "wildcard": 2
+        },
+        "belligerence": 0.0,
+        "deity_index": 33.3,
+        "crown_index": 0.0
+      },
+      "as-sung": {
+        "vector": {
+          "war_arms": 0,
+          "blood_death": 0,
+          "enemy_threat": 0,
+          "sacrifice": 0,
+          "deity": 1,
+          "monarch": 0,
+          "land_nature": 1,
+          "freedom_liberty": 2,
+          "unity_brotherhood": 2,
+          "glory_pride": 2,
+          "wildcard": 2
+        },
+        "belligerence": 0.0,
+        "deity_index": 33.3,
+        "crown_index": 0.0
+      }
     }
   },
   "table": [
@@ -520,6 +1004,138 @@
       "retired_gap": 0.0,
       "deity_written": 100.0,
       "deity_sung": 100.0,
+      "crown_written": 0.0,
+      "crown_sung": 0.0
+    },
+    {
+      "country": "Angola",
+      "no_lyrics": false,
+      "belligerence_written": 38.5,
+      "belligerence_sung": 38.5,
+      "retired_gap": 0.0,
+      "deity_written": 0.0,
+      "deity_sung": 0.0,
+      "crown_written": 0.0,
+      "crown_sung": 0.0
+    },
+    {
+      "country": "Benin",
+      "no_lyrics": false,
+      "belligerence_written": 38.5,
+      "belligerence_sung": 30.8,
+      "retired_gap": 7.7,
+      "deity_written": 0.0,
+      "deity_sung": 0.0,
+      "crown_written": 0.0,
+      "crown_sung": 0.0
+    },
+    {
+      "country": "Botswana",
+      "no_lyrics": false,
+      "belligerence_written": 0.0,
+      "belligerence_sung": 0.0,
+      "retired_gap": 0.0,
+      "deity_written": 66.7,
+      "deity_sung": 66.7,
+      "crown_written": 0.0,
+      "crown_sung": 0.0
+    },
+    {
+      "country": "Burkina Faso",
+      "no_lyrics": false,
+      "belligerence_written": 66.7,
+      "belligerence_sung": 41.0,
+      "retired_gap": 25.7,
+      "deity_written": 0.0,
+      "deity_sung": 0.0,
+      "crown_written": 0.0,
+      "crown_sung": 0.0
+    },
+    {
+      "country": "Burundi",
+      "no_lyrics": false,
+      "belligerence_written": 20.5,
+      "belligerence_sung": 20.5,
+      "retired_gap": 0.0,
+      "deity_written": 66.7,
+      "deity_sung": 66.7,
+      "crown_written": 0.0,
+      "crown_sung": 0.0
+    },
+    {
+      "country": "Cabo Verde",
+      "no_lyrics": false,
+      "belligerence_written": 0.0,
+      "belligerence_sung": 0.0,
+      "retired_gap": 0.0,
+      "deity_written": 0.0,
+      "deity_sung": 0.0,
+      "crown_written": 0.0,
+      "crown_sung": 0.0
+    },
+    {
+      "country": "Cameroon",
+      "no_lyrics": false,
+      "belligerence_written": 10.3,
+      "belligerence_sung": 10.3,
+      "retired_gap": 0.0,
+      "deity_written": 0.0,
+      "deity_sung": 0.0,
+      "crown_written": 0.0,
+      "crown_sung": 0.0
+    },
+    {
+      "country": "Central African Republic",
+      "no_lyrics": false,
+      "belligerence_written": 15.4,
+      "belligerence_sung": 15.4,
+      "retired_gap": 0.0,
+      "deity_written": 0.0,
+      "deity_sung": 0.0,
+      "crown_written": 0.0,
+      "crown_sung": 0.0
+    },
+    {
+      "country": "Chad",
+      "no_lyrics": false,
+      "belligerence_written": 10.3,
+      "belligerence_sung": 10.3,
+      "retired_gap": 0.0,
+      "deity_written": 66.7,
+      "deity_sung": 66.7,
+      "crown_written": 0.0,
+      "crown_sung": 0.0
+    },
+    {
+      "country": "Comoros",
+      "no_lyrics": false,
+      "belligerence_written": 10.3,
+      "belligerence_sung": 10.3,
+      "retired_gap": 0.0,
+      "deity_written": 66.7,
+      "deity_sung": 66.7,
+      "crown_written": 0.0,
+      "crown_sung": 0.0
+    },
+    {
+      "country": "Congo (Republic)",
+      "no_lyrics": false,
+      "belligerence_written": 51.3,
+      "belligerence_sung": 0.0,
+      "retired_gap": 51.3,
+      "deity_written": 0.0,
+      "deity_sung": 0.0,
+      "crown_written": 0.0,
+      "crown_sung": 0.0
+    },
+    {
+      "country": "Congo (DR)",
+      "no_lyrics": false,
+      "belligerence_written": 0.0,
+      "belligerence_sung": 0.0,
+      "retired_gap": 0.0,
+      "deity_written": 33.3,
+      "deity_sung": 33.3,
       "crown_written": 0.0,
       "crown_sung": 0.0
     }
