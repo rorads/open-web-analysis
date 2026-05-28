@@ -6,7 +6,9 @@
       "country": "France",
       "iso": "FR",
       "title": "La Marseillaise",
-      "languages_scored": ["French"],
+      "languages_scored": [
+        "French"
+      ],
       "structure": "7 verses + refrain",
       "sung_rule": "Customarily verse 1 + refrain (sometimes also verse 6). All verses official.",
       "sung_assumed": true,
@@ -29,13 +31,17 @@
       "source_urls": [
         "https://en.wikipedia.org/wiki/La_Marseillaise",
         "https://www.classicfm.com/discover-music/periods-genres/national-anthems/marseillaise-french-lyrics-meaning/"
-      ]
+      ],
+      "year_lyrics": 1792,
+      "region": null
     },
     {
       "country": "United States",
       "iso": "US",
       "title": "The Star-Spangled Banner",
-      "languages_scored": ["English"],
+      "languages_scored": [
+        "English"
+      ],
       "structure": "4 verses",
       "sung_rule": "Verse 1 only is performed in virtually all settings.",
       "sung_assumed": false,
@@ -59,13 +65,17 @@
         "https://amhistory.si.edu/starspangledbanner/the-lyrics.aspx",
         "https://en.wikipedia.org/wiki/The_Star-Spangled_Banner",
         "https://www.dictionary.com/e/star-spangled-banner/"
-      ]
+      ],
+      "year_lyrics": 1814,
+      "region": null
     },
     {
       "country": "United Kingdom",
       "iso": "GB",
       "title": "God Save the King",
-      "languages_scored": ["English"],
+      "languages_scored": [
+        "English"
+      ],
       "structure": "Standard official text is 3 verses (no single legally-fixed version).",
       "sung_rule": "Verse 1 alone is sung even on official occasions; occasionally + a later verse. The anti-enemy verse 2 is rarely performed.",
       "sung_assumed": false,
@@ -88,13 +98,17 @@
       "source_urls": [
         "https://en.wikipedia.org/wiki/God_Save_the_King",
         "https://www.royal.uk/encyclopedia/national-anthem"
-      ]
+      ],
+      "year_lyrics": 1745,
+      "region": null
     },
     {
       "country": "Algeria",
       "iso": "DZ",
       "title": "Kassaman (We Pledge)",
-      "languages_scored": ["Arabic"],
+      "languages_scored": [
+        "Arabic"
+      ],
       "structure": "5 verses",
       "sung_rule": "All five verses are officially part of the anthem (full performance mandated since 2008). The anti-France verse 3 was historically sometimes omitted.",
       "sung_assumed": false,
@@ -115,13 +129,17 @@
       "source_urls": [
         "https://nationalanthems.info/dz.htm",
         "https://lyricstranslate.com/en/kassaman-quassaman-we-pledge-algerian-n.html"
-      ]
+      ],
+      "year_lyrics": 1956,
+      "region": null
     },
     {
       "country": "Japan",
       "iso": "JP",
       "title": "Kimigayo",
-      "languages_scored": ["Japanese"],
+      "languages_scored": [
+        "Japanese"
+      ],
       "structure": "1 verse (5 lines) - world's shortest anthem",
       "sung_rule": "Single verse; as-written = as-sung.",
       "sung_assumed": false,
@@ -137,13 +155,17 @@
       "source_urls": [
         "https://en.wikipedia.org/wiki/Kimigayo",
         "https://nationalanthems.info/jp.htm"
-      ]
+      ],
+      "year_lyrics": 905,
+      "region": null
     },
     {
       "country": "Switzerland",
       "iso": "CH",
       "title": "Swiss Psalm",
-      "languages_scored": ["German (original)"],
+      "languages_scored": [
+        "German (original)"
+      ],
       "structure": "4 verses",
       "sung_rule": "Verse 1 most commonly sung; all official. Deity + nature appear in all verses incl. v1, so little gap.",
       "sung_assumed": true,
@@ -161,7 +183,9 @@
       "source_urls": [
         "https://en.wikipedia.org/wiki/Swiss_Psalm",
         "https://www.classical-music.com/features/works/swiss-national-anthem-lyrics"
-      ]
+      ],
+      "year_lyrics": 1841,
+      "region": null
     },
     {
       "country": "Spain",
@@ -177,13 +201,17 @@
       "notes": "Edge case: scored 0 on all themes, flagged no-lyrics, excluded from index distributions (reported separately).",
       "source_urls": [
         "https://en.wikipedia.org/wiki/Marcha_Real"
-      ]
+      ],
+      "year_lyrics": null,
+      "region": null
     },
     {
       "country": "Germany",
       "iso": "DE",
       "title": "Deutschlandlied (Das Lied der Deutschen)",
-      "languages_scored": ["German"],
+      "languages_scored": [
+        "German"
+      ],
       "structure": "3 stanzas",
       "sung_rule": "ONLY the 3rd stanza is the official anthem / sung. Stanzas 1 and 2 are not performed.",
       "sung_assumed": false,
@@ -205,13 +233,17 @@
       "source_urls": [
         "https://en.wikisource.org/wiki/Translation:Das_Deutschlandlied",
         "https://en.wikipedia.org/wiki/Deutschlandlied"
-      ]
+      ],
+      "year_lyrics": 1841,
+      "region": null
     },
     {
       "country": "Nepal",
       "iso": "NP",
       "title": "Sayaun Thunga Phulka",
-      "languages_scored": ["Nepali"],
+      "languages_scored": [
+        "Nepali"
+      ],
       "structure": "2 stanzas of 4 lines; as-written = as-sung.",
       "sung_rule": "Whole anthem sung; as-written = as-sung.",
       "sung_assumed": false,
@@ -232,13 +264,21 @@
       "source_urls": [
         "https://en.wikipedia.org/wiki/Sayaun_Thunga_Phulka",
         "https://nationalanthems.info/np.htm"
-      ]
+      ],
+      "year_lyrics": 2007,
+      "region": null
     },
     {
       "country": "South Africa",
       "iso": "ZA",
       "title": "National Anthem of South Africa",
-      "languages_scored": ["isiXhosa", "isiZulu", "Sesotho", "Afrikaans", "English"],
+      "languages_scored": [
+        "isiXhosa",
+        "isiZulu",
+        "Sesotho",
+        "Afrikaans",
+        "English"
+      ],
       "structure": "Hybrid combining 'Nkosi Sikelel' iAfrika' + 'Die Stem'; 5 languages",
       "sung_rule": "One combined song, sung in full; as-written = as-sung.",
       "sung_assumed": false,
@@ -258,7 +298,9 @@
       "source_urls": [
         "https://en.wikipedia.org/wiki/National_anthem_of_South_Africa",
         "https://www.dirco.gov.za/wp-content/uploads/2023/01/national_anthem0120.pdf"
-      ]
+      ],
+      "year_lyrics": 1897,
+      "region": null
     }
   ]
 }

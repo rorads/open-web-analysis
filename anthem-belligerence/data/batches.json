@@ -1,0 +1,965 @@
+{
+  "_about": "Work assignment for scoring agents. Each agent processes one batch id.",
+  "batch_size": 12,
+  "n_todo": 185,
+  "n_batches": 16,
+  "batches": {
+    "1": [
+      {
+        "name": "Angola",
+        "iso3": "AGO",
+        "region": "Africa"
+      },
+      {
+        "name": "Benin",
+        "iso3": "BEN",
+        "region": "Africa"
+      },
+      {
+        "name": "Botswana",
+        "iso3": "BWA",
+        "region": "Africa"
+      },
+      {
+        "name": "Burkina Faso",
+        "iso3": "BFA",
+        "region": "Africa"
+      },
+      {
+        "name": "Burundi",
+        "iso3": "BDI",
+        "region": "Africa"
+      },
+      {
+        "name": "Cabo Verde",
+        "iso3": "CPV",
+        "region": "Africa"
+      },
+      {
+        "name": "Cameroon",
+        "iso3": "CMR",
+        "region": "Africa"
+      },
+      {
+        "name": "Central African Republic",
+        "iso3": "CAF",
+        "region": "Africa"
+      },
+      {
+        "name": "Chad",
+        "iso3": "TCD",
+        "region": "Africa"
+      },
+      {
+        "name": "Comoros",
+        "iso3": "COM",
+        "region": "Africa"
+      },
+      {
+        "name": "Congo (Republic)",
+        "iso3": "COG",
+        "region": "Africa"
+      },
+      {
+        "name": "Congo (DR)",
+        "iso3": "COD",
+        "region": "Africa"
+      }
+    ],
+    "2": [
+      {
+        "name": "Cote d'Ivoire",
+        "iso3": "CIV",
+        "region": "Africa"
+      },
+      {
+        "name": "Djibouti",
+        "iso3": "DJI",
+        "region": "Africa"
+      },
+      {
+        "name": "Egypt",
+        "iso3": "EGY",
+        "region": "Africa"
+      },
+      {
+        "name": "Equatorial Guinea",
+        "iso3": "GNQ",
+        "region": "Africa"
+      },
+      {
+        "name": "Eritrea",
+        "iso3": "ERI",
+        "region": "Africa"
+      },
+      {
+        "name": "Eswatini",
+        "iso3": "SWZ",
+        "region": "Africa"
+      },
+      {
+        "name": "Ethiopia",
+        "iso3": "ETH",
+        "region": "Africa"
+      },
+      {
+        "name": "Gabon",
+        "iso3": "GAB",
+        "region": "Africa"
+      },
+      {
+        "name": "Gambia",
+        "iso3": "GMB",
+        "region": "Africa"
+      },
+      {
+        "name": "Ghana",
+        "iso3": "GHA",
+        "region": "Africa"
+      },
+      {
+        "name": "Guinea",
+        "iso3": "GIN",
+        "region": "Africa"
+      },
+      {
+        "name": "Guinea-Bissau",
+        "iso3": "GNB",
+        "region": "Africa"
+      }
+    ],
+    "3": [
+      {
+        "name": "Kenya",
+        "iso3": "KEN",
+        "region": "Africa"
+      },
+      {
+        "name": "Lesotho",
+        "iso3": "LSO",
+        "region": "Africa"
+      },
+      {
+        "name": "Liberia",
+        "iso3": "LBR",
+        "region": "Africa"
+      },
+      {
+        "name": "Libya",
+        "iso3": "LBY",
+        "region": "Africa"
+      },
+      {
+        "name": "Madagascar",
+        "iso3": "MDG",
+        "region": "Africa"
+      },
+      {
+        "name": "Malawi",
+        "iso3": "MWI",
+        "region": "Africa"
+      },
+      {
+        "name": "Mali",
+        "iso3": "MLI",
+        "region": "Africa"
+      },
+      {
+        "name": "Mauritania",
+        "iso3": "MRT",
+        "region": "Africa"
+      },
+      {
+        "name": "Mauritius",
+        "iso3": "MUS",
+        "region": "Africa"
+      },
+      {
+        "name": "Morocco",
+        "iso3": "MAR",
+        "region": "Africa"
+      },
+      {
+        "name": "Mozambique",
+        "iso3": "MOZ",
+        "region": "Africa"
+      },
+      {
+        "name": "Namibia",
+        "iso3": "NAM",
+        "region": "Africa"
+      }
+    ],
+    "4": [
+      {
+        "name": "Niger",
+        "iso3": "NER",
+        "region": "Africa"
+      },
+      {
+        "name": "Nigeria",
+        "iso3": "NGA",
+        "region": "Africa"
+      },
+      {
+        "name": "Rwanda",
+        "iso3": "RWA",
+        "region": "Africa"
+      },
+      {
+        "name": "Sao Tome and Principe",
+        "iso3": "STP",
+        "region": "Africa"
+      },
+      {
+        "name": "Senegal",
+        "iso3": "SEN",
+        "region": "Africa"
+      },
+      {
+        "name": "Seychelles",
+        "iso3": "SYC",
+        "region": "Africa"
+      },
+      {
+        "name": "Sierra Leone",
+        "iso3": "SLE",
+        "region": "Africa"
+      },
+      {
+        "name": "Somalia",
+        "iso3": "SOM",
+        "region": "Africa"
+      },
+      {
+        "name": "South Sudan",
+        "iso3": "SSD",
+        "region": "Africa"
+      },
+      {
+        "name": "Sudan",
+        "iso3": "SDN",
+        "region": "Africa"
+      },
+      {
+        "name": "Tanzania",
+        "iso3": "TZA",
+        "region": "Africa"
+      },
+      {
+        "name": "Togo",
+        "iso3": "TGO",
+        "region": "Africa"
+      }
+    ],
+    "5": [
+      {
+        "name": "Tunisia",
+        "iso3": "TUN",
+        "region": "Africa"
+      },
+      {
+        "name": "Uganda",
+        "iso3": "UGA",
+        "region": "Africa"
+      },
+      {
+        "name": "Zambia",
+        "iso3": "ZMB",
+        "region": "Africa"
+      },
+      {
+        "name": "Zimbabwe",
+        "iso3": "ZWE",
+        "region": "Africa"
+      },
+      {
+        "name": "Afghanistan",
+        "iso3": "AFG",
+        "region": "Asia"
+      },
+      {
+        "name": "Armenia",
+        "iso3": "ARM",
+        "region": "Asia"
+      },
+      {
+        "name": "Azerbaijan",
+        "iso3": "AZE",
+        "region": "Asia"
+      },
+      {
+        "name": "Bahrain",
+        "iso3": "BHR",
+        "region": "Asia"
+      },
+      {
+        "name": "Bangladesh",
+        "iso3": "BGD",
+        "region": "Asia"
+      },
+      {
+        "name": "Bhutan",
+        "iso3": "BTN",
+        "region": "Asia"
+      },
+      {
+        "name": "Brunei",
+        "iso3": "BRN",
+        "region": "Asia"
+      },
+      {
+        "name": "Cambodia",
+        "iso3": "KHM",
+        "region": "Asia"
+      }
+    ],
+    "6": [
+      {
+        "name": "China",
+        "iso3": "CHN",
+        "region": "Asia"
+      },
+      {
+        "name": "Georgia",
+        "iso3": "GEO",
+        "region": "Asia"
+      },
+      {
+        "name": "India",
+        "iso3": "IND",
+        "region": "Asia"
+      },
+      {
+        "name": "Indonesia",
+        "iso3": "IDN",
+        "region": "Asia"
+      },
+      {
+        "name": "Iran",
+        "iso3": "IRN",
+        "region": "Asia"
+      },
+      {
+        "name": "Iraq",
+        "iso3": "IRQ",
+        "region": "Asia"
+      },
+      {
+        "name": "Israel",
+        "iso3": "ISR",
+        "region": "Asia"
+      },
+      {
+        "name": "Jordan",
+        "iso3": "JOR",
+        "region": "Asia"
+      },
+      {
+        "name": "Kazakhstan",
+        "iso3": "KAZ",
+        "region": "Asia"
+      },
+      {
+        "name": "Kuwait",
+        "iso3": "KWT",
+        "region": "Asia"
+      },
+      {
+        "name": "Kyrgyzstan",
+        "iso3": "KGZ",
+        "region": "Asia"
+      },
+      {
+        "name": "Laos",
+        "iso3": "LAO",
+        "region": "Asia"
+      }
+    ],
+    "7": [
+      {
+        "name": "Lebanon",
+        "iso3": "LBN",
+        "region": "Asia"
+      },
+      {
+        "name": "Malaysia",
+        "iso3": "MYS",
+        "region": "Asia"
+      },
+      {
+        "name": "Maldives",
+        "iso3": "MDV",
+        "region": "Asia"
+      },
+      {
+        "name": "Mongolia",
+        "iso3": "MNG",
+        "region": "Asia"
+      },
+      {
+        "name": "Myanmar",
+        "iso3": "MMR",
+        "region": "Asia"
+      },
+      {
+        "name": "North Korea",
+        "iso3": "PRK",
+        "region": "Asia"
+      },
+      {
+        "name": "Oman",
+        "iso3": "OMN",
+        "region": "Asia"
+      },
+      {
+        "name": "Pakistan",
+        "iso3": "PAK",
+        "region": "Asia"
+      },
+      {
+        "name": "Philippines",
+        "iso3": "PHL",
+        "region": "Asia"
+      },
+      {
+        "name": "Qatar",
+        "iso3": "QAT",
+        "region": "Asia"
+      },
+      {
+        "name": "Saudi Arabia",
+        "iso3": "SAU",
+        "region": "Asia"
+      },
+      {
+        "name": "Singapore",
+        "iso3": "SGP",
+        "region": "Asia"
+      }
+    ],
+    "8": [
+      {
+        "name": "South Korea",
+        "iso3": "KOR",
+        "region": "Asia"
+      },
+      {
+        "name": "Sri Lanka",
+        "iso3": "LKA",
+        "region": "Asia"
+      },
+      {
+        "name": "Syria",
+        "iso3": "SYR",
+        "region": "Asia"
+      },
+      {
+        "name": "Tajikistan",
+        "iso3": "TJK",
+        "region": "Asia"
+      },
+      {
+        "name": "Thailand",
+        "iso3": "THA",
+        "region": "Asia"
+      },
+      {
+        "name": "Timor-Leste",
+        "iso3": "TLS",
+        "region": "Asia"
+      },
+      {
+        "name": "Turkey",
+        "iso3": "TUR",
+        "region": "Asia"
+      },
+      {
+        "name": "Turkmenistan",
+        "iso3": "TKM",
+        "region": "Asia"
+      },
+      {
+        "name": "United Arab Emirates",
+        "iso3": "ARE",
+        "region": "Asia"
+      },
+      {
+        "name": "Uzbekistan",
+        "iso3": "UZB",
+        "region": "Asia"
+      },
+      {
+        "name": "Vietnam",
+        "iso3": "VNM",
+        "region": "Asia"
+      },
+      {
+        "name": "Yemen",
+        "iso3": "YEM",
+        "region": "Asia"
+      }
+    ],
+    "9": [
+      {
+        "name": "State of Palestine",
+        "iso3": "PSE",
+        "region": "Asia"
+      },
+      {
+        "name": "Albania",
+        "iso3": "ALB",
+        "region": "Europe"
+      },
+      {
+        "name": "Andorra",
+        "iso3": "AND",
+        "region": "Europe"
+      },
+      {
+        "name": "Austria",
+        "iso3": "AUT",
+        "region": "Europe"
+      },
+      {
+        "name": "Belarus",
+        "iso3": "BLR",
+        "region": "Europe"
+      },
+      {
+        "name": "Belgium",
+        "iso3": "BEL",
+        "region": "Europe"
+      },
+      {
+        "name": "Bosnia and Herzegovina",
+        "iso3": "BIH",
+        "region": "Europe"
+      },
+      {
+        "name": "Bulgaria",
+        "iso3": "BGR",
+        "region": "Europe"
+      },
+      {
+        "name": "Croatia",
+        "iso3": "HRV",
+        "region": "Europe"
+      },
+      {
+        "name": "Cyprus",
+        "iso3": "CYP",
+        "region": "Europe"
+      },
+      {
+        "name": "Czechia",
+        "iso3": "CZE",
+        "region": "Europe"
+      },
+      {
+        "name": "Denmark",
+        "iso3": "DNK",
+        "region": "Europe"
+      }
+    ],
+    "10": [
+      {
+        "name": "Estonia",
+        "iso3": "EST",
+        "region": "Europe"
+      },
+      {
+        "name": "Finland",
+        "iso3": "FIN",
+        "region": "Europe"
+      },
+      {
+        "name": "Greece",
+        "iso3": "GRC",
+        "region": "Europe"
+      },
+      {
+        "name": "Hungary",
+        "iso3": "HUN",
+        "region": "Europe"
+      },
+      {
+        "name": "Iceland",
+        "iso3": "ISL",
+        "region": "Europe"
+      },
+      {
+        "name": "Ireland",
+        "iso3": "IRL",
+        "region": "Europe"
+      },
+      {
+        "name": "Italy",
+        "iso3": "ITA",
+        "region": "Europe"
+      },
+      {
+        "name": "Latvia",
+        "iso3": "LVA",
+        "region": "Europe"
+      },
+      {
+        "name": "Liechtenstein",
+        "iso3": "LIE",
+        "region": "Europe"
+      },
+      {
+        "name": "Lithuania",
+        "iso3": "LTU",
+        "region": "Europe"
+      },
+      {
+        "name": "Luxembourg",
+        "iso3": "LUX",
+        "region": "Europe"
+      },
+      {
+        "name": "Malta",
+        "iso3": "MLT",
+        "region": "Europe"
+      }
+    ],
+    "11": [
+      {
+        "name": "Moldova",
+        "iso3": "MDA",
+        "region": "Europe"
+      },
+      {
+        "name": "Monaco",
+        "iso3": "MCO",
+        "region": "Europe"
+      },
+      {
+        "name": "Montenegro",
+        "iso3": "MNE",
+        "region": "Europe"
+      },
+      {
+        "name": "Netherlands",
+        "iso3": "NLD",
+        "region": "Europe"
+      },
+      {
+        "name": "North Macedonia",
+        "iso3": "MKD",
+        "region": "Europe"
+      },
+      {
+        "name": "Norway",
+        "iso3": "NOR",
+        "region": "Europe"
+      },
+      {
+        "name": "Poland",
+        "iso3": "POL",
+        "region": "Europe"
+      },
+      {
+        "name": "Portugal",
+        "iso3": "PRT",
+        "region": "Europe"
+      },
+      {
+        "name": "Romania",
+        "iso3": "ROU",
+        "region": "Europe"
+      },
+      {
+        "name": "Russia",
+        "iso3": "RUS",
+        "region": "Europe"
+      },
+      {
+        "name": "San Marino",
+        "iso3": "SMR",
+        "region": "Europe"
+      },
+      {
+        "name": "Serbia",
+        "iso3": "SRB",
+        "region": "Europe"
+      }
+    ],
+    "12": [
+      {
+        "name": "Slovakia",
+        "iso3": "SVK",
+        "region": "Europe"
+      },
+      {
+        "name": "Slovenia",
+        "iso3": "SVN",
+        "region": "Europe"
+      },
+      {
+        "name": "Sweden",
+        "iso3": "SWE",
+        "region": "Europe"
+      },
+      {
+        "name": "Ukraine",
+        "iso3": "UKR",
+        "region": "Europe"
+      },
+      {
+        "name": "Holy See",
+        "iso3": "VAT",
+        "region": "Europe"
+      },
+      {
+        "name": "Antigua and Barbuda",
+        "iso3": "ATG",
+        "region": "Americas"
+      },
+      {
+        "name": "Bahamas",
+        "iso3": "BHS",
+        "region": "Americas"
+      },
+      {
+        "name": "Barbados",
+        "iso3": "BRB",
+        "region": "Americas"
+      },
+      {
+        "name": "Belize",
+        "iso3": "BLZ",
+        "region": "Americas"
+      },
+      {
+        "name": "Canada",
+        "iso3": "CAN",
+        "region": "Americas"
+      },
+      {
+        "name": "Costa Rica",
+        "iso3": "CRI",
+        "region": "Americas"
+      },
+      {
+        "name": "Cuba",
+        "iso3": "CUB",
+        "region": "Americas"
+      }
+    ],
+    "13": [
+      {
+        "name": "Dominica",
+        "iso3": "DMA",
+        "region": "Americas"
+      },
+      {
+        "name": "Dominican Republic",
+        "iso3": "DOM",
+        "region": "Americas"
+      },
+      {
+        "name": "El Salvador",
+        "iso3": "SLV",
+        "region": "Americas"
+      },
+      {
+        "name": "Grenada",
+        "iso3": "GRD",
+        "region": "Americas"
+      },
+      {
+        "name": "Guatemala",
+        "iso3": "GTM",
+        "region": "Americas"
+      },
+      {
+        "name": "Haiti",
+        "iso3": "HTI",
+        "region": "Americas"
+      },
+      {
+        "name": "Honduras",
+        "iso3": "HND",
+        "region": "Americas"
+      },
+      {
+        "name": "Jamaica",
+        "iso3": "JAM",
+        "region": "Americas"
+      },
+      {
+        "name": "Mexico",
+        "iso3": "MEX",
+        "region": "Americas"
+      },
+      {
+        "name": "Nicaragua",
+        "iso3": "NIC",
+        "region": "Americas"
+      },
+      {
+        "name": "Panama",
+        "iso3": "PAN",
+        "region": "Americas"
+      },
+      {
+        "name": "Saint Kitts and Nevis",
+        "iso3": "KNA",
+        "region": "Americas"
+      }
+    ],
+    "14": [
+      {
+        "name": "Saint Lucia",
+        "iso3": "LCA",
+        "region": "Americas"
+      },
+      {
+        "name": "Saint Vincent and the Grenadines",
+        "iso3": "VCT",
+        "region": "Americas"
+      },
+      {
+        "name": "Trinidad and Tobago",
+        "iso3": "TTO",
+        "region": "Americas"
+      },
+      {
+        "name": "Argentina",
+        "iso3": "ARG",
+        "region": "Americas"
+      },
+      {
+        "name": "Bolivia",
+        "iso3": "BOL",
+        "region": "Americas"
+      },
+      {
+        "name": "Brazil",
+        "iso3": "BRA",
+        "region": "Americas"
+      },
+      {
+        "name": "Chile",
+        "iso3": "CHL",
+        "region": "Americas"
+      },
+      {
+        "name": "Colombia",
+        "iso3": "COL",
+        "region": "Americas"
+      },
+      {
+        "name": "Ecuador",
+        "iso3": "ECU",
+        "region": "Americas"
+      },
+      {
+        "name": "Guyana",
+        "iso3": "GUY",
+        "region": "Americas"
+      },
+      {
+        "name": "Paraguay",
+        "iso3": "PRY",
+        "region": "Americas"
+      },
+      {
+        "name": "Peru",
+        "iso3": "PER",
+        "region": "Americas"
+      }
+    ],
+    "15": [
+      {
+        "name": "Suriname",
+        "iso3": "SUR",
+        "region": "Americas"
+      },
+      {
+        "name": "Uruguay",
+        "iso3": "URY",
+        "region": "Americas"
+      },
+      {
+        "name": "Venezuela",
+        "iso3": "VEN",
+        "region": "Americas"
+      },
+      {
+        "name": "Australia",
+        "iso3": "AUS",
+        "region": "Oceania"
+      },
+      {
+        "name": "Fiji",
+        "iso3": "FJI",
+        "region": "Oceania"
+      },
+      {
+        "name": "Kiribati",
+        "iso3": "KIR",
+        "region": "Oceania"
+      },
+      {
+        "name": "Marshall Islands",
+        "iso3": "MHL",
+        "region": "Oceania"
+      },
+      {
+        "name": "Micronesia",
+        "iso3": "FSM",
+        "region": "Oceania"
+      },
+      {
+        "name": "Nauru",
+        "iso3": "NRU",
+        "region": "Oceania"
+      },
+      {
+        "name": "New Zealand",
+        "iso3": "NZL",
+        "region": "Oceania"
+      },
+      {
+        "name": "Palau",
+        "iso3": "PLW",
+        "region": "Oceania"
+      },
+      {
+        "name": "Papua New Guinea",
+        "iso3": "PNG",
+        "region": "Oceania"
+      }
+    ],
+    "16": [
+      {
+        "name": "Samoa",
+        "iso3": "WSM",
+        "region": "Oceania"
+      },
+      {
+        "name": "Solomon Islands",
+        "iso3": "SLB",
+        "region": "Oceania"
+      },
+      {
+        "name": "Tonga",
+        "iso3": "TON",
+        "region": "Oceania"
+      },
+      {
+        "name": "Tuvalu",
+        "iso3": "TUV",
+        "region": "Oceania"
+      },
+      {
+        "name": "Vanuatu",
+        "iso3": "VUT",
+        "region": "Oceania"
+      }
+    ]
+  }
+}
