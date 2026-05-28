@@ -3,7 +3,10 @@
 > **Freeze this before scoring.** The rubric below is the contract. If scoring forces a
 > change, edit deliberately and note what changed — don't let it drift.
 
-**Status:** _DRAFT — not frozen. For review._
+**Status:** _Used for the full 195-state run on 2026-05-28 (this file at git `e668eec`).
+Calibration-stage refinements are noted inline (notably §2: as-written = official text only).
+A v2 rubric should consider promoting the recurring wildcard themes — labour/work and the
+flag — to numbered themes (see `data/processed/run.md` and `exploratory.json`)._
 
 ## 1. Question
 

@@ -1,0 +1,1367 @@
+{
+  "n": 192,
+  "theme_correlations": {
+    "matrix": {
+      "war_arms": {
+        "war_arms": 1.0,
+        "blood_death": 0.462,
+        "enemy_threat": 0.516,
+        "sacrifice": 0.439,
+        "deity": -0.199,
+        "monarch": -0.159,
+        "land_nature": -0.199,
+        "freedom_liberty": 0.243,
+        "unity_brotherhood": -0.158,
+        "glory_pride": 0.208
+      },
+      "blood_death": {
+        "war_arms": 0.462,
+        "blood_death": 1.0,
+        "enemy_threat": 0.37,
+        "sacrifice": 0.58,
+        "deity": -0.247,
+        "monarch": -0.182,
+        "land_nature": -0.197,
+        "freedom_liberty": 0.261,
+        "unity_brotherhood": -0.134,
+        "glory_pride": 0.217
+      },
+      "enemy_threat": {
+        "war_arms": 0.516,
+        "blood_death": 0.37,
+        "enemy_threat": 1.0,
+        "sacrifice": 0.397,
+        "deity": -0.148,
+        "monarch": -0.112,
+        "land_nature": -0.213,
+        "freedom_liberty": 0.347,
+        "unity_brotherhood": -0.091,
+        "glory_pride": 0.106
+      },
+      "sacrifice": {
+        "war_arms": 0.439,
+        "blood_death": 0.58,
+        "enemy_threat": 0.397,
+        "sacrifice": 1.0,
+        "deity": -0.201,
+        "monarch": -0.133,
+        "land_nature": -0.199,
+        "freedom_liberty": 0.226,
+        "unity_brotherhood": -0.196,
+        "glory_pride": 0.154
+      },
+      "deity": {
+        "war_arms": -0.199,
+        "blood_death": -0.247,
+        "enemy_threat": -0.148,
+        "sacrifice": -0.201,
+        "deity": 1.0,
+        "monarch": 0.264,
+        "land_nature": -0.052,
+        "freedom_liberty": -0.197,
+        "unity_brotherhood": -0.091,
+        "glory_pride": -0.289
+      },
+      "monarch": {
+        "war_arms": -0.159,
+        "blood_death": -0.182,
+        "enemy_threat": -0.112,
+        "sacrifice": -0.133,
+        "deity": 0.264,
+        "monarch": 1.0,
+        "land_nature": -0.194,
+        "freedom_liberty": -0.267,
+        "unity_brotherhood": -0.243,
+        "glory_pride": -0.127
+      },
+      "land_nature": {
+        "war_arms": -0.199,
+        "blood_death": -0.197,
+        "enemy_threat": -0.213,
+        "sacrifice": -0.199,
+        "deity": -0.052,
+        "monarch": -0.194,
+        "land_nature": 1.0,
+        "freedom_liberty": -0.184,
+        "unity_brotherhood": -0.053,
+        "glory_pride": -0.111
+      },
+      "freedom_liberty": {
+        "war_arms": 0.243,
+        "blood_death": 0.261,
+        "enemy_threat": 0.347,
+        "sacrifice": 0.226,
+        "deity": -0.197,
+        "monarch": -0.267,
+        "land_nature": -0.184,
+        "freedom_liberty": 1.0,
+        "unity_brotherhood": 0.075,
+        "glory_pride": 0.132
+      },
+      "unity_brotherhood": {
+        "war_arms": -0.158,
+        "blood_death": -0.134,
+        "enemy_threat": -0.091,
+        "sacrifice": -0.196,
+        "deity": -0.091,
+        "monarch": -0.243,
+        "land_nature": -0.053,
+        "freedom_liberty": 0.075,
+        "unity_brotherhood": 1.0,
+        "glory_pride": -0.006
+      },
+      "glory_pride": {
+        "war_arms": 0.208,
+        "blood_death": 0.217,
+        "enemy_threat": 0.106,
+        "sacrifice": 0.154,
+        "deity": -0.289,
+        "monarch": -0.127,
+        "land_nature": -0.111,
+        "freedom_liberty": 0.132,
+        "unity_brotherhood": -0.006,
+        "glory_pride": 1.0
+      }
+    },
+    "top_pairs": [
+      [
+        "blood_death",
+        "sacrifice",
+        0.58
+      ],
+      [
+        "war_arms",
+        "enemy_threat",
+        0.516
+      ],
+      [
+        "war_arms",
+        "blood_death",
+        0.462
+      ],
+      [
+        "war_arms",
+        "sacrifice",
+        0.439
+      ],
+      [
+        "enemy_threat",
+        "sacrifice",
+        0.397
+      ],
+      [
+        "blood_death",
+        "enemy_threat",
+        0.37
+      ],
+      [
+        "enemy_threat",
+        "freedom_liberty",
+        0.347
+      ],
+      [
+        "deity",
+        "glory_pride",
+        -0.289
+      ],
+      [
+        "monarch",
+        "freedom_liberty",
+        -0.267
+      ],
+      [
+        "deity",
+        "monarch",
+        0.264
+      ]
+    ]
+  },
+  "age": {
+    "n_with_year": 192,
+    "pearson_year_vs_bell_written": -0.1
+  },
+  "by_region": [
+    {
+      "region": "Africa",
+      "n": 54,
+      "bell_written": 25.2,
+      "bell_sung": 20.6,
+      "deity": 1.1,
+      "crown": 3.1
+    },
+    {
+      "region": "Americas",
+      "n": 35,
+      "bell_written": 34.5,
+      "bell_sung": 25.9,
+      "deity": 0.9,
+      "crown": 0.0
+    },
+    {
+      "region": "Asia",
+      "n": 47,
+      "bell_written": 22.4,
+      "bell_sung": 21.3,
+      "deity": 0.7,
+      "crown": 19.2
+    },
+    {
+      "region": "Europe",
+      "n": 42,
+      "bell_written": 22.0,
+      "bell_sung": 16.2,
+      "deity": 1.1,
+      "crown": 14.3
+    },
+    {
+      "region": "Oceania",
+      "n": 14,
+      "bell_written": 5.9,
+      "bell_sung": 3.3,
+      "deity": 1.7,
+      "crown": 7.1
+    }
+  ],
+  "clusters": {
+    "k": 5,
+    "profiles": [
+      {
+        "cluster": 0,
+        "n": 19,
+        "top_themes": {
+          "monarch": 2.58,
+          "deity": 1.89,
+          "glory_pride": 0.95
+        },
+        "mean_bell_written": 8.5,
+        "example_countries": [
+          "United Kingdom",
+          "Netherlands",
+          "Morocco",
+          "Jordan",
+          "Malaysia",
+          "Kuwait"
+        ]
+      },
+      {
+        "cluster": 1,
+        "n": 27,
+        "top_themes": {
+          "land_nature": 2.63,
+          "deity": 1.3,
+          "unity_brotherhood": 0.48
+        },
+        "mean_bell_written": 9.5,
+        "example_countries": [
+          "Norway",
+          "Zimbabwe",
+          "Guyana",
+          "Suriname",
+          "Malawi",
+          "Luxembourg"
+        ]
+      },
+      {
+        "cluster": 2,
+        "n": 37,
+        "top_themes": {
+          "deity": 1.95,
+          "unity_brotherhood": 1.78,
+          "freedom_liberty": 1.24
+        },
+        "mean_bell_written": 7.8,
+        "example_countries": [
+          "Serbia",
+          "New Zealand",
+          "Antigua and Barbuda",
+          "Ghana",
+          "South Sudan",
+          "United Arab Emirates"
+        ]
+      },
+      {
+        "cluster": 3,
+        "n": 54,
+        "top_themes": {
+          "sacrifice": 1.91,
+          "freedom_liberty": 1.8,
+          "war_arms": 1.76
+        },
+        "mean_bell_written": 55.8,
+        "example_countries": [
+          "Algeria",
+          "France",
+          "Romania",
+          "Mexico",
+          "Belize",
+          "Tunisia"
+        ]
+      },
+      {
+        "cluster": 4,
+        "n": 55,
+        "top_themes": {
+          "glory_pride": 1.89,
+          "land_nature": 1.56,
+          "unity_brotherhood": 1.42
+        },
+        "mean_bell_written": 16.5,
+        "example_countries": [
+          "Guinea-Bissau",
+          "Syria",
+          "Chile",
+          "Benin",
+          "Angola",
+          "Portugal"
+        ]
+      }
+    ],
+    "assignment": [
+      {
+        "country": "France",
+        "region": "Europe",
+        "cluster": 3
+      },
+      {
+        "country": "United States",
+        "region": "Americas",
+        "cluster": 3
+      },
+      {
+        "country": "United Kingdom",
+        "region": "Europe",
+        "cluster": 0
+      },
+      {
+        "country": "Algeria",
+        "region": "Africa",
+        "cluster": 3
+      },
+      {
+        "country": "Japan",
+        "region": "Asia",
+        "cluster": 0
+      },
+      {
+        "country": "Switzerland",
+        "region": "Europe",
+        "cluster": 1
+      },
+      {
+        "country": "Germany",
+        "region": "Europe",
+        "cluster": 4
+      },
+      {
+        "country": "Nepal",
+        "region": "Asia",
+        "cluster": 4
+      },
+      {
+        "country": "South Africa",
+        "region": "Africa",
+        "cluster": 2
+      },
+      {
+        "country": "Angola",
+        "region": "Africa",
+        "cluster": 4
+      },
+      {
+        "country": "Benin",
+        "region": "Africa",
+        "cluster": 4
+      },
+      {
+        "country": "Botswana",
+        "region": "Africa",
+        "cluster": 2
+      },
+      {
+        "country": "Burkina Faso",
+        "region": "Africa",
+        "cluster": 3
+      },
+      {
+        "country": "Burundi",
+        "region": "Africa",
+        "cluster": 4
+      },
+      {
+        "country": "Cabo Verde",
+        "region": "Africa",
+        "cluster": 2
+      },
+      {
+        "country": "Cameroon",
+        "region": "Africa",
+        "cluster": 4
+      },
+      {
+        "country": "Central African Republic",
+        "region": "Africa",
+        "cluster": 4
+      },
+      {
+        "country": "Chad",
+        "region": "Africa",
+        "cluster": 2
+      },
+      {
+        "country": "Comoros",
+        "region": "Africa",
+        "cluster": 2
+      },
+      {
+        "country": "Congo (Republic)",
+        "region": "Africa",
+        "cluster": 3
+      },
+      {
+        "country": "Congo (DR)",
+        "region": "Africa",
+        "cluster": 4
+      },
+      {
+        "country": "Estonia",
+        "region": "Europe",
+        "cluster": 1
+      },
+      {
+        "country": "Finland",
+        "region": "Europe",
+        "cluster": 1
+      },
+      {
+        "country": "Greece",
+        "region": "Europe",
+        "cluster": 3
+      },
+      {
+        "country": "Hungary",
+        "region": "Europe",
+        "cluster": 3
+      },
+      {
+        "country": "Iceland",
+        "region": "Europe",
+        "cluster": 2
+      },
+      {
+        "country": "Ireland",
+        "region": "Europe",
+        "cluster": 3
+      },
+      {
+        "country": "Italy",
+        "region": "Europe",
+        "cluster": 3
+      },
+      {
+        "country": "Latvia",
+        "region": "Europe",
+        "cluster": 1
+      },
+      {
+        "country": "Liechtenstein",
+        "region": "Europe",
+        "cluster": 0
+      },
+      {
+        "country": "Lithuania",
+        "region": "Europe",
+        "cluster": 4
+      },
+      {
+        "country": "Luxembourg",
+        "region": "Europe",
+        "cluster": 1
+      },
+      {
+        "country": "Malta",
+        "region": "Europe",
+        "cluster": 2
+      },
+      {
+        "country": "Moldova",
+        "region": "Europe",
+        "cluster": 1
+      },
+      {
+        "country": "Monaco",
+        "region": "Europe",
+        "cluster": 0
+      },
+      {
+        "country": "Montenegro",
+        "region": "Europe",
+        "cluster": 4
+      },
+      {
+        "country": "Netherlands",
+        "region": "Europe",
+        "cluster": 0
+      },
+      {
+        "country": "North Macedonia",
+        "region": "Europe",
+        "cluster": 4
+      },
+      {
+        "country": "Norway",
+        "region": "Europe",
+        "cluster": 1
+      },
+      {
+        "country": "Poland",
+        "region": "Europe",
+        "cluster": 3
+      },
+      {
+        "country": "Portugal",
+        "region": "Europe",
+        "cluster": 4
+      },
+      {
+        "country": "Romania",
+        "region": "Europe",
+        "cluster": 3
+      },
+      {
+        "country": "Russia",
+        "region": "Europe",
+        "cluster": 4
+      },
+      {
+        "country": "Serbia",
+        "region": "Europe",
+        "cluster": 2
+      },
+      {
+        "country": "Slovakia",
+        "region": "Europe",
+        "cluster": 1
+      },
+      {
+        "country": "Slovenia",
+        "region": "Europe",
+        "cluster": 2
+      },
+      {
+        "country": "Sweden",
+        "region": "Europe",
+        "cluster": 4
+      },
+      {
+        "country": "Ukraine",
+        "region": "Europe",
+        "cluster": 3
+      },
+      {
+        "country": "Holy See",
+        "region": "Europe",
+        "cluster": 0
+      },
+      {
+        "country": "Antigua and Barbuda",
+        "region": "Americas",
+        "cluster": 2
+      },
+      {
+        "country": "Bahamas",
+        "region": "Americas",
+        "cluster": 4
+      },
+      {
+        "country": "Barbados",
+        "region": "Americas",
+        "cluster": 2
+      },
+      {
+        "country": "Belize",
+        "region": "Americas",
+        "cluster": 3
+      },
+      {
+        "country": "Canada",
+        "region": "Americas",
+        "cluster": 4
+      },
+      {
+        "country": "Costa Rica",
+        "region": "Americas",
+        "cluster": 4
+      },
+      {
+        "country": "Cuba",
+        "region": "Americas",
+        "cluster": 3
+      },
+      {
+        "country": "Dominica",
+        "region": "Americas",
+        "cluster": 1
+      },
+      {
+        "country": "Dominican Republic",
+        "region": "Americas",
+        "cluster": 3
+      },
+      {
+        "country": "El Salvador",
+        "region": "Americas",
+        "cluster": 3
+      },
+      {
+        "country": "Grenada",
+        "region": "Americas",
+        "cluster": 2
+      },
+      {
+        "country": "Guatemala",
+        "region": "Americas",
+        "cluster": 3
+      },
+      {
+        "country": "Haiti",
+        "region": "Americas",
+        "cluster": 3
+      },
+      {
+        "country": "Honduras",
+        "region": "Americas",
+        "cluster": 3
+      },
+      {
+        "country": "Jamaica",
+        "region": "Americas",
+        "cluster": 2
+      },
+      {
+        "country": "Mexico",
+        "region": "Americas",
+        "cluster": 3
+      },
+      {
+        "country": "Nicaragua",
+        "region": "Americas",
+        "cluster": 4
+      },
+      {
+        "country": "Panama",
+        "region": "Americas",
+        "cluster": 4
+      },
+      {
+        "country": "Saint Kitts and Nevis",
+        "region": "Americas",
+        "cluster": 2
+      },
+      {
+        "country": "Saint Lucia",
+        "region": "Americas",
+        "cluster": 1
+      },
+      {
+        "country": "Saint Vincent and the Grenadines",
+        "region": "Americas",
+        "cluster": 1
+      },
+      {
+        "country": "Trinidad and Tobago",
+        "region": "Americas",
+        "cluster": 2
+      },
+      {
+        "country": "Argentina",
+        "region": "Americas",
+        "cluster": 3
+      },
+      {
+        "country": "Bolivia",
+        "region": "Americas",
+        "cluster": 3
+      },
+      {
+        "country": "Brazil",
+        "region": "Americas",
+        "cluster": 4
+      },
+      {
+        "country": "Chile",
+        "region": "Americas",
+        "cluster": 4
+      },
+      {
+        "country": "Colombia",
+        "region": "Americas",
+        "cluster": 3
+      },
+      {
+        "country": "Ecuador",
+        "region": "Americas",
+        "cluster": 3
+      },
+      {
+        "country": "Guyana",
+        "region": "Americas",
+        "cluster": 1
+      },
+      {
+        "country": "Paraguay",
+        "region": "Americas",
+        "cluster": 3
+      },
+      {
+        "country": "Peru",
+        "region": "Americas",
+        "cluster": 3
+      },
+      {
+        "country": "Suriname",
+        "region": "Americas",
+        "cluster": 1
+      },
+      {
+        "country": "Uruguay",
+        "region": "Americas",
+        "cluster": 3
+      },
+      {
+        "country": "Venezuela",
+        "region": "Americas",
+        "cluster": 3
+      },
+      {
+        "country": "Australia",
+        "region": "Oceania",
+        "cluster": 4
+      },
+      {
+        "country": "Fiji",
+        "region": "Oceania",
+        "cluster": 4
+      },
+      {
+        "country": "Kiribati",
+        "region": "Oceania",
+        "cluster": 2
+      },
+      {
+        "country": "Marshall Islands",
+        "region": "Oceania",
+        "cluster": 1
+      },
+      {
+        "country": "Micronesia",
+        "region": "Oceania",
+        "cluster": 2
+      },
+      {
+        "country": "Nauru",
+        "region": "Oceania",
+        "cluster": 1
+      },
+      {
+        "country": "New Zealand",
+        "region": "Oceania",
+        "cluster": 2
+      },
+      {
+        "country": "Palau",
+        "region": "Oceania",
+        "cluster": 4
+      },
+      {
+        "country": "Papua New Guinea",
+        "region": "Oceania",
+        "cluster": 4
+      },
+      {
+        "country": "Samoa",
+        "region": "Oceania",
+        "cluster": 2
+      },
+      {
+        "country": "Solomon Islands",
+        "region": "Oceania",
+        "cluster": 2
+      },
+      {
+        "country": "Tonga",
+        "region": "Oceania",
+        "cluster": 0
+      },
+      {
+        "country": "Tuvalu",
+        "region": "Oceania",
+        "cluster": 2
+      },
+      {
+        "country": "Vanuatu",
+        "region": "Oceania",
+        "cluster": 2
+      },
+      {
+        "country": "Cote d'Ivoire",
+        "region": "Africa",
+        "cluster": 4
+      },
+      {
+        "country": "Djibouti",
+        "region": "Africa",
+        "cluster": 4
+      },
+      {
+        "country": "Egypt",
+        "region": "Africa",
+        "cluster": 4
+      },
+      {
+        "country": "Equatorial Guinea",
+        "region": "Africa",
+        "cluster": 2
+      },
+      {
+        "country": "Eritrea",
+        "region": "Africa",
+        "cluster": 3
+      },
+      {
+        "country": "Eswatini",
+        "region": "Africa",
+        "cluster": 0
+      },
+      {
+        "country": "Ethiopia",
+        "region": "Africa",
+        "cluster": 4
+      },
+      {
+        "country": "Gabon",
+        "region": "Africa",
+        "cluster": 4
+      },
+      {
+        "country": "Gambia",
+        "region": "Africa",
+        "cluster": 2
+      },
+      {
+        "country": "Ghana",
+        "region": "Africa",
+        "cluster": 2
+      },
+      {
+        "country": "Guinea",
+        "region": "Africa",
+        "cluster": 3
+      },
+      {
+        "country": "Guinea-Bissau",
+        "region": "Africa",
+        "cluster": 4
+      },
+      {
+        "country": "Kenya",
+        "region": "Africa",
+        "cluster": 2
+      },
+      {
+        "country": "Lesotho",
+        "region": "Africa",
+        "cluster": 1
+      },
+      {
+        "country": "Liberia",
+        "region": "Africa",
+        "cluster": 3
+      },
+      {
+        "country": "Libya",
+        "region": "Africa",
+        "cluster": 3
+      },
+      {
+        "country": "Madagascar",
+        "region": "Africa",
+        "cluster": 1
+      },
+      {
+        "country": "Malawi",
+        "region": "Africa",
+        "cluster": 1
+      },
+      {
+        "country": "Mali",
+        "region": "Africa",
+        "cluster": 3
+      },
+      {
+        "country": "Mauritania",
+        "region": "Africa",
+        "cluster": 3
+      },
+      {
+        "country": "Mauritius",
+        "region": "Africa",
+        "cluster": 4
+      },
+      {
+        "country": "Morocco",
+        "region": "Africa",
+        "cluster": 0
+      },
+      {
+        "country": "Mozambique",
+        "region": "Africa",
+        "cluster": 4
+      },
+      {
+        "country": "Namibia",
+        "region": "Africa",
+        "cluster": 4
+      },
+      {
+        "country": "Niger",
+        "region": "Africa",
+        "cluster": 3
+      },
+      {
+        "country": "Nigeria",
+        "region": "Africa",
+        "cluster": 2
+      },
+      {
+        "country": "Rwanda",
+        "region": "Africa",
+        "cluster": 4
+      },
+      {
+        "country": "Sao Tome and Principe",
+        "region": "Africa",
+        "cluster": 4
+      },
+      {
+        "country": "Senegal",
+        "region": "Africa",
+        "cluster": 4
+      },
+      {
+        "country": "Seychelles",
+        "region": "Africa",
+        "cluster": 1
+      },
+      {
+        "country": "Sierra Leone",
+        "region": "Africa",
+        "cluster": 4
+      },
+      {
+        "country": "Somalia",
+        "region": "Africa",
+        "cluster": 4
+      },
+      {
+        "country": "South Sudan",
+        "region": "Africa",
+        "cluster": 2
+      },
+      {
+        "country": "Sudan",
+        "region": "Africa",
+        "cluster": 3
+      },
+      {
+        "country": "Tanzania",
+        "region": "Africa",
+        "cluster": 2
+      },
+      {
+        "country": "Togo",
+        "region": "Africa",
+        "cluster": 3
+      },
+      {
+        "country": "Tunisia",
+        "region": "Africa",
+        "cluster": 3
+      },
+      {
+        "country": "Uganda",
+        "region": "Africa",
+        "cluster": 2
+      },
+      {
+        "country": "Zambia",
+        "region": "Africa",
+        "cluster": 2
+      },
+      {
+        "country": "Zimbabwe",
+        "region": "Africa",
+        "cluster": 1
+      },
+      {
+        "country": "Afghanistan",
+        "region": "Asia",
+        "cluster": 3
+      },
+      {
+        "country": "Armenia",
+        "region": "Asia",
+        "cluster": 3
+      },
+      {
+        "country": "Azerbaijan",
+        "region": "Asia",
+        "cluster": 3
+      },
+      {
+        "country": "Bahrain",
+        "region": "Asia",
+        "cluster": 0
+      },
+      {
+        "country": "Bangladesh",
+        "region": "Asia",
+        "cluster": 1
+      },
+      {
+        "country": "Bhutan",
+        "region": "Asia",
+        "cluster": 0
+      },
+      {
+        "country": "Brunei",
+        "region": "Asia",
+        "cluster": 0
+      },
+      {
+        "country": "Cambodia",
+        "region": "Asia",
+        "cluster": 0
+      },
+      {
+        "country": "China",
+        "region": "Asia",
+        "cluster": 3
+      },
+      {
+        "country": "Georgia",
+        "region": "Asia",
+        "cluster": 4
+      },
+      {
+        "country": "India",
+        "region": "Asia",
+        "cluster": 2
+      },
+      {
+        "country": "Indonesia",
+        "region": "Asia",
+        "cluster": 4
+      },
+      {
+        "country": "Iran",
+        "region": "Asia",
+        "cluster": 3
+      },
+      {
+        "country": "Iraq",
+        "region": "Asia",
+        "cluster": 3
+      },
+      {
+        "country": "Israel",
+        "region": "Asia",
+        "cluster": 1
+      },
+      {
+        "country": "Jordan",
+        "region": "Asia",
+        "cluster": 0
+      },
+      {
+        "country": "Kazakhstan",
+        "region": "Asia",
+        "cluster": 4
+      },
+      {
+        "country": "Kuwait",
+        "region": "Asia",
+        "cluster": 0
+      },
+      {
+        "country": "Kyrgyzstan",
+        "region": "Asia",
+        "cluster": 1
+      },
+      {
+        "country": "Laos",
+        "region": "Asia",
+        "cluster": 4
+      },
+      {
+        "country": "Lebanon",
+        "region": "Asia",
+        "cluster": 4
+      },
+      {
+        "country": "Malaysia",
+        "region": "Asia",
+        "cluster": 0
+      },
+      {
+        "country": "Maldives",
+        "region": "Asia",
+        "cluster": 4
+      },
+      {
+        "country": "Mongolia",
+        "region": "Asia",
+        "cluster": 4
+      },
+      {
+        "country": "Myanmar",
+        "region": "Asia",
+        "cluster": 4
+      },
+      {
+        "country": "North Korea",
+        "region": "Asia",
+        "cluster": 4
+      },
+      {
+        "country": "Oman",
+        "region": "Asia",
+        "cluster": 0
+      },
+      {
+        "country": "Pakistan",
+        "region": "Asia",
+        "cluster": 2
+      },
+      {
+        "country": "Philippines",
+        "region": "Asia",
+        "cluster": 3
+      },
+      {
+        "country": "Qatar",
+        "region": "Asia",
+        "cluster": 3
+      },
+      {
+        "country": "Saudi Arabia",
+        "region": "Asia",
+        "cluster": 0
+      },
+      {
+        "country": "Singapore",
+        "region": "Asia",
+        "cluster": 2
+      },
+      {
+        "country": "South Korea",
+        "region": "Asia",
+        "cluster": 1
+      },
+      {
+        "country": "Sri Lanka",
+        "region": "Asia",
+        "cluster": 2
+      },
+      {
+        "country": "Syria",
+        "region": "Asia",
+        "cluster": 4
+      },
+      {
+        "country": "Tajikistan",
+        "region": "Asia",
+        "cluster": 4
+      },
+      {
+        "country": "Thailand",
+        "region": "Asia",
+        "cluster": 3
+      },
+      {
+        "country": "Timor-Leste",
+        "region": "Asia",
+        "cluster": 3
+      },
+      {
+        "country": "Turkey",
+        "region": "Asia",
+        "cluster": 3
+      },
+      {
+        "country": "Turkmenistan",
+        "region": "Asia",
+        "cluster": 4
+      },
+      {
+        "country": "United Arab Emirates",
+        "region": "Asia",
+        "cluster": 2
+      },
+      {
+        "country": "Uzbekistan",
+        "region": "Asia",
+        "cluster": 4
+      },
+      {
+        "country": "Vietnam",
+        "region": "Asia",
+        "cluster": 3
+      },
+      {
+        "country": "Yemen",
+        "region": "Asia",
+        "cluster": 4
+      },
+      {
+        "country": "State of Palestine",
+        "region": "Asia",
+        "cluster": 3
+      },
+      {
+        "country": "Albania",
+        "region": "Europe",
+        "cluster": 3
+      },
+      {
+        "country": "Andorra",
+        "region": "Europe",
+        "cluster": 2
+      },
+      {
+        "country": "Austria",
+        "region": "Europe",
+        "cluster": 4
+      },
+      {
+        "country": "Belarus",
+        "region": "Europe",
+        "cluster": 4
+      },
+      {
+        "country": "Belgium",
+        "region": "Europe",
+        "cluster": 3
+      },
+      {
+        "country": "Bulgaria",
+        "region": "Europe",
+        "cluster": 1
+      },
+      {
+        "country": "Croatia",
+        "region": "Europe",
+        "cluster": 1
+      },
+      {
+        "country": "Cyprus",
+        "region": "Europe",
+        "cluster": 3
+      },
+      {
+        "country": "Czechia",
+        "region": "Europe",
+        "cluster": 1
+      },
+      {
+        "country": "Denmark",
+        "region": "Europe",
+        "cluster": 0
+      }
+    ]
+  },
+  "wildcard": {
+    "distinct_labels": 126,
+    "most_common": [
+      [
+        "labour / call to work",
+        4
+      ],
+      [
+        "peace",
+        4
+      ],
+      [
+        "the national flag",
+        4
+      ],
+      [
+        "the tricolour flag",
+        4
+      ],
+      [
+        "revolution / a dated historical event (fourth of february)",
+        2
+      ],
+      [
+        "hope / resilience",
+        2
+      ],
+      [
+        "labour / work as the path to renewal",
+        2
+      ],
+      [
+        "religion / faith",
+        2
+      ],
+      [
+        "labour / progress (national motto)",
+        2
+      ],
+      [
+        "labour / nation-building in peace",
+        2
+      ],
+      [
+        "virtue, light and truth (moral/ethical guidance)",
+        2
+      ],
+      [
+        "wine / viticulture",
+        2
+      ],
+      [
+        "the national language itself",
+        2
+      ],
+      [
+        "the national flag (red and white colours)",
+        2
+      ],
+      [
+        "mount lovcen (national symbol)",
+        2
+      ],
+      [
+        "named historical figures (dąbrowski, bonaparte, czarniecki)",
+        2
+      ],
+      [
+        "maritime / seafaring heritage",
+        2
+      ],
+      [
+        "serbian ethno-national identity ('serbian lands and serbian race')",
+        2
+      ],
+      [
+        "national awakening / revival",
+        2
+      ],
+      [
+        "pacifism / anti-war internationalism",
+        2
+      ]
+    ]
+  }
+}

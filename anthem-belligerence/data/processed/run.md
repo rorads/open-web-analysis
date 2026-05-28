@@ -2,48 +2,73 @@
 
 | Field | Value |
 |-------|-------|
-| Run | Calibration sample (first pass) |
-| Scorer | Claude Opus, agent session (no temperature/seed control - see METHODOLOGY.md §6) |
+| Run | **Full run — 195 states** (extends the 10-anthem calibration pass; same rubric) |
+| Scorer | Claude (Opus) — **16 parallel agent sessions**, one per batch (no temperature/seed control, see METHODOLOGY.md §6) |
 | Date | 2026-05-28 |
-| Rubric version | `METHODOLOGY.md` @ git hash-object `2e67d5bc40c772ddf7064f284f6d53deb164b6b5` (**draft, not yet frozen**) |
-| Records | 20 (10 anthems × {as-written, as-sung}) |
+| Rubric version | `METHODOLOGY.md` @ git `e668eec` (incl. the calibration refinement: *as-written* = complete **official** text, excludes non-official historical verses) |
+| Records | 390 (195 anthems × {as-written, as-sung}) |
 | Validation | PASS (`uv run anthem-belligerence/src/aggregate.py`) |
 
 ## What this run is
 
-A deliberately stratified **10-anthem calibration sample**, not the full corpus. Its purpose
-is to test the rubric and the scoring approach before locking the rubric and scaling to ~195
-states. Awaiting human spot-check (§7).
+The full population: **193 UN members + 2 observers (Holy See, State of Palestine) = 195**
+(`../countries.json`). 192 are scored on themes; 3 are word-less (below). It extends the
+calibration sample (still in the corpus) using the same frozen rubric — a scale-up, not a
+re-score, so it is one continuous run.
 
-## Sample composition & why each anthem is here
+## Method (re-executable pipeline)
 
-| Anthem | Stress-tests |
-|--------|--------------|
-| Algeria — Kassaman | Maximal belligerence; no gap (overtly martial, all verses official) |
-| France — La Marseillaise | High belligerence that is **sung**, not retired → small gap |
-| United States — Star-Spangled Banner | Big gap: violent v3 ("hireling and slave") + deity v4 ("In God is our trust") not sung |
-| United Kingdom — God Save the King | Deity + monarch; biggest gap (anti-enemy v2 "scatter our enemies" not sung) |
-| Japan — Kimigayo | Low/short anchor; pure monarch (crown), zero belligerence |
-| Switzerland — Swiss Psalm | Deity anchor (+ nature); zero belligerence |
-| Spain — Marcha Real | **No-lyrics edge case** (excluded from index distributions) |
-| Germany — Deutschlandlied | Gap in *non-belligerence* themes; the **wildcard** test (st2 "German women, wine, song", not sung) |
-| Nepal — Sayaun Thunga Phulka | Unity/land/beauty profile; minimal belligerence |
-| South Africa — National Anthem | **Anti-war trap**: "Banish wars and strife" mentions war but scores belligerence 0 |
+1. `src/make_batches.py` → `data/batches.json` (16 batches of ≤12 not-yet-scored states).
+2. 16 Opus **agent sessions** research + score each batch, following the frozen instruction
+   set in `../../scoring_brief.md`, → `data/{raw,processed}/parts/batch_*.json` (transient,
+   git-ignored). A 12-anthem pilot (batch 1) was hand-reviewed before the other 15 were
+   dispatched. Per-agent sources: nationalanthems.info, Wikipedia per-country anthem articles,
+   lyricstranslate.com, OAS / official government pages; per-anthem URLs in `data/raw/anthems.json`.
+3. `src/merge_parts.py` → merges parts into `anthems.json` (195) + `scores.json` (390),
+   coverage-checked against all 195. Never overwrites existing records.
+4. `src/aggregate.py` → validates + writes `indices.{json,csv}`.
+5. `src/explore.py` (§8) → `exploratory.json` + correlation/age figures.
+6. `src/plot_full.py` → `outputs/god-vs-guns.svg`, `outputs/retired-gap.svg`.
 
 ## Provenance & grounding
 
-- All scores grounded in the evidence lines + cited sources in `data/raw/anthems.json`.
-  Full verbatim lyrics are not stored (public-domain texts live at the source URLs); evidence
-  quotes are short lines actually retrieved from the cited sources.
-- Scores were produced in-session, not by an API call, so there is no fixed seed; reproducibility
-  here means the frozen rubric + preserved raw inputs + per-score quote & rationale.
-- Where a score depends on a translation choice, the record carries a `translation-sensitive`
-  flag and confidence is capped.
+- Every non-zero score is grounded in a verbatim line the scoring agent retrieved via web
+  search (the §6 "grounding over recall" rule); a theme with no quotable line scores 0.
+- Scores are LLM-produced (agent sessions), kept distinct from fetched evidence and from human
+  overrides. No fixed seed; reproducibility = frozen rubric + `scoring_brief.md` + preserved
+  raw evidence + per-score quote/rationale/confidence.
 
-## Known limitations of this pass
+## Data quality (post-run audit)
 
-- "Key lines" rather than full verbatim text were scored; a fuller fetch could surface themes
-  missed in the summary (most relevant for Nepal, flagged `translation-sensitive`).
-- Single-rater; the human spot-check is the second rater.
-- `as-sung` for France/Switzerland is `sung-assumed` (verse 1 + refrain); Algeria's v3 is
-  officially sung but historically sometimes omitted (`v3-sometimes-omitted`).
+- **Validation:** all 390 records pass.
+- **Confidence of the 2,026 non-zero theme cells:** 1,456 high / 549 med / 21 low.
+- **Flags:** `translation-sensitive` 54, `sung-assumed` 20, `no-lyrics` 6 (3 anthems × 2).
+- **No-lyrics** (scored 0, excluded from index distributions): Spain, San Marino, Bosnia and
+  Herzegovina. (Holy See *has* official Latin lyrics → scored.)
+- **Logical check:** as-sung belligerence ≤ as-written for every country (after one override).
+
+## Overrides (human spot-check, §6)
+
+- **Mali** — as-sung `sacrifice` lowered 3 → 2 to match the as-written score from the *same*
+  line ("On the ramparts, we are ready to stand and die"): as-sung is a subset of as-written
+  and cannot exceed it. Recorded inline as an `override` on that theme.
+
+## Known limitations carried into the write-up
+
+- Some long multi-verse anthems are `completeness: PARTIAL` (e.g. France, Afghanistan, Uruguay,
+  Denmark, Micronesia, Vanuatu): later verses summarised, not transcribed line-by-line. Where
+  flagged the headline score is robust (already at ceiling or unseen verses only reinforce the
+  dominant theme), but the precise vector could move a point.
+- `sung-assumed` (20 records): customarily-sung verse not firmly documented; as-sung defaulted
+  to verse 1 (+ chorus).
+- A few agents emitted free-text flags beyond the controlled set (`v3-sometimes-omitted` on
+  Algeria; `mentions-war-as-peace` on South Africa) — descriptive only, no effect on indices.
+- Region is a coarse 5-way macro-grouping; `year_lyrics` is a best-estimate authorship/adoption
+  year per anthem (for the age correlate).
+
+## Calibration sample (the original 10, retained in-corpus)
+
+Algeria (max belligerence, no gap) · France (sung belligerence, small gap) · USA (big gap:
+violent v3 + deity v4 unsung) · UK (deity+monarch, big gap) · Japan (pure crown, zero
+belligerence) · Switzerland (deity anchor) · Spain (no-lyrics) · Germany (wildcard test:
+"women, wine, song") · Nepal (unity/land) · South Africa (anti-war trap: "banish wars" → 0).

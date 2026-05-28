@@ -48,11 +48,12 @@ def god_vs_guns(rows) -> None:
         ys = [r["deity_sung"] + random.uniform(-0.8, 0.8) for r in pts]
         ax.scatter(xs, ys, s=55, c=col, edgecolors="white", linewidths=0.4,
                    alpha=0.85, label=f"{reg} ({len(pts)})", zorder=3)
-    # label only the notable: high belligerence or high deity
-    notable = sorted(rows, key=lambda r: r["belligerence_sung"] + r["deity_sung"], reverse=True)[:18]
+    # label the belligerence leaders (spread along x); the low-belligerence/high-deity
+    # devotional cluster is described in text rather than labelled (it overlaps badly).
+    notable = sorted(rows, key=lambda r: r["belligerence_sung"], reverse=True)[:15]
     for r in notable:
         ax.annotate(r["country"], (r["belligerence_sung"], r["deity_sung"]),
-                    xytext=(r["belligerence_sung"] + 1.2, r["deity_sung"] + 1.2),
+                    xytext=(r["belligerence_sung"] + 1.2, r["deity_sung"] + 1.8),
                     color=FG, fontsize=7.5, zorder=5)
     ax.set_xlim(-5, 108); ax.set_ylim(-8, 112)
     ax.set_xlabel("Belligerence index  (as sung)  →", color=FG, fontsize=11)
