@@ -301,6 +301,370 @@
       ],
       "year_lyrics": 1897,
       "region": null
+    },
+    {
+      "country": "Angola",
+      "iso3": "AGO",
+      "region": "Africa",
+      "title": "Angola Avante (Forward Angola)",
+      "languages_scored": [
+        "English (translation from Portuguese)"
+      ],
+      "year_lyrics": 1975,
+      "structure": "2 verses + chorus",
+      "sung_rule": "Both verses + chorus are official; the latter third of each verse functions as refrain, chorus repeated on single-verse renditions. Treated as-sung = full anthem (both verses + chorus). Source: Wikipedia / nationalanthems.info / lyricstranslate.",
+      "sung_assumed": false,
+      "no_lyrics": false,
+      "completeness": "COMPLETE: both verses + chorus reviewed",
+      "key_lines": {
+        "evidence": [
+          "Oh Fatherland, we shall never forget the heroes of the Fourth of February.",
+          "Oh Fatherland, we salute your children who died for our Independence.",
+          "We honour the past and our History, as by our work we build the New Man.",
+          "Forward, Angola! Revolution through the power of the People: A United Country, Freedom, One People, one Nation!",
+          "Let us raise our liberated voices for the glory of the peoples of Africa.",
+          "We shall march, Angolan fighters, in solidarity with oppressed peoples.",
+          "We shall fight proudly for Peace along with the progressive forces of the world."
+        ]
+      },
+      "source_urls": [
+        "https://lyricstranslate.com/en/angolan-national-anthem-angola-avante-angolan-national-anthem-forward-angola.html",
+        "https://nationalanthems.info/ao.htm",
+        "https://en.wikipedia.org/wiki/Angola_Avante"
+      ]
+    },
+    {
+      "country": "Benin",
+      "iso3": "BEN",
+      "region": "Africa",
+      "title": "L'Aube Nouvelle (The New Dawn)",
+      "languages_scored": [
+        "English (translation from French)"
+      ],
+      "year_lyrics": 1960,
+      "structure": "chorus + 3 verses",
+      "sung_rule": "First verse and chorus usually performed at official occasions (per nationalanthems.info / Wikipedia). as-written = chorus + all 3 verses; as-sung = chorus + verse 1.",
+      "sung_assumed": false,
+      "no_lyrics": false,
+      "completeness": "COMPLETE: chorus + all 3 verses reviewed",
+      "key_lines": {
+        "evidence": [
+          "Children of Benin, arise! The resounding cry of freedom Is heard at the first light of dawn; Children of Benin, arise!",
+          "Formerly, at her call, our ancestors Knew how to engage in mighty battles With strength, courage, ardour, and full of joy, but at the price of blood.",
+          "Builders of the present, you too, join forces Each day for the task stronger in unity.",
+          "When all around there blows a wind of anger and hate: Citizen of Benin, be proud, and in a calm spirit Trusting in the future, behold your flag!",
+          "The red signifies the courage of your ancestors; The yellow foretells the richest treasures.",
+          "Beloved Benin, your sunny mountains, palm trees, and green pastures Show everywhere your brightness; Your soil offers everyone the richest fruits.",
+          "Benin, from henceforth your sons are united With one brotherly spirit"
+        ],
+        "original": [
+          "Enfants du Bénin debout! La liberté d'un cri sonore Chante aux premiers feux de l'aurore; Enfants du Bénin debout!",
+          "Jadis à son appel, nos aieux sans faiblesse Ont su avec courage, ardeur pleins d'allegresse Livrer au prix du sang des combats éclatants."
+        ]
+      },
+      "source_urls": [
+        "https://lyricstranslate.com/en/beninese-national-anthem-laube-nouvelle-beninese-national-anthem-new-dawn.html",
+        "https://nationalanthems.info/bj.htm",
+        "https://en.wikipedia.org/wiki/L'Aube_Nouvelle"
+      ]
+    },
+    {
+      "country": "Botswana",
+      "iso3": "BWA",
+      "region": "Africa",
+      "title": "Fatshe leno la rona (Blessed Be This Noble Land / Our Land)",
+      "languages_scored": [
+        "English (translation from Setswana)"
+      ],
+      "year_lyrics": 1966,
+      "structure": "2 verses + chorus",
+      "sung_rule": "Usual rendition is verse 1 + chorus; verse 2 + chorus may also be performed (per nationalanthems.info). as-written = both verses + chorus; as-sung = verse 1 + chorus.",
+      "sung_assumed": false,
+      "no_lyrics": false,
+      "completeness": "COMPLETE: both verses + chorus reviewed",
+      "key_lines": {
+        "evidence": [
+          "This land of ours, Is a gift from God, An inheritance from our forefathers; May it always be at peace.",
+          "Awake, awake, O men, awake! Arise, O women, arise! Be energized, Let us work together to serve, Our land.",
+          "Beautiful name of fame Of the nation of Botswana Through harmonious relations and reconciliation Bound together"
+        ],
+        "original": [
+          "Fatshe leno la rona Ke mpho ya Modimo, Ke boswa jwa borraetsho; a le nne ka kagiso."
+        ]
+      },
+      "source_urls": [
+        "https://lyricstranslate.com/en/botswana-national-anthem-fatshe-leno-la-rona-blessed-be-noble-land.html",
+        "https://nationalanthems.info/bw.htm",
+        "https://en.wikipedia.org/wiki/Fatshe_leno_la_rona"
+      ]
+    },
+    {
+      "country": "Burkina Faso",
+      "iso3": "BFA",
+      "region": "Africa",
+      "title": "Le Ditanyè (Une Seule Nuit / One Single Night; L'Hymne de la victoire)",
+      "languages_scored": [
+        "English (translation from French)"
+      ],
+      "year_lyrics": 1984,
+      "structure": "multiple verses + chorus (chorus + verse 1 = official short version)",
+      "sung_rule": "First verse and chorus considered the official lyrics and performed at most official occasions (per nationalanthems.info / Wikipedia). as-written = full revolutionary text (incl. later verses); as-sung = chorus + verse 1.",
+      "sung_assumed": false,
+      "no_lyrics": false,
+      "completeness": "PARTIAL: chorus + verse 1 fully captured; one later verse captured (the '4 August volunteers' verse); some intermediate verse lines only summarized in sources",
+      "key_lines": {
+        "evidence": [
+          "And one single night has drawn together The history of an entire people, And one single night has launched its triumphal march. Towards the horizon of good fortune.",
+          "One single night has brought together our people With all the peoples of the World, In the acquisition of liberty and progress.",
+          "Motherland or death, we shall conquer.",
+          "Nourished in the lively source of the Revolution, The volunteers for liberty and peace With their nocturnal and beneficial energies of the 4 of August Had not only hand arms, but also and above all The flame in their hearts lawfully to free Faso forever from the fetters of those who Here and there were polluting the sacred soul of independence and sovereignty.",
+          "Against the cynical malice transformed into neo-colonialism and its petty local servants"
+        ]
+      },
+      "source_urls": [
+        "https://lyricstranslate.com/en/burkinabe-national-anthem-une-seule-nuit-burkinabe-national-anthem-single-night.html",
+        "https://nationalanthems.info/bf.htm",
+        "https://en.wikipedia.org/wiki/Ditany%C3%A8"
+      ]
+    },
+    {
+      "country": "Burundi",
+      "iso3": "BDI",
+      "region": "Africa",
+      "title": "Burundi Bwacu (Our Burundi)",
+      "languages_scored": [
+        "English (translation from Kirundi/French)"
+      ],
+      "year_lyrics": 1962,
+      "structure": "3 verses",
+      "sung_rule": "Short anthem; all three verses are official and customarily sung as one piece. as-written and as-sung identical. Source: lyricstranslate / nationalanthems.info.",
+      "sung_assumed": false,
+      "no_lyrics": false,
+      "completeness": "COMPLETE: all 3 verses reviewed",
+      "key_lines": {
+        "evidence": [
+          "Beloved Burundi, gentle country, Take your place in the concert of nations, Acceding to independence with honourable intentions.",
+          "Wounded and bruised, you have remained master of yourself. When the hour came, you arose, Lifting yourself proudly into the ranks of free peoples.",
+          "Beloved Burundi, sacred heritage from our forefathers, Recognized as worthy of self-government, With your courage you also have a sense of honour. Sing the glory of liberty conquered again.",
+          "Beloved Burundi, worthy of our tenderest love, We vow to your noble service our hands and hearts and lives.",
+          "May God, who gave you to us, keep you for us to venerate, Under the shield of unity, In peace, joy and prosperity."
+        ]
+      },
+      "source_urls": [
+        "https://lyricstranslate.com/en/burundian-national-anthem-burundi-bwacu-our-burundi.html",
+        "https://nationalanthems.info/bi.htm"
+      ]
+    },
+    {
+      "country": "Cabo Verde",
+      "iso3": "CPV",
+      "region": "Africa",
+      "title": "Cântico da Liberdade (Song of Freedom)",
+      "languages_scored": [
+        "English (translation from Portuguese)"
+      ],
+      "year_lyrics": 1996,
+      "structure": "verses + refrain (short, sung in full)",
+      "sung_rule": "Short anthem performed in full; as-written and as-sung identical. Source: lyricstranslate / nationalanthems.info / Wikipedia.",
+      "sung_assumed": false,
+      "no_lyrics": false,
+      "completeness": "COMPLETE: full text reviewed (peace/freedom/sea/island themes; no martial content)",
+      "key_lines": {
+        "evidence": [
+          "Sing, brother Sing, my brother For Liberty is a hymn And Man the certainty.",
+          "With dignity, bury the seed In the dust of the naked island At the escarpment of life",
+          "Hope is as big as the sea Which embraces us Sentinel of the oceans and winds Persevering Between the stars and the Atlantic Intone the Chant of Liberty."
+        ]
+      },
+      "source_urls": [
+        "https://lyricstranslate.com/en/cape-verdean-national-anthem-c%C3%A2ntico-da-liberdade-anthem-freedom.html",
+        "https://nationalanthems.info/cv.htm",
+        "https://en.wikipedia.org/wiki/C%C3%A2ntico_da_Liberdade"
+      ]
+    },
+    {
+      "country": "Cameroon",
+      "iso3": "CMR",
+      "region": "Africa",
+      "title": "O Cameroon, Cradle of Our Forefathers (Chant de Ralliement / The Rallying Song)",
+      "languages_scored": [
+        "English (official English version by Bernard Nsokika Fonlon)"
+      ],
+      "year_lyrics": 1957,
+      "structure": "2 verses + chorus",
+      "sung_rule": "Both verses + chorus are official; verse 1 + chorus typically performed at ceremonies. as-written = both verses + chorus; as-sung = verse 1 + chorus.",
+      "sung_assumed": true,
+      "no_lyrics": false,
+      "completeness": "COMPLETE: both verses + chorus reviewed",
+      "key_lines": {
+        "evidence": [
+          "O Cameroon, Thou Cradle of our Fathers, Holy Shrine where in our midst they now repose, Their tears and blood and sweat thy soil did water, On thy hills and valleys once their tillage rose.",
+          "Dear Fatherland, thy worth no tongue can tell! How can we ever pay thy due? Thy welfare we will win in toil and love and peace, Will be to thy name ever true!",
+          "Land of Promise, land of Glory! Thou, of life and joy, our only store! Thine be honour, thine devotion, And deep endearment, for evermore.",
+          "From Shari, from where the Mungo meanders From along the banks of lowly Boumba Stream, Muster thy sons in union close around thee, Mighty as the Buea Mountain be their team;",
+          "Foster, for Mother Africa, a loyalty That true shall remain to the last."
+        ]
+      },
+      "source_urls": [
+        "https://www.cameroon-embassy.nl/wp-content/uploads/2013/02/National-Anthem.pdf",
+        "https://en.wikipedia.org/wiki/O_Cameroon,_Cradle_of_Our_Forefathers",
+        "https://nationalanthems.info/cm.htm"
+      ]
+    },
+    {
+      "country": "Central African Republic",
+      "iso3": "CAF",
+      "region": "Africa",
+      "title": "La Renaissance (The Rebirth; Sango: E Zingo)",
+      "languages_scored": [
+        "English (translation from French)"
+      ],
+      "year_lyrics": 1960,
+      "structure": "verse + refrain (short)",
+      "sung_rule": "Short anthem; main verse + refrain performed as one piece. as-written and as-sung identical. Source: lyricstranslate / nationalanthems.info / Wikipedia.",
+      "sung_assumed": false,
+      "no_lyrics": false,
+      "completeness": "COMPLETE: verse + refrain reviewed",
+      "key_lines": {
+        "evidence": [
+          "Oh! Central Africa, cradle of the Bantu! Take up again your right to respect, to life!",
+          "Long subjugated, long scorned by all, But, from today, breaking tyranny's hold.",
+          "Through work, order and dignity You reconquer your rights, your unity, And to take this new step The voice of our ancestors calls us.",
+          "To work! In order and dignity, In the respect for rights and in unity, Breaking poverty and tyranny, Holding high the flag of the Fatherland."
+        ],
+        "original": [
+          "Brisons la misère et la tyrannie",
+          "Brandissons l'étendard de la Patrie"
+        ]
+      },
+      "source_urls": [
+        "https://lyricstranslate.com/en/central-african-national-anthem-la-renaissance-central-african-national-anthem-rebirth.html",
+        "https://nationalanthems.info/cf.htm",
+        "https://en.wikipedia.org/wiki/La_Renaissance"
+      ]
+    },
+    {
+      "country": "Chad",
+      "iso3": "TCD",
+      "region": "Africa",
+      "title": "La Tchadienne",
+      "languages_scored": [
+        "English (translation from French)"
+      ],
+      "year_lyrics": 1960,
+      "structure": "chorus + 4 verses (chorus + verse 1 = official anthem; other 3 verses non-official and barely known)",
+      "sung_rule": "Only the chorus and first verse constitute the official national anthem; the other three verses are non-official. as-written = official text (chorus + verse 1); as-sung identical. Non-official verses not scored. Source: nationalanthems.info / Wikipedia.",
+      "sung_assumed": false,
+      "no_lyrics": false,
+      "completeness": "COMPLETE for official text (chorus + verse 1); 3 non-official verses excluded by rubric (not located in full anyway)",
+      "key_lines": {
+        "evidence": [
+          "People of Chad, arise and take up the task! You have conquered your soil and won your rights;",
+          "Your freedom will be born of your courage. Lift up your eyes, the future is yours",
+          "Oh, my Country, may God protect you, May your neighbours admire your children.",
+          "Joyful, peaceful, advance as you sing, Faithful to your fathers who are watching you."
+        ],
+        "original": [
+          "Peuple Tchadien, debout et à l'ouvrage! Tu as conquis ta terre et ton droit;",
+          "Ta liberté naîtra de ton courage.",
+          "O mon Pays, que Dieu te prenne en garde"
+        ]
+      },
+      "source_urls": [
+        "https://lyricstranslate.com/en/chadian-national-anthem-la-tchadienne-chad-anthem.html",
+        "https://nationalanthems.info/td.htm",
+        "https://en.wikipedia.org/wiki/La_Tchadienne"
+      ]
+    },
+    {
+      "country": "Comoros",
+      "iso3": "COM",
+      "region": "Africa",
+      "title": "Udzima wa ya Masiwa (The Union of the Great Islands)",
+      "languages_scored": [
+        "English (translation from Comorian)"
+      ],
+      "year_lyrics": 1978,
+      "structure": "multiple short verses (sung in full)",
+      "sung_rule": "Full lyrics presented and performed as one piece; no single-verse custom indicated. as-written and as-sung identical. Source: lyricstranslate / nationalanthems.info / Wikipedia.",
+      "sung_assumed": false,
+      "no_lyrics": false,
+      "completeness": "COMPLETE: full text reviewed",
+      "key_lines": {
+        "evidence": [
+          "The flag is flying, Announcing complete independence; The nation rises up Because of the faith we have In this our Comoria.",
+          "Let us always have devotion To love our Great Islands.",
+          "We Comorians are of one blood, We Comorians are of one faith.",
+          "On these Islands we were born, These Islands brought us up.",
+          "May God always help us; Let us always have the firm resolve To love our fatherland, Love our religion and the world."
+        ]
+      },
+      "source_urls": [
+        "https://lyricstranslate.com/en/comoran-national-anthem-udzima-wa-ya-masiwa-union-great-islands.html",
+        "https://nationalanthems.info/km.htm",
+        "https://en.wikipedia.org/wiki/Udzima_wa_ya_Masiwa"
+      ]
+    },
+    {
+      "country": "Congo (Republic)",
+      "iso3": "COG",
+      "region": "Africa",
+      "title": "La Congolaise (The Congolese)",
+      "languages_scored": [
+        "English (translation from French)"
+      ],
+      "year_lyrics": 1959,
+      "structure": "3 verses + chorus",
+      "sung_rule": "First verse and chorus constitute the official anthem and are most commonly performed; the full written text has 3 verses. as-written = all 3 verses + chorus; as-sung = verse 1 + chorus. Source: Wikipedia / nationalanthems.info.",
+      "sung_assumed": false,
+      "no_lyrics": false,
+      "completeness": "COMPLETE: all 3 verses + chorus reviewed",
+      "key_lines": {
+        "evidence": [
+          "On this day the sun rises And our Congo stands resplendent. A long night is ended, A great happiness has come. Let us all, with wild joyfulness, sing The song of freedom.",
+          "Arise, Congolese, proud every man, Proclaim the unity of our nation. Let us forget what divides us And become more united than ever. Let us live our motto: Unity, work, progress.",
+          "From the forest to the bush, From the bush to the ocean, One people, one soul, One heart, ardent and proud. Let us all fight, every one of us, For our old black country.",
+          "And if we have to die, What does it really matter? Our children Everywhere will be able to say how Triumph comes through battle, And in the smallest village Sing beneath our three colours."
+        ]
+      },
+      "source_urls": [
+        "https://lyricstranslate.com/en/congo-republic-national-anthem-la-congolaise-congolese.html",
+        "https://nationalanthems.info/cg.htm",
+        "https://en.wikipedia.org/wiki/La_Congolaise"
+      ]
+    },
+    {
+      "country": "Congo (DR)",
+      "iso3": "COD",
+      "region": "Africa",
+      "title": "Debout Congolais (Arise, Congolese)",
+      "languages_scored": [
+        "English (translation from French)"
+      ],
+      "year_lyrics": 1960,
+      "structure": "choir/opening + verse + refrain + final verse (all official, sung as one piece)",
+      "sung_rule": "Sung as one continuous official piece (opening + verse + refrain + final verse); no separate single-verse custom. as-written and as-sung identical. Source: lyricstranslate / nationalanthems.info / Wikipedia.",
+      "sung_assumed": false,
+      "no_lyrics": false,
+      "completeness": "COMPLETE: all sections reviewed",
+      "key_lines": {
+        "evidence": [
+          "Arise, Congolese, United by fate, United in the struggle for independence, Let us hold our heads high, long bowed,",
+          "Oh ardent people, by hard work, We will build a country more beautiful than before, In peace.",
+          "Citizens, sing the sacred hymn Of your solidarity, Proudly Greet the golden emblem of your sovereignty, Congo.",
+          "Blessed gift, Congo of our ancestors, Oh country, oh Congo Beloved, Congo We will populate your soil And ensure your greatness.",
+          "Sacred day of the immortal oath of freedom That we pass on To our posterity Forever."
+        ],
+        "original": [
+          "Debout Congolais, Unis par le sort, Unis dans l'effort pour l'indépendance",
+          "Don béni, Congo des aïeux, O pays, ô Congo Bien-aimé"
+        ]
+      },
+      "source_urls": [
+        "https://lyricstranslate.com/en/congolese-national-anthem-debout-congolaise-arise-congolese.html",
+        "https://nationalanthems.info/cd.htm",
+        "https://en.wikipedia.org/wiki/Debout_Congolais"
+      ]
     }
   ]
 }

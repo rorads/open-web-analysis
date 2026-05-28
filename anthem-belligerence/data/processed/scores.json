@@ -1,197 +1,1730 @@
 {
   "_schema": {
     "note": "One record per (country x version). Themes NOT listed are scored 0 (absent) and need no evidence. Every listed theme has score >= 1 with a quote + rationale + confidence. For single-verse / no-gap anthems, as-written and as-sung records are identical. Quotes are English translations unless noted; 'translation-sensitive' flags scores that could swing on translation choice.",
-    "theme_keys": ["war_arms", "blood_death", "enemy_threat", "sacrifice", "deity", "monarch", "land_nature", "freedom_liberty", "unity_brotherhood", "glory_pride", "wildcard"],
+    "theme_keys": [
+      "war_arms",
+      "blood_death",
+      "enemy_threat",
+      "sacrifice",
+      "deity",
+      "monarch",
+      "land_nature",
+      "freedom_liberty",
+      "unity_brotherhood",
+      "glory_pride",
+      "wildcard"
+    ],
     "scale": "0 absent, 1 alluded, 2 present, 3 dominant",
     "scored_by": "Claude Opus, agent session",
     "scored_on": "2026-05-28"
   },
   "records": [
     {
-      "country": "France", "version": "as-sung", "flags": ["sung-assumed"],
+      "country": "France",
+      "version": "as-sung",
+      "flags": [
+        "sung-assumed"
+      ],
       "themes": {
-        "war_arms": {"score": 3, "quote": "To arms, citizens, form your battalions", "rationale": "explicit martial call; whole verse is a battle exhortation", "confidence": "high"},
-        "blood_death": {"score": 3, "quote": "Let an impure blood water our furrows", "rationale": "literal blood imagery, central to the refrain build-up", "confidence": "high"},
-        "enemy_threat": {"score": 3, "quote": "ferocious soldiers ... come to cut the throats of your sons", "rationale": "vivid othering of an invading enemy", "confidence": "high"},
-        "land_nature": {"score": 1, "quote": "water our furrows", "rationale": "agricultural soil imagery, incidental", "confidence": "low"},
-        "unity_brotherhood": {"score": 1, "quote": "children of the Fatherland", "rationale": "collective national address", "confidence": "low"},
-        "glory_pride": {"score": 2, "quote": "the day of glory has arrived", "rationale": "explicit glory framing", "confidence": "med"}
+        "war_arms": {
+          "score": 3,
+          "quote": "To arms, citizens, form your battalions",
+          "rationale": "explicit martial call; whole verse is a battle exhortation",
+          "confidence": "high"
+        },
+        "blood_death": {
+          "score": 3,
+          "quote": "Let an impure blood water our furrows",
+          "rationale": "literal blood imagery, central to the refrain build-up",
+          "confidence": "high"
+        },
+        "enemy_threat": {
+          "score": 3,
+          "quote": "ferocious soldiers ... come to cut the throats of your sons",
+          "rationale": "vivid othering of an invading enemy",
+          "confidence": "high"
+        },
+        "land_nature": {
+          "score": 1,
+          "quote": "water our furrows",
+          "rationale": "agricultural soil imagery, incidental",
+          "confidence": "low"
+        },
+        "unity_brotherhood": {
+          "score": 1,
+          "quote": "children of the Fatherland",
+          "rationale": "collective national address",
+          "confidence": "low"
+        },
+        "glory_pride": {
+          "score": 2,
+          "quote": "the day of glory has arrived",
+          "rationale": "explicit glory framing",
+          "confidence": "med"
+        }
       }
     },
     {
-      "country": "France", "version": "as-written", "flags": [],
+      "country": "France",
+      "version": "as-written",
+      "flags": [],
       "themes": {
-        "war_arms": {"score": 3, "quote": "To arms, citizens, form your battalions", "rationale": "martial throughout all verses", "confidence": "high"},
-        "blood_death": {"score": 3, "quote": "Let an impure blood water our furrows", "rationale": "blood imagery sustained across verses", "confidence": "high"},
-        "enemy_threat": {"score": 3, "quote": "ferocious soldiers ... come to cut the throats of your sons", "rationale": "enemy othering across verses", "confidence": "high"},
-        "sacrifice": {"score": 2, "quote": "Sacred love of the Fatherland (v6)", "rationale": "later verses invoke dying for the nation", "confidence": "low"},
-        "freedom_liberty": {"score": 3, "quote": "Liberty, cherished Liberty (v6)", "rationale": "liberty is the explicit cause in v6", "confidence": "med"},
-        "land_nature": {"score": 1, "quote": "water our furrows", "rationale": "soil imagery", "confidence": "low"},
-        "unity_brotherhood": {"score": 1, "quote": "children of the Fatherland", "rationale": "collective address", "confidence": "low"},
-        "glory_pride": {"score": 2, "quote": "the day of glory has arrived", "rationale": "glory framing", "confidence": "med"}
+        "war_arms": {
+          "score": 3,
+          "quote": "To arms, citizens, form your battalions",
+          "rationale": "martial throughout all verses",
+          "confidence": "high"
+        },
+        "blood_death": {
+          "score": 3,
+          "quote": "Let an impure blood water our furrows",
+          "rationale": "blood imagery sustained across verses",
+          "confidence": "high"
+        },
+        "enemy_threat": {
+          "score": 3,
+          "quote": "ferocious soldiers ... come to cut the throats of your sons",
+          "rationale": "enemy othering across verses",
+          "confidence": "high"
+        },
+        "sacrifice": {
+          "score": 2,
+          "quote": "Sacred love of the Fatherland (v6)",
+          "rationale": "later verses invoke dying for the nation",
+          "confidence": "low"
+        },
+        "freedom_liberty": {
+          "score": 3,
+          "quote": "Liberty, cherished Liberty (v6)",
+          "rationale": "liberty is the explicit cause in v6",
+          "confidence": "med"
+        },
+        "land_nature": {
+          "score": 1,
+          "quote": "water our furrows",
+          "rationale": "soil imagery",
+          "confidence": "low"
+        },
+        "unity_brotherhood": {
+          "score": 1,
+          "quote": "children of the Fatherland",
+          "rationale": "collective address",
+          "confidence": "low"
+        },
+        "glory_pride": {
+          "score": 2,
+          "quote": "the day of glory has arrived",
+          "rationale": "glory framing",
+          "confidence": "med"
+        }
       }
     },
     {
-      "country": "United States", "version": "as-sung", "flags": [],
+      "country": "United States",
+      "version": "as-sung",
+      "flags": [],
       "themes": {
-        "war_arms": {"score": 2, "quote": "the bombs bursting in air", "rationale": "bombardment imagery, but descriptive of the flag surviving rather than a call to arms", "confidence": "med"},
-        "enemy_threat": {"score": 1, "quote": "(the foe bombarding the fort, implied)", "rationale": "enemy present only by implication in v1", "confidence": "low"},
-        "freedom_liberty": {"score": 1, "quote": "the land of the free", "rationale": "freedom as epithet, not developed", "confidence": "med"},
-        "glory_pride": {"score": 1, "quote": "the home of the brave", "rationale": "bravery/pride epithet", "confidence": "med"}
+        "war_arms": {
+          "score": 2,
+          "quote": "the bombs bursting in air",
+          "rationale": "bombardment imagery, but descriptive of the flag surviving rather than a call to arms",
+          "confidence": "med"
+        },
+        "enemy_threat": {
+          "score": 1,
+          "quote": "(the foe bombarding the fort, implied)",
+          "rationale": "enemy present only by implication in v1",
+          "confidence": "low"
+        },
+        "freedom_liberty": {
+          "score": 1,
+          "quote": "the land of the free",
+          "rationale": "freedom as epithet, not developed",
+          "confidence": "med"
+        },
+        "glory_pride": {
+          "score": 1,
+          "quote": "the home of the brave",
+          "rationale": "bravery/pride epithet",
+          "confidence": "med"
+        }
       }
     },
     {
-      "country": "United States", "version": "as-written", "flags": [],
+      "country": "United States",
+      "version": "as-written",
+      "flags": [],
       "themes": {
-        "war_arms": {"score": 2, "quote": "Then conquer we must, when our cause it is just (v4)", "rationale": "v1 battle imagery + v4 martial resolve", "confidence": "med"},
-        "blood_death": {"score": 2, "quote": "the gloom of the grave (v3)", "rationale": "death imagery directed at the enemy", "confidence": "high"},
-        "enemy_threat": {"score": 2, "quote": "No refuge could save the hireling and slave (v3)", "rationale": "explicit othering of the British enemy in v3", "confidence": "high"},
-        "deity": {"score": 2, "quote": "And this be our motto: 'In God is our trust' (v4)", "rationale": "divine trust invoked in v4", "confidence": "high"},
-        "freedom_liberty": {"score": 2, "quote": "the land of the free ... where freemen shall stand (v4)", "rationale": "freedom developed across verses", "confidence": "med"},
-        "glory_pride": {"score": 2, "quote": "the home of the brave", "rationale": "bravery/triumph", "confidence": "med"}
+        "war_arms": {
+          "score": 2,
+          "quote": "Then conquer we must, when our cause it is just (v4)",
+          "rationale": "v1 battle imagery + v4 martial resolve",
+          "confidence": "med"
+        },
+        "blood_death": {
+          "score": 2,
+          "quote": "the gloom of the grave (v3)",
+          "rationale": "death imagery directed at the enemy",
+          "confidence": "high"
+        },
+        "enemy_threat": {
+          "score": 2,
+          "quote": "No refuge could save the hireling and slave (v3)",
+          "rationale": "explicit othering of the British enemy in v3",
+          "confidence": "high"
+        },
+        "deity": {
+          "score": 2,
+          "quote": "And this be our motto: 'In God is our trust' (v4)",
+          "rationale": "divine trust invoked in v4",
+          "confidence": "high"
+        },
+        "freedom_liberty": {
+          "score": 2,
+          "quote": "the land of the free ... where freemen shall stand (v4)",
+          "rationale": "freedom developed across verses",
+          "confidence": "med"
+        },
+        "glory_pride": {
+          "score": 2,
+          "quote": "the home of the brave",
+          "rationale": "bravery/triumph",
+          "confidence": "med"
+        }
       }
     },
     {
-      "country": "United Kingdom", "version": "as-sung", "flags": [],
+      "country": "United Kingdom",
+      "version": "as-sung",
+      "flags": [],
       "themes": {
-        "deity": {"score": 3, "quote": "God save our gracious King", "rationale": "the anthem is a prayer to God; dominant", "confidence": "high"},
-        "monarch": {"score": 3, "quote": "Long to reign over us", "rationale": "entirely devoted to the sovereign", "confidence": "high"},
-        "war_arms": {"score": 1, "quote": "Send him victorious", "rationale": "victory implies martial success, oblique", "confidence": "low"},
-        "glory_pride": {"score": 1, "quote": "happy and glorious", "rationale": "glory epithet for the monarch", "confidence": "med"}
+        "deity": {
+          "score": 3,
+          "quote": "God save our gracious King",
+          "rationale": "the anthem is a prayer to God; dominant",
+          "confidence": "high"
+        },
+        "monarch": {
+          "score": 3,
+          "quote": "Long to reign over us",
+          "rationale": "entirely devoted to the sovereign",
+          "confidence": "high"
+        },
+        "war_arms": {
+          "score": 1,
+          "quote": "Send him victorious",
+          "rationale": "victory implies martial success, oblique",
+          "confidence": "low"
+        },
+        "glory_pride": {
+          "score": 1,
+          "quote": "happy and glorious",
+          "rationale": "glory epithet for the monarch",
+          "confidence": "med"
+        }
       }
     },
     {
-      "country": "United Kingdom", "version": "as-written", "flags": [],
+      "country": "United Kingdom",
+      "version": "as-written",
+      "flags": [],
       "themes": {
-        "deity": {"score": 3, "quote": "O Lord our God arise (v2)", "rationale": "prayer to God across verses", "confidence": "high"},
-        "monarch": {"score": 3, "quote": "Long to reign over us", "rationale": "devoted to the sovereign", "confidence": "high"},
-        "enemy_threat": {"score": 3, "quote": "Scatter our enemies, and make them fall (v2)", "rationale": "v2 is an explicit plea against enemies - not sung", "confidence": "high"},
-        "war_arms": {"score": 2, "quote": "make them fall ... Confound their politics (v2)", "rationale": "martial petition against foes", "confidence": "med"},
-        "glory_pride": {"score": 1, "quote": "happy and glorious", "rationale": "glory epithet", "confidence": "med"}
+        "deity": {
+          "score": 3,
+          "quote": "O Lord our God arise (v2)",
+          "rationale": "prayer to God across verses",
+          "confidence": "high"
+        },
+        "monarch": {
+          "score": 3,
+          "quote": "Long to reign over us",
+          "rationale": "devoted to the sovereign",
+          "confidence": "high"
+        },
+        "enemy_threat": {
+          "score": 3,
+          "quote": "Scatter our enemies, and make them fall (v2)",
+          "rationale": "v2 is an explicit plea against enemies - not sung",
+          "confidence": "high"
+        },
+        "war_arms": {
+          "score": 2,
+          "quote": "make them fall ... Confound their politics (v2)",
+          "rationale": "martial petition against foes",
+          "confidence": "med"
+        },
+        "glory_pride": {
+          "score": 1,
+          "quote": "happy and glorious",
+          "rationale": "glory epithet",
+          "confidence": "med"
+        }
       }
     },
     {
-      "country": "Algeria", "version": "as-sung", "flags": ["v3-sometimes-omitted", "translation-sensitive"],
+      "country": "Algeria",
+      "version": "as-sung",
+      "flags": [
+        "v3-sometimes-omitted",
+        "translation-sensitive"
+      ],
       "themes": {
-        "war_arms": {"score": 3, "quote": "the sound of machine guns as our melody", "rationale": "saturated with weapons/combat imagery", "confidence": "high"},
-        "blood_death": {"score": 3, "quote": "the streams of generous blood being shed", "rationale": "blood and martyrdom recur", "confidence": "high"},
-        "enemy_threat": {"score": 3, "quote": "O France, this is the day of reckoning", "rationale": "names the colonial enemy directly (v3)", "confidence": "high"},
-        "sacrifice": {"score": 3, "quote": "whether to live or to die ... from our dead we shall build up a glory", "rationale": "martyrdom is a core theme", "confidence": "high"},
-        "freedom_liberty": {"score": 2, "quote": "we have fought for our independence", "rationale": "anti-colonial liberation", "confidence": "high"},
-        "glory_pride": {"score": 2, "quote": "from our dead we shall build up a glory", "rationale": "glory through sacrifice", "confidence": "med"},
-        "land_nature": {"score": 1, "quote": "on the high djebels", "rationale": "mountains as backdrop", "confidence": "low"},
-        "unity_brotherhood": {"score": 1, "quote": "we swear ... an oath", "rationale": "collective pledge", "confidence": "low"}
+        "war_arms": {
+          "score": 3,
+          "quote": "the sound of machine guns as our melody",
+          "rationale": "saturated with weapons/combat imagery",
+          "confidence": "high"
+        },
+        "blood_death": {
+          "score": 3,
+          "quote": "the streams of generous blood being shed",
+          "rationale": "blood and martyrdom recur",
+          "confidence": "high"
+        },
+        "enemy_threat": {
+          "score": 3,
+          "quote": "O France, this is the day of reckoning",
+          "rationale": "names the colonial enemy directly (v3)",
+          "confidence": "high"
+        },
+        "sacrifice": {
+          "score": 3,
+          "quote": "whether to live or to die ... from our dead we shall build up a glory",
+          "rationale": "martyrdom is a core theme",
+          "confidence": "high"
+        },
+        "freedom_liberty": {
+          "score": 2,
+          "quote": "we have fought for our independence",
+          "rationale": "anti-colonial liberation",
+          "confidence": "high"
+        },
+        "glory_pride": {
+          "score": 2,
+          "quote": "from our dead we shall build up a glory",
+          "rationale": "glory through sacrifice",
+          "confidence": "med"
+        },
+        "land_nature": {
+          "score": 1,
+          "quote": "on the high djebels",
+          "rationale": "mountains as backdrop",
+          "confidence": "low"
+        },
+        "unity_brotherhood": {
+          "score": 1,
+          "quote": "we swear ... an oath",
+          "rationale": "collective pledge",
+          "confidence": "low"
+        }
       }
     },
     {
-      "country": "Algeria", "version": "as-written", "flags": ["translation-sensitive"],
+      "country": "Algeria",
+      "version": "as-written",
+      "flags": [
+        "translation-sensitive"
+      ],
       "themes": {
-        "war_arms": {"score": 3, "quote": "the sound of machine guns as our melody", "rationale": "weapons/combat imagery throughout", "confidence": "high"},
-        "blood_death": {"score": 3, "quote": "Let it be written with the blood of martyrs", "rationale": "blood/martyrdom recur", "confidence": "high"},
-        "enemy_threat": {"score": 3, "quote": "O France, this is the day of reckoning", "rationale": "directly names the colonial enemy", "confidence": "high"},
-        "sacrifice": {"score": 3, "quote": "from our dead we shall build up a glory", "rationale": "martyrdom core", "confidence": "high"},
-        "freedom_liberty": {"score": 2, "quote": "we have fought for our independence", "rationale": "liberation", "confidence": "high"},
-        "glory_pride": {"score": 2, "quote": "from our dead we shall build up a glory", "rationale": "glory via sacrifice", "confidence": "med"},
-        "land_nature": {"score": 1, "quote": "on the high djebels", "rationale": "mountains", "confidence": "low"},
-        "unity_brotherhood": {"score": 1, "quote": "we swear ... an oath", "rationale": "collective pledge", "confidence": "low"}
+        "war_arms": {
+          "score": 3,
+          "quote": "the sound of machine guns as our melody",
+          "rationale": "weapons/combat imagery throughout",
+          "confidence": "high"
+        },
+        "blood_death": {
+          "score": 3,
+          "quote": "Let it be written with the blood of martyrs",
+          "rationale": "blood/martyrdom recur",
+          "confidence": "high"
+        },
+        "enemy_threat": {
+          "score": 3,
+          "quote": "O France, this is the day of reckoning",
+          "rationale": "directly names the colonial enemy",
+          "confidence": "high"
+        },
+        "sacrifice": {
+          "score": 3,
+          "quote": "from our dead we shall build up a glory",
+          "rationale": "martyrdom core",
+          "confidence": "high"
+        },
+        "freedom_liberty": {
+          "score": 2,
+          "quote": "we have fought for our independence",
+          "rationale": "liberation",
+          "confidence": "high"
+        },
+        "glory_pride": {
+          "score": 2,
+          "quote": "from our dead we shall build up a glory",
+          "rationale": "glory via sacrifice",
+          "confidence": "med"
+        },
+        "land_nature": {
+          "score": 1,
+          "quote": "on the high djebels",
+          "rationale": "mountains",
+          "confidence": "low"
+        },
+        "unity_brotherhood": {
+          "score": 1,
+          "quote": "we swear ... an oath",
+          "rationale": "collective pledge",
+          "confidence": "low"
+        }
       }
     },
     {
-      "country": "Japan", "version": "as-sung", "flags": [],
+      "country": "Japan",
+      "version": "as-sung",
+      "flags": [],
       "themes": {
-        "monarch": {"score": 3, "quote": "May your reign continue for a thousand ... generations", "rationale": "the entire (single-verse) anthem wishes the Emperor's reign endless life", "confidence": "high"},
-        "land_nature": {"score": 1, "quote": "until the tiny pebbles grow into massive boulders lush with moss", "rationale": "nature imagery as metaphor for endurance", "confidence": "med"}
+        "monarch": {
+          "score": 3,
+          "quote": "May your reign continue for a thousand ... generations",
+          "rationale": "the entire (single-verse) anthem wishes the Emperor's reign endless life",
+          "confidence": "high"
+        },
+        "land_nature": {
+          "score": 1,
+          "quote": "until the tiny pebbles grow into massive boulders lush with moss",
+          "rationale": "nature imagery as metaphor for endurance",
+          "confidence": "med"
+        }
       }
     },
     {
-      "country": "Japan", "version": "as-written", "flags": [],
+      "country": "Japan",
+      "version": "as-written",
+      "flags": [],
       "themes": {
-        "monarch": {"score": 3, "quote": "May your reign continue for a thousand ... generations", "rationale": "single-verse anthem devoted to the Emperor's reign", "confidence": "high"},
-        "land_nature": {"score": 1, "quote": "until the tiny pebbles grow into massive boulders lush with moss", "rationale": "nature metaphor", "confidence": "med"}
+        "monarch": {
+          "score": 3,
+          "quote": "May your reign continue for a thousand ... generations",
+          "rationale": "single-verse anthem devoted to the Emperor's reign",
+          "confidence": "high"
+        },
+        "land_nature": {
+          "score": 1,
+          "quote": "until the tiny pebbles grow into massive boulders lush with moss",
+          "rationale": "nature metaphor",
+          "confidence": "med"
+        }
       }
     },
     {
-      "country": "Switzerland", "version": "as-sung", "flags": [],
+      "country": "Switzerland",
+      "version": "as-sung",
+      "flags": [],
       "themes": {
-        "deity": {"score": 3, "quote": "that God, the Lord, dwelleth in this land", "rationale": "a hymn to God, dominant in every verse", "confidence": "high"},
-        "land_nature": {"score": 3, "quote": "When the alps glow bright with splendour", "rationale": "Alpine nature imagery is the other pillar", "confidence": "high"}
+        "deity": {
+          "score": 3,
+          "quote": "that God, the Lord, dwelleth in this land",
+          "rationale": "a hymn to God, dominant in every verse",
+          "confidence": "high"
+        },
+        "land_nature": {
+          "score": 3,
+          "quote": "When the alps glow bright with splendour",
+          "rationale": "Alpine nature imagery is the other pillar",
+          "confidence": "high"
+        }
       }
     },
     {
-      "country": "Switzerland", "version": "as-written", "flags": [],
+      "country": "Switzerland",
+      "version": "as-written",
+      "flags": [],
       "themes": {
-        "deity": {"score": 3, "quote": "Thou, O loving Father, ever near", "rationale": "God invoked throughout", "confidence": "high"},
-        "land_nature": {"score": 3, "quote": "When dark clouds enshroud the hills and grey mist the valley fills", "rationale": "nature imagery across verses", "confidence": "high"}
+        "deity": {
+          "score": 3,
+          "quote": "Thou, O loving Father, ever near",
+          "rationale": "God invoked throughout",
+          "confidence": "high"
+        },
+        "land_nature": {
+          "score": 3,
+          "quote": "When dark clouds enshroud the hills and grey mist the valley fills",
+          "rationale": "nature imagery across verses",
+          "confidence": "high"
+        }
       }
     },
     {
-      "country": "Spain", "version": "as-sung", "flags": ["no-lyrics"],
+      "country": "Spain",
+      "version": "as-sung",
+      "flags": [
+        "no-lyrics"
+      ],
       "themes": {}
     },
     {
-      "country": "Spain", "version": "as-written", "flags": ["no-lyrics"],
+      "country": "Spain",
+      "version": "as-written",
+      "flags": [
+        "no-lyrics"
+      ],
       "themes": {}
     },
     {
-      "country": "Germany", "version": "as-sung", "flags": [],
+      "country": "Germany",
+      "version": "as-sung",
+      "flags": [],
       "themes": {
-        "unity_brotherhood": {"score": 3, "quote": "Unity and justice and freedom for the German fatherland", "rationale": "st3 (the only official stanza) leads on collective unity", "confidence": "high"},
-        "freedom_liberty": {"score": 3, "quote": "Unity and justice and freedom", "rationale": "freedom is one of the three named virtues", "confidence": "high"},
-        "glory_pride": {"score": 1, "quote": "Flourish in the radiance of this happiness", "rationale": "mild aspirational pride", "confidence": "low"},
-        "land_nature": {"score": 1, "quote": "German fatherland", "rationale": "fatherland reference, not developed nature imagery", "confidence": "low"}
+        "unity_brotherhood": {
+          "score": 3,
+          "quote": "Unity and justice and freedom for the German fatherland",
+          "rationale": "st3 (the only official stanza) leads on collective unity",
+          "confidence": "high"
+        },
+        "freedom_liberty": {
+          "score": 3,
+          "quote": "Unity and justice and freedom",
+          "rationale": "freedom is one of the three named virtues",
+          "confidence": "high"
+        },
+        "glory_pride": {
+          "score": 1,
+          "quote": "Flourish in the radiance of this happiness",
+          "rationale": "mild aspirational pride",
+          "confidence": "low"
+        },
+        "land_nature": {
+          "score": 1,
+          "quote": "German fatherland",
+          "rationale": "fatherland reference, not developed nature imagery",
+          "confidence": "low"
+        }
       }
     },
     {
-      "country": "Germany", "version": "as-written", "flags": [],
+      "country": "Germany",
+      "version": "as-written",
+      "flags": [],
       "themes": {
-        "unity_brotherhood": {"score": 3, "quote": "Unity and justice and freedom for the German fatherland", "rationale": "st3 unity carries over", "confidence": "high"},
-        "freedom_liberty": {"score": 3, "quote": "Unity and justice and freedom", "rationale": "named virtue", "confidence": "high"},
-        "glory_pride": {"score": 3, "quote": "Germany, Germany above everything, above everything in the world (st1)", "rationale": "st1 supremacist national pride - NOT sung", "confidence": "high"},
-        "land_nature": {"score": 2, "quote": "From the Meuse to the Neman (st1)", "rationale": "st1 defines territory by rivers/boundaries", "confidence": "med"},
-        "wildcard": {"score": 2, "label": "praise of German women, wine and song", "quote": "German women, German loyalty, German wine and German songs (st2)", "rationale": "domestic/cultural pride (women, wine, song) not captured by themes 1-10 - the wildcard case, and not sung", "confidence": "high"}
+        "unity_brotherhood": {
+          "score": 3,
+          "quote": "Unity and justice and freedom for the German fatherland",
+          "rationale": "st3 unity carries over",
+          "confidence": "high"
+        },
+        "freedom_liberty": {
+          "score": 3,
+          "quote": "Unity and justice and freedom",
+          "rationale": "named virtue",
+          "confidence": "high"
+        },
+        "glory_pride": {
+          "score": 3,
+          "quote": "Germany, Germany above everything, above everything in the world (st1)",
+          "rationale": "st1 supremacist national pride - NOT sung",
+          "confidence": "high"
+        },
+        "land_nature": {
+          "score": 2,
+          "quote": "From the Meuse to the Neman (st1)",
+          "rationale": "st1 defines territory by rivers/boundaries",
+          "confidence": "med"
+        },
+        "wildcard": {
+          "score": 2,
+          "label": "praise of German women, wine and song",
+          "quote": "German women, German loyalty, German wine and German songs (st2)",
+          "rationale": "domestic/cultural pride (women, wine, song) not captured by themes 1-10 - the wildcard case, and not sung",
+          "confidence": "high"
+        }
       }
     },
     {
-      "country": "Nepal", "version": "as-sung", "flags": ["translation-sensitive"],
+      "country": "Nepal",
+      "version": "as-sung",
+      "flags": [
+        "translation-sensitive"
+      ],
       "themes": {
-        "unity_brotherhood": {"score": 3, "quote": "Woven from hundreds of flowers, we are one garland that's Nepali", "rationale": "unity-in-diversity is the central metaphor", "confidence": "high"},
-        "land_nature": {"score": 2, "quote": "A shawl of nature's wealth unending ... the plains, hills and mountains tall", "rationale": "geography and natural beauty", "confidence": "high"},
-        "blood_death": {"score": 1, "quote": "From the blood of the braves, a nation free", "rationale": "literal blood of the fallen invoked as the foundation of the free nation; mild but explicit", "confidence": "high"},
-        "sacrifice": {"score": 1, "quote": "From the blood of the braves, a nation free", "rationale": "honours those who died for freedom", "confidence": "med"},
-        "freedom_liberty": {"score": 1, "quote": "Spread sovereign from Mechi to Mahakali ... a nation free", "rationale": "sovereignty / freedom mention", "confidence": "med"},
-        "glory_pride": {"score": 1, "quote": "This progressive nation of ours, all hail Nepal!", "rationale": "mild national pride", "confidence": "low"}
+        "unity_brotherhood": {
+          "score": 3,
+          "quote": "Woven from hundreds of flowers, we are one garland that's Nepali",
+          "rationale": "unity-in-diversity is the central metaphor",
+          "confidence": "high"
+        },
+        "land_nature": {
+          "score": 2,
+          "quote": "A shawl of nature's wealth unending ... the plains, hills and mountains tall",
+          "rationale": "geography and natural beauty",
+          "confidence": "high"
+        },
+        "blood_death": {
+          "score": 1,
+          "quote": "From the blood of the braves, a nation free",
+          "rationale": "literal blood of the fallen invoked as the foundation of the free nation; mild but explicit",
+          "confidence": "high"
+        },
+        "sacrifice": {
+          "score": 1,
+          "quote": "From the blood of the braves, a nation free",
+          "rationale": "honours those who died for freedom",
+          "confidence": "med"
+        },
+        "freedom_liberty": {
+          "score": 1,
+          "quote": "Spread sovereign from Mechi to Mahakali ... a nation free",
+          "rationale": "sovereignty / freedom mention",
+          "confidence": "med"
+        },
+        "glory_pride": {
+          "score": 1,
+          "quote": "This progressive nation of ours, all hail Nepal!",
+          "rationale": "mild national pride",
+          "confidence": "low"
+        }
       }
     },
     {
-      "country": "Nepal", "version": "as-written", "flags": ["translation-sensitive"],
+      "country": "Nepal",
+      "version": "as-written",
+      "flags": [
+        "translation-sensitive"
+      ],
       "themes": {
-        "unity_brotherhood": {"score": 3, "quote": "Woven from hundreds of flowers, we are one garland that's Nepali", "rationale": "unity-in-diversity central", "confidence": "high"},
-        "land_nature": {"score": 2, "quote": "A shawl of nature's wealth unending ... the plains, hills and mountains tall", "rationale": "geography/beauty", "confidence": "high"},
-        "blood_death": {"score": 1, "quote": "From the blood of the braves, a nation free", "rationale": "literal blood of the fallen as foundation of the free nation; mild but explicit", "confidence": "high"},
-        "sacrifice": {"score": 1, "quote": "From the blood of the braves, a nation free", "rationale": "honours those who died for freedom", "confidence": "med"},
-        "freedom_liberty": {"score": 1, "quote": "Spread sovereign from Mechi to Mahakali ... a nation free", "rationale": "sovereignty / freedom", "confidence": "med"},
-        "glory_pride": {"score": 1, "quote": "This progressive nation of ours, all hail Nepal!", "rationale": "mild national pride", "confidence": "low"}
+        "unity_brotherhood": {
+          "score": 3,
+          "quote": "Woven from hundreds of flowers, we are one garland that's Nepali",
+          "rationale": "unity-in-diversity central",
+          "confidence": "high"
+        },
+        "land_nature": {
+          "score": 2,
+          "quote": "A shawl of nature's wealth unending ... the plains, hills and mountains tall",
+          "rationale": "geography/beauty",
+          "confidence": "high"
+        },
+        "blood_death": {
+          "score": 1,
+          "quote": "From the blood of the braves, a nation free",
+          "rationale": "literal blood of the fallen as foundation of the free nation; mild but explicit",
+          "confidence": "high"
+        },
+        "sacrifice": {
+          "score": 1,
+          "quote": "From the blood of the braves, a nation free",
+          "rationale": "honours those who died for freedom",
+          "confidence": "med"
+        },
+        "freedom_liberty": {
+          "score": 1,
+          "quote": "Spread sovereign from Mechi to Mahakali ... a nation free",
+          "rationale": "sovereignty / freedom",
+          "confidence": "med"
+        },
+        "glory_pride": {
+          "score": 1,
+          "quote": "This progressive nation of ours, all hail Nepal!",
+          "rationale": "mild national pride",
+          "confidence": "low"
+        }
       }
     },
     {
-      "country": "South Africa", "version": "as-sung", "flags": ["mentions-war-as-peace"],
+      "country": "South Africa",
+      "version": "as-sung",
+      "flags": [
+        "mentions-war-as-peace"
+      ],
       "themes": {
-        "deity": {"score": 3, "quote": "Lord, bless our nation (Nkosi Sikelel' iAfrika = 'God bless Africa')", "rationale": "opens as a hymn invoking God's blessing; dominant", "confidence": "high"},
-        "unity_brotherhood": {"score": 2, "quote": "Sounds the call to come together, and united we shall stand", "rationale": "explicit unity call", "confidence": "high"},
-        "freedom_liberty": {"score": 2, "quote": "Let us live and strive for freedom", "rationale": "freedom as aspiration", "confidence": "high"},
-        "land_nature": {"score": 1, "quote": "over our everlasting mountains", "rationale": "brief landscape reference", "confidence": "med"}
+        "deity": {
+          "score": 3,
+          "quote": "Lord, bless our nation (Nkosi Sikelel' iAfrika = 'God bless Africa')",
+          "rationale": "opens as a hymn invoking God's blessing; dominant",
+          "confidence": "high"
+        },
+        "unity_brotherhood": {
+          "score": 2,
+          "quote": "Sounds the call to come together, and united we shall stand",
+          "rationale": "explicit unity call",
+          "confidence": "high"
+        },
+        "freedom_liberty": {
+          "score": 2,
+          "quote": "Let us live and strive for freedom",
+          "rationale": "freedom as aspiration",
+          "confidence": "high"
+        },
+        "land_nature": {
+          "score": 1,
+          "quote": "over our everlasting mountains",
+          "rationale": "brief landscape reference",
+          "confidence": "med"
+        }
       },
       "note": "war_arms scored 0 deliberately: 'Banish wars and strife' mentions war only as a plea to END it - lexical presence is not thematic belligerence."
     },
     {
-      "country": "South Africa", "version": "as-written", "flags": ["mentions-war-as-peace"],
+      "country": "South Africa",
+      "version": "as-written",
+      "flags": [
+        "mentions-war-as-peace"
+      ],
       "themes": {
-        "deity": {"score": 3, "quote": "Lord, bless our nation (Nkosi Sikelel' iAfrika = 'God bless Africa')", "rationale": "hymn invoking God's blessing", "confidence": "high"},
-        "unity_brotherhood": {"score": 2, "quote": "Sounds the call to come together, and united we shall stand", "rationale": "unity call", "confidence": "high"},
-        "freedom_liberty": {"score": 2, "quote": "Let us live and strive for freedom", "rationale": "freedom aspiration", "confidence": "high"},
-        "land_nature": {"score": 1, "quote": "over our everlasting mountains", "rationale": "landscape reference", "confidence": "med"}
+        "deity": {
+          "score": 3,
+          "quote": "Lord, bless our nation (Nkosi Sikelel' iAfrika = 'God bless Africa')",
+          "rationale": "hymn invoking God's blessing",
+          "confidence": "high"
+        },
+        "unity_brotherhood": {
+          "score": 2,
+          "quote": "Sounds the call to come together, and united we shall stand",
+          "rationale": "unity call",
+          "confidence": "high"
+        },
+        "freedom_liberty": {
+          "score": 2,
+          "quote": "Let us live and strive for freedom",
+          "rationale": "freedom aspiration",
+          "confidence": "high"
+        },
+        "land_nature": {
+          "score": 1,
+          "quote": "over our everlasting mountains",
+          "rationale": "landscape reference",
+          "confidence": "med"
+        }
       },
       "note": "war_arms scored 0 deliberately: 'Banish wars and strife' is anti-war."
+    },
+    {
+      "country": "Angola",
+      "version": "as-written",
+      "flags": [],
+      "themes": {
+        "war_arms": {
+          "score": 2,
+          "quote": "We shall march, Angolan fighters, in solidarity with oppressed peoples.",
+          "rationale": "explicit martial self-identification as 'fighters' marching, recurring with 'we shall fight'",
+          "confidence": "high"
+        },
+        "blood_death": {
+          "score": 1,
+          "quote": "Oh Fatherland, we salute your children who died for our Independence.",
+          "rationale": "single reference to the fallen dead of independence",
+          "confidence": "high"
+        },
+        "enemy_threat": {
+          "score": 1,
+          "quote": "We shall march, Angolan fighters, in solidarity with oppressed peoples.",
+          "rationale": "oblique othering implied by 'oppressed peoples' / oppressors, no named foe",
+          "confidence": "med"
+        },
+        "freedom_liberty": {
+          "score": 2,
+          "quote": "Forward, Angola! Revolution through the power of the People: A United Country, Freedom, One People, one Nation!",
+          "rationale": "Freedom and independence are explicit, recurring goals",
+          "confidence": "high"
+        },
+        "unity_brotherhood": {
+          "score": 2,
+          "quote": "A United Country, Freedom, One People, one Nation!",
+          "rationale": "'One People, one Nation' is an explicit unity refrain",
+          "confidence": "high"
+        },
+        "glory_pride": {
+          "score": 2,
+          "quote": "Let us raise our liberated voices for the glory of the peoples of Africa.",
+          "rationale": "explicit invocation of glory and honouring heroes",
+          "confidence": "high"
+        },
+        "wildcard": {
+          "score": 2,
+          "label": "revolution / a dated historical event (Fourth of February)",
+          "quote": "Oh Fatherland, we shall never forget the heroes of the Fourth of February.",
+          "rationale": "the 1961 revolt date and 'Revolution' are a central organising motif not covered by other themes",
+          "confidence": "high"
+        }
+      }
+    },
+    {
+      "country": "Angola",
+      "version": "as-sung",
+      "flags": [],
+      "themes": {
+        "war_arms": {
+          "score": 2,
+          "quote": "We shall march, Angolan fighters, in solidarity with oppressed peoples.",
+          "rationale": "explicit martial self-identification as 'fighters' marching, recurring with 'we shall fight'",
+          "confidence": "high"
+        },
+        "blood_death": {
+          "score": 1,
+          "quote": "Oh Fatherland, we salute your children who died for our Independence.",
+          "rationale": "single reference to the fallen dead of independence",
+          "confidence": "high"
+        },
+        "enemy_threat": {
+          "score": 1,
+          "quote": "We shall march, Angolan fighters, in solidarity with oppressed peoples.",
+          "rationale": "oblique othering implied by 'oppressed peoples' / oppressors, no named foe",
+          "confidence": "med"
+        },
+        "freedom_liberty": {
+          "score": 2,
+          "quote": "Forward, Angola! Revolution through the power of the People: A United Country, Freedom, One People, one Nation!",
+          "rationale": "Freedom and independence are explicit, recurring goals",
+          "confidence": "high"
+        },
+        "unity_brotherhood": {
+          "score": 2,
+          "quote": "A United Country, Freedom, One People, one Nation!",
+          "rationale": "'One People, one Nation' is an explicit unity refrain",
+          "confidence": "high"
+        },
+        "glory_pride": {
+          "score": 2,
+          "quote": "Let us raise our liberated voices for the glory of the peoples of Africa.",
+          "rationale": "explicit invocation of glory and honouring heroes",
+          "confidence": "high"
+        },
+        "wildcard": {
+          "score": 2,
+          "label": "revolution / a dated historical event (Fourth of February)",
+          "quote": "Oh Fatherland, we shall never forget the heroes of the Fourth of February.",
+          "rationale": "the 1961 revolt date and 'Revolution' are a central organising motif not covered by other themes",
+          "confidence": "high"
+        }
+      }
+    },
+    {
+      "country": "Benin",
+      "version": "as-written",
+      "flags": [],
+      "themes": {
+        "war_arms": {
+          "score": 2,
+          "quote": "Knew how to engage in mighty battles With strength, courage, ardour",
+          "rationale": "verse 1 explicitly recalls ancestors waging 'mighty battles'",
+          "confidence": "high"
+        },
+        "blood_death": {
+          "score": 1,
+          "quote": "Livrer au prix du sang des combats éclatants.",
+          "original": "Livrer au prix du sang des combats éclatants.",
+          "rationale": "single mention that battles were waged 'at the price of blood'",
+          "confidence": "high"
+        },
+        "enemy_threat": {
+          "score": 1,
+          "quote": "When all around there blows a wind of anger and hate",
+          "rationale": "oblique external hostility, no named foe",
+          "confidence": "med"
+        },
+        "freedom_liberty": {
+          "score": 2,
+          "quote": "The resounding cry of freedom Is heard at the first light of dawn",
+          "rationale": "freedom is the chorus's central cry, repeated",
+          "confidence": "high"
+        },
+        "land_nature": {
+          "score": 2,
+          "quote": "Beloved Benin, your sunny mountains, palm trees, and green pastures Show everywhere your brightness; Your soil offers everyone the richest fruits.",
+          "rationale": "verse 3 is an explicit catalogue of the land's geography and bounty",
+          "confidence": "high"
+        },
+        "unity_brotherhood": {
+          "score": 2,
+          "quote": "Benin, from henceforth your sons are united With one brotherly spirit",
+          "rationale": "explicit fraternity in verses 1 and 3",
+          "confidence": "high"
+        },
+        "glory_pride": {
+          "score": 1,
+          "quote": "Citizen of Benin, be proud",
+          "rationale": "single call to national pride",
+          "confidence": "med"
+        },
+        "wildcard": {
+          "score": 1,
+          "label": "the national flag and its colours",
+          "quote": "In the green you read hope of spring; The red signifies the courage of your ancestors; The yellow foretells the richest treasures.",
+          "rationale": "verse 2 reads the tricolour flag's symbolism, a distinct motif",
+          "confidence": "high"
+        }
+      }
+    },
+    {
+      "country": "Benin",
+      "version": "as-sung",
+      "flags": [],
+      "themes": {
+        "freedom_liberty": {
+          "score": 3,
+          "quote": "The resounding cry of freedom Is heard at the first light of dawn",
+          "rationale": "in verse 1 + chorus alone, the 'cry of freedom' is the dominant idea",
+          "confidence": "high"
+        },
+        "war_arms": {
+          "score": 2,
+          "quote": "Knew how to engage in mighty battles With strength, courage, ardour",
+          "rationale": "verse 1 recalls ancestors waging 'mighty battles'",
+          "confidence": "high"
+        },
+        "blood_death": {
+          "score": 1,
+          "quote": "Livrer au prix du sang des combats éclatants.",
+          "original": "Livrer au prix du sang des combats éclatants.",
+          "rationale": "verse 1 says battles waged 'at the price of blood'",
+          "confidence": "high"
+        },
+        "unity_brotherhood": {
+          "score": 1,
+          "quote": "Builders of the present, you too, join forces Each day for the task stronger in unity.",
+          "rationale": "verse 1 calls to join forces in unity",
+          "confidence": "med"
+        }
+      }
+    },
+    {
+      "country": "Botswana",
+      "version": "as-written",
+      "flags": [],
+      "themes": {
+        "deity": {
+          "score": 2,
+          "quote": "This land of ours, Is a gift from God",
+          "rationale": "the land is framed as God's gift; explicit divine reference",
+          "confidence": "high"
+        },
+        "land_nature": {
+          "score": 2,
+          "quote": "This land of ours, Is a gift from God, An inheritance from our forefathers",
+          "rationale": "the land/'Our Land' is the anthem's central subject across both verses",
+          "confidence": "high"
+        },
+        "unity_brotherhood": {
+          "score": 2,
+          "quote": "Let us work together to serve, Our land.",
+          "rationale": "explicit call to work together; verse 2 'bound together'",
+          "confidence": "high"
+        },
+        "glory_pride": {
+          "score": 1,
+          "quote": "Beautiful name of fame Of the nation of Botswana",
+          "rationale": "single reference to the nation's renown",
+          "confidence": "med"
+        },
+        "wildcard": {
+          "score": 1,
+          "label": "labour / call to work",
+          "quote": "Be energized, Let us work together to serve, Our land.",
+          "rationale": "the chorus's rousing 'awake/arise and work' is a distinct labour motif",
+          "confidence": "med"
+        }
+      }
+    },
+    {
+      "country": "Botswana",
+      "version": "as-sung",
+      "flags": [],
+      "themes": {
+        "deity": {
+          "score": 2,
+          "quote": "This land of ours, Is a gift from God",
+          "rationale": "verse 1 frames the land as God's gift; explicit divine reference",
+          "confidence": "high"
+        },
+        "land_nature": {
+          "score": 3,
+          "quote": "This land of ours, Is a gift from God, An inheritance from our forefathers",
+          "rationale": "in verse 1 + chorus the land is the sole dominant subject",
+          "confidence": "high"
+        },
+        "unity_brotherhood": {
+          "score": 2,
+          "quote": "Let us work together to serve, Our land.",
+          "rationale": "chorus is an explicit call to work together",
+          "confidence": "high"
+        },
+        "wildcard": {
+          "score": 1,
+          "label": "labour / call to work",
+          "quote": "Be energized, Let us work together to serve, Our land.",
+          "rationale": "the chorus's 'awake/arise and work' is a distinct labour motif",
+          "confidence": "med"
+        }
+      }
+    },
+    {
+      "country": "Burkina Faso",
+      "version": "as-written",
+      "flags": [],
+      "themes": {
+        "war_arms": {
+          "score": 2,
+          "quote": "Had not only hand arms, but also and above all The flame in their hearts",
+          "rationale": "explicit reference to bearing arms by the revolutionary volunteers",
+          "confidence": "high"
+        },
+        "blood_death": {
+          "score": 2,
+          "quote": "Motherland or death, we shall conquer.",
+          "rationale": "the chorus's 'Motherland or death' is a recurring martyrdom/death refrain",
+          "confidence": "high"
+        },
+        "enemy_threat": {
+          "score": 2,
+          "quote": "Against the cynical malice transformed into neo-colonialism and its petty local servants",
+          "rationale": "explicit othering of neo-colonialists and their 'servants' polluting sovereignty",
+          "confidence": "high"
+        },
+        "sacrifice": {
+          "score": 2,
+          "quote": "Motherland or death, we shall conquer.",
+          "rationale": "death-before-defeat pledge to the motherland is explicit",
+          "confidence": "high"
+        },
+        "freedom_liberty": {
+          "score": 2,
+          "quote": "In the acquisition of liberty and progress.",
+          "rationale": "liberty/freeing Faso from 'fetters' is a recurring goal",
+          "confidence": "high"
+        },
+        "unity_brotherhood": {
+          "score": 2,
+          "quote": "One single night has brought together our people With all the peoples of the World",
+          "rationale": "explicit gathering of the people together",
+          "confidence": "high"
+        },
+        "glory_pride": {
+          "score": 1,
+          "quote": "And one single night has launched its triumphal march. Towards the horizon of good fortune.",
+          "rationale": "single triumphalist note",
+          "confidence": "med"
+        },
+        "wildcard": {
+          "score": 3,
+          "label": "revolution (the 4 August revolution)",
+          "quote": "Nourished in the lively source of the Revolution, The volunteers for liberty and peace With their nocturnal and beneficial energies of the 4 of August",
+          "rationale": "Sankara's 1983/84 Revolution is the central organising frame of the whole text",
+          "confidence": "high"
+        }
+      }
+    },
+    {
+      "country": "Burkina Faso",
+      "version": "as-sung",
+      "flags": [],
+      "themes": {
+        "blood_death": {
+          "score": 2,
+          "quote": "Motherland or death, we shall conquer.",
+          "rationale": "chorus's 'Motherland or death' is a death-or-victory refrain in the sung text",
+          "confidence": "high"
+        },
+        "sacrifice": {
+          "score": 2,
+          "quote": "Motherland or death, we shall conquer.",
+          "rationale": "death-before-defeat pledge to the motherland",
+          "confidence": "high"
+        },
+        "war_arms": {
+          "score": 1,
+          "quote": "And one single night has launched its triumphal march.",
+          "rationale": "the 'triumphal march' and 'we shall conquer' carry martial connotation in verse 1 + chorus",
+          "confidence": "med"
+        },
+        "freedom_liberty": {
+          "score": 2,
+          "quote": "In the acquisition of liberty and progress.",
+          "rationale": "liberty is an explicit goal in the chorus",
+          "confidence": "high"
+        },
+        "unity_brotherhood": {
+          "score": 2,
+          "quote": "One single night has brought together our people With all the peoples of the World",
+          "rationale": "explicit gathering of the people together",
+          "confidence": "high"
+        },
+        "glory_pride": {
+          "score": 1,
+          "quote": "And one single night has launched its triumphal march. Towards the horizon of good fortune.",
+          "rationale": "single triumphalist note",
+          "confidence": "med"
+        },
+        "wildcard": {
+          "score": 2,
+          "label": "revolution (one fateful night uniting the people)",
+          "quote": "And one single night has drawn together The history of an entire people",
+          "rationale": "the revolutionary 'single night' organises even the sung verse 1 + chorus",
+          "confidence": "high"
+        }
+      }
+    },
+    {
+      "country": "Burundi",
+      "version": "as-written",
+      "flags": [],
+      "themes": {
+        "blood_death": {
+          "score": 1,
+          "quote": "Wounded and bruised, you have remained master of yourself.",
+          "rationale": "oblique metaphor of the nation wounded/bruised, no literal blood or graves",
+          "confidence": "med"
+        },
+        "sacrifice": {
+          "score": 2,
+          "quote": "We vow to your noble service our hands and hearts and lives.",
+          "rationale": "explicit pledge of 'lives' to the nation's service",
+          "confidence": "high"
+        },
+        "deity": {
+          "score": 2,
+          "quote": "May God, who gave you to us, keep you for us to venerate",
+          "rationale": "explicit divine invocation for protection",
+          "confidence": "high"
+        },
+        "freedom_liberty": {
+          "score": 2,
+          "quote": "Sing the glory of liberty conquered again.",
+          "rationale": "liberty/self-government recurs across verses",
+          "confidence": "high"
+        },
+        "unity_brotherhood": {
+          "score": 1,
+          "quote": "Under the shield of unity, In peace, joy and prosperity.",
+          "rationale": "single closing reference to unity",
+          "confidence": "med"
+        },
+        "glory_pride": {
+          "score": 2,
+          "quote": "Lifting yourself proudly into the ranks of free peoples.",
+          "rationale": "honour/glory/pride recur ('sense of honour', 'sing the glory')",
+          "confidence": "high"
+        },
+        "land_nature": {
+          "score": 1,
+          "quote": "Beloved Burundi, gentle country",
+          "rationale": "single affectionate reference to the country, little concrete geography",
+          "confidence": "med"
+        }
+      }
+    },
+    {
+      "country": "Burundi",
+      "version": "as-sung",
+      "flags": [],
+      "themes": {
+        "blood_death": {
+          "score": 1,
+          "quote": "Wounded and bruised, you have remained master of yourself.",
+          "rationale": "oblique metaphor of the nation wounded/bruised, no literal blood or graves",
+          "confidence": "med"
+        },
+        "sacrifice": {
+          "score": 2,
+          "quote": "We vow to your noble service our hands and hearts and lives.",
+          "rationale": "explicit pledge of 'lives' to the nation's service",
+          "confidence": "high"
+        },
+        "deity": {
+          "score": 2,
+          "quote": "May God, who gave you to us, keep you for us to venerate",
+          "rationale": "explicit divine invocation for protection",
+          "confidence": "high"
+        },
+        "freedom_liberty": {
+          "score": 2,
+          "quote": "Sing the glory of liberty conquered again.",
+          "rationale": "liberty/self-government recurs across verses",
+          "confidence": "high"
+        },
+        "unity_brotherhood": {
+          "score": 1,
+          "quote": "Under the shield of unity, In peace, joy and prosperity.",
+          "rationale": "single closing reference to unity",
+          "confidence": "med"
+        },
+        "glory_pride": {
+          "score": 2,
+          "quote": "Lifting yourself proudly into the ranks of free peoples.",
+          "rationale": "honour/glory/pride recur ('sense of honour', 'sing the glory')",
+          "confidence": "high"
+        },
+        "land_nature": {
+          "score": 1,
+          "quote": "Beloved Burundi, gentle country",
+          "rationale": "single affectionate reference to the country, little concrete geography",
+          "confidence": "med"
+        }
+      }
+    },
+    {
+      "country": "Cabo Verde",
+      "version": "as-written",
+      "flags": [],
+      "themes": {
+        "freedom_liberty": {
+          "score": 3,
+          "quote": "Sing, brother Sing, my brother For Liberty is a hymn And Man the certainty.",
+          "rationale": "Liberty is the title and the dominant, recurring subject ('Chant of Liberty')",
+          "confidence": "high"
+        },
+        "unity_brotherhood": {
+          "score": 2,
+          "quote": "Sing, brother Sing, my brother",
+          "rationale": "the repeated address to 'brother' frames the song fraternally",
+          "confidence": "high"
+        },
+        "land_nature": {
+          "score": 2,
+          "quote": "Hope is as big as the sea Which embraces us Sentinel of the oceans and winds",
+          "rationale": "the island, sea and winds are explicit recurring imagery",
+          "confidence": "high"
+        },
+        "wildcard": {
+          "score": 1,
+          "label": "hope / resilience",
+          "quote": "Hope is as big as the sea Which embraces us",
+          "rationale": "hope and perseverance are a distinct organising sentiment",
+          "confidence": "med"
+        }
+      }
+    },
+    {
+      "country": "Cabo Verde",
+      "version": "as-sung",
+      "flags": [],
+      "themes": {
+        "freedom_liberty": {
+          "score": 3,
+          "quote": "Sing, brother Sing, my brother For Liberty is a hymn And Man the certainty.",
+          "rationale": "Liberty is the title and the dominant, recurring subject ('Chant of Liberty')",
+          "confidence": "high"
+        },
+        "unity_brotherhood": {
+          "score": 2,
+          "quote": "Sing, brother Sing, my brother",
+          "rationale": "the repeated address to 'brother' frames the song fraternally",
+          "confidence": "high"
+        },
+        "land_nature": {
+          "score": 2,
+          "quote": "Hope is as big as the sea Which embraces us Sentinel of the oceans and winds",
+          "rationale": "the island, sea and winds are explicit recurring imagery",
+          "confidence": "high"
+        },
+        "wildcard": {
+          "score": 1,
+          "label": "hope / resilience",
+          "quote": "Hope is as big as the sea Which embraces us",
+          "rationale": "hope and perseverance are a distinct organising sentiment",
+          "confidence": "med"
+        }
+      }
+    },
+    {
+      "country": "Cameroon",
+      "version": "as-written",
+      "flags": [],
+      "themes": {
+        "blood_death": {
+          "score": 1,
+          "quote": "Their tears and blood and sweat thy soil did water",
+          "rationale": "single line on forefathers' blood watering the soil; ancestral 'repose'",
+          "confidence": "high"
+        },
+        "land_nature": {
+          "score": 2,
+          "quote": "From Shari, from where the Mungo meanders From along the banks of lowly Boumba Stream",
+          "rationale": "verse 2 catalogues named rivers and Buea Mountain; hills and valleys in verse 1",
+          "confidence": "high"
+        },
+        "unity_brotherhood": {
+          "score": 2,
+          "quote": "Muster thy sons in union close around thee",
+          "rationale": "explicit call to gather the nation's sons in union",
+          "confidence": "high"
+        },
+        "glory_pride": {
+          "score": 2,
+          "quote": "Land of Promise, land of Glory!",
+          "rationale": "the chorus is built on honour, glory and devotion",
+          "confidence": "high"
+        },
+        "wildcard": {
+          "score": 1,
+          "label": "Pan-African loyalty",
+          "quote": "Foster, for Mother Africa, a loyalty That true shall remain to the last.",
+          "rationale": "loyalty to 'Mother Africa' is a distinct continental motif",
+          "confidence": "med"
+        }
+      }
+    },
+    {
+      "country": "Cameroon",
+      "version": "as-sung",
+      "flags": [
+        "sung-assumed"
+      ],
+      "themes": {
+        "blood_death": {
+          "score": 1,
+          "quote": "Their tears and blood and sweat thy soil did water",
+          "rationale": "verse 1's single line on forefathers' blood watering the soil",
+          "confidence": "high"
+        },
+        "land_nature": {
+          "score": 2,
+          "quote": "On thy hills and valleys once their tillage rose.",
+          "rationale": "verse 1 + chorus dwell on the soil, hills and valleys of the homeland",
+          "confidence": "high"
+        },
+        "glory_pride": {
+          "score": 2,
+          "quote": "Land of Promise, land of Glory!",
+          "rationale": "the chorus is built on honour, glory and devotion",
+          "confidence": "high"
+        },
+        "wildcard": {
+          "score": 1,
+          "label": "ancestors / forefathers at rest",
+          "quote": "O Cameroon, Thou Cradle of our Fathers, Holy Shrine where in our midst they now repose",
+          "rationale": "verse 1 frames the land as a shrine to the resting forefathers",
+          "confidence": "med"
+        }
+      }
+    },
+    {
+      "country": "Central African Republic",
+      "version": "as-written",
+      "flags": [
+        "translation-sensitive"
+      ],
+      "themes": {
+        "enemy_threat": {
+          "score": 2,
+          "quote": "Long subjugated, long scorned by all, But, from today, breaking tyranny's hold.",
+          "rationale": "explicit othering of those who subjugated/scorned and of 'tyranny', recurring",
+          "confidence": "high"
+        },
+        "freedom_liberty": {
+          "score": 2,
+          "quote": "Take up again your right to respect, to life!",
+          "rationale": "reclaiming rights / breaking tyranny's hold is an explicit liberation theme",
+          "confidence": "med"
+        },
+        "unity_brotherhood": {
+          "score": 2,
+          "quote": "Through work, order and dignity You reconquer your rights, your unity",
+          "rationale": "unity recurs in both the verse and refrain",
+          "confidence": "high"
+        },
+        "glory_pride": {
+          "score": 1,
+          "quote": "Holding high the flag of the Fatherland.",
+          "rationale": "single proud, flag-raising gesture",
+          "confidence": "med"
+        },
+        "wildcard": {
+          "score": 2,
+          "label": "labour / work as the path to renewal",
+          "quote": "To work! In order and dignity, In the respect for rights and in unity",
+          "rationale": "'Au travail' / work in dignity is the refrain's organising idea, distinct from war",
+          "confidence": "high"
+        },
+        "land_nature": {
+          "score": 1,
+          "quote": "Oh! Central Africa, cradle of the Bantu!",
+          "rationale": "single 'cradle of the Bantu' evocation, not concrete geography",
+          "confidence": "med"
+        }
+      }
+    },
+    {
+      "country": "Central African Republic",
+      "version": "as-sung",
+      "flags": [
+        "translation-sensitive"
+      ],
+      "themes": {
+        "enemy_threat": {
+          "score": 2,
+          "quote": "Long subjugated, long scorned by all, But, from today, breaking tyranny's hold.",
+          "rationale": "explicit othering of those who subjugated/scorned and of 'tyranny', recurring",
+          "confidence": "high"
+        },
+        "freedom_liberty": {
+          "score": 2,
+          "quote": "Take up again your right to respect, to life!",
+          "rationale": "reclaiming rights / breaking tyranny's hold is an explicit liberation theme",
+          "confidence": "med"
+        },
+        "unity_brotherhood": {
+          "score": 2,
+          "quote": "Through work, order and dignity You reconquer your rights, your unity",
+          "rationale": "unity recurs in both the verse and refrain",
+          "confidence": "high"
+        },
+        "glory_pride": {
+          "score": 1,
+          "quote": "Holding high the flag of the Fatherland.",
+          "rationale": "single proud, flag-raising gesture",
+          "confidence": "med"
+        },
+        "wildcard": {
+          "score": 2,
+          "label": "labour / work as the path to renewal",
+          "quote": "To work! In order and dignity, In the respect for rights and in unity",
+          "rationale": "'Au travail' / work in dignity is the refrain's organising idea, distinct from war",
+          "confidence": "high"
+        },
+        "land_nature": {
+          "score": 1,
+          "quote": "Oh! Central Africa, cradle of the Bantu!",
+          "rationale": "single 'cradle of the Bantu' evocation, not concrete geography",
+          "confidence": "med"
+        }
+      }
+    },
+    {
+      "country": "Chad",
+      "version": "as-written",
+      "flags": [],
+      "themes": {
+        "war_arms": {
+          "score": 1,
+          "quote": "You have conquered your soil and won your rights;",
+          "rationale": "single martial allusion ('conquered') in the official chorus, no weapons named",
+          "confidence": "med"
+        },
+        "deity": {
+          "score": 2,
+          "quote": "Oh, my Country, may God protect you",
+          "rationale": "explicit invocation of God's protection",
+          "confidence": "high"
+        },
+        "land_nature": {
+          "score": 1,
+          "quote": "You have conquered your soil and won your rights;",
+          "rationale": "single reference to the soil/'terre'",
+          "confidence": "med"
+        },
+        "freedom_liberty": {
+          "score": 2,
+          "quote": "Your freedom will be born of your courage.",
+          "rationale": "freedom and won rights are an explicit theme of the official verse",
+          "confidence": "high"
+        },
+        "wildcard": {
+          "score": 2,
+          "label": "labour / call to work",
+          "quote": "People of Chad, arise and take up the task!",
+          "rationale": "the opening call to arise and work is the chorus's central exhortation",
+          "confidence": "high"
+        }
+      }
+    },
+    {
+      "country": "Chad",
+      "version": "as-sung",
+      "flags": [],
+      "themes": {
+        "war_arms": {
+          "score": 1,
+          "quote": "You have conquered your soil and won your rights;",
+          "rationale": "single martial allusion ('conquered') in the official chorus, no weapons named",
+          "confidence": "med"
+        },
+        "deity": {
+          "score": 2,
+          "quote": "Oh, my Country, may God protect you",
+          "rationale": "explicit invocation of God's protection",
+          "confidence": "high"
+        },
+        "land_nature": {
+          "score": 1,
+          "quote": "You have conquered your soil and won your rights;",
+          "rationale": "single reference to the soil/'terre'",
+          "confidence": "med"
+        },
+        "freedom_liberty": {
+          "score": 2,
+          "quote": "Your freedom will be born of your courage.",
+          "rationale": "freedom and won rights are an explicit theme of the official verse",
+          "confidence": "high"
+        },
+        "wildcard": {
+          "score": 2,
+          "label": "labour / call to work",
+          "quote": "People of Chad, arise and take up the task!",
+          "rationale": "the opening call to arise and work is the chorus's central exhortation",
+          "confidence": "high"
+        }
+      }
+    },
+    {
+      "country": "Comoros",
+      "version": "as-written",
+      "flags": [],
+      "themes": {
+        "blood_death": {
+          "score": 1,
+          "quote": "We Comorians are of one blood",
+          "rationale": "'one blood' used metaphorically for kinship, not literal bloodshed",
+          "confidence": "med"
+        },
+        "deity": {
+          "score": 2,
+          "quote": "May God always help us; Let us always have the firm resolve",
+          "rationale": "explicit invocation of God's help and of religion",
+          "confidence": "high"
+        },
+        "freedom_liberty": {
+          "score": 1,
+          "quote": "Announcing complete independence",
+          "rationale": "single reference to independence",
+          "confidence": "high"
+        },
+        "unity_brotherhood": {
+          "score": 2,
+          "quote": "We Comorians are of one blood, We Comorians are of one faith.",
+          "rationale": "the anthem ('Union of the Great Islands') centres on one-people unity",
+          "confidence": "high"
+        },
+        "land_nature": {
+          "score": 2,
+          "quote": "On these Islands we were born, These Islands brought us up.",
+          "rationale": "the islands ('Great Islands') are an explicit recurring subject",
+          "confidence": "high"
+        },
+        "wildcard": {
+          "score": 2,
+          "label": "religion / faith",
+          "quote": "Love our religion and the world.",
+          "rationale": "shared faith/religion is an explicit recurring theme beyond a single deity invocation",
+          "confidence": "high"
+        }
+      }
+    },
+    {
+      "country": "Comoros",
+      "version": "as-sung",
+      "flags": [],
+      "themes": {
+        "blood_death": {
+          "score": 1,
+          "quote": "We Comorians are of one blood",
+          "rationale": "'one blood' used metaphorically for kinship, not literal bloodshed",
+          "confidence": "med"
+        },
+        "deity": {
+          "score": 2,
+          "quote": "May God always help us; Let us always have the firm resolve",
+          "rationale": "explicit invocation of God's help and of religion",
+          "confidence": "high"
+        },
+        "freedom_liberty": {
+          "score": 1,
+          "quote": "Announcing complete independence",
+          "rationale": "single reference to independence",
+          "confidence": "high"
+        },
+        "unity_brotherhood": {
+          "score": 2,
+          "quote": "We Comorians are of one blood, We Comorians are of one faith.",
+          "rationale": "the anthem ('Union of the Great Islands') centres on one-people unity",
+          "confidence": "high"
+        },
+        "land_nature": {
+          "score": 2,
+          "quote": "On these Islands we were born, These Islands brought us up.",
+          "rationale": "the islands ('Great Islands') are an explicit recurring subject",
+          "confidence": "high"
+        },
+        "wildcard": {
+          "score": 2,
+          "label": "religion / faith",
+          "quote": "Love our religion and the world.",
+          "rationale": "shared faith/religion is an explicit recurring theme beyond a single deity invocation",
+          "confidence": "high"
+        }
+      }
+    },
+    {
+      "country": "Congo (Republic)",
+      "version": "as-written",
+      "flags": [],
+      "themes": {
+        "war_arms": {
+          "score": 2,
+          "quote": "Let us all fight, every one of us, For our old black country.",
+          "rationale": "verse 2 explicit call to fight; verse 3 'Triumph comes through battle'",
+          "confidence": "high"
+        },
+        "blood_death": {
+          "score": 2,
+          "quote": "And if we have to die, What does it really matter?",
+          "rationale": "verse 3 explicitly contemplates dying for the country",
+          "confidence": "high"
+        },
+        "sacrifice": {
+          "score": 2,
+          "quote": "And if we have to die, What does it really matter? Our children Everywhere will be able to say",
+          "rationale": "verse 3 frames death as a worthwhile sacrifice for posterity",
+          "confidence": "high"
+        },
+        "freedom_liberty": {
+          "score": 2,
+          "quote": "Let us all, with wild joyfulness, sing The song of freedom.",
+          "rationale": "freedom/independence is an explicit theme of verse 1",
+          "confidence": "high"
+        },
+        "unity_brotherhood": {
+          "score": 2,
+          "quote": "Proclaim the unity of our nation. Let us forget what divides us And become more united than ever.",
+          "rationale": "the chorus is built around unity ('Unity, work, progress')",
+          "confidence": "high"
+        },
+        "glory_pride": {
+          "score": 2,
+          "quote": "One people, one soul, One heart, ardent and proud.",
+          "rationale": "explicit national pride; 'Triumph comes through battle'",
+          "confidence": "high"
+        },
+        "land_nature": {
+          "score": 1,
+          "quote": "From the forest to the bush, From the bush to the ocean",
+          "rationale": "single geographic sweep across forest, bush and ocean",
+          "confidence": "med"
+        },
+        "wildcard": {
+          "score": 1,
+          "label": "labour / progress (national motto)",
+          "quote": "Let us live our motto: Unity, work, progress.",
+          "rationale": "the 'work, progress' motto is a distinct developmental motif",
+          "confidence": "med"
+        }
+      }
+    },
+    {
+      "country": "Congo (Republic)",
+      "version": "as-sung",
+      "flags": [],
+      "themes": {
+        "freedom_liberty": {
+          "score": 2,
+          "quote": "Let us all, with wild joyfulness, sing The song of freedom.",
+          "rationale": "in verse 1 + chorus, freedom/independence is the leading idea",
+          "confidence": "high"
+        },
+        "unity_brotherhood": {
+          "score": 3,
+          "quote": "Proclaim the unity of our nation. Let us forget what divides us And become more united than ever.",
+          "rationale": "the sung chorus is dominated by unity",
+          "confidence": "high"
+        },
+        "glory_pride": {
+          "score": 1,
+          "quote": "Arise, Congolese, proud every man",
+          "rationale": "single call to national pride in the chorus",
+          "confidence": "med"
+        },
+        "wildcard": {
+          "score": 1,
+          "label": "labour / progress (national motto)",
+          "quote": "Let us live our motto: Unity, work, progress.",
+          "rationale": "the 'work, progress' motto appears in the sung chorus",
+          "confidence": "med"
+        }
+      }
+    },
+    {
+      "country": "Congo (DR)",
+      "version": "as-written",
+      "flags": [],
+      "themes": {
+        "deity": {
+          "score": 1,
+          "quote": "Citizens, sing the sacred hymn Of your solidarity",
+          "rationale": "'sacred' hymn/oath, but no explicit deity named (sacred = 1 at most)",
+          "confidence": "med"
+        },
+        "freedom_liberty": {
+          "score": 2,
+          "quote": "Sacred day of the immortal oath of freedom That we pass on To our posterity",
+          "rationale": "freedom/independence is an explicit recurring goal",
+          "confidence": "high"
+        },
+        "unity_brotherhood": {
+          "score": 2,
+          "quote": "United by fate, United in the struggle for independence",
+          "rationale": "'united by fate', solidarity recur prominently",
+          "confidence": "high"
+        },
+        "glory_pride": {
+          "score": 2,
+          "quote": "We will populate your soil And ensure your greatness.",
+          "rationale": "pledge to the nation's greatness; 'Proudly Greet the golden emblem'",
+          "confidence": "high"
+        },
+        "land_nature": {
+          "score": 1,
+          "quote": "We will populate your soil And ensure your greatness.",
+          "rationale": "single reference to populating the soil",
+          "confidence": "med"
+        },
+        "wildcard": {
+          "score": 2,
+          "label": "labour / nation-building in peace",
+          "quote": "Oh ardent people, by hard work, We will build a country more beautiful than before, In peace.",
+          "rationale": "building the country through 'hard work' and explicitly 'In peace' is a distinct, repeated motif",
+          "confidence": "high"
+        }
+      }
+    },
+    {
+      "country": "Congo (DR)",
+      "version": "as-sung",
+      "flags": [],
+      "themes": {
+        "deity": {
+          "score": 1,
+          "quote": "Citizens, sing the sacred hymn Of your solidarity",
+          "rationale": "'sacred' hymn/oath, but no explicit deity named (sacred = 1 at most)",
+          "confidence": "med"
+        },
+        "freedom_liberty": {
+          "score": 2,
+          "quote": "Sacred day of the immortal oath of freedom That we pass on To our posterity",
+          "rationale": "freedom/independence is an explicit recurring goal",
+          "confidence": "high"
+        },
+        "unity_brotherhood": {
+          "score": 2,
+          "quote": "United by fate, United in the struggle for independence",
+          "rationale": "'united by fate', solidarity recur prominently",
+          "confidence": "high"
+        },
+        "glory_pride": {
+          "score": 2,
+          "quote": "We will populate your soil And ensure your greatness.",
+          "rationale": "pledge to the nation's greatness; 'Proudly Greet the golden emblem'",
+          "confidence": "high"
+        },
+        "land_nature": {
+          "score": 1,
+          "quote": "We will populate your soil And ensure your greatness.",
+          "rationale": "single reference to populating the soil",
+          "confidence": "med"
+        },
+        "wildcard": {
+          "score": 2,
+          "label": "labour / nation-building in peace",
+          "quote": "Oh ardent people, by hard work, We will build a country more beautiful than before, In peace.",
+          "rationale": "building the country through 'hard work' and explicitly 'In peace' is a distinct, repeated motif",
+          "confidence": "high"
+        }
+      }
     }
   ]
 }
