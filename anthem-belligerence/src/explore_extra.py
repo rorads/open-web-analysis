@@ -30,6 +30,12 @@ THEMES = [
 NICE = {t: t.replace("_", " ") for t in THEMES}
 BG, PANEL, FG, GRID = "#0f172a", "#1e293b", "#e2e8f0", "#334155"
 
+
+def _text_on(rgba) -> str:
+    """Pick black/white text for legibility against a cell's background luminance."""
+    r, g, b = rgba[:3]
+    return "black" if (0.299 * r + 0.587 * g + 0.114 * b) > 0.55 else "white"
+
 # wildcard taxonomy: ordered keyword buckets (first match wins)
 WILDCARD_BUCKETS = [
     ("flag", ["flag", "tricolo", "banner", "standard", "colours", "colors"]),
@@ -129,7 +135,7 @@ def region_fingerprint(rows) -> dict:
             ax.add_patch(Rectangle((j - 0.5, i - 0.5), 1, 1, facecolor=cmap(norm(mat[i, j])),
                                    edgecolor=BG, linewidth=0.5))
             ax.text(j, i, f"{mat[i, j]:.1f}", ha="center", va="center",
-                    color="white" if mat[i, j] < mat.max() * 0.6 else "black", fontsize=7)
+                    color=_text_on(cmap(norm(mat[i, j]))), fontsize=7)
     ax.set_xlim(-0.5, nc - 0.5); ax.set_ylim(nr - 0.5, -0.5); ax.set_aspect("auto")
     ax.set_xticks(range(nc)); ax.set_xticklabels([NICE[t] for t in THEMES], rotation=45, ha="right", color=FG, fontsize=8)
     ax.set_yticks(range(nr)); ax.set_yticklabels(regions, color=FG, fontsize=9)

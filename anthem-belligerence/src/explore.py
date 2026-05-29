@@ -30,6 +30,12 @@ THEMES = [
 BG, PANEL, FG = "#0f172a", "#1e293b", "#e2e8f0"
 
 
+def _text_on(rgba) -> str:
+    """Pick black/white text for legibility against a cell's background luminance."""
+    r, g, b = rgba[:3]
+    return "black" if (0.299 * r + 0.587 * g + 0.114 * b) > 0.55 else "white"
+
+
 def build_frame() -> pd.DataFrame:
     idx = json.loads((HERE / "data/processed/indices.json").read_text())["by_country"]
     region = {c["name"]: c["region"] for c in json.loads((HERE / "data/countries.json").read_text())["countries"]}
@@ -71,7 +77,7 @@ def theme_correlations(df: pd.DataFrame) -> dict:
             ax.add_patch(Rectangle((j - 0.5, i - 0.5), 1, 1, facecolor=cmap(norm(v)),
                                    edgecolor=BG, linewidth=0.5))
             ax.text(j, i, f"{v:.2f}", ha="center", va="center",
-                    color="white" if abs(v) > 0.5 else FG, fontsize=6)
+                    color=_text_on(cmap(norm(v))), fontsize=6)
     ax.set_xlim(-0.5, n - 0.5); ax.set_ylim(n - 0.5, -0.5); ax.set_aspect("equal")
     ax.set_xticks(range(n)); ax.set_yticks(range(n))
     ax.set_xticklabels(THEMES, rotation=45, ha="right", color=FG, fontsize=8)
