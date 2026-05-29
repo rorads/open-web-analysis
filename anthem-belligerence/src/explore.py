@@ -56,20 +56,30 @@ def build_frame() -> pd.DataFrame:
 
 def theme_correlations(df: pd.DataFrame) -> dict:
     corr = df[THEMES].corr(method="pearson").round(3)
-    # heatmap
+    # heatmap — drawn as VECTOR rectangles (not imshow), so the colour survives SVG
+    # sanitisers (e.g. GitHub) that strip embedded raster <image> layers.
+    from matplotlib.patches import Rectangle
+    from matplotlib.cm import ScalarMappable
+    from matplotlib.colors import Normalize
     fig, ax = plt.subplots(figsize=(8, 7))
     fig.patch.set_facecolor(BG); ax.set_facecolor(PANEL)
-    im = ax.imshow(corr.values, cmap="RdBu_r", vmin=-1, vmax=1)
-    ax.set_xticks(range(len(THEMES))); ax.set_yticks(range(len(THEMES)))
-    ax.set_xticklabels(THEMES, rotation=45, ha="right", color=FG, fontsize=8)
-    ax.set_yticklabels(THEMES, color=FG, fontsize=8)
-    for i in range(len(THEMES)):
-        for j in range(len(THEMES)):
+    n = len(THEMES)
+    cmap = plt.get_cmap("RdBu_r"); norm = Normalize(vmin=-1, vmax=1)
+    for i in range(n):
+        for j in range(n):
             v = corr.values[i, j]
+            ax.add_patch(Rectangle((j - 0.5, i - 0.5), 1, 1, facecolor=cmap(norm(v)),
+                                   edgecolor=BG, linewidth=0.5))
             ax.text(j, i, f"{v:.2f}", ha="center", va="center",
                     color="white" if abs(v) > 0.5 else FG, fontsize=6)
+    ax.set_xlim(-0.5, n - 0.5); ax.set_ylim(n - 0.5, -0.5); ax.set_aspect("equal")
+    ax.set_xticks(range(n)); ax.set_yticks(range(n))
+    ax.set_xticklabels(THEMES, rotation=45, ha="right", color=FG, fontsize=8)
+    ax.set_yticklabels(THEMES, color=FG, fontsize=8)
     ax.set_title("Theme co-occurrence (as-written, Pearson)", color="white", pad=12)
-    cb = fig.colorbar(im, ax=ax, fraction=0.046); cb.ax.tick_params(colors=FG)
+    sm = ScalarMappable(cmap=cmap, norm=norm); sm.set_array([])
+    cb = fig.colorbar(sm, ax=ax, fraction=0.046); cb.ax.tick_params(colors=FG)
+    cb.solids.set_rasterized(False)
     fig.tight_layout()
     fig.savefig(HERE / "outputs/theme-corr-heatmap.svg", facecolor=BG, bbox_inches="tight")
     plt.close(fig)

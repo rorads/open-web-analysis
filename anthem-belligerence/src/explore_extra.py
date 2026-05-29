@@ -116,17 +116,27 @@ def region_fingerprint(rows) -> dict:
         sub = [r for r in rows if r["region"] == reg]
         for j, t in enumerate(THEMES):
             mat[i, j] = np.mean([r["vec"][t] for r in sub])
+    # VECTOR rectangles (not imshow) so the colour survives SVG sanitisers (e.g. GitHub).
+    from matplotlib.patches import Rectangle
+    from matplotlib.cm import ScalarMappable
+    from matplotlib.colors import Normalize
     fig, ax = plt.subplots(figsize=(9, 4.5))
     fig.patch.set_facecolor(BG); ax.set_facecolor(PANEL)
-    im = ax.imshow(mat, cmap="magma", vmin=0, vmax=mat.max())
-    ax.set_xticks(range(len(THEMES))); ax.set_xticklabels([NICE[t] for t in THEMES], rotation=45, ha="right", color=FG, fontsize=8)
-    ax.set_yticks(range(len(regions))); ax.set_yticklabels(regions, color=FG, fontsize=9)
-    for i in range(len(regions)):
-        for j in range(len(THEMES)):
+    nr, nc = len(regions), len(THEMES)
+    cmap = plt.get_cmap("magma"); norm = Normalize(vmin=0, vmax=mat.max())
+    for i in range(nr):
+        for j in range(nc):
+            ax.add_patch(Rectangle((j - 0.5, i - 0.5), 1, 1, facecolor=cmap(norm(mat[i, j])),
+                                   edgecolor=BG, linewidth=0.5))
             ax.text(j, i, f"{mat[i, j]:.1f}", ha="center", va="center",
                     color="white" if mat[i, j] < mat.max() * 0.6 else "black", fontsize=7)
+    ax.set_xlim(-0.5, nc - 0.5); ax.set_ylim(nr - 0.5, -0.5); ax.set_aspect("auto")
+    ax.set_xticks(range(nc)); ax.set_xticklabels([NICE[t] for t in THEMES], rotation=45, ha="right", color=FG, fontsize=8)
+    ax.set_yticks(range(nr)); ax.set_yticklabels(regions, color=FG, fontsize=9)
     ax.set_title("Region thematic fingerprints — mean theme score (as written)", color="white", pad=12)
-    cb = fig.colorbar(im, ax=ax, fraction=0.025); cb.ax.tick_params(colors=FG)
+    sm = ScalarMappable(cmap=cmap, norm=norm); sm.set_array([])
+    cb = fig.colorbar(sm, ax=ax, fraction=0.025); cb.ax.tick_params(colors=FG)
+    cb.solids.set_rasterized(False)
     fig.tight_layout(); fig.savefig(HERE / "outputs/region-theme-heatmap.svg", facecolor=BG, bbox_inches="tight"); plt.close(fig)
     # each region's top-3 distinctive themes vs global mean
     gmean = {t: np.mean([r["vec"][t] for r in rows]) for t in THEMES}
