@@ -216,7 +216,3 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
-
-# never commit private signing keys to this public repo (lives in private rorads.github.io)
-**/claude_code_signing
-**/claude_code_signing.pub
